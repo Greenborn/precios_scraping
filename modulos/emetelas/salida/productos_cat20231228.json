@@ -1,0 +1,6274 @@
+[
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Azul aero",
+        "price": 8500,
+        "is_ext": 483,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Blanco",
+        "price": 8500,
+        "is_ext": 480,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Gris",
+        "price": 8500,
+        "is_ext": 482,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Jaspeado Beige 1",
+        "price": 9000,
+        "is_ext": 476,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Jaspeado Beige 3",
+        "price": 9000,
+        "is_ext": 478,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Jaspeado Bordo",
+        "price": 9000,
+        "is_ext": 479,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black out vinilico lacre",
+        "price": 8500,
+        "is_ext": 654,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black out vinilico maiz",
+        "price": 8500,
+        "is_ext": 653,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Natural",
+        "price": 8500,
+        "is_ext": 481,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black Out Vinilico Negro",
+        "price": 8500,
+        "is_ext": 484,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Black out vinilico tomate",
+        "price": 8500,
+        "is_ext": 655,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 101,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 102,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 103,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 104,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 105,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Capri estampado",
+        "price": 3500,
+        "is_ext": 106,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble celeste",
+        "price": 4400,
+        "is_ext": 870,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble coral",
+        "price": 4400,
+        "is_ext": 871,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble verde agua",
+        "price": 4400,
+        "is_ext": 869,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina  juncos verde agua",
+        "price": 8000,
+        "is_ext": 74,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica acuarelada",
+        "price": 7100,
+        "is_ext": 836,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica hojas acuarelas",
+        "price": 7100,
+        "is_ext": 853,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica ramas y flores azul",
+        "price": 7100,
+        "is_ext": 1026,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica ramilletes",
+        "price": 7100,
+        "is_ext": 854,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina Cactus",
+        "price": 8000,
+        "is_ext": 673,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina con guarda francesa en azul",
+        "price": 8000,
+        "is_ext": 824,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina Ed\u00e9n natural",
+        "price": 8000,
+        "is_ext": 623,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina Eucalipto pastel",
+        "price": 8000,
+        "is_ext": 77,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina guarda pampa beige y negro",
+        "price": 8000,
+        "is_ext": 606,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina guarda pampa negro",
+        "price": 8000,
+        "is_ext": 607,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina hojas beige",
+        "price": 8000,
+        "is_ext": 525,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina hojas turquesa",
+        "price": 8000,
+        "is_ext": 531,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina hojas y flores colores pastel",
+        "price": 8000,
+        "is_ext": 597,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina rayada blanca y rosa",
+        "price": 8000,
+        "is_ext": 456,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina Roma avellana",
+        "price": 8000,
+        "is_ext": 953,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina salm\u00f3n y blanco",
+        "price": 8000,
+        "is_ext": 458,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina tonos beige con hojas",
+        "price": 8000,
+        "is_ext": 599,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina woods gris",
+        "price": 8000,
+        "is_ext": 521,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Botone color natural",
+        "price": 11000,
+        "is_ext": 1018,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Arrugada arena",
+        "price": 6900,
+        "is_ext": 211,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Arrugada blanca",
+        "price": 6900,
+        "is_ext": 209,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Arrugada descrudada",
+        "price": 6900,
+        "is_ext": 208,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Arrugada gris perla",
+        "price": 6900,
+        "is_ext": 272,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Arrugada Rosa viejo",
+        "price": 6900,
+        "is_ext": 210,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n cruda 3 mts de ancho",
+        "price": 4400,
+        "is_ext": 377,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa de algod\u00f3n Rosa claro 2 mts de ancho",
+        "price": 4500,
+        "is_ext": 375,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado chevron zig zag amplio colorido",
+        "price": 17500,
+        "is_ext": 664,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado con b\u00falgaros",
+        "price": 17500,
+        "is_ext": 667,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado con flores colores tierra",
+        "price": 17500,
+        "is_ext": 665,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado con mandalas coloridas",
+        "price": 17500,
+        "is_ext": 662,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado con mandalas en azul",
+        "price": 17500,
+        "is_ext": 666,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado con ondas en tonos lacre",
+        "price": 17500,
+        "is_ext": 661,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado flores ma\u00edz y base violeta",
+        "price": 17500,
+        "is_ext": 668,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gobelino estampado rayado tonos azules",
+        "price": 17500,
+        "is_ext": 660,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Granite Blanco",
+        "price": 6300,
+        "is_ext": 386,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guarda Francesa Fucsia",
+        "price": 8000,
+        "is_ext": 608,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liencillo de Algod\u00f3n de 1.50 de ancho",
+        "price": 2400,
+        "is_ext": 231,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liencillo de Algod\u00f3n de 2.40 de ancho",
+        "price": 3700,
+        "is_ext": 232,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liencillo de Algod\u00f3n de 2.56 de ancho",
+        "price": 5600,
+        "is_ext": 233,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liencillo de Algod\u00f3n de 3 de ancho",
+        "price": 5000,
+        "is_ext": 234,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapicer\u00eda aguayo rojo",
+        "price": 17500,
+        "is_ext": 742,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapiceria Flora",
+        "price": 17500,
+        "is_ext": 741,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapiceria Helecho",
+        "price": 17500,
+        "is_ext": 738,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapiceria Palma",
+        "price": 17500,
+        "is_ext": 744,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapicer\u00eda Pinos",
+        "price": 17500,
+        "is_ext": 743,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de tapicer\u00eda Raya nube",
+        "price": 17500,
+        "is_ext": 746,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lon huellas y huesos fondo rojo",
+        "price": 4200,
+        "is_ext": 1034,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona  hojas beige",
+        "price": 4200,
+        "is_ext": 1037,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona  ondas azul, aqua y amarillo",
+        "price": 4200,
+        "is_ext": 791,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona camuflada verde militar",
+        "price": 4200,
+        "is_ext": 781,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona camuflada verde seco",
+        "price": 4200,
+        "is_ext": 784,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona chevron celeste y azul",
+        "price": 4200,
+        "is_ext": 792,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona circulos aqua y beige",
+        "price": 4200,
+        "is_ext": 790,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona costillas de Ad\u00e1n",
+        "price": 4200,
+        "is_ext": 572,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona emoticones",
+        "price": 4200,
+        "is_ext": 571,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona fondo azul con cactus",
+        "price": 4200,
+        "is_ext": 567,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona frutas de colores",
+        "price": 4200,
+        "is_ext": 574,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona gatitos gris",
+        "price": 4200,
+        "is_ext": 1035,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona gotitas de colores, fondo rosa",
+        "price": 4200,
+        "is_ext": 568,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hoja de Ad\u00e1n",
+        "price": 4200,
+        "is_ext": 570,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas colores tierra",
+        "price": 4200,
+        "is_ext": 1036,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas coloridas",
+        "price": 4200,
+        "is_ext": 798,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas con fondo negro",
+        "price": 4200,
+        "is_ext": 799,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas en gris y negro",
+        "price": 4200,
+        "is_ext": 800,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas verdes",
+        "price": 4200,
+        "is_ext": 565,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona huellitas de perro",
+        "price": 4200,
+        "is_ext": 797,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mamushka (mu\u00f1ecas rusas)",
+        "price": 4200,
+        "is_ext": 573,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mandalas azul",
+        "price": 4200,
+        "is_ext": 788,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mandalas de colores",
+        "price": 4200,
+        "is_ext": 785,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mandalas fondo gris",
+        "price": 4200,
+        "is_ext": 1033,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mapamundi de colores",
+        "price": 4200,
+        "is_ext": 780,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mapamundi fondo celeste",
+        "price": 4200,
+        "is_ext": 569,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mapamundi fondo negro",
+        "price": 4200,
+        "is_ext": 782,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona planisferio con fondo rosa",
+        "price": 4200,
+        "is_ext": 566,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada azul y blanco",
+        "price": 4200,
+        "is_ext": 577,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada blanca y roja",
+        "price": 4200,
+        "is_ext": 575,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada color aqua, amarillo y naranja",
+        "price": 4200,
+        "is_ext": 787,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada multicolor",
+        "price": 4200,
+        "is_ext": 779,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona Selva y pumas",
+        "price": 4200,
+        "is_ext": 564,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Madraz",
+        "price": 7900,
+        "is_ext": 965,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica estampada a cuadros amarillo y blanco",
+        "price": 4400,
+        "is_ext": 342,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica Estampada flor azul, hojas verdes",
+        "price": 4400,
+        "is_ext": 612,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica Estampada hojas rojas",
+        "price": 4400,
+        "is_ext": 611,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica estampada rombos ma\u00edz y bordo",
+        "price": 4400,
+        "is_ext": 659,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical  Negra",
+        "price": 2800,
+        "is_ext": 396,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical amarillo",
+        "price": 2800,
+        "is_ext": 402,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Blanca",
+        "price": 2800,
+        "is_ext": 395,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Bordo",
+        "price": 2800,
+        "is_ext": 401,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical estampada flor fucsia con fondo blanco",
+        "price": 4400,
+        "is_ext": 657,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical estampada flor roja con fondo blanco",
+        "price": 4400,
+        "is_ext": 656,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Estampada flor roja con fondo negro",
+        "price": 4400,
+        "is_ext": 609,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Estampada flor roja y rosa fondo negro",
+        "price": 4400,
+        "is_ext": 613,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical estampada flores celeste",
+        "price": 4400,
+        "is_ext": 344,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Estampada hojas fondo azulino",
+        "price": 4400,
+        "is_ext": 610,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica/tropical estampado navide\u00f1o",
+        "price": 4500,
+        "is_ext": 1042,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica/tropical estampado navide\u00f1o",
+        "price": 4500,
+        "is_ext": 1043,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica/tropical Fucsia",
+        "price": 2800,
+        "is_ext": 398,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica/tropical Lila",
+        "price": 2800,
+        "is_ext": 397,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Naranja",
+        "price": 2800,
+        "is_ext": 403,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mec\u00e1nica/tropical Roja",
+        "price": 2800,
+        "is_ext": 400,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Mecanica/tropicalTurquesa",
+        "price": 2800,
+        "is_ext": 399,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra pesada navide\u00f1a (mantel navidad)",
+        "price": 4500,
+        "is_ext": 1041,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra pesada navide\u00f1a (mantel navidad)",
+        "price": 4500,
+        "is_ext": 1040,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra pesada navide\u00f1a (mantel navidad)",
+        "price": 4500,
+        "is_ext": 1038,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra pesada navide\u00f1a (mantel navidad)",
+        "price": 4500,
+        "is_ext": 1039,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nido de abeja avellana-waffle-",
+        "price": 7500,
+        "is_ext": 650,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nido de abeja Blanco",
+        "price": 5300,
+        "is_ext": 387,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nido de abeja con guarda",
+        "price": 7000,
+        "is_ext": 100,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nido de abeja verde militar-waffle-",
+        "price": 7500,
+        "is_ext": 647,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pabilo gris con tres rayas crudas",
+        "price": 8700,
+        "is_ext": 941,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Agua Marina",
+        "price": 17500,
+        "is_ext": 250,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Azul",
+        "price": 17500,
+        "is_ext": 245,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Beige",
+        "price": 17500,
+        "is_ext": 240,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Bizon",
+        "price": 17500,
+        "is_ext": 241,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Coral",
+        "price": 17500,
+        "is_ext": 242,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Fucsia",
+        "price": 17500,
+        "is_ext": 244,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Gris Perla",
+        "price": 17500,
+        "is_ext": 239,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Negro",
+        "price": 17500,
+        "is_ext": 243,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pana Rojo",
+        "price": 17500,
+        "is_ext": 251,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Panam\u00e1 color natural",
+        "price": 7800,
+        "is_ext": 2,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o de Gabardina Rayuela",
+        "price": 5100,
+        "is_ext": 288,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o Gabardina Barbijos",
+        "price": 2500,
+        "is_ext": 435,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Piel de pelo corto Rosa palido",
+        "price": 13000,
+        "is_ext": 285,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Piel N\u00f3rdica Gris",
+        "price": 29000,
+        "is_ext": 422,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado alces",
+        "price": 5500,
+        "is_ext": 736,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado autitos y globos",
+        "price": 5500,
+        "is_ext": 726,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado buhos y arbolitos",
+        "price": 5500,
+        "is_ext": 881,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado carpas tippy",
+        "price": 5500,
+        "is_ext": 734,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado elefantitos",
+        "price": 5500,
+        "is_ext": 879,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado flores y flechas",
+        "price": 5500,
+        "is_ext": 731,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado globitos y aviones",
+        "price": 5500,
+        "is_ext": 880,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado globos aerost\u00e1ticos y arcoiris",
+        "price": 5500,
+        "is_ext": 724,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado osito polar",
+        "price": 5500,
+        "is_ext": 737,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero circulos rojo y negro 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 264,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero con arabescos  2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 308,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero con flores chicas 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 307,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero con mandalas 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 257,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero flores fondo azul  2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 633,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero flores rojas, fondo celeste 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 254,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero formas geometricas 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 262,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero hojas de ad\u00e1n 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 632,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero mandalas chicas de 2.40 de ancho. Poliester",
+        "price": 1900,
+        "is_ext": 259,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero poli\u00e9ster 2.40 de ancho animal print",
+        "price": 1900,
+        "is_ext": 255,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero rayado 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 256,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero rayado celeste y gris 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 634,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanero rayado colorido 2.40 de ancho Poliester",
+        "price": 1900,
+        "is_ext": 265,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tela rustica con guarda francesa verde",
+        "price": 8000,
+        "is_ext": 86,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tira de repasadores (4 unidades)",
+        "price": 5400,
+        "is_ext": 832,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tira Repasadores (4 unidades)",
+        "price": 5400,
+        "is_ext": 626,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tira Repasadores (4 unidades)",
+        "price": 5400,
+        "is_ext": 627,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tira Repasadores (4 unidades) de toalla estampados",
+        "price": 5400,
+        "is_ext": 336,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla amarillo",
+        "price": 8900,
+        "is_ext": 856,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla azul francia",
+        "price": 8900,
+        "is_ext": 857,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Celeste",
+        "price": 8900,
+        "is_ext": 16,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla de microfibra blanca",
+        "price": 5900,
+        "is_ext": 922,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla rojo",
+        "price": 8900,
+        "is_ext": 855,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Rosa",
+        "price": 8900,
+        "is_ext": 15,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Salmon",
+        "price": 8900,
+        "is_ext": 14,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla verde manzana",
+        "price": 8900,
+        "is_ext": 858,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tropical/ Mec\u00e1nica estampada flores y hojas azul, fucsia y amarillo",
+        "price": 4400,
+        "is_ext": 693,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Azul marino",
+        "price": 4400,
+        "is_ext": 157,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Celeste",
+        "price": 4400,
+        "is_ext": 155,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  coral",
+        "price": 4400,
+        "is_ext": 167,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Dulce de leche",
+        "price": 4400,
+        "is_ext": 168,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Maiz",
+        "price": 4400,
+        "is_ext": 156,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Negro",
+        "price": 4400,
+        "is_ext": 165,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Rojo",
+        "price": 4400,
+        "is_ext": 170,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Rosa",
+        "price": 4400,
+        "is_ext": 159,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor  Verde Malva",
+        "price": 4400,
+        "is_ext": 169,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor a cuadros con raya ancha",
+        "price": 7800,
+        "is_ext": 954,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor a cuadros raya angosta",
+        "price": 7800,
+        "is_ext": 955,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Basque Cian",
+        "price": 7500,
+        "is_ext": 1054,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Basque maiz",
+        "price": 7500,
+        "is_ext": 910,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Basque morado",
+        "price": 7500,
+        "is_ext": 1044,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Basque verde malva",
+        "price": 7500,
+        "is_ext": 826,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Basque verde menta",
+        "price": 7500,
+        "is_ext": 911,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor chevron Maiz",
+        "price": 5400,
+        "is_ext": 617,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Gris perla",
+        "price": 4400,
+        "is_ext": 160,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor gris Topo",
+        "price": 4400,
+        "is_ext": 166,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Natural",
+        "price": 4400,
+        "is_ext": 164,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor rayado 3 mts de ancho verde ingles",
+        "price": 7400,
+        "is_ext": 964,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Rayado aqua 3 mts de ancho",
+        "price": 7400,
+        "is_ext": 449,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Rayado Bordo 3 mts de ancho",
+        "price": 7400,
+        "is_ext": 451,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor rayado Maiz 3 mts de ancho",
+        "price": 7400,
+        "is_ext": 450,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor rayado verde",
+        "price": 5400,
+        "is_ext": 806,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Tussor Rosa viejo",
+        "price": 4400,
+        "is_ext": 161,
+        "branch_id": 83,
+        "category": 1151
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Amarillo",
+        "price": 3500,
+        "is_ext": 178,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Azul francia",
+        "price": 3500,
+        "is_ext": 182,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Azul marino",
+        "price": 3500,
+        "is_ext": 173,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Blanco",
+        "price": 3500,
+        "is_ext": 180,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Coral fluo",
+        "price": 3500,
+        "is_ext": 174,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Dorado",
+        "price": 3500,
+        "is_ext": 176,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Fucsia",
+        "price": 3500,
+        "is_ext": 184,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Naranja Fluo",
+        "price": 3500,
+        "is_ext": 175,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Negro",
+        "price": 3500,
+        "is_ext": 179,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Rojo",
+        "price": 3500,
+        "is_ext": 177,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Rosa bebe",
+        "price": 3500,
+        "is_ext": 187,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Turquesa",
+        "price": 3500,
+        "is_ext": 185,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Verde brillante",
+        "price": 3500,
+        "is_ext": 171,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Acetato brilloso Verde manzana",
+        "price": 3500,
+        "is_ext": 172,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Dragon ball",
+        "price": 6000,
+        "is_ext": 859,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Duffman",
+        "price": 6000,
+        "is_ext": 921,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Frozen",
+        "price": 6000,
+        "is_ext": 951,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Loney Toons",
+        "price": 6000,
+        "is_ext": 862,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Love Minnie y Mickey",
+        "price": 6000,
+        "is_ext": 920,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Mickey surf",
+        "price": 6000,
+        "is_ext": 860,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Monster Inc.",
+        "price": 6000,
+        "is_ext": 861,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Pelicula Encanto, familia Madrigal",
+        "price": 6000,
+        "is_ext": 863,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Sonic",
+        "price": 6000,
+        "is_ext": 919,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas amarilla",
+        "price": 4600,
+        "is_ext": 490,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas amarillo",
+        "price": 4600,
+        "is_ext": 495,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas azul francia",
+        "price": 4600,
+        "is_ext": 494,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas celeste",
+        "price": 4600,
+        "is_ext": 496,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas naranja",
+        "price": 4600,
+        "is_ext": 492,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas negro",
+        "price": 4600,
+        "is_ext": 500,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas rojo",
+        "price": 4600,
+        "is_ext": 493,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas rosa chicle",
+        "price": 4600,
+        "is_ext": 498,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas turquesa",
+        "price": 4600,
+        "is_ext": 491,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas verde",
+        "price": 4600,
+        "is_ext": 497,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas verde manzana",
+        "price": 4600,
+        "is_ext": 501,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Cristal con Estrellas violeta",
+        "price": 4600,
+        "is_ext": 502,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b0 11 ( fina)",
+        "price": 1900,
+        "is_ext": 1000,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b015 (intermedia)",
+        "price": 2800,
+        "is_ext": 1001,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b020 (gruesa)",
+        "price": 3500,
+        "is_ext": 1002,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liberty de flores rojas",
+        "price": 2300,
+        "is_ext": 312,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liberty flores rojas",
+        "price": 2300,
+        "is_ext": 318,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liberty flores rojas y rosas",
+        "price": 2300,
+        "is_ext": 320,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liberty flores rosas y verdes",
+        "price": 2300,
+        "is_ext": 316,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Liberty, flores lila con fondo amarillo claro",
+        "price": 2300,
+        "is_ext": 310,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lienzo rayado Naranja",
+        "price": 3600,
+        "is_ext": 89,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lienzo rayado verde",
+        "price": 3600,
+        "is_ext": 90,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lon huellas y huesos fondo rojo",
+        "price": 4200,
+        "is_ext": 1034,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona  hojas beige",
+        "price": 4200,
+        "is_ext": 1037,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona  ondas azul, aqua y amarillo",
+        "price": 4200,
+        "is_ext": 791,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona camuflada verde militar",
+        "price": 4200,
+        "is_ext": 781,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona camuflada verde seco",
+        "price": 4200,
+        "is_ext": 784,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona chevron celeste y azul",
+        "price": 4200,
+        "is_ext": 792,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona circulos aqua y beige",
+        "price": 4200,
+        "is_ext": 790,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona gatitos gris",
+        "price": 4200,
+        "is_ext": 1035,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas colores tierra",
+        "price": 4200,
+        "is_ext": 1036,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas coloridas",
+        "price": 4200,
+        "is_ext": 798,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas con fondo negro",
+        "price": 4200,
+        "is_ext": 799,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona hojas en gris y negro",
+        "price": 4200,
+        "is_ext": 800,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona huellitas de perro",
+        "price": 4200,
+        "is_ext": 797,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mandalas azul",
+        "price": 4200,
+        "is_ext": 788,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mandalas de colores",
+        "price": 4200,
+        "is_ext": 785,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mapamundi de colores",
+        "price": 4200,
+        "is_ext": 780,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona mapamundi fondo negro",
+        "price": 4200,
+        "is_ext": 782,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada color aqua, amarillo y naranja",
+        "price": 4200,
+        "is_ext": 787,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona rayada multicolor",
+        "price": 4200,
+        "is_ext": 779,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nylon con Glitter Dorado",
+        "price": 3000,
+        "is_ext": 619,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Nylon con Glitter Plateado",
+        "price": 3000,
+        "is_ext": 618,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Amarillo",
+        "price": 4000,
+        "is_ext": 198,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Azul francia",
+        "price": 4000,
+        "is_ext": 197,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Azul, lentejuela amarilla",
+        "price": 4000,
+        "is_ext": 200,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Blanco",
+        "price": 3500,
+        "is_ext": 207,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet blanco, lentejuela azul",
+        "price": 4000,
+        "is_ext": 204,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Dorado fondo negro",
+        "price": 4000,
+        "is_ext": 194,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Fucsia",
+        "price": 4000,
+        "is_ext": 203,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Naranja",
+        "price": 4000,
+        "is_ext": 191,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Negro",
+        "price": 4000,
+        "is_ext": 193,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Rojo",
+        "price": 4000,
+        "is_ext": 190,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Turquesa",
+        "price": 4000,
+        "is_ext": 192,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Verde brillante",
+        "price": 4000,
+        "is_ext": 201,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Verde manzana",
+        "price": 4000,
+        "is_ext": 188,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Verde manzana, fondo blanco",
+        "price": 4000,
+        "is_ext": 199,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Paiet Violeta, lentejuela plateada",
+        "price": 4000,
+        "is_ext": 189,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o gabardina Juego Camping",
+        "price": 5100,
+        "is_ext": 440,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o gabardina Juego espacial",
+        "price": 5100,
+        "is_ext": 441,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Transfer amarillo oro",
+        "price": 9500,
+        "is_ext": 966,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Transfer dorado",
+        "price": 9500,
+        "is_ext": 970,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Transfer plateado",
+        "price": 9500,
+        "is_ext": 969,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Transfer rojo",
+        "price": 9500,
+        "is_ext": 968,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Transfer violeta",
+        "price": 9500,
+        "is_ext": 967,
+        "branch_id": 83,
+        "category": 1190
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel amarillo 120",
+        "price": 11700,
+        "is_ext": 425,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Azul marino 490",
+        "price": 11700,
+        "is_ext": 417,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Bordo 382",
+        "price": 11700,
+        "is_ext": 416,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel celeste 410",
+        "price": 11700,
+        "is_ext": 418,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Francia 485",
+        "price": 11700,
+        "is_ext": 421,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Gris 716",
+        "price": 11700,
+        "is_ext": 432,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Gris topo 750",
+        "price": 11700,
+        "is_ext": 431,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Marron 668",
+        "price": 11700,
+        "is_ext": 430,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel naranja 238",
+        "price": 11700,
+        "is_ext": 424,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel natural 104",
+        "price": 11700,
+        "is_ext": 429,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Negro 900",
+        "price": 11700,
+        "is_ext": 428,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Rojo 261",
+        "price": 11700,
+        "is_ext": 415,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel verde 510",
+        "price": 11700,
+        "is_ext": 433,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel verde 519",
+        "price": 11700,
+        "is_ext": 423,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Verde 549",
+        "price": 11700,
+        "is_ext": 426,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel verde 567",
+        "price": 11700,
+        "is_ext": 427,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel Verde brillante 570",
+        "price": 11700,
+        "is_ext": 420,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel verde ingles 580",
+        "price": 11700,
+        "is_ext": 419,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Arciel, Acrocel BLANCO",
+        "price": 8500,
+        "is_ext": 414,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada arcoiris violetas y naranja",
+        "price": 4800,
+        "is_ext": 935,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada barquitos azul fondo blanco",
+        "price": 4800,
+        "is_ext": 843,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada barquitos azul, fondo rosa",
+        "price": 4800,
+        "is_ext": 842,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada celeste con ramillete",
+        "price": 4800,
+        "is_ext": 142,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada circulos fondo celeste",
+        "price": 4800,
+        "is_ext": 845,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Dragon ball",
+        "price": 6000,
+        "is_ext": 859,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada estrellas fondo blanco",
+        "price": 4800,
+        "is_ext": 852,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada flores azul y hojas verdes",
+        "price": 4800,
+        "is_ext": 146,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada flores grandes fondo negro",
+        "price": 4800,
+        "is_ext": 147,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada flores grandes rojo",
+        "price": 4800,
+        "is_ext": 143,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada flores rosas y hojas verdes",
+        "price": 4800,
+        "is_ext": 145,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada fondo celeste hojas rojas",
+        "price": 4800,
+        "is_ext": 144,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Loney Toons",
+        "price": 6000,
+        "is_ext": 862,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada lunares salmon y gris",
+        "price": 4800,
+        "is_ext": 771,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Mickey surf",
+        "price": 6000,
+        "is_ext": 860,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Monster Inc.",
+        "price": 6000,
+        "is_ext": 861,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Pelicula Encanto, familia Madrigal",
+        "price": 6000,
+        "is_ext": 863,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada perritos fondo blanco",
+        "price": 4800,
+        "is_ext": 849,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada plumitas fondo celeste",
+        "price": 4800,
+        "is_ext": 844,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada ramillete fondo azul marino",
+        "price": 4800,
+        "is_ext": 848,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista Estampada Rayada blanca y rosa",
+        "price": 5100,
+        "is_ext": 555,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada rayada fondo celeste rayas blancas",
+        "price": 5100,
+        "is_ext": 140,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Blanca",
+        "price": 3000,
+        "is_ext": 289,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Fucsia",
+        "price": 3000,
+        "is_ext": 292,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Gris topo",
+        "price": 3000,
+        "is_ext": 295,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Lila",
+        "price": 3000,
+        "is_ext": 294,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Naranja",
+        "price": 3000,
+        "is_ext": 296,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Negra",
+        "price": 3000,
+        "is_ext": 290,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Roja",
+        "price": 3000,
+        "is_ext": 293,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista lisa Rosa claro",
+        "price": 3000,
+        "is_ext": 291,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Bengalina elastizada beige",
+        "price": 6300,
+        "is_ext": 717,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Bengalina elastizada negra",
+        "price": 6300,
+        "is_ext": 674,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Bengalina estampada tonos rosa",
+        "price": 6300,
+        "is_ext": 92,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi elastizado beige",
+        "price": 6600,
+        "is_ext": 803,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi elastizado lila",
+        "price": 6600,
+        "is_ext": 982,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi elastizado negro",
+        "price": 6600,
+        "is_ext": 802,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi elastizado salmon",
+        "price": 6600,
+        "is_ext": 983,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi elastizado verde benetton",
+        "price": 6600,
+        "is_ext": 981,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color blanco",
+        "price": 6600,
+        "is_ext": 1046,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color natural",
+        "price": 6600,
+        "is_ext": 1045,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color rosa",
+        "price": 6600,
+        "is_ext": 1047,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Camisaco blanco, negro y azul",
+        "price": 9500,
+        "is_ext": 946,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Camisaco rojo y negro",
+        "price": 9500,
+        "is_ext": 950,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Camisaco rojo, blanco y azul",
+        "price": 9500,
+        "is_ext": 947,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Camisaco rojo, negro y blanco",
+        "price": 9500,
+        "is_ext": 948,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble azul marino",
+        "price": 5500,
+        "is_ext": 698,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble blanco",
+        "price": 5500,
+        "is_ext": 697,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble celeste",
+        "price": 4400,
+        "is_ext": 870,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble coral",
+        "price": 4400,
+        "is_ext": 871,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble fucsia",
+        "price": 5500,
+        "is_ext": 305,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito Soft Doble Natural",
+        "price": 5500,
+        "is_ext": 298,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble rosa bebe",
+        "price": 5500,
+        "is_ext": 303,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble Rosa viejo",
+        "price": 5500,
+        "is_ext": 301,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble verde agua",
+        "price": 4400,
+        "is_ext": 869,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft Simple Aqua",
+        "price": 5500,
+        "is_ext": 385,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep elastizado blanco",
+        "price": 8000,
+        "is_ext": 1049,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep elastizado negro",
+        "price": 8000,
+        "is_ext": 1048,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep elastizado rojo",
+        "price": 8000,
+        "is_ext": 1050,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep sastrero con spandex blanco",
+        "price": 6900,
+        "is_ext": 1006,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep sastrero con spandex fucsia",
+        "price": 6900,
+        "is_ext": 1008,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep sastrero con spandex lima",
+        "price": 6900,
+        "is_ext": 1007,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep sastrero con spandex negro",
+        "price": 6900,
+        "is_ext": 1004,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Crep sastrero con spandex rosa palido",
+        "price": 6900,
+        "is_ext": 1009,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille CHICO Escolar de Inta",
+        "price": 13200,
+        "is_ext": 620,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional Azul",
+        "price": 4600,
+        "is_ext": 220,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional Azul",
+        "price": 4600,
+        "is_ext": 224,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional celeste",
+        "price": 4600,
+        "is_ext": 221,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional Rojo",
+        "price": 4600,
+        "is_ext": 223,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional Rojo",
+        "price": 4600,
+        "is_ext": 225,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille escolar Nacional Rosa",
+        "price": 4600,
+        "is_ext": 222,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille GRANDE Escolar de Inta",
+        "price": 13200,
+        "is_ext": 622,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Cuadrille INTERMEDIO Escolar de Inta",
+        "price": 13200,
+        "is_ext": 621,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Eco Cuero de vestir elastizado negro",
+        "price": 7000,
+        "is_ext": 306,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada animal print blanco y beige",
+        "price": 4000,
+        "is_ext": 544,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada animal print celeste pastel",
+        "price": 4000,
+        "is_ext": 454,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada animal print verde lima",
+        "price": 4000,
+        "is_ext": 455,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada animal print verde y beige",
+        "price": 4000,
+        "is_ext": 543,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada azul aero con hojas",
+        "price": 4000,
+        "is_ext": 815,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada costilla de adan color beige",
+        "price": 4000,
+        "is_ext": 963,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada costillas de adan color ladrillo",
+        "price": 4000,
+        "is_ext": 817,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada costillas de adan color verde militar",
+        "price": 4000,
+        "is_ext": 962,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada en tonos verde benetton, beige y naranja",
+        "price": 4000,
+        "is_ext": 813,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada fondo azul con hojas de adan",
+        "price": 4000,
+        "is_ext": 810,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada fondo blanco con dise\u00f1os en azul, naranja y rojo",
+        "price": 4000,
+        "is_ext": 812,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada fondo blanco y florones",
+        "price": 4000,
+        "is_ext": 546,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada fondo fucsia y hojas de adan",
+        "price": 4000,
+        "is_ext": 809,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada fondo verde con hojas",
+        "price": 4000,
+        "is_ext": 811,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada negra con hojas coloridas",
+        "price": 4000,
+        "is_ext": 814,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Fibrana estampada verde militar dise\u00f1o abstracto",
+        "price": 4000,
+        "is_ext": 816,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Frisa (tela de jogging) de algod\u00f3n  azul marino",
+        "price": 7200,
+        "is_ext": 278,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Frisa (tela de jogging) de algod\u00f3n blanca",
+        "price": 7200,
+        "is_ext": 283,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Frisa (tela de jogging) de algod\u00f3n gris malange",
+        "price": 7200,
+        "is_ext": 279,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Frisa (tela de jogging) de algod\u00f3n lila",
+        "price": 7200,
+        "is_ext": 1025,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Frisa (tela de jogging) de algod\u00f3n negro",
+        "price": 7200,
+        "is_ext": 284,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica hojas acuarelas",
+        "price": 7100,
+        "is_ext": 853,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica mariposas",
+        "price": 7100,
+        "is_ext": 1027,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina acrilica ramilletes",
+        "price": 7100,
+        "is_ext": 854,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina anclas fondo celeste",
+        "price": 8000,
+        "is_ext": 1053,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina con spandex estampados m\u00e9dicos",
+        "price": 8000,
+        "is_ext": 81,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina con spandex estampados m\u00e9dicos",
+        "price": 8000,
+        "is_ext": 82,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina con spandex estampados m\u00e9dicos",
+        "price": 8000,
+        "is_ext": 83,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina con spandex estampados m\u00e9dicos",
+        "price": 8000,
+        "is_ext": 84,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina dinosaurio fondo celeste",
+        "price": 8000,
+        "is_ext": 1051,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina guarda pampa beige y negro",
+        "price": 8000,
+        "is_ext": 606,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina guarda pampa negro",
+        "price": 8000,
+        "is_ext": 607,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina veleros fondo celeste",
+        "price": 8000,
+        "is_ext": 1052,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gasa Botone color natural",
+        "price": 11000,
+        "is_ext": 1018,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b0 11 ( fina)",
+        "price": 1900,
+        "is_ext": 1000,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b015 (intermedia)",
+        "price": 2800,
+        "is_ext": 1001,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Guata N\u00b020 (gruesa)",
+        "price": 3500,
+        "is_ext": 1002,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado elefantes",
+        "price": 7500,
+        "is_ext": 934,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado floreado",
+        "price": 7500,
+        "is_ext": 933,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jean Camisero  azul",
+        "price": 7000,
+        "is_ext": 562,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jean Camisero Prelavado color celeste",
+        "price": 10500,
+        "is_ext": 563,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jean elastizado",
+        "price": 7500,
+        "is_ext": 1003,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito gris melange",
+        "price": 9200,
+        "is_ext": 899,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito negro",
+        "price": 9200,
+        "is_ext": 900,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito verde",
+        "price": 9200,
+        "is_ext": 901,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n azul marino",
+        "price": 3500,
+        "is_ext": 605,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n Blanco",
+        "price": 3500,
+        "is_ext": 218,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado elefantes en celeste",
+        "price": 4800,
+        "is_ext": 897,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado elefantes en rosa",
+        "price": 4800,
+        "is_ext": 896,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado florcitas",
+        "price": 4800,
+        "is_ext": 898,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado gatitos",
+        "price": 4800,
+        "is_ext": 895,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado rayado amarillo fluo y blanco",
+        "price": 4800,
+        "is_ext": 236,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado rayado negro y rosa fluo",
+        "price": 4800,
+        "is_ext": 237,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n Gris melange",
+        "price": 3500,
+        "is_ext": 212,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n Negro",
+        "price": 3500,
+        "is_ext": 215,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n Rayado gris y naranja",
+        "price": 4800,
+        "is_ext": 235,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla estampada a cuadros",
+        "price": 3600,
+        "is_ext": 681,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla estampada floreada fondo verde",
+        "price": 3600,
+        "is_ext": 689,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla jaspeada azulino",
+        "price": 3600,
+        "is_ext": 927,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla jaspeada fucsia",
+        "price": 3600,
+        "is_ext": 924,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla jaspeada gris melange",
+        "price": 3600,
+        "is_ext": 925,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla jaspeada petroleo",
+        "price": 3600,
+        "is_ext": 926,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla Moley gris topo jaspeado",
+        "price": 5200,
+        "is_ext": 361,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla Morley maiz",
+        "price": 5200,
+        "is_ext": 362,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla morley rojo",
+        "price": 5200,
+        "is_ext": 945,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla morley verde",
+        "price": 5200,
+        "is_ext": 943,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lanilla morley violeta",
+        "price": 5200,
+        "is_ext": 944,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lienzo rayado Naranja",
+        "price": 3600,
+        "is_ext": 89,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lienzo rayado verde",
+        "price": 3600,
+        "is_ext": 90,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex azul",
+        "price": 7500,
+        "is_ext": 1029,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex Beige",
+        "price": 7500,
+        "is_ext": 907,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex beige oscuro",
+        "price": 7500,
+        "is_ext": 1032,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex maiz",
+        "price": 7500,
+        "is_ext": 1030,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex negro",
+        "price": 7500,
+        "is_ext": 904,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex rosa fuerte",
+        "price": 7500,
+        "is_ext": 1031,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex rosa viejo",
+        "price": 7500,
+        "is_ext": 1028,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino con spandex verde malva",
+        "price": 7500,
+        "is_ext": 906,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino de algod\u00f3n Beige oscuro",
+        "price": 7500,
+        "is_ext": 538,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino estampado animal print cebra",
+        "price": 7500,
+        "is_ext": 801,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino estampado base negra con hojas en verde seco",
+        "price": 7500,
+        "is_ext": 796,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lino estampado fondo verde brillante, hojas y costilla de adan",
+        "price": 7500,
+        "is_ext": 793,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lona animales de la selva",
+        "price": 4200,
+        "is_ext": 576,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con lycra fucsia",
+        "price": 7700,
+        "is_ext": 1021,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con lycra gris plata",
+        "price": 7700,
+        "is_ext": 1022,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con lycra lila",
+        "price": 7700,
+        "is_ext": 1020,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con lycra negro",
+        "price": 7700,
+        "is_ext": 1019,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con lycra rojo",
+        "price": 7700,
+        "is_ext": 1023,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lurex con Lycra verde",
+        "price": 7700,
+        "is_ext": 1024,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lycra de seda lila",
+        "price": 16000,
+        "is_ext": 1012,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lycra de seda rosa chicle",
+        "price": 16000,
+        "is_ext": 1013,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lycra de seda verde lima",
+        "price": 16000,
+        "is_ext": 1010,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Lycra de seda verde pistacho",
+        "price": 16000,
+        "is_ext": 1011,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Malibu beige",
+        "price": 7500,
+        "is_ext": 986,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Malibu blanco tiza",
+        "price": 7500,
+        "is_ext": 984,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Malibu negro",
+        "price": 7500,
+        "is_ext": 985,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse Azul francia",
+        "price": 8700,
+        "is_ext": 108,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse Azul Marino",
+        "price": 8700,
+        "is_ext": 109,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse estampado",
+        "price": 11000,
+        "is_ext": 112,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse estampado",
+        "price": 11000,
+        "is_ext": 113,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse liso mostaza",
+        "price": 8700,
+        "is_ext": 768,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso dorado",
+        "price": 11600,
+        "is_ext": 876,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso dorado oscuro",
+        "price": 11600,
+        "is_ext": 878,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso fucsia",
+        "price": 11600,
+        "is_ext": 877,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso nacarado",
+        "price": 11600,
+        "is_ext": 875,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso salm\u00f3n",
+        "price": 11600,
+        "is_ext": 873,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse metalizado liso verde agua",
+        "price": 11600,
+        "is_ext": 874,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse Negro",
+        "price": 8700,
+        "is_ext": 110,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Matelasse rosa chicle",
+        "price": 8700,
+        "is_ext": 367,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra elastizada azul francia",
+        "price": 5700,
+        "is_ext": 580,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Microfibra elastizada rosa jaspeada",
+        "price": 5700,
+        "is_ext": 581,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado animal print aqua",
+        "price": 6400,
+        "is_ext": 974,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado astronautas",
+        "price": 6400,
+        "is_ext": 776,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado camuflado",
+        "price": 6400,
+        "is_ext": 978,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado corazon y circulo",
+        "price": 6400,
+        "is_ext": 975,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado coraz\u00f3n y medicinas fondo negro",
+        "price": 6400,
+        "is_ext": 602,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado estrella y circulito",
+        "price": 6400,
+        "is_ext": 980,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado estrellas de colores",
+        "price": 6400,
+        "is_ext": 976,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado gatitos y arcoiris",
+        "price": 6400,
+        "is_ext": 979,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado gris con nubes y estrellas",
+        "price": 6400,
+        "is_ext": 973,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado hadas bailarinas",
+        "price": 6400,
+        "is_ext": 971,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado hadas fondo rosa",
+        "price": 6400,
+        "is_ext": 977,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado universo",
+        "price": 6400,
+        "is_ext": 972,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Morley con lurex natural",
+        "price": 7600,
+        "is_ext": 958,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Morley con lurex obispo",
+        "price": 7600,
+        "is_ext": 956,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Morley con lurex salmon",
+        "price": 7600,
+        "is_ext": 957,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o Gabardina Barbijos",
+        "price": 2500,
+        "is_ext": 435,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado buhos y arbolitos",
+        "price": 5500,
+        "is_ext": 881,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado elefantitos",
+        "price": 5500,
+        "is_ext": 879,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado globitos y aviones",
+        "price": 5500,
+        "is_ext": 880,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado jirafas e hipop\u00f3tamos fondo natural",
+        "price": 7200,
+        "is_ext": 891,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado jirafas e hipop\u00f3tamos fondo rosa",
+        "price": 7200,
+        "is_ext": 892,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado ositos con base verde aqua",
+        "price": 7200,
+        "is_ext": 894,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush verde",
+        "price": 7200,
+        "is_ext": 937,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico  Maiz",
+        "price": 5900,
+        "is_ext": 57,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico amarillo fluo",
+        "price": 5900,
+        "is_ext": 54,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico amarillo fuerte",
+        "price": 5900,
+        "is_ext": 58,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico azul marino",
+        "price": 5900,
+        "is_ext": 55,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico bordo",
+        "price": 5900,
+        "is_ext": 60,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico Bordo oscuro",
+        "price": 5900,
+        "is_ext": 52,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico Celeste",
+        "price": 5900,
+        "is_ext": 59,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Clasico color Habano",
+        "price": 5900,
+        "is_ext": 44,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico color rojo",
+        "price": 5900,
+        "is_ext": 45,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico gris topo",
+        "price": 5900,
+        "is_ext": 48,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico naranja",
+        "price": 5900,
+        "is_ext": 56,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico naranja fluo",
+        "price": 5900,
+        "is_ext": 47,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico negro",
+        "price": 5900,
+        "is_ext": 51,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico salm\u00f3n palido",
+        "price": 5900,
+        "is_ext": 50,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico Verde Aceituna",
+        "price": 5900,
+        "is_ext": 53,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico verde manzana",
+        "price": 5900,
+        "is_ext": 46,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado animal print rosa",
+        "price": 6200,
+        "is_ext": 923,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado arco\u00edris y nubes celeste",
+        "price": 6200,
+        "is_ext": 267,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado arco\u00edris y nubes rosa",
+        "price": 6200,
+        "is_ext": 271,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado camuflado gris y negro",
+        "price": 6200,
+        "is_ext": 268,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado camuflado verde",
+        "price": 6200,
+        "is_ext": 270,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado con naves espaciales",
+        "price": 6200,
+        "is_ext": 719,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado floreado con fondo celeste",
+        "price": 6200,
+        "is_ext": 720,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado floreado con fondo salmon",
+        "price": 6200,
+        "is_ext": 721,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado gatitos fondo celeste",
+        "price": 6200,
+        "is_ext": 227,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado nene y perrito fondo blanco",
+        "price": 6200,
+        "is_ext": 229,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado nene y perrito fondo turquesa",
+        "price": 6200,
+        "is_ext": 228,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Estampado n\u00f3rdico fondo salm\u00f3n",
+        "price": 6200,
+        "is_ext": 328,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado ositos fondo gris",
+        "price": 6200,
+        "is_ext": 917,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado ositos fondo salmon",
+        "price": 6200,
+        "is_ext": 918,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado perritos y huesos",
+        "price": 6200,
+        "is_ext": 230,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado rayado color pastel",
+        "price": 6200,
+        "is_ext": 730,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado rombos color salmon",
+        "price": 6200,
+        "is_ext": 729,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft  Azul marino",
+        "price": 6300,
+        "is_ext": 17,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft beige",
+        "price": 6300,
+        "is_ext": 18,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Blanco",
+        "price": 6300,
+        "is_ext": 19,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Bordo",
+        "price": 6300,
+        "is_ext": 20,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Celeste",
+        "price": 6300,
+        "is_ext": 21,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft con corderito arcoiris",
+        "price": 9600,
+        "is_ext": 889,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft con corderito estrellas fugaces",
+        "price": 9600,
+        "is_ext": 888,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado a cuadros azul",
+        "price": 6600,
+        "is_ext": 324,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado a cuadros azul y rojo",
+        "price": 6600,
+        "is_ext": 326,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado animal print",
+        "price": 6600,
+        "is_ext": 887,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado camuflado",
+        "price": 6600,
+        "is_ext": 884,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado coral estrellas y lunas",
+        "price": 6600,
+        "is_ext": 772,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado estrellas fondo unicornio",
+        "price": 5500,
+        "is_ext": 908,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado estrellas fucsia y negro",
+        "price": 6600,
+        "is_ext": 885,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado estrellas gris y amarillo",
+        "price": 6600,
+        "is_ext": 909,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado obejitas y arcoiris",
+        "price": 6600,
+        "is_ext": 886,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado ositos fondo celeste",
+        "price": 6600,
+        "is_ext": 330,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado ositos fondo rosa",
+        "price": 6600,
+        "is_ext": 329,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado oso panda fondo celeste",
+        "price": 6600,
+        "is_ext": 331,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado pista de autos fondo celeste",
+        "price": 6600,
+        "is_ext": 631,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Fucsia",
+        "price": 6300,
+        "is_ext": 22,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft gris topo",
+        "price": 6300,
+        "is_ext": 929,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado conejos gris",
+        "price": 7200,
+        "is_ext": 639,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado conejos natural",
+        "price": 7200,
+        "is_ext": 640,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas aero",
+        "price": 7200,
+        "is_ext": 642,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas turquesa",
+        "price": 7200,
+        "is_ext": 641,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas verde agua",
+        "price": 7200,
+        "is_ext": 643,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas y lunas aero",
+        "price": 7200,
+        "is_ext": 644,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado flores gris",
+        "price": 7200,
+        "is_ext": 635,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado flores lila",
+        "price": 7200,
+        "is_ext": 636,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado mariposas fucsia",
+        "price": 7200,
+        "is_ext": 637,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado mariposas salmon",
+        "price": 7200,
+        "is_ext": 638,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Lila",
+        "price": 6300,
+        "is_ext": 23,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft liso amarillo patito",
+        "price": 6300,
+        "is_ext": 765,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft luminoso avioncitos fondo amarillo",
+        "price": 8900,
+        "is_ext": 916,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft luminoso estrellas y nubes",
+        "price": 8900,
+        "is_ext": 914,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Marron",
+        "price": 6300,
+        "is_ext": 29,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Natural",
+        "price": 6300,
+        "is_ext": 287,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Negro",
+        "price": 6300,
+        "is_ext": 30,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft petroleo",
+        "price": 6300,
+        "is_ext": 718,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Rojo",
+        "price": 6300,
+        "is_ext": 24,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Rosa",
+        "price": 6300,
+        "is_ext": 13,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Turquesa",
+        "price": 6300,
+        "is_ext": 26,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft verde agua",
+        "price": 6300,
+        "is_ext": 371,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft verde militar",
+        "price": 6300,
+        "is_ext": 767,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft violeta oscuro",
+        "price": 6300,
+        "is_ext": 928,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Red con lurex negra",
+        "price": 4700,
+        "is_ext": 1017,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Rustico de algod\u00f3n para jogging elastizado aero",
+        "price": 4800,
+        "is_ext": 394,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Rustico de algod\u00f3n para jogging elastizado rayado",
+        "price": 4800,
+        "is_ext": 390,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Rustico de algod\u00f3n para jogging elastizado rayado",
+        "price": 4800,
+        "is_ext": 391,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Rustico de algod\u00f3n para jogging elastizado rayado",
+        "price": 4800,
+        "is_ext": 392,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Rustico de algod\u00f3n para jogging elastizado rojo",
+        "price": 4800,
+        "is_ext": 393,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado amarillo",
+        "price": 7500,
+        "is_ext": 992,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado azul francia",
+        "price": 7500,
+        "is_ext": 996,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Saten elastizado azul marino",
+        "price": 7500,
+        "is_ext": 989,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado bordo",
+        "price": 7500,
+        "is_ext": 987,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado dorado",
+        "price": 7500,
+        "is_ext": 993,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado gris plata/plateado",
+        "price": 7500,
+        "is_ext": 998,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado lila",
+        "price": 7500,
+        "is_ext": 994,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado naranja",
+        "price": 7500,
+        "is_ext": 990,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado natural",
+        "price": 7500,
+        "is_ext": 995,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado negro",
+        "price": 7500,
+        "is_ext": 991,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado rosa dior",
+        "price": 7500,
+        "is_ext": 999,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Saten elastizado turquesa",
+        "price": 7500,
+        "is_ext": 988,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sat\u00e9n elastizado verde brillante",
+        "price": 7500,
+        "is_ext": 997,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Seda fria azul con hojas coloridas",
+        "price": 4700,
+        "is_ext": 959,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Seda fria azul marino con hojas",
+        "price": 4700,
+        "is_ext": 961,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Seda fria beige, hojas blancas",
+        "price": 4700,
+        "is_ext": 820,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Seda fria cebra",
+        "price": 4700,
+        "is_ext": 819,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Seda fria verde con hojas",
+        "price": 4700,
+        "is_ext": 960,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla amarillo",
+        "price": 8900,
+        "is_ext": 856,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla azul francia",
+        "price": 8900,
+        "is_ext": 857,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Celeste",
+        "price": 8900,
+        "is_ext": 16,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla de microfibra blanca",
+        "price": 5900,
+        "is_ext": 922,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla rojo",
+        "price": 8900,
+        "is_ext": 855,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla verde manzana",
+        "price": 8900,
+        "is_ext": 858,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker azul marino",
+        "price": 3200,
+        "is_ext": 507,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker Blanco",
+        "price": 3200,
+        "is_ext": 506,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker Bordo",
+        "price": 3200,
+        "is_ext": 509,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker gris topo",
+        "price": 3200,
+        "is_ext": 504,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker Rojo",
+        "price": 3200,
+        "is_ext": 503,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Trucker Verde ingles",
+        "price": 3200,
+        "is_ext": 510,
+        "branch_id": 83,
+        "category": 1189
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada arcoiris violetas y naranja",
+        "price": 4800,
+        "is_ext": 935,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Bamby",
+        "price": 6000,
+        "is_ext": 761,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Dragon ball",
+        "price": 6000,
+        "is_ext": 859,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada fondo verde conejitos",
+        "price": 4800,
+        "is_ext": 936,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Frozen",
+        "price": 6000,
+        "is_ext": 951,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Hombre ara\u00f1a",
+        "price": 6000,
+        "is_ext": 763,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Loney Toons",
+        "price": 6000,
+        "is_ext": 862,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Love Minnie y Mickey",
+        "price": 6000,
+        "is_ext": 920,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada lunares salmon y gris",
+        "price": 4800,
+        "is_ext": 771,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Mickey",
+        "price": 6000,
+        "is_ext": 759,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Mickey surf",
+        "price": 6000,
+        "is_ext": 860,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Monster Inc.",
+        "price": 6000,
+        "is_ext": 861,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Pelicula Encanto, familia Madrigal",
+        "price": 6000,
+        "is_ext": 863,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Peppa Pig",
+        "price": 6000,
+        "is_ext": 762,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Princesas",
+        "price": 6000,
+        "is_ext": 758,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Batista estampada Sonic",
+        "price": 6000,
+        "is_ext": 919,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color blanco",
+        "price": 6600,
+        "is_ext": 1046,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color natural",
+        "price": 6600,
+        "is_ext": 1045,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Broderi plano color rosa",
+        "price": 6600,
+        "is_ext": 1047,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble azul marino",
+        "price": 5500,
+        "is_ext": 698,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble blanco",
+        "price": 5500,
+        "is_ext": 697,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble celeste",
+        "price": 4400,
+        "is_ext": 870,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble coral",
+        "price": 4400,
+        "is_ext": 871,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble fucsia",
+        "price": 5500,
+        "is_ext": 305,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito Soft Doble Natural",
+        "price": 5500,
+        "is_ext": 298,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble rosa bebe",
+        "price": 5500,
+        "is_ext": 303,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble Rosa viejo",
+        "price": 5500,
+        "is_ext": 301,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft doble verde agua",
+        "price": 4400,
+        "is_ext": 869,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Corderito soft Simple Aqua",
+        "price": 5500,
+        "is_ext": 385,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina anclas fondo celeste",
+        "price": 8000,
+        "is_ext": 1053,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina autos y camiones",
+        "price": 8000,
+        "is_ext": 437,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina ballenas en el mar",
+        "price": 8000,
+        "is_ext": 438,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina b\u00fahos fondo rosa",
+        "price": 8000,
+        "is_ext": 598,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina conejos espaciales",
+        "price": 8000,
+        "is_ext": 69,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina dinosaurio fondo celeste",
+        "price": 8000,
+        "is_ext": 1051,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina erizos, fondo turquesa",
+        "price": 8000,
+        "is_ext": 595,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina estampada infantil fondo beige claro y conejitos",
+        "price": 8000,
+        "is_ext": 436,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina estrellas fondo natural",
+        "price": 8000,
+        "is_ext": 67,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina rayada blanca y rosa",
+        "price": 8000,
+        "is_ext": 456,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina salm\u00f3n y blanco",
+        "price": 8000,
+        "is_ext": 458,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Gabardina veleros fondo celeste",
+        "price": 8000,
+        "is_ext": 1052,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado elefantes",
+        "price": 7500,
+        "is_ext": 934,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado floreado",
+        "price": 7500,
+        "is_ext": 933,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado fondo lila oscuro",
+        "price": 7500,
+        "is_ext": 119,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado fondo rosa",
+        "price": 7500,
+        "is_ext": 120,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Interlock estampado fondo rosa",
+        "price": 7500,
+        "is_ext": 121,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito gris melange",
+        "price": 9200,
+        "is_ext": 899,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito negro",
+        "price": 9200,
+        "is_ext": 900,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey con corderito verde",
+        "price": 9200,
+        "is_ext": 901,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado elefantes en celeste",
+        "price": 4800,
+        "is_ext": 897,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado elefantes en rosa",
+        "price": 4800,
+        "is_ext": 896,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado florcitas",
+        "price": 4800,
+        "is_ext": 898,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Jersey de algod\u00f3n estampado gatitos",
+        "price": 4800,
+        "is_ext": 895,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Manta de Crecimiento bb",
+        "price": 5100,
+        "is_ext": 554,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Modal soft estampado astronautas",
+        "price": 6400,
+        "is_ext": 776,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o gabardina Juego Camping",
+        "price": 5100,
+        "is_ext": 440,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pa\u00f1o gabardina Juego espacial",
+        "price": 5100,
+        "is_ext": 441,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado alces",
+        "price": 5500,
+        "is_ext": 736,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado autitos y globos",
+        "price": 5500,
+        "is_ext": 726,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado buhos y arbolitos",
+        "price": 5500,
+        "is_ext": 881,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado carpas tippy",
+        "price": 5500,
+        "is_ext": 734,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado elefantitos",
+        "price": 5500,
+        "is_ext": 879,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado flores y flechas",
+        "price": 5500,
+        "is_ext": 731,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado globitos y aviones",
+        "price": 5500,
+        "is_ext": 880,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado globos aerost\u00e1ticos y arcoiris",
+        "price": 5500,
+        "is_ext": 724,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado infantil coraz\u00f3n y rosa",
+        "price": 5500,
+        "is_ext": 829,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado infantil rayas lila",
+        "price": 5500,
+        "is_ext": 830,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Pique estampado osito polar",
+        "price": 5500,
+        "is_ext": 737,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado jirafas e hipop\u00f3tamos fondo natural",
+        "price": 7200,
+        "is_ext": 891,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado jirafas e hipop\u00f3tamos fondo rosa",
+        "price": 7200,
+        "is_ext": 892,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Plush estampado ositos con base verde aqua",
+        "price": 7200,
+        "is_ext": 894,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico  Maiz",
+        "price": 5900,
+        "is_ext": 57,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico amarillo fluo",
+        "price": 5900,
+        "is_ext": 54,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico amarillo fuerte",
+        "price": 5900,
+        "is_ext": 58,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico azul marino",
+        "price": 5900,
+        "is_ext": 55,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico bordo",
+        "price": 5900,
+        "is_ext": 60,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico Bordo oscuro",
+        "price": 5900,
+        "is_ext": 52,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico Celeste",
+        "price": 5900,
+        "is_ext": 59,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Clasico color Habano",
+        "price": 5900,
+        "is_ext": 44,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico color rojo",
+        "price": 5900,
+        "is_ext": 45,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico gris topo",
+        "price": 5900,
+        "is_ext": 48,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico naranja",
+        "price": 5900,
+        "is_ext": 56,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico naranja fluo",
+        "price": 5900,
+        "is_ext": 47,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico negro",
+        "price": 5900,
+        "is_ext": 51,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar cl\u00e1sico salm\u00f3n palido",
+        "price": 5900,
+        "is_ext": 50,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico Verde Aceituna",
+        "price": 5900,
+        "is_ext": 53,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar clasico verde manzana",
+        "price": 5900,
+        "is_ext": 46,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado con naves espaciales",
+        "price": 6200,
+        "is_ext": 719,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado floreado con fondo celeste",
+        "price": 6200,
+        "is_ext": 720,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado floreado con fondo salmon",
+        "price": 6200,
+        "is_ext": 721,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado ositos fondo gris",
+        "price": 6200,
+        "is_ext": 917,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado ositos fondo salmon",
+        "price": 6200,
+        "is_ext": 918,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado rayado color pastel",
+        "price": 6200,
+        "is_ext": 730,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar estampado rombos color salmon",
+        "price": 6200,
+        "is_ext": 729,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft  Azul marino",
+        "price": 6300,
+        "is_ext": 17,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft beige",
+        "price": 6300,
+        "is_ext": 18,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Blanco",
+        "price": 6300,
+        "is_ext": 19,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Bordo",
+        "price": 6300,
+        "is_ext": 20,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Celeste",
+        "price": 6300,
+        "is_ext": 21,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft con corderito arcoiris",
+        "price": 9600,
+        "is_ext": 889,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft con corderito estrellas fugaces",
+        "price": 9600,
+        "is_ext": 888,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado coral estrellas y lunas",
+        "price": 6600,
+        "is_ext": 772,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado estrellas fondo unicornio",
+        "price": 5500,
+        "is_ext": 908,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado estrellas gris y amarillo",
+        "price": 6600,
+        "is_ext": 909,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado obejitas y arcoiris",
+        "price": 6600,
+        "is_ext": 886,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado ositos fondo celeste",
+        "price": 6600,
+        "is_ext": 330,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado ositos fondo rosa",
+        "price": 6600,
+        "is_ext": 329,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Estampado oso panda fondo celeste",
+        "price": 6600,
+        "is_ext": 331,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft estampado pista de autos fondo celeste",
+        "price": 6600,
+        "is_ext": 631,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Fucsia",
+        "price": 6300,
+        "is_ext": 22,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft gris topo",
+        "price": 6300,
+        "is_ext": 929,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado conejos gris",
+        "price": 7200,
+        "is_ext": 639,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado conejos natural",
+        "price": 7200,
+        "is_ext": 640,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas aero",
+        "price": 7200,
+        "is_ext": 642,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas turquesa",
+        "price": 7200,
+        "is_ext": 641,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas verde agua",
+        "price": 7200,
+        "is_ext": 643,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado estrellas y lunas aero",
+        "price": 7200,
+        "is_ext": 644,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado flores gris",
+        "price": 7200,
+        "is_ext": 635,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado flores lila",
+        "price": 7200,
+        "is_ext": 636,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado mariposas fucsia",
+        "price": 7200,
+        "is_ext": 637,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Labrado mariposas salmon",
+        "price": 7200,
+        "is_ext": 638,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft Lila",
+        "price": 6300,
+        "is_ext": 23,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft liso amarillo patito",
+        "price": 6300,
+        "is_ext": 765,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft luminoso avioncitos fondo amarillo",
+        "price": 8900,
+        "is_ext": 916,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft luminoso estrellas y nubes",
+        "price": 8900,
+        "is_ext": 914,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Marron",
+        "price": 6300,
+        "is_ext": 29,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Natural",
+        "price": 6300,
+        "is_ext": 287,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Negro",
+        "price": 6300,
+        "is_ext": 30,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft petroleo",
+        "price": 6300,
+        "is_ext": 718,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Rojo",
+        "price": 6300,
+        "is_ext": 24,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Rosa",
+        "price": 6300,
+        "is_ext": 13,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar Soft Turquesa",
+        "price": 6300,
+        "is_ext": 26,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft verde agua",
+        "price": 6300,
+        "is_ext": 371,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft verde militar",
+        "price": 6300,
+        "is_ext": 767,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Polar soft violeta oscuro",
+        "price": 6300,
+        "is_ext": 928,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanita infantil aviones y arco\u00edris",
+        "price": 4800,
+        "is_ext": 700,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanita infantil estrellas de colores",
+        "price": 4800,
+        "is_ext": 701,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Sabanita infantil gotitas de colores",
+        "price": 4800,
+        "is_ext": 702,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla amarillo",
+        "price": 8900,
+        "is_ext": 856,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla azul francia",
+        "price": 8900,
+        "is_ext": 857,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Celeste",
+        "price": 8900,
+        "is_ext": 16,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla de microfibra blanca",
+        "price": 5900,
+        "is_ext": 922,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla lila",
+        "price": 8900,
+        "is_ext": 1015,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla rojo",
+        "price": 8900,
+        "is_ext": 855,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Rosa",
+        "price": 8900,
+        "is_ext": 15,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla rosa viejo",
+        "price": 8900,
+        "is_ext": 1014,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla Salmon",
+        "price": 8900,
+        "is_ext": 14,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla verde aqua",
+        "price": 8900,
+        "is_ext": 1016,
+        "branch_id": 83,
+        "category": 1194
+    },
+    {
+        "vendor_id": 58,
+        "name": "Toalla verde manzana",
+        "price": 8900,
+        "is_ext": 858,
+        "branch_id": 83,
+        "category": 1194
+    }
+]
