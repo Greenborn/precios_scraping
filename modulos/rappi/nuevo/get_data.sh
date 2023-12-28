@@ -1,0 +1,27 @@
+#!/bin/bash
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 25
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 24
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 23
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 22
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 21
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 20
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 19
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 18
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 17
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 16
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 15
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 14
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 13
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 12
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 11
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 10
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 9
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 8
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 7
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 6
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 5
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 4
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 3
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 2
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 1
+python get_data_cat.py --comercio https://www.rappi.com.ar/tiendas/212002-carrefour --categoria 0

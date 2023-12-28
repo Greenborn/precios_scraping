@@ -1,0 +1,304 @@
+[
+    {
+        "url": "https://www.rappi.com.ar/tiendas/212002-carrefour",
+        "tiene_catalogo": true,
+        "enlaces_categorias": [
+            {
+                "url": "/tiendas/212002-carrefour/bebidas-sin-alcohol",
+                "nombre": "Bebidas sin alcohol"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/lacteos-y-huevos",
+                "nombre": "L\u00e1cteos y huevos"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/almacen",
+                "nombre": "Almac\u00e9n"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/snacks-y-galletitas",
+                "nombre": "Snacks y Galletitas"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/frutas-y-verduras",
+                "nombre": "Frutas y verduras"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/limpieza-del-hogar",
+                "nombre": "Limpieza del hogar"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/chocolates-y-dulceria",
+                "nombre": "Chocolates y Dulcer\u00eda"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/panaderia-y-reposteria",
+                "nombre": "Panader\u00eda y reposter\u00eda"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/carniceria",
+                "nombre": "Carnicer\u00eda"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/bebidas-con-alcohol",
+                "nombre": "Bebidas con alcohol"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/congelados",
+                "nombre": "Congelados"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/quesos-y-fiambres",
+                "nombre": "Quesos y fiambres"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/cuidado-personal",
+                "nombre": "Cuidado personal"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/helados-y-postres",
+                "nombre": "Helados y Postres"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/cuidado-de-la-ropa-y-el-calzado",
+                "nombre": "Cuidado de la Ropa y el calzado"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/comida-preparada",
+                "nombre": "Comida preparada"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/vinos",
+                "nombre": "Vinos"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/cuidado-de-tu-gato",
+                "nombre": "Cuidado de tu Gato"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/mascotas",
+                "nombre": "Mascotas"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/cuidado-de-tu-perro",
+                "nombre": "Cuidado de tu Perro"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/mundo-bebe",
+                "nombre": "Mundo beb\u00e9"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/libreria-y-hogar",
+                "nombre": "Librer\u00eda y hogar"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/ferreteria-y-jardin",
+                "nombre": "Ferreter\u00eda y jard\u00edn"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/moda-y-deportes",
+                "nombre": "Moda y deportes"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/otros",
+                "nombre": "Otros"
+            },
+            {
+                "url": "/tiendas/212002-carrefour/combos",
+                "nombre": "Combos"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rappi.com.ar/tiendas/212819-vea",
+        "tiene_catalogo": true,
+        "enlaces_categorias": [
+            {
+                "url": "/tiendas/212819-vea/almacen",
+                "nombre": "Almac\u00e9n"
+            },
+            {
+                "url": "/tiendas/212819-vea/bebidas-sin-alcohol",
+                "nombre": "Bebidas sin alcohol"
+            },
+            {
+                "url": "/tiendas/212819-vea/snacks-y-galletitas",
+                "nombre": "Snacks y Galletitas"
+            },
+            {
+                "url": "/tiendas/212819-vea/lacteos-y-huevos",
+                "nombre": "L\u00e1cteos y huevos"
+            },
+            {
+                "url": "/tiendas/212819-vea/frutas-y-verduras",
+                "nombre": "Frutas y verduras"
+            },
+            {
+                "url": "/tiendas/212819-vea/carniceria",
+                "nombre": "Carnicer\u00eda"
+            },
+            {
+                "url": "/tiendas/212819-vea/limpieza-del-hogar",
+                "nombre": "Limpieza del hogar"
+            },
+            {
+                "url": "/tiendas/212819-vea/panaderia-y-reposteria",
+                "nombre": "Panader\u00eda y reposter\u00eda"
+            },
+            {
+                "url": "/tiendas/212819-vea/bebidas-con-alcohol",
+                "nombre": "Bebidas con alcohol"
+            },
+            {
+                "url": "/tiendas/212819-vea/chocolates-y-dulceria",
+                "nombre": "Chocolates y Dulcer\u00eda"
+            },
+            {
+                "url": "/tiendas/212819-vea/comida-preparada",
+                "nombre": "Comida preparada"
+            },
+            {
+                "url": "/tiendas/212819-vea/quesos-y-fiambres",
+                "nombre": "Quesos y fiambres"
+            },
+            {
+                "url": "/tiendas/212819-vea/congelados",
+                "nombre": "Congelados"
+            },
+            {
+                "url": "/tiendas/212819-vea/cuidado-de-la-ropa-y-el-calzado",
+                "nombre": "Cuidado de la Ropa y el calzado"
+            },
+            {
+                "url": "/tiendas/212819-vea/cuidado-personal",
+                "nombre": "Cuidado personal"
+            },
+            {
+                "url": "/tiendas/212819-vea/helados-y-postres",
+                "nombre": "Helados y Postres"
+            },
+            {
+                "url": "/tiendas/212819-vea/cuidado-de-tu-gato",
+                "nombre": "Cuidado de tu Gato"
+            },
+            {
+                "url": "/tiendas/212819-vea/vinos",
+                "nombre": "Vinos"
+            },
+            {
+                "url": "/tiendas/212819-vea/mundo-bebe",
+                "nombre": "Mundo beb\u00e9"
+            },
+            {
+                "url": "/tiendas/212819-vea/cuidado-de-tu-perro",
+                "nombre": "Cuidado de tu Perro"
+            },
+            {
+                "url": "/tiendas/212819-vea/mascotas",
+                "nombre": "Mascotas"
+            },
+            {
+                "url": "/tiendas/212819-vea/libreria-y-hogar",
+                "nombre": "Librer\u00eda y hogar"
+            },
+            {
+                "url": "/tiendas/212819-vea/ferreteria-y-jardin",
+                "nombre": "Ferreter\u00eda y jard\u00edn"
+            },
+            {
+                "url": "/tiendas/212819-vea/moda-y-deportes",
+                "nombre": "Moda y deportes"
+            },
+            {
+                "url": "/tiendas/212819-vea/otros",
+                "nombre": "Otros"
+            },
+            {
+                "url": "/tiendas/212819-vea/combos",
+                "nombre": "Combos"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rappi.com.ar/tiendas/210686-simplicity-market",
+        "tiene_catalogo": true,
+        "enlaces_categorias": [
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-bebe",
+                "nombre": "Cuidado del beb\u00e9"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/bienestar-sexual",
+                "nombre": "Bienestar sexual"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/hogar",
+                "nombre": "Hogar"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/alimentos-y-bebidas",
+                "nombre": "Alimentos y bebidas"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-cabello",
+                "nombre": "Cuidado del cabello"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-de-la-piel",
+                "nombre": "Cuidado de la piel"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/maquillaje",
+                "nombre": "Maquillaje"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/botiquin",
+                "nombre": "Botiqu\u00edn"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-personal",
+                "nombre": "Cuidado personal"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/salud-y-nutricion",
+                "nombre": "Salud y nutrici\u00f3n"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/perfumes",
+                "nombre": "Perfumes"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/farmacia",
+                "nombre": "Farmacia"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-adulto",
+                "nombre": "Cuidado del adulto"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/moda-y-deportes",
+                "nombre": "Moda y Deportes"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/libros-y-papeleria",
+                "nombre": "Libros y Papeler\u00eda"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/electro",
+                "nombre": "Electro"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/dermocosmetica",
+                "nombre": "Dermocosm\u00e9tica"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/otros",
+                "nombre": "Otros"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/combos",
+                "nombre": "Combos"
+            }
+        ]
+    }
+]

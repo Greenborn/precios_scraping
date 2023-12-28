@@ -1,0 +1,84 @@
+[
+    {
+        "url": "https://www.rappi.com.ar/tiendas/210686-simplicity-market",
+        "tiene_catalogo": true,
+        "enlaces_categorias": [
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-bebe",
+                "nombre": "Cuidado del beb\u00e9"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/bienestar-sexual",
+                "nombre": "Bienestar sexual"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/hogar",
+                "nombre": "Hogar"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/alimentos-y-bebidas",
+                "nombre": "Alimentos y bebidas"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-cabello",
+                "nombre": "Cuidado del cabello"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-de-la-piel",
+                "nombre": "Cuidado de la piel"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/maquillaje",
+                "nombre": "Maquillaje"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/botiquin",
+                "nombre": "Botiqu\u00edn"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-personal",
+                "nombre": "Cuidado personal"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/salud-y-nutricion",
+                "nombre": "Salud y nutrici\u00f3n"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/perfumes",
+                "nombre": "Perfumes"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/farmacia",
+                "nombre": "Farmacia"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/cuidado-del-adulto",
+                "nombre": "Cuidado del adulto"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/moda-y-deportes",
+                "nombre": "Moda y Deportes"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/libros-y-papeleria",
+                "nombre": "Libros y Papeler\u00eda"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/electro",
+                "nombre": "Electro"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/dermocosmetica",
+                "nombre": "Dermocosm\u00e9tica"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/otros",
+                "nombre": "Otros"
+            },
+            {
+                "url": "/tiendas/210686-simplicity-market/combos",
+                "nombre": "Combos"
+            }
+        ]
+    }
+]

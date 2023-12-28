@@ -1,0 +1,283 @@
+{
+    "categorias": {
+        "combos": 157,
+        "no catalogado": 155,
+        "bebidas-sin-alcohol": {
+            "gaseosas": 120,
+            "aguas-minerales-y-de-mesa": 221,
+            "bebidas-en-polvo": 22,
+            "energizantes": 223,
+            "jugos-y-nectares": 224,
+            "aguas-saborizadas": 1138
+        },
+        "lacteos-y-huevos": {
+            "leches": 59,
+            "yogures-y-bebidas-lacteas": 219,
+            "huevos": 124,
+            "cremas": 217,
+            "mantecas-y-margarinas": 218
+        },
+        "cuidado-del-adulto":{
+            "ropa-interior": 1181,
+            "panales": 1183,
+            "toallas-protectoras": 1184,
+            "otros-proteccion-incontinencia": 1185
+        },
+        "almacen": {
+            "enlatados-y-conservas": 212,
+            "salsas-y-aderezos": 213,
+            "aceites-y-vinagres": 214,
+            "azucar-y-endulzantes": 215,
+            "pastas-secas": 216,
+            "arroz-y-legumbres": 225
+        },
+        "snacks-y-galletitas": {
+            "galletitas": 1,
+            "snacks": 200,
+            "frutos-secos-y-semillas": 210,
+            "barritas-de-cereal": 211
+        },
+        "frutas-y-verduras": {
+            "papas-yucas-y-tuberculos": 208,
+            "frutas": 10,
+            "verduras": 73,
+            "hierbas-y-aromaticas": 207,
+            "pulpas": 209
+        },
+        "hogar": {
+            "cuidado-de-la-ropa": 171,
+            "papeles": 1001,
+            "ambientadores-y-velas": 1160,
+            "limpiadores": 22,
+            "deco-y-hogar": 1151
+        },
+        "alimentos-y-bebidas": {
+            "caramelos-chicles-y-gomitas": 536,
+            "chocolates": 202,
+            "barritas-de-cereal-y-frutos-secos": 211,
+            "bebidas": 48,
+            "galletitas-y-alfajores": 1161
+        },
+        "limpieza-del-hogar": {
+            "papel-higienico": 204,
+            "papeles": 204,
+            "limpieza": 22,
+            "accesorios-de-limpieza": 22,
+            "insecticidas-y-repelentes": 945,
+            "detergente-lavavajillas": 205
+        },
+        "chocolates-y-dulceria": {
+            "golosinas": 200,
+            "alfajores": 201,
+            "chocolates": 202,
+            "dulces-tipicos": 203
+        },
+        "otros":{
+            "moda": 1141,
+            "cigarrillos": 1142,
+            "manualidades": 1143,
+            "otros": 1140,
+            "flores-y-plantas": 1144
+        },
+        "moda-y-deportes": {
+            "moda": 1141,
+            "deportes-y-fitness": 1145
+        },
+        "libreria-y-hogar":{
+            "libreria": 1132,
+            "hogar-y-decoracion": 1151,
+            "jugueteria": 1150,
+            "tecnologia-y-electro": 1153
+        },
+        "ferreteria-y-jardin": {
+            "iluminacion-y-electricos": 1147,
+            "ferreteria": 1130,
+            "jardineria": 1146,
+            "auto-partes": 1149
+        },
+        "cuidado-de-tu-perro":{
+            "alimento-humedo": 990,
+            "alimento-seco": 990,
+            "snacks": 990,
+            "otros-alimentos-para-perros": 990
+        },
+        "panaderia-y-reposteria": {
+            "panaderia-salada": 198,
+            "reposteria": 197,
+            "tortas": 195,
+            "panaderia-dulce": 196,
+            "tortillas-y-arepas": 199
+        },
+        "carniceria": {
+            "pollo-y-aves": 65,
+            "pollo": 65,
+            "carne-vacuna": 45,
+            "carne-de-cerdo": 12,
+            "carbon-lena-y-chispa": 194,
+            "otras-carnes": 11,
+            "carniceria": 156,
+            "cerdo": 12
+        },
+        "bebidas-con-alcohol": {
+            "cervezas": 53,
+            "sidras": 152,
+            "fernet-y-aperitivos": 191,
+            "vodka-gin-y-ron": 192,
+            "seltzers": 193
+        },
+        "congelados": {
+            "helados": 176,
+            "pescados-y-mariscos": 189,
+            "carnes-vegetales": 190
+        },
+        "quesos-y-fiambres": {
+            "jamones": 188,
+            "achuras-y-embutidos": 186,
+            "quesos-untables": 154,
+            "quesos-maduros": 184,
+            "quesos-semiduros": 185
+        },
+        "cuidado-del-cabello":{
+            "shampoo": 18,
+            "tratamientos-y-mascarillas": 598,
+            "coleros-hebillas-y-diademas": 1162,
+            "coloracion": 576,
+            "peines-y-cepillos-para-el-cabello": 1163
+        },
+        "cuidado-personal": {
+            "jabones-y-limpieza": 183,
+            "cuidado-del-cabello": 182,
+            "crema-dental": 181,
+            "maquillaje": 180,
+            "cepillos-dentales": 179,
+            "desodorantes-y-antitranspirantes": 1007,
+            "proteccion-femenina": 1043,
+            "farmacia": 1095
+        },
+        "libros-y-papeleria": {
+            "utiles-escolares": 1186,
+            "libros": 1187
+        },
+        "botiquin":{
+            "algodon": 1174,
+            "alcohol-antisepticos-agua-oxigenada": 1175,
+            "control-de-heridas": 1176,
+            "gel-antibacterial": 1177
+        },
+        "maquillaje":{
+            "ojos": 1168,
+            "unas": 1169,
+            "rostro": 1170,
+            "desmaquillantes": 1171,
+            "labios": 1172
+        },
+        "helados-y-postres": {
+            "helados": 176,
+            "postres": 177
+        },
+        "cuidado-de-la-ropa-y-el-calzado": {
+            "detergentes": 174,
+            "suavizantes-y-pre-lavado": 173,
+            "cuidado-del-calzado": 172,
+            "otros-cuidado-de-la-ropa": 171
+        },
+        "comida-preparada": {
+            "pizzas-y-tartas": 168,
+            "ensaladas": 169,
+            "sandwiches-y-empanadas": 170,
+            "otras-comidas-preparadas": 167
+        },
+        "vinos": {
+            "espumantes": 164,
+            "vino-tinto": 51,
+            "vino-blanco": 119,
+            "vino-rose": 165,
+            "vinos-frutales": 166
+        },
+        "cuidado-de-tu-gato": {
+            "alimento-humedo": 160,
+            "alimento-seco": 160,
+            "otros-alimentos-para-gatos": 160
+        },
+        "mascotas": {
+            "higiene": 159,
+            "alimento-gatos": 160,
+            "alimento-perros": 161,
+            "snacks-para-mascotas": 162,
+            "cuidado-mascotas": 1137,
+            "accesorios": 163
+        },
+        "cuidado-del-bebe":{
+            "panales-y-toallitas": 226,
+            "formulas-infantiles": 687,
+            "alimentos-infantiles": 696,
+            "higiene-y-cuidado": 1155,
+            "shampoo-y-jabon": 1156,
+            "hisopos": 367
+
+        },
+        "bienestar-sexual":{
+            "preservativos": 1135,
+            "ovulos-y-cremas-vaginales": 1158,
+            "accesorios-sexuales": 1159,
+            "otros-salud-sexual": 1157
+        },
+        "mundo-bebe":{
+            "panales-y-toallitas": 226,
+            "formulas-infantiles": 687,
+            "alimentos-infantiles": 696,
+            "higiene-y-cuidado": 1155,
+            "shampoo-y-jabon": 1156
+        },
+        "salud-y-nutricion": {
+            "suplementos-alimenticios": 1090,
+            "nutricion-deportiva": 1091,
+            "productos-de-rehabilitacion": 1092          
+        },
+        "perfumes": {
+            "perfumes": 1093
+        },
+        "cuidado-de-la-piel":{
+            "proteccion-solar": 1125,
+            "aceites-y-cremas": 1165,
+            "repelentes": 256,
+            "exfoliantes": 1166,
+            "cuidado-anti-acne": 1167
+        },
+        "farmacia": {
+            "productos-naturales": 1096,
+            "analgesicos": 1097,
+            "salud-visual": 1098,
+            "equipo-y-material-medico":1178,
+            "antialergicos": 1179
+        }
+    },
+    "comercios": {
+        "212819-vea": 18,
+        "212002-carrefour": 12,
+        "210686-simplicity-market": 56,
+
+        "212173-panaderia-y-confiteria-9-de-julio": 47,
+        "212366-mostaza": 58,
+        "212658-la-cocina-de-amadeo": 59,
+        "213078-krk": 60,
+        "212822-la-muzza-belgrano": 61,
+        "212022-stach-herencia-familiar": 62,
+        "212296-hasta-el-mono-pizza": 63,
+        "212791-calabaza-belgrano": 64,
+        "215198-ola-pizza": 66,
+        "211793-tandilfield": 65,
+        "212177-mangiamo-pizzas": 67,
+        "213489-tandilia-cerveceria": 68,
+        "212084-area-51-comidas": 69,
+        "213348-calabaza-centro": 70,
+        "211974-aromas-cocinas-mediterranea": 71,
+        "212553-la-nonna-pastas": 72,
+        "212499-estacion-victoria": 73,
+        "212076-mangiamo-rico": 74,
+        "212052-vuelta-y-vuelta-restaurante": 75,
+        "212111-giuliani-helados": 76,
+        "212183-grido": 77,
+        "212337-viandas-9-de-julio": 78
+    }
+}
