@@ -1,6 +1,8 @@
 {
     "categorias": {
-        "combos": 157,
+        "combos": {
+            "combos": 157
+        },
         "no catalogado": 155,
         "bebidas-sin-alcohol": {
             "gaseosas": 120,
@@ -16,6 +18,12 @@
             "huevos": 124,
             "cremas": 217,
             "mantecas-y-margarinas": 218
+        },
+        "cuidado-del-adulto":{
+            "ropa-interior": 1181,
+            "panales": 1183,
+            "toallas-protectoras": 1184,
+            "otros-proteccion-incontinencia": 1185
         },
         "almacen": {
             "enlatados-y-conservas": 212,
@@ -38,6 +46,20 @@
             "hierbas-y-aromaticas": 207,
             "pulpas": 209
         },
+        "hogar": {
+            "cuidado-de-la-ropa": 171,
+            "papeles": 1001,
+            "ambientadores-y-velas": 1160,
+            "limpiadores": 22,
+            "deco-y-hogar": 1151
+        },
+        "alimentos-y-bebidas": {
+            "caramelos-chicles-y-gomitas": 536,
+            "chocolates": 202,
+            "barritas-de-cereal-y-frutos-secos": 211,
+            "bebidas": 48,
+            "galletitas-y-alfajores": 1161
+        },
         "limpieza-del-hogar": {
             "papel-higienico": 204,
             "papeles": 204,
@@ -51,6 +73,29 @@
             "alfajores": 201,
             "chocolates": 202,
             "dulces-tipicos": 203
+        },
+        "otros":{
+            "moda": 1141,
+            "cigarrillos": 1142,
+            "manualidades": 1143,
+            "otros": 1140,
+            "flores-y-plantas": 1144
+        },
+        "moda-y-deportes": {
+            "moda": 1141,
+            "deportes-y-fitness": 1145
+        },
+        "libreria-y-hogar":{
+            "libreria": 1132,
+            "hogar-y-decoracion": 1151,
+            "jugueteria": 1150,
+            "tecnologia-y-electro": 1153
+        },
+        "ferreteria-y-jardin": {
+            "iluminacion-y-electricos": 1147,
+            "ferreteria": 1130,
+            "jardineria": 1146,
+            "auto-partes": 1149
         },
         "cuidado-de-tu-perro":{
             "alimento-humedo": 990,
@@ -94,12 +139,39 @@
             "quesos-maduros": 184,
             "quesos-semiduros": 185
         },
+        "cuidado-del-cabello":{
+            "shampoo": 18,
+            "tratamientos-y-mascarillas": 598,
+            "coleros-hebillas-y-diademas": 1162,
+            "coloracion": 576,
+            "peines-y-cepillos-para-el-cabello": 1163
+        },
         "cuidado-personal": {
             "jabones-y-limpieza": 183,
             "cuidado-del-cabello": 182,
             "crema-dental": 181,
             "maquillaje": 180,
-            "cepillos-dentales": 179
+            "cepillos-dentales": 179,
+            "desodorantes-y-antitranspirantes": 1007,
+            "proteccion-femenina": 1043,
+            "farmacia": 1095
+        },
+        "libros-y-papeleria": {
+            "utiles-escolares": 1186,
+            "libros": 1187
+        },
+        "botiquin":{
+            "algodon": 1174,
+            "alcohol-antisepticos-agua-oxigenada": 1175,
+            "control-de-heridas": 1176,
+            "gel-antibacterial": 1177
+        },
+        "maquillaje":{
+            "ojos": 1168,
+            "unas": 1169,
+            "rostro": 1170,
+            "desmaquillantes": 1171,
+            "labios": 1172
         },
         "helados-y-postres": {
             "helados": 176,
@@ -137,8 +209,27 @@
             "cuidado-mascotas": 1137,
             "accesorios": 163
         },
+        "cuidado-del-bebe":{
+            "panales-y-toallitas": 226,
+            "formulas-infantiles": 687,
+            "alimentos-infantiles": 696,
+            "higiene-y-cuidado": 1155,
+            "shampoo-y-jabon": 1156,
+            "hisopos": 367
+
+        },
+        "bienestar-sexual":{
+            "preservativos": 1135,
+            "ovulos-y-cremas-vaginales": 1158,
+            "accesorios-sexuales": 1159,
+            "otros-salud-sexual": 1157
+        },
         "mundo-bebe":{
-            "panales-y-toallitas": 226
+            "panales-y-toallitas": 226,
+            "formulas-infantiles": 687,
+            "alimentos-infantiles": 696,
+            "higiene-y-cuidado": 1155,
+            "shampoo-y-jabon": 1156
         },
         "salud-y-nutricion": {
             "suplementos-alimenticios": 1090,
@@ -148,10 +239,19 @@
         "perfumes": {
             "perfumes": 1093
         },
+        "cuidado-de-la-piel":{
+            "proteccion-solar": 1125,
+            "aceites-y-cremas": 1165,
+            "repelentes": 256,
+            "exfoliantes": 1166,
+            "cuidado-anti-acne": 1167
+        },
         "farmacia": {
             "productos-naturales": 1096,
             "analgesicos": 1097,
-            "salud-visual": 1098
+            "salud-visual": 1098,
+            "equipo-y-material-medico":1178,
+            "antialergicos": 1179
         }
     },
     "comercios": {

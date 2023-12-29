@@ -109,7 +109,7 @@ print("Consultando URL:", url_categoria)
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-options.add_argument("--headless")
+#options.add_argument("--headless")
 driver = webdriver.Chrome(options=options)
 
 driver.get(url_categoria)
@@ -149,7 +149,7 @@ for sub_cat in see_all:
         wrapper_sub_cat = obtener_contenido_por_dataqa(contenido_sub_cat, 'wrapper-component')
         productos = obtener_elementos_sub_cat(wrapper_sub_cat)
 
-        print(productos)
+        
         for producto in productos:
             nuevo_prod = {}
             nuevo_prod['vendor_id'] = VENDOR
@@ -160,6 +160,8 @@ for sub_cat in see_all:
 
             solo_cat = url_categoria.split("/")[-1]
             solo_sub_cat = sub_cat_url.split("/")[-1]
+            print(nuevo_prod)
+            print(solo_cat, ' ',solo_sub_cat)
             if not solo_cat in matchs['categorias'] or not solo_sub_cat in matchs['categorias'][solo_cat]:
                 print('Se omite producto no hay categoria')
                 print(solo_cat, ' ',solo_sub_cat)
