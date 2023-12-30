@@ -64,6 +64,6 @@ for categoria in categorias:
 path = 'salida/productos_cat'+fecha+'.json'
 with open(path, 'w') as file:
     json.dump(listado_productos, file)
-    print('estado.json actualizado')
+    print(path,' actualizado')
 
 

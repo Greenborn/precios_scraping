@@ -18,10 +18,10 @@ categorias = cat_menu.find_all('li')
 for cat in categorias:
     categoria  = cat.find("span").text
     enlace_cat = cat.get("data-link-href")
-
-    arbol_categorias[categoria] = { "category":"", "sub_items": []}
-
+    
     url_cat = URL_BASE + enlace_cat
+    arbol_categorias[categoria] = { "category":"", "sub_items": [], "url": url_cat }
+
     print("ingresando a categoria: ", url_cat)
     response = requests.get(url_cat)
     response = response.text
@@ -37,7 +37,7 @@ for cat in categorias:
     for sub_cat in sub_categorias:
         sub_categoria  = sub_cat.find("span").text
         enlace_sub_cat = sub_cat.get("data-link-href")
-        enlace = { "texto": sub_cat.text, "category":"", "url": sub_cat.get("href") }
+        enlace = { "texto": sub_cat.text, "category":"", "url": URL_BASE + enlace_sub_cat }
         arbol_categorias[categoria]["sub_items"].append(enlace)
         print(sub_categoria)
 
