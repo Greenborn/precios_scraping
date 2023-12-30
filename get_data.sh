@@ -19,5 +19,9 @@ cd emetelas
 python get_data.py
 
 cd ..
+cd lang
+python get_data.py
+
+cd ..
 cd ..
 python genera_salida_conjunta.py
