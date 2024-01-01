@@ -31,6 +31,14 @@ cd kulture
 python get_data.py
 
 cd ..
+cd naldo
+python get_data.py
+
+cd ..
+cd sumahogar
+python get_data.py
+
+cd ..
 cd ..
 python genera_salida_conjunta.py
 
