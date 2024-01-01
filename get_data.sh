@@ -27,5 +27,15 @@ cd elteam
 python get_data.py
 
 cd ..
+cd kulture
+python get_data.py
+
+cd ..
 cd ..
 python genera_salida_conjunta.py
+
+cd resultados
+rm -f ../../OpenPriceStadisticsBack/scripts/tmp/*.json
+cp *.json ../../OpenPriceStadisticsBack/scripts/tmp/
+cd ../../OpenPriceStadisticsBack/scripts
+python importar_productos.py
