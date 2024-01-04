@@ -1,0 +1,1052 @@
+{
+    "Philips": {
+        "sub_items": [],
+        "texto": "Philips",
+        "category": 1834,
+        "url": "https://www.fravega.com/l/tv-y-video/tv/?marcas=philips"
+    },
+    "Samsung": {
+        "sub_items": [],
+        "texto": "Samsung",
+        "category": 1835,
+        "url": "https://www.fravega.coml/celulares/?marcas=samsung"
+    },
+    "LG": {
+        "sub_items": [],
+        "texto": "LG",
+        "category": 1836,
+        "url": "https://www.fravega.com/l/tv-y-video/tv/?marcas=lg"
+    },
+    "TCL": {
+        "sub_items": [],
+        "texto": "TCL",
+        "category": 1837,
+        "url": "https://www.fravega.com/l/tv-y-video/tv/?marcas=tcl"
+    },
+    "Menos de 50\u201d": {
+        "sub_items": [],
+        "texto": "Menos de 50\u201d",
+        "category": 1838,
+        "url": "https://www.fravega.com/l/?categorias=tv-y-video/tv&tamano-de-pantalla=24-pulgadas,32-pulgadas,32-pulgadas,39-pulgadas,40-pulgadas,43-pulgadas,49-pulgadas"
+    },
+    "M\u00e1s de 50\u201d": {
+        "sub_items": [],
+        "texto": "M\u00e1s de 50\u201d",
+        "category": 1839,
+        "url": "https://www.fravega.com/l/?categorias=tv-y-video/tv&tamano-de-pantalla=50-pulgadas,55-pulgadas,65-pulgadas,58-pulgadas,60-pulgadas,75-pulgadas,82-pulgadas,70-pulgadas"
+    },
+    "Mesas y rack para TV": {
+        "sub_items": [],
+        "texto": "Mesas y rack para TV",
+        "category": 1840,
+        "url": "https://www.fravega.com/l/muebles/living-y-comedor/mesas-y-racks-para-tv/"
+    },
+    "Soportes": {
+        "sub_items": [],
+        "texto": "Soportes",
+        "category": 1345,
+        "url": "https://www.fravega.com/l/tv-y-video/accesorios/soportes-tv/"
+    },
+    "Auriculares": {
+        "sub_items": [],
+        "texto": "Auriculares",
+        "category": 1206,
+        "url": "https://www.fravega.coml/informatica/gaming-pc/auriculares/"
+    },
+    "Home Theater": {
+        "sub_items": [],
+        "texto": "Home Theater",
+        "category": 1696,
+        "url": "https://www.fravega.coml/audio/home-theater/"
+    },
+    "Est\u00e9reos": {
+        "sub_items": [],
+        "texto": "Est\u00e9reos",
+        "category": 1841,
+        "url": "https://www.fravega.coml/equipos-para-auto/autoestereos/"
+    },
+    "Parlantes": {
+        "sub_items": [],
+        "texto": "Parlantes",
+        "category": 1311,
+        "url": "https://www.fravega.coml/audio/parlantes/"
+    },
+    "Notebooks": {
+        "sub_items": [],
+        "texto": "Notebooks",
+        "category": 1306,
+        "url": "https://www.fravega.com/l/informatica/notebooks/"
+    },
+    "Tablets": {
+        "sub_items": [],
+        "texto": "Tablets",
+        "category": 1350,
+        "url": "https://www.fravega.com/l/informatica/tablets/"
+    },
+    "All in One": {
+        "sub_items": [],
+        "texto": "All in One",
+        "category": 1842,
+        "url": "https://www.fravega.com/l/informatica/all-in-one-y-pc-escritorio/"
+    },
+    "Teclados": {
+        "sub_items": [],
+        "texto": "Teclados",
+        "category": 1353,
+        "url": "https://www.fravega.coml/informatica/gaming-pc/teclados/"
+    },
+    "Monitores": {
+        "sub_items": [],
+        "texto": "Monitores",
+        "category": 1302,
+        "url": "https://www.fravega.coml/informatica/monitores/"
+    },
+    "Webcam": {
+        "sub_items": [],
+        "texto": "Webcam",
+        "category": 1200,
+        "url": "https://www.fravega.com/l/informatica/accesorios-de-informatica/webcam/"
+    },
+    "Proyectores": {
+        "sub_items": [],
+        "texto": "Proyectores",
+        "category": 1328,
+        "url": "https://www.fravega.coml/informatica/proyectores-y-pantallas/"
+    },
+    "Impresoras Multifunci\u00f3n": {
+        "sub_items": [],
+        "texto": "Impresoras Multifunci\u00f3n",
+        "category": 1843,
+        "url": "https://www.fravega.coml/informatica/impresoras/impresoras-multifuncion/"
+    },
+    "Impresi\u00f3n 3D": {
+        "sub_items": [],
+        "texto": "Impresi\u00f3n 3D",
+        "category": 1844,
+        "url": "https://www.fravega.coml/informatica/impresoras/impresion-3d/"
+    },
+    "Impresoras L\u00e1ser": {
+        "sub_items": [],
+        "texto": "Impresoras L\u00e1ser",
+        "category": 1845,
+        "url": "https://www.fravega.coml/informatica/impresoras/impresora-laser/"
+    },
+    "Motorola": {
+        "sub_items": [],
+        "texto": "Motorola",
+        "category": 1846,
+        "url": "https://www.fravega.coml/celulares/?marcas=motorola"
+    },
+    "Apple": {
+        "sub_items": [],
+        "texto": "Apple",
+        "category": 1847,
+        "url": "https://www.fravega.coml/celulares/?marcas=apple"
+    },
+    "Smartwatch y Accesorios": {
+        "sub_items": [],
+        "texto": "Smartwatch y Accesorios",
+        "category": 1848,
+        "url": "https://www.fravega.coml/informatica/smartwatch/"
+    },
+    "Nintendo": {
+        "sub_items": [],
+        "texto": "Nintendo",
+        "category": 1849,
+        "url": "https://www.fravega.com/l/videojuegos/?marcas=nintendo"
+    },
+    "Playstation": {
+        "sub_items": [],
+        "texto": "Playstation",
+        "category": 1850,
+        "url": "https://www.fravega.coml/videojuegos/?marcas=playstation"
+    },
+    "Accesorios": {
+        "sub_items": [],
+        "texto": "Accesorios",
+        "category": 951,
+        "url": "https://www.fravega.coml/videojuegos/accesorios/"
+    },
+    "Mouses": {
+        "sub_items": [],
+        "texto": "Mouses",
+        "category": 1851,
+        "url": "https://www.fravega.coml/informatica/gaming-pc/mouses/"
+    },
+    "Joysticks y Volantes": {
+        "sub_items": [],
+        "texto": "Joysticks y Volantes",
+        "category": 1852,
+        "url": "https://www.fravega.coml/informatica/gaming-pc/joysticks-volantes/"
+    },
+    "C\u00e1maras digitales": {
+        "sub_items": [],
+        "texto": "C\u00e1maras digitales",
+        "category": 1853,
+        "url": "https://www.fravega.coml/camaras-y-video-camaras/camaras-fotograficas/"
+    },
+    "C\u00e1maras Go Pro": {
+        "sub_items": [],
+        "texto": "C\u00e1maras Go Pro",
+        "category": 1854,
+        "url": "https://www.fravega.coml/camaras-y-video-camaras/camaras-fotograficas/camaras-deportivas-y-de-accion/"
+    },
+    "C\u00e1maras de seguridad": {
+        "sub_items": [],
+        "texto": "C\u00e1maras de seguridad",
+        "category": 1486,
+        "url": "https://www.fravega.coml/camaras-y-video-camaras/videocamaras-y-camcorders/"
+    },
+    "Drones": {
+        "sub_items": [],
+        "texto": "Drones",
+        "category": 1855,
+        "url": "https://www.fravega.coml/?keyword=dron"
+    },
+    "Aires acondicionados": {
+        "sub_items": [],
+        "texto": "Aires acondicionados",
+        "category": 1653,
+        "url": "https://www.fravega.coml/climatizacion/aire-acondicionado/"
+    },
+    "Calefactores y Caloventores": {
+        "sub_items": [],
+        "texto": "Calefactores y Caloventores",
+        "category": 1856,
+        "url": "https://www.fravega.coml/climatizacion/calefaccion-electrica,climatizacion/calefaccion-a-gas/"
+    },
+    "Ventiladores": {
+        "sub_items": [],
+        "texto": "Ventiladores",
+        "category": 1371,
+        "url": "https://www.fravega.coml/climatizacion/ventilacion/"
+    },
+    "Heladeras con freezer": {
+        "sub_items": [],
+        "texto": "Heladeras con freezer",
+        "category": 1857,
+        "url": "https://www.fravega.coml/heladeras-freezers-y-cavas/heladeras/?tipo-de-heladera=heladeras-con-freezer"
+    },
+    "Heladeras sin freezer": {
+        "sub_items": [],
+        "texto": "Heladeras sin freezer",
+        "category": 1858,
+        "url": "https://www.fravega.coml/heladeras-freezers-y-cavas/heladeras/?tipo-de-heladera=heladeras-sin-freezer"
+    },
+    "Freezers": {
+        "sub_items": [],
+        "texto": "Freezers",
+        "category": 1556,
+        "url": "https://www.fravega.coml/heladeras-freezers-y-cavas/freezers/"
+    },
+    "Cavas y exhibidoras": {
+        "sub_items": [],
+        "texto": "Cavas y exhibidoras",
+        "category": 1859,
+        "url": "https://www.fravega.coml/heladeras-freezers-y-cavas/exhibidoras-y-cavas/"
+    },
+    "Lavarropas": {
+        "sub_items": [],
+        "texto": "Lavarropas",
+        "category": 1464,
+        "url": "https://www.fravega.coml/lavado/lavarropas/"
+    },
+    "Secarropas": {
+        "sub_items": [],
+        "texto": "Secarropas",
+        "category": 1466,
+        "url": "https://www.fravega.coml/lavado/secarropas/"
+    },
+    "Lavasecarropas": {
+        "sub_items": [],
+        "texto": "Lavasecarropas",
+        "category": 1465,
+        "url": "https://www.fravega.coml/lavado/lavarropas/?tipo-de-lavarropas=lavasecarropas"
+    },
+    "Lavavajillas": {
+        "sub_items": [],
+        "texto": "Lavavajillas",
+        "category": 1467,
+        "url": "https://www.fravega.coml/lavado/lavavajillas/"
+    },
+    "Pavas el\u00e9ctricas": {
+        "sub_items": [],
+        "texto": "Pavas el\u00e9ctricas",
+        "category": 1667,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cocina/pavas-electricas/"
+    },
+    "Cafeteras": {
+        "sub_items": [],
+        "texto": "Cafeteras",
+        "category": 1585,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cocina/cafeteras-express,pequenos-electrodomesticos/cocina/cafeteras-de-filtro,pequenos-electrodomesticos/cocina/accesorios-para-cafeteras/"
+    },
+    "Licuadoras": {
+        "sub_items": [],
+        "texto": "Licuadoras",
+        "category": 1454,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cocina/licuadoras-de-pie,pequenos-electrodomesticos/cocina/licuadoras-de-mano/"
+    },
+    "Procesadoras": {
+        "sub_items": [],
+        "texto": "Procesadoras",
+        "category": 1456,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cocina/procesadoras/"
+    },
+    "Aspiradoras": {
+        "sub_items": [],
+        "texto": "Aspiradoras",
+        "category": 1461,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/hogar/aspiradoras/"
+    },
+    "Planchas": {
+        "sub_items": [],
+        "texto": "Planchas",
+        "category": 1462,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/hogar/planchas/"
+    },
+    "M\u00e1quinas de coser": {
+        "sub_items": [],
+        "texto": "M\u00e1quinas de coser",
+        "category": 1678,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/hogar/maquinas-de-coser/"
+    },
+    "Cocinas": {
+        "sub_items": [],
+        "texto": "Cocinas",
+        "category": 1471,
+        "url": "https://www.fravega.coml/cocina/cocinas/"
+    },
+    "Hornos": {
+        "sub_items": [],
+        "texto": "Hornos",
+        "category": 1472,
+        "url": "https://www.fravega.coml/cocina/hornos/"
+    },
+    "Hornitos el\u00e9ctricos": {
+        "sub_items": [],
+        "texto": "Hornitos el\u00e9ctricos",
+        "category": 1860,
+        "url": "https://www.fravega.coml/cocina/hornos/hornos-electricos/"
+    },
+    "Microondas": {
+        "sub_items": [],
+        "texto": "Microondas",
+        "category": 1474,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cocina/microondas/"
+    },
+    "Termotanques a gas": {
+        "sub_items": [],
+        "texto": "Termotanques a gas",
+        "category": 1861,
+        "url": "https://www.fravega.com/l/termotanques-y-calefones/termotanques-a-gas/"
+    },
+    "Termotanques el\u00e9ctricos": {
+        "sub_items": [],
+        "texto": "Termotanques el\u00e9ctricos",
+        "category": 1862,
+        "url": "https://www.fravega.com/l/termotanques-y-calefones/termotanques-electricos/"
+    },
+    "Calefones": {
+        "sub_items": [],
+        "texto": "Calefones",
+        "category": 1664,
+        "url": "https://www.fravega.com/l/termotanques-y-calefones/calefones/"
+    },
+    "Colchones": {
+        "sub_items": [],
+        "texto": "Colchones",
+        "category": 1523,
+        "url": "https://www.fravega.coml/hogar/colchones-y-sommiers/colchones/"
+    },
+    "Sommiers": {
+        "sub_items": [],
+        "texto": "Sommiers",
+        "category": 1863,
+        "url": "https://www.fravega.coml/hogar/colchones-y-sommiers/conjunto/"
+    },
+    "Bases": {
+        "sub_items": [],
+        "texto": "Bases",
+        "category": 1864,
+        "url": "https://www.fravega.coml/hogar/colchones-y-sommiers/sommiers-y-bases/"
+    },
+    "Almohadas": {
+        "sub_items": [],
+        "texto": "Almohadas",
+        "category": 1607,
+        "url": "https://www.fravega.coml/hogar/ropa-de-cama/almohadas/"
+    },
+    "S\u00e1banas": {
+        "sub_items": [],
+        "texto": "S\u00e1banas",
+        "category": 1865,
+        "url": "https://www.fravega.coml/hogar/ropa-de-cama/sabanas/"
+    },
+    "Alcolchados": {
+        "sub_items": [],
+        "texto": "Alcolchados",
+        "category": 1866,
+        "url": "https://www.fravega.coml/hogar/ropa-de-cama/acolchados/"
+    },
+    "Toallas y toallones": {
+        "sub_items": [],
+        "texto": "Toallas y toallones",
+        "category": 1507,
+        "url": "https://www.fravega.coml/hogar/bano/toallas-y-toallones/"
+    },
+    "Manteles e individuales": {
+        "sub_items": [],
+        "texto": "Manteles e individuales",
+        "category": 1867,
+        "url": "https://www.fravega.coml/hogar/decoracion/manteleria/"
+    },
+    "Cortinas": {
+        "sub_items": [],
+        "texto": "Cortinas",
+        "category": 1868,
+        "url": "https://www.fravega.coml/hogar/decoracion/cortinas/"
+    },
+    "Espejos": {
+        "sub_items": [],
+        "texto": "Espejos",
+        "category": 1869,
+        "url": "https://www.fravega.coml/hogar/decoracion/espejos/"
+    },
+    "Canastos y cestos": {
+        "sub_items": [],
+        "texto": "Canastos y cestos",
+        "category": 1870,
+        "url": "https://www.fravega.coml/hogar/decoracion/canastos-y-cestos/"
+    },
+    "Macetas y maceteros": {
+        "sub_items": [],
+        "texto": "Macetas y maceteros",
+        "category": 1871,
+        "url": "https://www.fravega.coml/hogar/decoracion/macetas-y-maceteros/"
+    },
+    "Muebles de cocina": {
+        "sub_items": [],
+        "texto": "Muebles de cocina",
+        "category": 1872,
+        "url": "https://www.fravega.coml/muebles/cocina/"
+    },
+    "Muebles de dormitorio": {
+        "sub_items": [],
+        "texto": "Muebles de dormitorio",
+        "category": 1873,
+        "url": "https://www.fravega.coml/muebles/dormitorio/"
+    },
+    "Muebles de living y comedor": {
+        "sub_items": [],
+        "texto": "Muebles de living y comedor",
+        "category": 1874,
+        "url": "https://www.fravega.coml/muebles/living-y-comedor/"
+    },
+    "Sillas": {
+        "sub_items": [],
+        "texto": "Sillas",
+        "category": 1342,
+        "url": "https://www.fravega.coml/muebles/sillas/"
+    },
+    "Muebles de jard\u00edn": {
+        "sub_items": [],
+        "texto": "Muebles de jard\u00edn",
+        "category": 1518,
+        "url": "https://www.fravega.com/l/jardin/sillas,jardin/juegos-de-mesas-y-sillas,jardin/reposeras,jardin/gazebos,jardin/sombrillas,jardin/mesas/"
+    },
+    "Piletas": {
+        "sub_items": [],
+        "texto": "Piletas",
+        "category": 1519,
+        "url": "https://www.fravega.com/l/jardin/piletas-y-piscinas/"
+    },
+    "Reposeras": {
+        "sub_items": [],
+        "texto": "Reposeras",
+        "category": 1772,
+        "url": "https://www.fravega.coml/jardin/reposeras/"
+    },
+    "Parrillas": {
+        "sub_items": [],
+        "texto": "Parrillas",
+        "category": 1521,
+        "url": "https://www.fravega.coml/jardin/parrillas/"
+    },
+    "Vajilla": {
+        "sub_items": [],
+        "texto": "Vajilla",
+        "category": 1875,
+        "url": "https://www.fravega.coml/hogar/bazar/vajilla/"
+    },
+    "Vasos y copas": {
+        "sub_items": [],
+        "texto": "Vasos y copas",
+        "category": 1876,
+        "url": "https://www.fravega.coml/hogar/bazar/vasos-y-copas/"
+    },
+    "Ollas y sartenes": {
+        "sub_items": [],
+        "texto": "Ollas y sartenes",
+        "category": 1877,
+        "url": "https://www.fravega.coml/hogar/bazar/baterias-de-cocina-y-ollas,l/hogar/bazar/sartenes-biferas-y-woks/"
+    },
+    "Termos": {
+        "sub_items": [],
+        "texto": "Termos",
+        "category": 1500,
+        "url": "https://www.fravega.coml/hogar/bazar/termos-y-recipientes-termicos/termos/"
+    },
+    "Iluminaci\u00f3n inteligente": {
+        "sub_items": [],
+        "texto": "Iluminaci\u00f3n inteligente",
+        "category": 1878,
+        "url": "https://www.fravega.coml/domotica/iluminacion-inteligente/"
+    },
+    "L\u00e1mparas": {
+        "sub_items": [],
+        "texto": "L\u00e1mparas",
+        "category": 1368,
+        "url": "https://www.fravega.coml/iluminacion/lamparas/"
+    },
+    "Reflectores": {
+        "sub_items": [],
+        "texto": "Reflectores",
+        "category": 1879,
+        "url": "https://www.fravega.coml/iluminacion/reflectores/"
+    },
+    "Apliques": {
+        "sub_items": [],
+        "texto": "Apliques",
+        "category": 1880,
+        "url": "https://www.fravega.coml/iluminacion/apliques/"
+    },
+    "Bicicletas": {
+        "sub_items": [],
+        "texto": "Bicicletas",
+        "category": 1551,
+        "url": "https://www.fravega.coml/deportes-y-fitness/bicicletas/"
+    },
+    "Bicicletas el\u00e9ctricas": {
+        "sub_items": [],
+        "texto": "Bicicletas el\u00e9ctricas",
+        "category": 1881,
+        "url": "https://www.fravega.com/l/deportes-y-fitness/bicicletas/?tipo-de-bicicleta=electrica"
+    },
+    "Bicicletas infantiles": {
+        "sub_items": [],
+        "texto": "Bicicletas infantiles",
+        "category": 1746,
+        "url": "https://www.fravega.com/l/deportes-y-fitness/bicicletas/?tipo-de-bicicleta=ninos"
+    },
+    "Cascos y protectores": {
+        "sub_items": [],
+        "texto": "Cascos y protectores",
+        "category": 1882,
+        "url": "https://www.fravega.coml/deportes-y-fitness/cascos-y-protectores/"
+    },
+    "Monopatines": {
+        "sub_items": [],
+        "texto": "Monopatines",
+        "category": 1536,
+        "url": "https://www.fravega.coml/deportes-y-fitness/monopatines-y-scooters/monopatines/"
+    },
+    "Skateboards": {
+        "sub_items": [],
+        "texto": "Skateboards",
+        "category": 1883,
+        "url": "https://www.fravega.coml/deportes-y-fitness/monopatines-y-scooters/skateboards/"
+    },
+    "Rollers": {
+        "sub_items": [],
+        "texto": "Rollers",
+        "category": 1752,
+        "url": "https://www.fravega.coml/deportes-y-fitness/patines-y-rollers/adultos/"
+    },
+    "Rollers infantiles": {
+        "sub_items": [],
+        "texto": "Rollers infantiles",
+        "category": 1884,
+        "url": "https://www.fravega.coml/deportes-y-fitness/patines-y-rollers/ninos/"
+    },
+    "Bicicletas fijas": {
+        "sub_items": [],
+        "texto": "Bicicletas fijas",
+        "category": 1747,
+        "url": "https://www.fravega.coml/deportes-y-fitness/bicicletas-fijas/"
+    },
+    "Cintas para correr": {
+        "sub_items": [],
+        "texto": "Cintas para correr",
+        "category": 1885,
+        "url": "https://www.fravega.coml/deportes-y-fitness/cintas-para-correr/"
+    },
+    "Mancuernas, sogas y pesas": {
+        "sub_items": [],
+        "texto": "Mancuernas, sogas y pesas",
+        "category": 1886,
+        "url": "https://www.fravega.coml/deportes-y-fitness/mancuernas-pesas-y-discos/"
+    },
+    "Multigimnasios y bancos": {
+        "sub_items": [],
+        "texto": "Multigimnasios y bancos",
+        "category": 1887,
+        "url": "https://www.fravega.coml/deportes-y-fitness/multigimnasios-y-bancos/"
+    },
+    "Cocinas de juguete": {
+        "sub_items": [],
+        "texto": "Cocinas de juguete",
+        "category": 1888,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/sets-y-otros/juegos-de-cocina/"
+    },
+    "Mu\u00f1ecos y peluches": {
+        "sub_items": [],
+        "texto": "Mu\u00f1ecos y peluches",
+        "category": 1889,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/peluches-y-munecos-interactivos,juguetes-y-juegos/munecas-y-accesorios/"
+    },
+    "Juguetes electr\u00f3nicos": {
+        "sub_items": [],
+        "texto": "Juguetes electr\u00f3nicos",
+        "category": 1890,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/juguetes-electronicos/"
+    },
+    "Juguetes did\u00e1cticos": {
+        "sub_items": [],
+        "texto": "Juguetes did\u00e1cticos",
+        "category": 1891,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/juegos-didacticos,bebes-y-primera-infancia/juegos-didacticos/"
+    },
+    "Camas el\u00e1sticas": {
+        "sub_items": [],
+        "texto": "Camas el\u00e1sticas",
+        "category": 1750,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/juegos-de-aire-libre/camas-elasticas/"
+    },
+    "Casitas": {
+        "sub_items": [],
+        "texto": "Casitas",
+        "category": 1892,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/juegos-de-aire-libre/casitas-para-ninos/"
+    },
+    "Inflables": {
+        "sub_items": [],
+        "texto": "Inflables",
+        "category": 1612,
+        "url": "https://www.fravega.coml/jardin/piletas-y-piscinas/inflables/"
+    },
+    "Triciclos": {
+        "sub_items": [],
+        "texto": "Triciclos",
+        "category": 1735,
+        "url": "https://www.fravega.coml/juguetes-y-juegos/rodados-para-ninos/triciclos/"
+    },
+    "Cochecitos de paseo": {
+        "sub_items": [],
+        "texto": "Cochecitos de paseo",
+        "category": 1893,
+        "url": "https://www.fravega.coml/?categorias=bebes-y-primera-infancia%2Fcochecitos&tipo-de-cochecitos=paseo"
+    },
+    "Cochecitos con huevito": {
+        "sub_items": [],
+        "texto": "Cochecitos con huevito",
+        "category": 1894,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/butacas-auto-y-huevitos/?tipo=huevitos"
+    },
+    "Parag\u00fcitas": {
+        "sub_items": [],
+        "texto": "Parag\u00fcitas",
+        "category": 1895,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/cochecitos/?categorias=bebes-y-primera-infancia%2Fcochecitos&tipo-de-cochecitos=paraguitas"
+    },
+    "Travel system": {
+        "sub_items": [],
+        "texto": "Travel system",
+        "category": 1896,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/cochecitos/?tipo-de-cochecitos=travel-system"
+    },
+    "Boosters": {
+        "sub_items": [],
+        "texto": "Boosters",
+        "category": 1897,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/butacas-auto-y-huevitos/?tipo=boosters"
+    },
+    "Butacas": {
+        "sub_items": [],
+        "texto": "Butacas",
+        "category": 1528,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/butacas-auto-y-huevitos/"
+    },
+    "Huevitos": {
+        "sub_items": [],
+        "texto": "Huevitos",
+        "category": 1733,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/butacas-auto-y-huevitos/?tipo=huevitos"
+    },
+    "Alimentaci\u00f3n y lactancia": {
+        "sub_items": [],
+        "texto": "Alimentaci\u00f3n y lactancia",
+        "category": 1898,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/alimentacion-y-lactancia/"
+    },
+    "Gimnasios para beb\u00e9s": {
+        "sub_items": [],
+        "texto": "Gimnasios para beb\u00e9s",
+        "category": 1899,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/gimnasios-para-bebes/"
+    },
+    "Andadores y caminadores": {
+        "sub_items": [],
+        "texto": "Andadores y caminadores",
+        "category": 1900,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/andadores-y-caminadores/"
+    },
+    "Pa\u00f1ales": {
+        "sub_items": [],
+        "texto": "Pa\u00f1ales",
+        "category": 707,
+        "url": "https://www.fravega.com/l/bebes-y-primera-infancia/salud-y-cuidado-del-bebe/panales/?keyword=salud-y-cuidado-del-bebe"
+    },
+    "Practicunas": {
+        "sub_items": [],
+        "texto": "Practicunas",
+        "category": 1901,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/cunas-practicunas-y-corralitos/cunas/?tipo-de-cuna=practicuna"
+    },
+    "Corralitos": {
+        "sub_items": [],
+        "texto": "Corralitos",
+        "category": 1902,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/cunas-practicunas-y-corralitos/corralitos/?categorias=bebes-y-primera-infancia%2Fcunas-practicunas-y-corralitos&keyword=corralitos"
+    },
+    "Cunas": {
+        "sub_items": [],
+        "texto": "Cunas",
+        "category": 1728,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/cunas-practicunas-y-corralitos/cunas/"
+    },
+    "Camas funcionales": {
+        "sub_items": [],
+        "texto": "Camas funcionales",
+        "category": 1903,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/cunas-practicunas-y-corralitos/camas-funcionales/"
+    },
+    "Puertas de seguridad": {
+        "sub_items": [],
+        "texto": "Puertas de seguridad",
+        "category": 1904,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/seguridad/puertas-de-seguridad/"
+    },
+    "Pisos de goma eva": {
+        "sub_items": [],
+        "texto": "Pisos de goma eva",
+        "category": 1905,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/seguridad/pisos-de-goma-eva/"
+    },
+    "Baby call": {
+        "sub_items": [],
+        "texto": "Baby call",
+        "category": 1906,
+        "url": "https://www.fravega.coml/bebes-y-primera-infancia/seguridad/baby-calls/"
+    },
+    "Planchitas": {
+        "sub_items": [],
+        "texto": "Planchitas",
+        "category": 1684,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cuidado-personal/planchitas-de-pelo/"
+    },
+    "Secadores": {
+        "sub_items": [],
+        "texto": "Secadores",
+        "category": 1907,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cuidado-personal/secadores-de-pelo/"
+    },
+    "Depiladoras": {
+        "sub_items": [],
+        "texto": "Depiladoras",
+        "category": 1490,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cuidado-personal/depiladoras/"
+    },
+    "Maquillaje": {
+        "sub_items": [],
+        "texto": "Maquillaje",
+        "category": 180,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/maquillaje/"
+    },
+    "Higiene personal": {
+        "sub_items": [],
+        "texto": "Higiene personal",
+        "category": 1908,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/higiene-personal/"
+    },
+    "Manicura y pedicura": {
+        "sub_items": [],
+        "texto": "Manicura y pedicura",
+        "category": 1909,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/manicura-y-pedicura/"
+    },
+    "Cremas faciales y corporales": {
+        "sub_items": [],
+        "texto": "Cremas faciales y corporales",
+        "category": 1910,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/cuidado-de-la-piel/"
+    },
+    "Perfumes para mujer": {
+        "sub_items": [],
+        "texto": "Perfumes para mujer",
+        "category": 1496,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/perfumes/perfumes-para-mujer/"
+    },
+    "Perfumes para hombre": {
+        "sub_items": [],
+        "texto": "Perfumes para hombre",
+        "category": 1497,
+        "url": "https://www.fravega.coml/belleza-y-cuidado-corporal/perfumes/perfumes-para-hombre/"
+    },
+    "Masajeadores": {
+        "sub_items": [],
+        "texto": "Masajeadores",
+        "category": 1911,
+        "url": "https://www.fravega.coml/salud-y-bienestar/masajeadores/"
+    },
+    "Nebulizadores": {
+        "sub_items": [],
+        "texto": "Nebulizadores",
+        "category": 1630,
+        "url": "https://www.fravega.coml/salud-y-bienestar/nebulizadores/"
+    },
+    "Tensi\u00f3metros": {
+        "sub_items": [],
+        "texto": "Tensi\u00f3metros",
+        "category": 1493,
+        "url": "https://www.fravega.coml/salud-y-bienestar/tensiometros/"
+    },
+    "Balanzas": {
+        "sub_items": [],
+        "texto": "Balanzas",
+        "category": 1492,
+        "url": "https://www.fravega.coml/salud-y-bienestar/balanzas-de-bano/"
+    },
+    "Afeitadoras": {
+        "sub_items": [],
+        "texto": "Afeitadoras",
+        "category": 1491,
+        "url": "https://www.fravega.coml/pequenos-electrodomesticos/cuidado-personal/afeitadoras/"
+    },
+    "Cortabarbas": {
+        "sub_items": [],
+        "texto": "Cortabarbas",
+        "category": 1912,
+        "url": "https://www.fravega.com/l/pequenos-electrodomesticos/cuidado-personal/cortabarba/"
+    },
+    "Taladros": {
+        "sub_items": [],
+        "texto": "Taladros",
+        "category": 1516,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-electricas/taladros/"
+    },
+    "Lijadoras": {
+        "sub_items": [],
+        "texto": "Lijadoras",
+        "category": 1913,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-electricas/lijadoras/"
+    },
+    "Amoladoras y sierras": {
+        "sub_items": [],
+        "texto": "Amoladoras y sierras",
+        "category": 1914,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-electricas/amoladoras,herramientas-y-construccion/herramientas/herramientas-electricas/sierras-y-electrosierras/"
+    },
+    "Soldadoras": {
+        "sub_items": [],
+        "texto": "Soldadoras",
+        "category": 1515,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-electricas/soldadoras/"
+    },
+    "Cortadoras de c\u00e9sped": {
+        "sub_items": [],
+        "texto": "Cortadoras de c\u00e9sped",
+        "category": 1777,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-de-jardin/cortadoras-de-cesped/"
+    },
+    "Desmalezadoras y cortacercos": {
+        "sub_items": [],
+        "texto": "Desmalezadoras y cortacercos",
+        "category": 1915,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-de-jardin/desmalezadoras,herramientas-y-construccion/herramientas/herramientas-de-jardin/cortacercos/"
+    },
+    "Bordeadoras y podadoras": {
+        "sub_items": [],
+        "texto": "Bordeadoras y podadoras",
+        "category": 1916,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-de-jardin/bordeadoras-y-podadoras/"
+    },
+    "Hidrolavadoras": {
+        "sub_items": [],
+        "texto": "Hidrolavadoras",
+        "category": 1522,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-de-jardin/hidrolavadoras/"
+    },
+    "Pinzas": {
+        "sub_items": [],
+        "texto": "Pinzas",
+        "category": 1917,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-manuales/pinzas/"
+    },
+    "Martillos": {
+        "sub_items": [],
+        "texto": "Martillos",
+        "category": 1918,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-manuales/martillos/"
+    },
+    "Destornilladores": {
+        "sub_items": [],
+        "texto": "Destornilladores",
+        "category": 1919,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-manuales/destornilladores/"
+    },
+    "Juegos de herramientas": {
+        "sub_items": [],
+        "texto": "Juegos de herramientas",
+        "category": 1920,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/herramientas-manuales/kits-y-juego-de-herramientas/"
+    },
+    "Grifer\u00edas": {
+        "sub_items": [],
+        "texto": "Grifer\u00edas",
+        "category": 1921,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/griferias/"
+    },
+    "Plomer\u00eda": {
+        "sub_items": [],
+        "texto": "Plomer\u00eda",
+        "category": 1922,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/plomeria/"
+    },
+    "Pisos y revestimientos": {
+        "sub_items": [],
+        "texto": "Pisos y revestimientos",
+        "category": 1923,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/pisos-y-revestimientos,herramientas-y-construccion/ceramicos/"
+    },
+    "Inodoros y dep\u00f3sitos": {
+        "sub_items": [],
+        "texto": "Inodoros y dep\u00f3sitos",
+        "category": 1924,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/sanitarios/inodoros,herramientas-y-construccion/sanitarios/depositos-de-inodoro/"
+    },
+    "Asientos y tapas": {
+        "sub_items": [],
+        "texto": "Asientos y tapas",
+        "category": 1925,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/sanitarios/asientos-y-tapas/"
+    },
+    "Bidets": {
+        "sub_items": [],
+        "texto": "Bidets",
+        "category": 1926,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/sanitarios/bidets/"
+    },
+    "Muebles de ba\u00f1o y Vanitoris": {
+        "sub_items": [],
+        "texto": "Muebles de ba\u00f1o y Vanitoris",
+        "category": 1927,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/muebles-de-bano/"
+    },
+    "Escaleras": {
+        "sub_items": [],
+        "texto": "Escaleras",
+        "category": 1610,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/escaleras/"
+    },
+    "Cargadores de bater\u00edas": {
+        "sub_items": [],
+        "texto": "Cargadores de bater\u00edas",
+        "category": 1928,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/accesorios/cargador-de-baterias/"
+    },
+    "Cajas de herramientas": {
+        "sub_items": [],
+        "texto": "Cajas de herramientas",
+        "category": 1929,
+        "url": "https://www.fravega.coml/herramientas-y-construccion/herramientas/accesorios/cajas-de-herramientas-y-organizadores/"
+    },
+    "Conservadoras": {
+        "sub_items": [],
+        "texto": "Conservadoras",
+        "category": 1499,
+        "url": "https://www.fravega.coml/camping-y-aire-libre/conservadoras/"
+    },
+    "Linternas y faroles": {
+        "sub_items": [],
+        "texto": "Linternas y faroles",
+        "category": 1930,
+        "url": "https://www.fravega.coml/camping-y-aire-libre/linternas-y-faroles/"
+    },
+    "Mochilas": {
+        "sub_items": [],
+        "texto": "Mochilas",
+        "category": 1645,
+        "url": "https://www.fravega.coml/indumentaria/accesorios/mochilas/"
+    },
+    "Carpas y colchones": {
+        "sub_items": [],
+        "texto": "Carpas y colchones",
+        "category": 1931,
+        "url": "https://www.fravega.coml/camping-y-aire-libre/carpas,camping-y-aire-libre/colchones-inflables/"
+    },
+    "Bater\u00edas para autos": {
+        "sub_items": [],
+        "texto": "Bater\u00edas para autos",
+        "category": 1932,
+        "url": "https://www.fravega.coml/autos-motos-y-otros/accesorios-para-autos-y-motos/baterias-para-autos/"
+    },
+    "Herramientas y accesorios": {
+        "sub_items": [],
+        "texto": "Herramientas y accesorios",
+        "category": 1933,
+        "url": "https://www.fravega.coml/autos-motos-y-otros/accesorios-para-autos-y-motos/herramientas-del-automotor/"
+    },
+    "Alimento para Mascotas": {
+        "sub_items": [],
+        "texto": "Alimento para Mascotas",
+        "category": 1934,
+        "url": "https://www.fravega.com/l/mascotas/alimentos-para-mascotas/"
+    },
+    "Peluqueria para mascotas": {
+        "sub_items": [],
+        "texto": "Peluqueria para mascotas",
+        "category": 1935,
+        "url": "https://www.fravega.coml/mascotas/accesorios-para-mascotas/?tipo=cortapelos"
+    },
+    "Bebederos y comederos": {
+        "sub_items": [],
+        "texto": "Bebederos y comederos",
+        "category": 1936,
+        "url": "https://www.fravega.coml/mascotas/accesorios-para-mascotas/?tipo=bebederos-y-comederos"
+    },
+    "Pretales y correas": {
+        "sub_items": [],
+        "texto": "Pretales y correas",
+        "category": 1937,
+        "url": "https://www.fravega.coml/mascotas/accesorios-para-mascotas/?tipo=elementos-de-paseo"
+    },
+    "Bolsos": {
+        "sub_items": [],
+        "texto": "Bolsos",
+        "category": 1938,
+        "url": "https://www.fravega.coml/indumentaria/accesorios/bolsos-y-bolsas/"
+    },
+    "Billeteras": {
+        "sub_items": [],
+        "texto": "Billeteras",
+        "category": 1939,
+        "url": "https://www.fravega.coml/indumentaria/accesorios/billeteras-y-monederos/"
+    },
+    "Accesorios de viaje": {
+        "sub_items": [],
+        "texto": "Accesorios de viaje",
+        "category": 1940,
+        "url": "https://www.fravega.com/l/indumentaria/accesorios/valijas-y-accesorios/"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Cremas heladas": {
+        "category": 1941,
+        "sub_items": [],
+        "url": ""
+    },
+    "Paletas": {
+        "category": 1942,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tortas": {
+        "category": 195,
+        "sub_items": [],
+        "url": ""
+    },
+    "Macarons": {
+        "category": 1943,
+        "sub_items": [],
+        "url": ""
+    },
+    "Bombones": {
+        "category": 1113,
+        "sub_items": [],
+        "url": ""
+    },
+    "Chocolates": {
+        "category": 202,
+        "sub_items": [],
+        "url": ""
+    }
+}

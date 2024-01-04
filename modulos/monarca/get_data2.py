@@ -36,10 +36,11 @@ for categoria in matchs:
         if registro['presentation'] != None:
             presentacion = ' - ' + registro['presentation'].strip()
         producto = { 
-            "name": registro['description'].strip() + presentacion,
+            "name": registro['description'].strip() + ' - ' + registro['brand'].strip() + ' - ' + presentacion,
             "price": registro['price'],
             "vendor_id": VENDOR,
             "branch_id": BRANCH,
+            "reg": registro,
             "category": matchs[str(registro['category']['id'])]
         }
         print(producto)

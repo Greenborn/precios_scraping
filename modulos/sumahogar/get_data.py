@@ -53,7 +53,7 @@ for categoria in categorias:
             continue
         producto = {
                     "vendor_id": 58,
-                    "name": name,
+                    "name": categoria + ' - ' +name,
                     "price": precio,
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
