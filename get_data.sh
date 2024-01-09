@@ -1,6 +1,8 @@
 cd modulos/rappi
-sh get_data_nocat.sh &
-pid0 = $!
+sh get_data.sh
+sh get_data_1.sh
+sh get_data_2.sh
+sh get_data_nocat.sh
 
 cd ..
 cd monarca
@@ -14,7 +16,7 @@ pid2 = $!
 
 cd ..
 cd emetelas
-python get_data.py  &
+python get_data.py &
 pid3 = $!
 
 cd ..
@@ -29,7 +31,7 @@ pid5 = $!
 
 cd ..
 cd kulture
-python get_data.py &
+python get_data.py  &
 pid6 = $!
 
 cd ..
@@ -49,15 +51,24 @@ pid9 = $!
 
 cd ..
 cd mercadonaturaltandil
-python get_data.py &
+python get_data.py  &
 pid10 = $!
 
 cd ..
 cd figlio
-python get_data.py &
+python get_data.py  &
 pid11 = $!
 
-wait $pid0
+cd ..
+cd promofiesta
+python get_data.py  &
+pid12 = $!
+
+cd ..
+cd greenboutique
+python get_data.py  &
+pid13 = $!
+
 wait $pid1
 wait $pid2
 wait $pid3
@@ -69,13 +80,15 @@ wait $pid8
 wait $pid9
 wait $pid10
 wait $pid11
+wait $pid12
+wait $pid13
 
 cd ..
 cd ..
 python genera_salida_conjunta.py
 
 cd resultados
-rm -f ../../OpenPriceStadisticsBack/scripts/tmp/*.json
-cp *.json ../../OpenPriceStadisticsBack/scripts/tmp/
-cd ../../OpenPriceStadisticsBack/scripts
+rm -f ../../precios_back/scripts/tmp/*.json
+cp *.json ../../precios_back/scripts/tmp/
+cd ../../precios_back/scripts
 python importar_productos.py

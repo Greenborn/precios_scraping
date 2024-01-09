@@ -1,0 +1,242 @@
+{
+    "Te": {
+        "category": 802,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/te/"
+    },
+    "Yerba": {
+        "category": 17,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/infusiones/yerba1/"
+    },
+    "Dulces": {
+        "category": 1080,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/dulces1/"
+    },
+    "Salados": {
+        "category": 1950,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/snacks/salados/"
+    },
+    "Barritas": {
+        "category": 1951,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/snacks/barritas1/"
+    },
+    "Almohaditas": {
+        "category": 1952,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/almohaditas/"
+    },
+    "Panificados": {
+        "category": 106,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/panificados1/"
+    },
+    "Galletitas": {
+        "category": 805,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/galletitas/"
+    },
+    "Crackers": {
+        "category": 1953,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/crackers/"
+    },
+    "Fideos": {
+        "category": 1802,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/fideos1/"
+    },
+    "Snacks": {
+        "category": 288,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/refrigerados/snacks1/"
+    },
+    "Pasta de mani": {
+        "category": 1954,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/pasta-de-mani/"
+    },
+    "Premezcla y harinas": {
+        "category": 1955,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/premezcla/"
+    },
+    "Rebozador": {
+        "category": 1956,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sin-tacc/rebozador/"
+    },
+    "Varios": {
+        "category": 1126,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/refrigerados/varios4/"
+    },
+    "Mermelada, Ddl y mantequillas": {
+        "category": 1957,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/dulces2/dulces-y-mermeladas/"
+    },
+    "Endulzantes": {
+        "category": 1958,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/dulces2/endulzantes/"
+    },
+    "Galletitas y granola": {
+        "category": 1959,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/galletitas1/"
+    },
+    "Harinas": {
+        "category": 1810,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/a-granel/harinas1/"
+    },
+    "Leches": {
+        "category": 815,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/leches1/"
+    },
+    "Sal": {
+        "category": 679,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/almacen/sal/"
+    },
+    "Arroz y legumbres": {
+        "category": 225,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/a-granel/arroz-y-legumbres/"
+    },
+    "Semillas": {
+        "category": 1433,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/a-granel/semillas/"
+    },
+    "Frutos secos": {
+        "category": 210,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/a-granel/frutos-secos/"
+    },
+    "Cereales": {
+        "category": 761,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/a-granel/cereales/"
+    },
+    "Condimentos": {
+        "category": 1808,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/condimentos1/"
+    },
+    "Fruta y verdura": {
+        "category": 1960,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/fruta-y-verdura/"
+    },
+    "Bocaditos": {
+        "category": 1961,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/bocaditos1/"
+    },
+    "Medallones y hamburguesas": {
+        "category": 1962,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/medallones-y-hamburguesas/"
+    },
+    "Postres": {
+        "category": 177,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/postres-y-helados1/"
+    },
+    "Helados": {
+        "category": 176,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/helados/"
+    },
+    "Pizzas": {
+        "category": 1963,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/pizzas/"
+    },
+    "Pastas": {
+        "category": 216,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/congelados/pastas/"
+    },
+    "Aderezos y salsas": {
+        "category": 1964,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/aderezos-y-salsas/"
+    },
+    "Conservas": {
+        "category": 575,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/conservas/"
+    },
+    "Sushi": {
+        "category": 1965,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/sushi/"
+    },
+    "Arroz": {
+        "category": 29,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/arroz1/"
+    },
+    "Sales": {
+        "category": 1106,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/gourmet/sales/"
+    },
+    "Bebidas": {
+        "category": 48,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/refrigerados/bebidas/"
+    },
+    "Quesos": {
+        "category": 857,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/refrigerados/quesos/"
+    },
+    "Yogurt": {
+        "category": 1966,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/refrigerados/yogurt/"
+    },
+    "Aceites, aceto y vinagres": {
+        "category": 1967,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/acetos-y-vinagres/"
+    },
+    "Not mila": {
+        "category": 1968,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/vegano1/not-mila/"
+    },
+    "Cosmetica": {
+        "category": 972,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/cosmetica/"
+    },
+    "Chocolates": {
+        "category": 202,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/chocolates/"
+    },
+    "Jugos": {
+        "category": 719,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/jugos/"
+    },
+    "Vegetales": {
+        "category": 1969,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/vegetales/"
+    },
+    "Cosm\u00e9tica": {
+        "category": 972,
+        "sub_items": [],
+        "url": "https://www.greenboutique.com.ar/cosmetica1/"
+    }
+}
