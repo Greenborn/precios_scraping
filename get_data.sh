@@ -84,6 +84,13 @@ wait $pid12
 wait $pid13
 
 cd ..
+cd amarillagas
+python get_data.py &
+pid14 = $!
+
+wait $pid14
+
+cd ..
 cd ..
 python genera_salida_conjunta.py
 

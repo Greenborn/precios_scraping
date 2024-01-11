@@ -16,7 +16,6 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
-listado_productos = []
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
@@ -83,5 +82,5 @@ for categoria in categorias:
 
 path = 'salida/productos_cat'+fecha+'.json'
 with open(path, 'w') as file:
-    json.dump(listado_productos, file)
+    json.dump(todos_resultados, file)
     print(path,' actualizado')
