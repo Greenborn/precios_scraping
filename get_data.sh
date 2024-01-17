@@ -88,7 +88,13 @@ cd amarillagas
 python get_data.py &
 pid14 = $!
 
+cd ..
+cd farmaciassiempre
+python get_data.py &
+pid15 = $!
+
 wait $pid14
+wait $pid15
 
 cd ..
 cd ..
