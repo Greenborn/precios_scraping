@@ -6,12 +6,12 @@ from datetime import datetime
 fecha = datetime.now().strftime("%Y%m%d")
 path = 'salida/productos_cat'+fecha+'.json'
 URL = "https://www.diarco.com.ar/ofertas/?wlfilter=1&orderby=popularity&sucursal=Tandil&padre=182&hijo=183&nieto=205&woolentor_sucursal=Tandil&product-page="
-BRANCH_ID = 71
+BRANCH_ID = 129
 listado_productos = []
 
 contador = 1
 
-ultima = 14
+ultima = 150
 cont_descuento = 0
 cont_promo = 0
 
@@ -27,6 +27,8 @@ while True:
     soup = BeautifulSoup(response, 'html.parser')
 
     product_html = soup.find_all(class_="product-type-simple")
+    if (len(product_html) == 0):
+        break
     for product in product_html:
         class_list = product['class']
         

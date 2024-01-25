@@ -1,0 +1,1272 @@
+{
+    "UTILES ESCOLARES": {
+        "category": 2304,
+        "sub_items": [],
+        "url": "category/?cat=131"
+    },
+    "PLASTILINAS": {
+        "category": 2305,
+        "sub_items": [],
+        "url": "category/?cat=1555"
+    },
+    "CRAYONES": {
+        "category": 2306,
+        "sub_items": [],
+        "url": "category/?cat=1556"
+    },
+    "INSTRUMENTOS DE GEOMETRIA": {
+        "category": 2307,
+        "sub_items": [],
+        "url": "category/?cat=1436"
+    },
+    "ESTUCHES y CARPETAS": {
+        "category": 2308,
+        "sub_items": [],
+        "url": "category/?cat=424"
+    },
+    "TIJERAS, CUTERS y SACAPUNTAS": {
+        "category": 2309,
+        "sub_items": [],
+        "url": "category/?cat=426"
+    },
+    "LAPIZ GRAFITO ESCOLAR": {
+        "category": 2310,
+        "sub_items": [],
+        "url": "category/?cat=1476"
+    },
+    "LAPICES COLORES ESCOLARES": {
+        "category": 2311,
+        "sub_items": [],
+        "url": "category/?cat=1477"
+    },
+    "BOLIGRAFOS": {
+        "category": 2312,
+        "sub_items": [],
+        "url": "category/?cat=1478"
+    },
+    "PORTAMINAS y RTOS MINAS": {
+        "category": 2313,
+        "sub_items": [],
+        "url": "category/?cat=1479"
+    },
+    "MARCADORES PIZARRA, TINTAS y BORRADORES": {
+        "category": 2314,
+        "sub_items": [],
+        "url": "category/?cat=1481"
+    },
+    "MARCADORES al AGUA - FIBRAS": {
+        "category": 2315,
+        "sub_items": [],
+        "url": "category/?cat=1482"
+    },
+    "RESALTADORES": {
+        "category": 2316,
+        "sub_items": [],
+        "url": "category/?cat=1483"
+    },
+    "MARCADORES PERMANENTES": {
+        "category": 2317,
+        "sub_items": [],
+        "url": "category/?cat=1487"
+    },
+    "CARTUCHERAS": {
+        "category": 2318,
+        "sub_items": [],
+        "url": "category/?cat=1565"
+    },
+    "MOCHILAS y LUNCHERAS": {
+        "category": 2319,
+        "sub_items": [],
+        "url": "category/?cat=1566"
+    },
+    "GOMAS y CORRECTORES": {
+        "category": 2320,
+        "sub_items": [],
+        "url": "category/?cat=421"
+    },
+    "PEGAMENTOS": {
+        "category": 2321,
+        "sub_items": [],
+        "url": "category/?cat=1443"
+    },
+    "ADHESIVOS VINILICOS": {
+        "category": 2322,
+        "sub_items": [],
+        "url": "category/?cat=1444"
+    },
+    "ADHESIVOS SINTETICOS": {
+        "category": 2323,
+        "sub_items": [],
+        "url": "category/?cat=1445"
+    },
+    "ADHESIVOS EN BARRA": {
+        "category": 2324,
+        "sub_items": [],
+        "url": "category/?cat=1446"
+    },
+    "ADHESIVOS GLITTER": {
+        "category": 2325,
+        "sub_items": [],
+        "url": "category/?cat=1447"
+    },
+    "ADHESIVOS DE CONTACTO": {
+        "category": 2326,
+        "sub_items": [],
+        "url": "category/?cat=1448"
+    },
+    "PISTOLA CALOR": {
+        "category": 2327,
+        "sub_items": [],
+        "url": "category/?cat=1449"
+    },
+    "ADHESIVOS COLOR": {
+        "category": 2328,
+        "sub_items": [],
+        "url": "category/?cat=1450"
+    },
+    "CUADERNOS, BLOCKS Y REPUESTOS": {
+        "category": 2329,
+        "sub_items": [],
+        "url": "category/?cat=1455"
+    },
+    "CUADERNOS ESCOLAR 16X21": {
+        "category": 2330,
+        "sub_items": [],
+        "url": "category/?cat=709"
+    },
+    "CUADERNOS  ABC/Nro 3": {
+        "category": 2331,
+        "sub_items": [],
+        "url": "category/?cat=711"
+    },
+    "CUADERNOS A4": {
+        "category": 2332,
+        "sub_items": [],
+        "url": "category/?cat=798"
+    },
+    "CUADERNOS A5 y A6": {
+        "category": 2333,
+        "sub_items": [],
+        "url": "category/?cat=1524"
+    },
+    "DIARIOS INTIMOS": {
+        "category": 2334,
+        "sub_items": [],
+        "url": "category/?cat=1537"
+    },
+    "CUADERNOS 21X27": {
+        "category": 2335,
+        "sub_items": [],
+        "url": "category/?cat=1526"
+    },
+    "CUADERNILLOS 29/7": {
+        "category": 2336,
+        "sub_items": [],
+        "url": "category/?cat=1525"
+    },
+    "CUADERNOS CALIGRAFIA & COMUNICACIONES": {
+        "category": 2337,
+        "sub_items": [],
+        "url": "category/?cat=1527"
+    },
+    "SEPARADORES DE MATERIAS & ETIQUETAS": {
+        "category": 2338,
+        "sub_items": [],
+        "url": "category/?cat=1562"
+    },
+    "BLOCKS ANOTADORES": {
+        "category": 2339,
+        "sub_items": [],
+        "url": "category/?cat=1529"
+    },
+    "BLOCKS DIBUJO": {
+        "category": 2340,
+        "sub_items": [],
+        "url": "category/?cat=1558"
+    },
+    "REPUESTOS HOJAS ESCOLARES RAYADAS y CUADRICULADAS": {
+        "category": 2341,
+        "sub_items": [],
+        "url": "category/?cat=1560"
+    },
+    "MAPAS Nro 3 & Nro 5": {
+        "category": 2342,
+        "sub_items": [],
+        "url": "category/?cat=1564"
+    },
+    "HOJAS DE CALCAR, MILIMETRICAS y PENTAGRAMAS": {
+        "category": 2343,
+        "sub_items": [],
+        "url": "category/?cat=1561"
+    },
+    "REPUESTOS HOJAS DE DIBUJO": {
+        "category": 2344,
+        "sub_items": [],
+        "url": "category/?cat=1559"
+    },
+    "PAPELERIA": {
+        "category": 278,
+        "sub_items": [],
+        "url": "category/?cat=1567"
+    },
+    "Mo\u00f1os y Cintas para Mo\u00f1os": {
+        "category": 2345,
+        "sub_items": [],
+        "url": "category/?cat=1536"
+    },
+    "200 gr. CARTULINAS COLOREADAS EN MASA": {
+        "category": 2346,
+        "sub_items": [],
+        "url": "category/?cat=1795"
+    },
+    "90 gr. CARTULINAS COLOREADAS EN MASA": {
+        "category": 2347,
+        "sub_items": [],
+        "url": "category/?cat=1796"
+    },
+    "120 gr. CARTULINAS COLORES METALIZADOS": {
+        "category": 2348,
+        "sub_items": [],
+        "url": "category/?cat=1797"
+    },
+    "PLASTIFICADOS, CONTAC & CARBONICOS": {
+        "category": 2349,
+        "sub_items": [],
+        "url": "category/?cat=1314"
+    },
+    "MICROCORRUGADOS & CARTON": {
+        "category": 2350,
+        "sub_items": [],
+        "url": "category/?cat=1316"
+    },
+    "CARTULINA COLOR & PASTEL": {
+        "category": 2351,
+        "sub_items": [],
+        "url": "category/?cat=1343"
+    },
+    "CARTULINA METALIZADA & GLITTER": {
+        "category": 2352,
+        "sub_items": [],
+        "url": "category/?cat=1345"
+    },
+    "CARTULINA ENTRETENIDA": {
+        "category": 2353,
+        "sub_items": [],
+        "url": "category/?cat=1346"
+    },
+    "PAPEL PARA FORRAR": {
+        "category": 2354,
+        "sub_items": [],
+        "url": "category/?cat=1397"
+    },
+    "PAPEL PARA ENVOLVER": {
+        "category": 2355,
+        "sub_items": [],
+        "url": "category/?cat=1429"
+    },
+    "MISIONERO & MADERA": {
+        "category": 2356,
+        "sub_items": [],
+        "url": "category/?cat=1430"
+    },
+    "Papel Seda o Barrilete": {
+        "category": 2357,
+        "sub_items": [],
+        "url": "category/?cat=442"
+    },
+    "Papel Crepe": {
+        "category": 2358,
+        "sub_items": [],
+        "url": "category/?cat=443"
+    },
+    "PAPEL AFICHE": {
+        "category": 2359,
+        "sub_items": [],
+        "url": "category/?cat=444"
+    },
+    "Celofan y Acetato": {
+        "category": 2360,
+        "sub_items": [],
+        "url": "category/?cat=449"
+    },
+    "MANTECA, MOLDE & GLASE": {
+        "category": 2361,
+        "sub_items": [],
+        "url": "category/?cat=484"
+    },
+    "Fotograficos y Autoadhesivos": {
+        "category": 2362,
+        "sub_items": [],
+        "url": "category/?cat=485"
+    },
+    "OFICINA": {
+        "category": 1301,
+        "sub_items": [],
+        "url": "category/?cat=1568"
+    },
+    "CINTAS DE PAPEL, MARRON y TRANSP.": {
+        "category": 2363,
+        "sub_items": [],
+        "url": "category/?cat=768"
+    },
+    "TINTAS, SELLOS y ALMOHADILLAS": {
+        "category": 2364,
+        "sub_items": [],
+        "url": "category/?cat=769"
+    },
+    "BROCHES y ABROCHADORAS": {
+        "category": 2365,
+        "sub_items": [],
+        "url": "category/?cat=770"
+    },
+    "AGENDAS 2024": {
+        "category": 2366,
+        "sub_items": [],
+        "url": "category/?cat=1282"
+    },
+    "BANDAS ELASTICAS": {
+        "category": 2367,
+        "sub_items": [],
+        "url": "category/?cat=772"
+    },
+    "FOLIOS & CARPETA FOLIADA": {
+        "category": 2368,
+        "sub_items": [],
+        "url": "category/?cat=1806"
+    },
+    "PILAS & CESTOS": {
+        "category": 2369,
+        "sub_items": [],
+        "url": "category/?cat=1413"
+    },
+    "RECIBO PAGARE COMPRAVENTA": {
+        "category": 2370,
+        "sub_items": [],
+        "url": "category/?cat=1414"
+    },
+    "RESMAS": {
+        "category": 2371,
+        "sub_items": [],
+        "url": "category/?cat=433"
+    },
+    "BIBLIORATOS": {
+        "category": 2372,
+        "sub_items": [],
+        "url": "category/?cat=434"
+    },
+    "CLIPS, CHINCHES y ALFILERES": {
+        "category": 2373,
+        "sub_items": [],
+        "url": "category/?cat=437"
+    },
+    "NOTAS/TACOS/FICHAS/ETIQ": {
+        "category": 2374,
+        "sub_items": [],
+        "url": "category/?cat=439"
+    },
+    "CALCULADORAS Y MAQUINAS DE OFICINA": {
+        "category": 2375,
+        "sub_items": [],
+        "url": "category/?cat=715"
+    },
+    "CARTUCHOS E INSUMOS PARA IMPRESORAS": {
+        "category": 2376,
+        "sub_items": [],
+        "url": "category/?cat=1753"
+    },
+    "EMBALAJE": {
+        "category": 2377,
+        "sub_items": [],
+        "url": "embalaje/"
+    },
+    "Libros y Revistas": {
+        "category": 2378,
+        "sub_items": [],
+        "url": "category/?cat=1755"
+    },
+    "Batman 1980 - Cinco Colombia": {
+        "category": 2379,
+        "sub_items": [],
+        "url": "category/?cat=1852"
+    },
+    "Editorial Novaro 1982": {
+        "category": 2380,
+        "sub_items": [],
+        "url": "category/?cat=1853"
+    },
+    "Cinco Colombia 1985": {
+        "category": 2381,
+        "sub_items": [],
+        "url": "category/?cat=1854"
+    },
+    "Batman 1990 - Perfil": {
+        "category": 2382,
+        "sub_items": [],
+        "url": "category/?cat=1855"
+    },
+    "Liga de la Justicia E - Perfil 1990": {
+        "category": 2383,
+        "sub_items": [],
+        "url": "category/?cat=1856"
+    },
+    "PACK STICKERS BOLA 8": {
+        "category": 2384,
+        "sub_items": [],
+        "url": "category/?cat=1899"
+    },
+    "STICKERS BOLA 8": {
+        "category": 2385,
+        "sub_items": [],
+        "url": "category/?cat=1901"
+    },
+    "Cuentos Infantiles": {
+        "category": 2386,
+        "sub_items": [],
+        "url": "category/?cat=1775"
+    },
+    "Infantiles para colorear": {
+        "category": 2387,
+        "sub_items": [],
+        "url": "category/?cat=1776"
+    },
+    "Cuentos de Disney": {
+        "category": 2388,
+        "sub_items": [],
+        "url": "category/?cat=1777"
+    },
+    "Historietas y comics": {
+        "category": 2389,
+        "sub_items": [],
+        "url": "category/?cat=1778"
+    },
+    "Manualidades": {
+        "category": 1143,
+        "sub_items": [],
+        "url": "category/?cat=214"
+    },
+    "STICKERS & MAQUILLAJE ARTISTICO": {
+        "category": 2390,
+        "sub_items": [],
+        "url": "category/?cat=1545"
+    },
+    "MOLDES DE SILICONA": {
+        "category": 2391,
+        "sub_items": [],
+        "url": "category/?cat=1291"
+    },
+    "MASAS P/ MODELAR": {
+        "category": 2392,
+        "sub_items": [],
+        "url": "category/?cat=286"
+    },
+    "HERRAJES": {
+        "category": 2393,
+        "sub_items": [],
+        "url": "category/?cat=814"
+    },
+    "ARTICULOS PARA DECORACION": {
+        "category": 2394,
+        "sub_items": [],
+        "url": "category/?cat=1615"
+    },
+    "ARTICULOS DE MADERA": {
+        "category": 2395,
+        "sub_items": [],
+        "url": "category/?cat=1877"
+    },
+    "PALITOS MADERA & Otros": {
+        "category": 2396,
+        "sub_items": [],
+        "url": "category/?cat=369"
+    },
+    "BRILLANTINAS": {
+        "category": 2397,
+        "sub_items": [],
+        "url": "category/?cat=371"
+    },
+    "GLITTER METALIZADO, FLUOR & PERLADO": {
+        "category": 2398,
+        "sub_items": [],
+        "url": "category/?cat=1406"
+    },
+    "LENTEJUELAS": {
+        "category": 2399,
+        "sub_items": [],
+        "url": "category/?cat=1409"
+    },
+    "BOLSAS TUL / IMAN / ALAMBRE": {
+        "category": 2400,
+        "sub_items": [],
+        "url": "category/?cat=386"
+    },
+    "PURPURINA": {
+        "category": 2401,
+        "sub_items": [],
+        "url": "category/?cat=1410"
+    },
+    "Transferencia y decoupage": {
+        "category": 2402,
+        "sub_items": [],
+        "url": "tranferenciaydecoupage/"
+    },
+    "OJOS MOVILES": {
+        "category": 2403,
+        "sub_items": [],
+        "url": "category/?cat=737"
+    },
+    "BROCHES  y OJALILLOS P/ MANUALIDADES": {
+        "category": 2404,
+        "sub_items": [],
+        "url": "category/?cat=738"
+    },
+    "TANZAS E HILOS": {
+        "category": 2405,
+        "sub_items": [],
+        "url": "category/?cat=766"
+    },
+    "SORBETES DE PAPEL": {
+        "category": 2406,
+        "sub_items": [],
+        "url": "category/?cat=767"
+    },
+    "DIBUJO": {
+        "category": 2407,
+        "sub_items": [],
+        "url": "category/?cat=489"
+    },
+    "MARCADORES ARTISTICOS": {
+        "category": 2408,
+        "sub_items": [],
+        "url": "category/?cat=1287"
+    },
+    "PAPELES LISOS ESPECIALES VARIOS GRAMAJES": {
+        "category": 2409,
+        "sub_items": [],
+        "url": "category/?cat=1313"
+    },
+    "TINTA CHINA Y ACC.": {
+        "category": 2410,
+        "sub_items": [],
+        "url": "category/?cat=1836"
+    },
+    "MICROFIBRAS - Distintas Puntas": {
+        "category": 2411,
+        "sub_items": [],
+        "url": "category/?cat=1839"
+    },
+    "BLOCKS DE HOJAS ARTISTICO": {
+        "category": 2412,
+        "sub_items": [],
+        "url": "category/?cat=862"
+    },
+    "GOMAS PARA DIBUJO": {
+        "category": 2413,
+        "sub_items": [],
+        "url": "category/?cat=863"
+    },
+    "CARBONILLAS": {
+        "category": 2414,
+        "sub_items": [],
+        "url": "category/?cat=864"
+    },
+    "TIZAS PASTEL, CERAS & PASTELES": {
+        "category": 2415,
+        "sub_items": [],
+        "url": "category/?cat=865"
+    },
+    "LAPICES GRAFITO DIBUJO": {
+        "category": 2416,
+        "sub_items": [],
+        "url": "category/?cat=866"
+    },
+    "LAPICES ARTISTICOS COLOR": {
+        "category": 2417,
+        "sub_items": [],
+        "url": "category/?cat=868"
+    },
+    "ESFUMINOS": {
+        "category": 2418,
+        "sub_items": [],
+        "url": "category/?cat=1471"
+    },
+    "Pintura": {
+        "category": 2419,
+        "sub_items": [],
+        "url": "category/?cat=493"
+    },
+    "STENCILS": {
+        "category": 2420,
+        "sub_items": [],
+        "url": "stencils/"
+    },
+    "PINTURAS Y BARNICES": {
+        "category": 2421,
+        "sub_items": [],
+        "url": "pinturas/"
+    },
+    "PLACAS DE FIBRO": {
+        "category": 2422,
+        "sub_items": [],
+        "url": "category/?cat=542"
+    },
+    "BASTIDORES ENTELADOS": {
+        "category": 2423,
+        "sub_items": [],
+        "url": "category/?cat=543"
+    },
+    "BASTIDORES FIBRO": {
+        "category": 2424,
+        "sub_items": [],
+        "url": "category/?cat=544"
+    },
+    "ACUARELAS": {
+        "category": 2425,
+        "sub_items": [],
+        "url": "category/?cat=1837"
+    },
+    "TEMPERAS": {
+        "category": 2426,
+        "sub_items": [],
+        "url": "category/?cat=1838"
+    },
+    "PALETA MEZCLADORA": {
+        "category": 2427,
+        "sub_items": [],
+        "url": "category/?cat=1480"
+    },
+    "FOIL": {
+        "category": 2428,
+        "sub_items": [],
+        "url": "category/?cat=1510"
+    },
+    "PINCELES, RODILLOS y HERRAM.": {
+        "category": 2429,
+        "sub_items": [],
+        "url": "pinceles/"
+    },
+    "MARCADORES TELA": {
+        "category": 2430,
+        "sub_items": [],
+        "url": "category/?cat=1262"
+    },
+    "GOMA EVA & CORCHO": {
+        "category": 2431,
+        "sub_items": [],
+        "url": "category/?cat=1310"
+    },
+    "PLANCHAS DE CORCHO": {
+        "category": 2432,
+        "sub_items": [],
+        "url": "category/?cat=1552"
+    },
+    "GOMA EVA TOALLA": {
+        "category": 2433,
+        "sub_items": [],
+        "url": "category/?cat=1327"
+    },
+    "GOMA EVA LISA COLOR": {
+        "category": 2434,
+        "sub_items": [],
+        "url": "category/?cat=1340"
+    },
+    "GOMA EVA CON GLITTER COLOR": {
+        "category": 2435,
+        "sub_items": [],
+        "url": "category/?cat=1347"
+    },
+    "PERFORADORAS, TROQUELES y ACC.": {
+        "category": 2436,
+        "sub_items": [],
+        "url": "category/?cat=1318"
+    },
+    "TROQUELES 6 PULGADAS": {
+        "category": 2437,
+        "sub_items": [],
+        "url": "category/?cat=1539"
+    },
+    "TABLERO DE CORTE": {
+        "category": 2438,
+        "sub_items": [],
+        "url": "category/?cat=1548"
+    },
+    "TABLEROS DE MARCADO Y PLEGADO": {
+        "category": 2439,
+        "sub_items": [],
+        "url": "category/?cat=1549"
+    },
+    "P/ DIFERENTES MATERIALES": {
+        "category": 2440,
+        "sub_items": [],
+        "url": "category/?cat=1550"
+    },
+    "ETIQUETAS FOIL": {
+        "category": 2441,
+        "sub_items": [],
+        "url": "category/?cat=1321"
+    },
+    "16 mm 5/8 PULGADAS PERFORADORA": {
+        "category": 2442,
+        "sub_items": [],
+        "url": "category/?cat=1332"
+    },
+    "25 mm 1 pulgada PERFORADORAS": {
+        "category": 2443,
+        "sub_items": [],
+        "url": "category/?cat=1513"
+    },
+    "38 mm 1.5 PULGADAS PERFORADORA": {
+        "category": 2444,
+        "sub_items": [],
+        "url": "category/?cat=1514"
+    },
+    "63 mm 2.5 PULGADAS PERFORADORA": {
+        "category": 2445,
+        "sub_items": [],
+        "url": "category/?cat=1515"
+    },
+    "50 mm 2 PULGADAS PERFORADORA": {
+        "category": 2446,
+        "sub_items": [],
+        "url": "category/?cat=1516"
+    },
+    "75 mm 3 PULGADAS": {
+        "category": 2447,
+        "sub_items": [],
+        "url": "category/?cat=1517"
+    },
+    "PINZAS Y REDONDEADORAS": {
+        "category": 2448,
+        "sub_items": [],
+        "url": "category/?cat=1518"
+    },
+    "PERFORADORAS PARA GUARDAS": {
+        "category": 2449,
+        "sub_items": [],
+        "url": "category/?cat=1519"
+    },
+    "PLANTILLAS 3 Pulgadas": {
+        "category": 2450,
+        "sub_items": [],
+        "url": "category/?cat=1534"
+    },
+    "TROQUELES 4.25 PULGADAS": {
+        "category": 2451,
+        "sub_items": [],
+        "url": "category/?cat=1535"
+    },
+    "SELLOS y CINTAS": {
+        "category": 2452,
+        "sub_items": [],
+        "url": "category/?cat=1336"
+    },
+    "CINTAS DECORATIVAS": {
+        "category": 2453,
+        "sub_items": [],
+        "url": "category/?cat=1538"
+    },
+    "SELLOS DE SILICONA": {
+        "category": 2454,
+        "sub_items": [],
+        "url": "category/?cat=1337"
+    },
+    "SELLOS GOMA AUTOADHESIVOS": {
+        "category": 2455,
+        "sub_items": [],
+        "url": "category/?cat=1338"
+    },
+    "STAMP SET BULLET": {
+        "category": 2456,
+        "sub_items": [],
+        "url": "category/?cat=1339"
+    },
+    "SELLO GOMA HyN TEXTURADORES": {
+        "category": 2457,
+        "sub_items": [],
+        "url": "category/?cat=1350"
+    },
+    "BAJO RELIEVE EQ": {
+        "category": 2458,
+        "sub_items": [],
+        "url": "category/?cat=1431"
+    },
+    "SELLO GOMA HyN NAVIDAD": {
+        "category": 2459,
+        "sub_items": [],
+        "url": "category/?cat=1489"
+    },
+    "EVA BAJO RELIEVE": {
+        "category": 2460,
+        "sub_items": [],
+        "url": "category/?cat=1507"
+    },
+    "SELLO GOMA HyN DECORACION": {
+        "category": 2461,
+        "sub_items": [],
+        "url": "category/?cat=1783"
+    },
+    "SELLO GOMA HyN ANIMALES": {
+        "category": 2462,
+        "sub_items": [],
+        "url": "category/?cat=1784"
+    },
+    "SELLO GOMA HyN HOGAR": {
+        "category": 2463,
+        "sub_items": [],
+        "url": "category/?cat=1785"
+    },
+    "SELLOS GOMA HyN BULLET JOURNAL": {
+        "category": 2464,
+        "sub_items": [],
+        "url": "category/?cat=1786"
+    },
+    "SELLO GOMA HyN ARTE": {
+        "category": 2465,
+        "sub_items": [],
+        "url": "category/?cat=1787"
+    },
+    "ARCILLAS/PASTAS": {
+        "category": 2466,
+        "sub_items": [],
+        "url": "category/?cat=1570"
+    },
+    "PASTA BLANCA": {
+        "category": 2467,
+        "sub_items": [],
+        "url": "category/?cat=1575"
+    },
+    "PASTA ROJA": {
+        "category": 2468,
+        "sub_items": [],
+        "url": "category/?cat=1576"
+    },
+    "BARBOTINA": {
+        "category": 2469,
+        "sub_items": [],
+        "url": "category/?cat=1578"
+    },
+    "COLORES": {
+        "category": 2470,
+        "sub_items": [],
+        "url": "category/?cat=1571"
+    },
+    "OXIDOS": {
+        "category": 2471,
+        "sub_items": [],
+        "url": "category/?cat=1579"
+    },
+    "PIGMENTOS": {
+        "category": 2472,
+        "sub_items": [],
+        "url": "category/?cat=1580"
+    },
+    "ESMALTES": {
+        "category": 2145,
+        "sub_items": [],
+        "url": "category/?cat=1581"
+    },
+    "HERRAMIENTAS": {
+        "category": 1278,
+        "sub_items": [],
+        "url": "category/?cat=1573"
+    },
+    "ESTECAS & ESPATULAS": {
+        "category": 2473,
+        "sub_items": [],
+        "url": "category/?cat=1583"
+    },
+    "DESVASTADORES": {
+        "category": 2474,
+        "sub_items": [],
+        "url": "category/?cat=1584"
+    },
+    "GUBIAS & AHUECADORES": {
+        "category": 2475,
+        "sub_items": [],
+        "url": "category/?cat=1585"
+    },
+    "LAMAS": {
+        "category": 2476,
+        "sub_items": [],
+        "url": "category/?cat=1586"
+    },
+    "CORTANTES": {
+        "category": 2477,
+        "sub_items": [],
+        "url": "category/?cat=1619"
+    },
+    "TORNETA": {
+        "category": 2478,
+        "sub_items": [],
+        "url": "category/?cat=1634"
+    },
+    "MOLDES & SELLOS": {
+        "category": 2479,
+        "sub_items": [],
+        "url": "category/?cat=1574"
+    },
+    "MACETAS MOLDES YESO": {
+        "category": 2480,
+        "sub_items": [],
+        "url": "category/?cat=1794"
+    },
+    "TE Y MERIENDA MOLDES YESO": {
+        "category": 2481,
+        "sub_items": [],
+        "url": "category/?cat=1798"
+    },
+    "ALMUERZO Y CENA MOLDES YESO": {
+        "category": 2482,
+        "sub_items": [],
+        "url": "category/?cat=1799"
+    },
+    "DECO MOLDES YESO": {
+        "category": 2483,
+        "sub_items": [],
+        "url": "category/?cat=1800"
+    },
+    "FRASCOS MOLDES YESO": {
+        "category": 2484,
+        "sub_items": [],
+        "url": "category/?cat=1801"
+    },
+    "SELLOS": {
+        "category": 2485,
+        "sub_items": [],
+        "url": "category/?cat=1620"
+    },
+    "CINTAS": {
+        "category": 2486,
+        "sub_items": [],
+        "url": "category/?cat=1587"
+    },
+    "RASO N\u00ba1 - 6 mm X METRO": {
+        "category": 2487,
+        "sub_items": [],
+        "url": "category/?cat=1588"
+    },
+    "RASO - N\u00ba2 10 mm X METRO": {
+        "category": 2488,
+        "sub_items": [],
+        "url": "category/?cat=1589"
+    },
+    "RASO N\u00ba3 - 15 mm X METRO": {
+        "category": 2489,
+        "sub_items": [],
+        "url": "category/?cat=1590"
+    },
+    "RASO N\u00ba5 - 25 mm X METRO": {
+        "category": 2490,
+        "sub_items": [],
+        "url": "category/?cat=1591"
+    },
+    "RASO DOBLE FAZ - 40 mm": {
+        "category": 2491,
+        "sub_items": [],
+        "url": "category/?cat=1592"
+    },
+    "RASO DOBLE FAZ - 50 mm": {
+        "category": 2492,
+        "sub_items": [],
+        "url": "category/?cat=1593"
+    },
+    "RASO DOBLE FAZ - 70 mm": {
+        "category": 2493,
+        "sub_items": [],
+        "url": "category/?cat=1594"
+    },
+    "GROSS DE SEDA #3 -  15 mm": {
+        "category": 2494,
+        "sub_items": [],
+        "url": "category/?cat=1595"
+    },
+    "GROSS DE SEDA #5 - 25 mm": {
+        "category": 2495,
+        "sub_items": [],
+        "url": "category/?cat=1596"
+    },
+    "GROSS DE SEDA - 40 mm": {
+        "category": 2496,
+        "sub_items": [],
+        "url": "category/?cat=1598"
+    },
+    "BABY GROSS LISO - 10 mm": {
+        "category": 2497,
+        "sub_items": [],
+        "url": "category/?cat=1599"
+    },
+    "BABY GROSS ESTAMPADO & LUREX": {
+        "category": 2498,
+        "sub_items": [],
+        "url": "category/?cat=1600"
+    },
+    "MOCHILERA & SUBLIMADAS": {
+        "category": 2499,
+        "sub_items": [],
+        "url": "category/?cat=1601"
+    },
+    "LUREX & NAVIDAD": {
+        "category": 2500,
+        "sub_items": [],
+        "url": "category/?cat=1602"
+    },
+    "INFANTILES y VARIAS": {
+        "category": 2501,
+        "sub_items": [],
+        "url": "category/?cat=1603"
+    },
+    "LADY CHIFON": {
+        "category": 2502,
+        "sub_items": [],
+        "url": "category/?cat=1604"
+    },
+    "BIES LISOS 2 cm": {
+        "category": 2503,
+        "sub_items": [],
+        "url": "category/?cat=1611"
+    },
+    "BIES LUREX, RASO & ESTAMPADAS 2 cm": {
+        "category": 2504,
+        "sub_items": [],
+        "url": "category/?cat=1612"
+    },
+    "RUSTICAS": {
+        "category": 2505,
+        "sub_items": [],
+        "url": "category/?cat=1617"
+    },
+    "ELASTICOS & CORDONES": {
+        "category": 2506,
+        "sub_items": [],
+        "url": "category/?cat=1605"
+    },
+    "POLIESTER 3002": {
+        "category": 2507,
+        "sub_items": [],
+        "url": "category/?cat=1606"
+    },
+    "ALGODON": {
+        "category": 1174,
+        "sub_items": [],
+        "url": "category/?cat=1607"
+    },
+    "BRETEL": {
+        "category": 2508,
+        "sub_items": [],
+        "url": "category/?cat=1608"
+    },
+    "FLASH 6 mm": {
+        "category": 2509,
+        "sub_items": [],
+        "url": "category/?cat=1609"
+    },
+    "AFELPADO": {
+        "category": 2510,
+        "sub_items": [],
+        "url": "category/?cat=1610"
+    },
+    "CORDON SINTETICO": {
+        "category": 2511,
+        "sub_items": [],
+        "url": "category/?cat=1638"
+    },
+    "CORDON ALGODON": {
+        "category": 2512,
+        "sub_items": [],
+        "url": "category/?cat=1639"
+    },
+    "HILOS & AGUJAS": {
+        "category": 2513,
+        "sub_items": [],
+        "url": "category/?cat=1614"
+    },
+    "BOBINA CONO": {
+        "category": 2514,
+        "sub_items": [],
+        "url": "category/?cat=1628"
+    },
+    "BOBINA MEDIANA": {
+        "category": 2515,
+        "sub_items": [],
+        "url": "category/?cat=1630"
+    },
+    "BOBINA CHICA": {
+        "category": 2516,
+        "sub_items": [],
+        "url": "category/?cat=1631"
+    },
+    "BOBINAS VARIOS": {
+        "category": 2517,
+        "sub_items": [],
+        "url": "category/?cat=1632"
+    },
+    "AGUJAS": {
+        "category": 2518,
+        "sub_items": [],
+        "url": "category/?cat=1642"
+    },
+    "ALFILERES": {
+        "category": 2519,
+        "sub_items": [],
+        "url": "category/?cat=1643"
+    },
+    "BRODERIES & PUNTILLAS": {
+        "category": 2520,
+        "sub_items": [],
+        "url": "category/?cat=1622"
+    },
+    "BRODERIES 2 a 6 cm": {
+        "category": 2521,
+        "sub_items": [],
+        "url": "category/?cat=1623"
+    },
+    "BRODERIES 6 a 12.5 cm": {
+        "category": 2522,
+        "sub_items": [],
+        "url": "category/?cat=1626"
+    },
+    "PUNTILLA NYLON 1 a 10 cm": {
+        "category": 2523,
+        "sub_items": [],
+        "url": "category/?cat=1627"
+    },
+    "PUNTILLAS ALGODON": {
+        "category": 2524,
+        "sub_items": [],
+        "url": "category/?cat=1636"
+    },
+    "POMPONES, FLECOS & GALONES": {
+        "category": 2525,
+        "sub_items": [],
+        "url": "category/?cat=1624"
+    },
+    "POMPONES": {
+        "category": 2526,
+        "sub_items": [],
+        "url": "category/?cat=1635"
+    },
+    "FLECOS": {
+        "category": 2527,
+        "sub_items": [],
+        "url": "category/?cat=1637"
+    },
+    "ACCESORIOS VARIOS": {
+        "category": 2528,
+        "sub_items": [],
+        "url": "category/?cat=1625"
+    },
+    "ART. EN TELA": {
+        "category": 2529,
+        "sub_items": [],
+        "url": "category/?cat=1876"
+    },
+    "AROS & BASTIDORES": {
+        "category": 2530,
+        "sub_items": [],
+        "url": "category/?cat=1641"
+    },
+    "BROCHES OJALES TACHAS": {
+        "category": 2531,
+        "sub_items": [],
+        "url": "category/?cat=1644"
+    },
+    "ANILINAS": {
+        "category": 2532,
+        "sub_items": [],
+        "url": "category/?cat=1645"
+    },
+    "ARTICULOS MODISTA": {
+        "category": 2533,
+        "sub_items": [],
+        "url": "category/?cat=1646"
+    },
+    "TERMINALES, TANCAS & HEBILLAS": {
+        "category": 2534,
+        "sub_items": [],
+        "url": "category/?cat=1650"
+    },
+    "ABROJO & RIB": {
+        "category": 2535,
+        "sub_items": [],
+        "url": "category/?cat=1651"
+    },
+    "INFORMATICA": {
+        "category": 1689,
+        "sub_items": [],
+        "url": "category/?cat=1859"
+    },
+    "TECLADOS": {
+        "category": 1353,
+        "sub_items": [],
+        "url": "category/?cat=1860"
+    },
+    "COMBOS GAMER": {
+        "category": 2536,
+        "sub_items": [],
+        "url": "category/?cat=1862"
+    },
+    "MOUSES": {
+        "category": 1851,
+        "sub_items": [],
+        "url": "category/?cat=1863"
+    },
+    "AURICULARES GAMER": {
+        "category": 2537,
+        "sub_items": [],
+        "url": "category/?cat=1864"
+    },
+    "PADS": {
+        "category": 2538,
+        "sub_items": [],
+        "url": "category/?cat=1866"
+    },
+    "AUDIO": {
+        "category": 1217,
+        "sub_items": [],
+        "url": "category/?cat=1865"
+    },
+    "PARLANTES BLUETOOTH": {
+        "category": 1382,
+        "sub_items": [],
+        "url": "category/?cat=1867"
+    },
+    "AURICULARES BLUETOOTH": {
+        "category": 2539,
+        "sub_items": [],
+        "url": "category/?cat=1868"
+    },
+    "AURICULARES CON CABLE": {
+        "category": 2540,
+        "sub_items": [],
+        "url": "category/?cat=1869"
+    },
+    "ACCESORIOS PARA CELULARES": {
+        "category": 1695,
+        "sub_items": [],
+        "url": "category/?cat=1870"
+    },
+    "CARGADORES": {
+        "category": 1234,
+        "sub_items": [],
+        "url": "category/?cat=1872"
+    },
+    "CABLES": {
+        "category": 1211,
+        "sub_items": [],
+        "url": "category/?cat=1873"
+    },
+    "FUNDAS": {
+        "category": 1435,
+        "sub_items": [],
+        "url": "category/?cat=1874"
+    },
+    "VIDEOJUEGOS": {
+        "category": 1699,
+        "sub_items": [],
+        "url": "category/?cat=1871"
+    },
+    "CONSOLAS DE MANO": {
+        "category": 2541,
+        "sub_items": [],
+        "url": "category/?cat=1875"
+    }
+}

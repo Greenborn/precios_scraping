@@ -41,6 +41,7 @@ def procesar_resultados(res_consulta):
                     "name": data_["name"] + " - " + data_["description"],
                     "price": float(data_["offers"]["price"]),
                     "is_ext": "",
+                    "url": data_["offers"]["url"],
                     "branch_id": BRANCH_ID,
                     "all_data": data_,
                     "category": categorias[categoria]["category"]

@@ -5,6 +5,11 @@ sh get_data_2.sh
 sh get_data_nocat.sh
 
 cd ..
+cd masfarmacias
+python get_data.py &
+pid16 = $!
+
+cd ..
 cd monarca
 sh get_data.sh &
 pid1 = $!
@@ -82,6 +87,7 @@ wait $pid10
 wait $pid11
 wait $pid12
 wait $pid13
+wait $pid16
 
 cd ..
 cd amarillagas
@@ -93,8 +99,16 @@ cd farmaciassiempre
 python get_data.py &
 pid15 = $!
 
+
+
+cd ..
+cd diarco
+python get_data.py &
+pid17 = $!
+
 wait $pid14
 wait $pid15
+wait $pid17
 
 cd ..
 cd ..
@@ -104,4 +118,4 @@ cd resultados
 rm -f ../../precios_back/scripts/tmp/*.json
 cp *.json ../../precios_back/scripts/tmp/
 cd ../../precios_back/scripts
-python importar_productos.py
+node importar_productos.js
