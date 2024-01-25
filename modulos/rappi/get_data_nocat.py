@@ -64,12 +64,33 @@ def obtener_elementos_con_data_qa(html):
         texto_h4 = elemento.find("h4").text if elemento.find("h4") else None
         contenido_p = elemento.find("p").text if elemento.find("p") else None
         texto_chakra_skeleton = elemento.find(class_="chakra-skeleton").text if elemento.find(class_="chakra-skeleton") else None
+        root_cat = elemento.find_parent().find_parent().find_parent()
+
+        if root_cat == None:
+            continue
+        root_cat = root_cat.find("h3")
+        if root_cat == None:
+            continue
+
+        nombre_cat = root_cat.text.strip()
+
+        with open("categorias_encontradas.json", 'r') as file:
+            categorias = json.load(file)
+        
+        if not nombre_cat in categorias:
+            categorias[nombre_cat] = { "category":"", "sub_items": [], "url": "" }
+
+            with open('categorias_encontradas.json', 'w') as file:
+                json.dump(categorias, file)
+                print('categorias_encontradas.json actualizado!')
+        
         elementos.append({
             #"html_interno": html_interno,
             "data_qa": valor_data_qa,
             "titulo": texto_h4,
             "descripcion": contenido_p,
-            "precio": texto_chakra_skeleton
+            "precio": texto_chakra_skeleton,
+            "category_name": root_cat.text.strip()
         })
     return elementos
 
@@ -110,7 +131,15 @@ if contenido != None:
 
             solo_comercio = url.split("/")[-1]
             nuevo_prod['branch_id'] = matchs["comercios"][solo_comercio]
-            nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
+            try:
+                nuevo_prod['category'] = matchs["categorias"][producto["category_name"]]
+            except:
+                with open("categorias.json", 'r') as file:
+                    categorias = json.load(file)
+                    if producto["category_name"] in categorias:
+                        nuevo_prod['category'] = categorias[producto["category_name"]]["category"]
+                    else:
+                        nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
             todos_los_productos.append(nuevo_prod)
             print(nuevo_prod)
 

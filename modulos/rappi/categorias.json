@@ -1,0 +1,552 @@
+{
+    "Panificados": {
+        "category": 106,
+        "sub_items": [],
+        "url": ""
+    },
+    "Bizcochos": {
+        "category": 479,
+        "sub_items": [],
+        "url": ""
+    },
+    "Marineras y otros": {
+        "category": 2557,
+        "sub_items": [],
+        "url": ""
+    },
+    "S\u00e1ndwiches Miga": {
+        "category": 2558,
+        "sub_items": [],
+        "url": ""
+    },
+    "Postres": {
+        "category": 177,
+        "sub_items": [],
+        "url": ""
+    },
+    "Empanadas": {
+        "category": 2561,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tapas": {
+        "category": 2562,
+        "sub_items": [],
+        "url": ""
+    },
+    "Alfajores": {
+        "category": 201,
+        "sub_items": [],
+        "url": ""
+    },
+    "Masas": {
+        "category": 2564,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pastas Caseras": {
+        "category": 2565,
+        "sub_items": [],
+        "url": ""
+    },
+    "Prepizzas": {
+        "category": 1088,
+        "sub_items": [],
+        "url": ""
+    },
+    "Budines": {
+        "category": 1000,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pasteles": {
+        "category": 2566,
+        "sub_items": [],
+        "url": ""
+    },
+    "Facturas": {
+        "category": 115,
+        "sub_items": [],
+        "url": ""
+    },
+    "Populares": {
+        "category": 2542,
+        "sub_items": [],
+        "url": ""
+    },
+    "Almuerzos hasta $3499": {
+        "category": 2567,
+        "sub_items": [],
+        "url": ""
+    },
+    "Burger Fest": {
+        "category": 2568,
+        "sub_items": [],
+        "url": ""
+    },
+    "Mega Ofertas Mostaza": {
+        "category": 2569,
+        "sub_items": [],
+        "url": ""
+    },
+    "Desayunos y Meriendas 30% Off": {
+        "category": 2570,
+        "sub_items": [],
+        "url": ""
+    },
+    "Cajitas Mostaza": {
+        "category": 2555,
+        "sub_items": [],
+        "url": ""
+    },
+    "Ensaladas": {
+        "category": 1067,
+        "sub_items": [],
+        "url": ""
+    },
+    "Wraps": {
+        "category": 2571,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pollos & Nuggets": {
+        "category": 2572,
+        "sub_items": [],
+        "url": ""
+    },
+    "Cero Carne": {
+        "category": 2573,
+        "sub_items": [],
+        "url": ""
+    },
+    "Combos Mostaza": {
+        "category": 2574,
+        "sub_items": [],
+        "url": ""
+    },
+    "Hamburguesas Individuales": {
+        "category": 2575,
+        "sub_items": [],
+        "url": ""
+    },
+    "Papas Fritas": {
+        "category": 675,
+        "sub_items": [],
+        "url": ""
+    },
+    "Bebidas": {
+        "category": 48,
+        "sub_items": [],
+        "url": ""
+    },
+    "Desayunos y Meriendas": {
+        "category": 2576,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas": {
+        "category": 1963,
+        "sub_items": [],
+        "url": ""
+    },
+    "S\u00e1ndwiches": {
+        "category": 2577,
+        "sub_items": [],
+        "url": ""
+    },
+    "Milanesas": {
+        "category": 266,
+        "sub_items": [],
+        "url": ""
+    },
+    "Acompa\u00f1amientos": {
+        "category": 2578,
+        "sub_items": [],
+        "url": ""
+    },
+    "Combos": {
+        "category": 157,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas 8 Porciones": {
+        "category": 2579,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas Especiales 8 Porciones": {
+        "category": 2580,
+        "sub_items": [],
+        "url": ""
+    },
+    "Empanadas y Canastitas": {
+        "category": 2581,
+        "sub_items": [],
+        "url": ""
+    },
+    "Calzones": {
+        "category": 2582,
+        "sub_items": [],
+        "url": ""
+    },
+    "S\u00e1ndwiches y Hamburguesas": {
+        "category": 2583,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pastas para el Freezer": {
+        "category": 2584,
+        "sub_items": [],
+        "url": ""
+    },
+    "Gaseosas y Aguas Saborizadas": {
+        "category": 2585,
+        "sub_items": [],
+        "url": ""
+    },
+    "Cervezas": {
+        "category": 686,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas de Autor": {
+        "category": 2586,
+        "sub_items": [],
+        "url": ""
+    },
+    "Minutas": {
+        "category": 2587,
+        "sub_items": [],
+        "url": ""
+    },
+    "Men\u00fa Infantil": {
+        "category": 2588,
+        "sub_items": [],
+        "url": ""
+    },
+    "Rappi-Promo": {
+        "category": 2589,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas Individuales": {
+        "category": 2590,
+        "sub_items": [],
+        "url": ""
+    },
+    "Canastas": {
+        "category": 2591,
+        "sub_items": [],
+        "url": ""
+    },
+    "Faina": {
+        "category": 2592,
+        "sub_items": [],
+        "url": ""
+    },
+    "Rastapan/Calzone": {
+        "category": 2593,
+        "sub_items": [],
+        "url": ""
+    },
+    "Menu Del Dia": {
+        "category": 2594,
+        "sub_items": [],
+        "url": ""
+    },
+    "Platos Especiales": {
+        "category": 2595,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pastas": {
+        "category": 216,
+        "sub_items": [],
+        "url": ""
+    },
+    "Rolls": {
+        "category": 2596,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tartas por Porci\u00f3n": {
+        "category": 2597,
+        "sub_items": [],
+        "url": ""
+    },
+    "Delicatessen": {
+        "category": 2598,
+        "sub_items": [],
+        "url": ""
+    },
+    "Sin Tacc Certificado": {
+        "category": 2599,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizza 3 Porciones": {
+        "category": 2600,
+        "sub_items": [],
+        "url": ""
+    },
+    "Empanadas Gourmet": {
+        "category": 2601,
+        "sub_items": [],
+        "url": ""
+    },
+    "Hamburguesas": {
+        "category": 1944,
+        "sub_items": [],
+        "url": ""
+    },
+    "Sandwich": {
+        "category": 2602,
+        "sub_items": [],
+        "url": ""
+    },
+    "Papas": {
+        "category": 2603,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tapas Calientes": {
+        "category": 2604,
+        "sub_items": [],
+        "url": ""
+    },
+    "Croquetas": {
+        "category": 2605,
+        "sub_items": [],
+        "url": ""
+    },
+    "Otros S\u00e1ndwiches": {
+        "category": 2606,
+        "sub_items": [],
+        "url": ""
+    },
+    "Platos Calientes": {
+        "category": 2607,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas X8 Porciones": {
+        "category": 2608,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pizzas X4 Porciones": {
+        "category": 2609,
+        "sub_items": [],
+        "url": ""
+    },
+    "Gaseosas": {
+        "category": 722,
+        "sub_items": [],
+        "url": ""
+    },
+    "Combos para Compartir": {
+        "category": 2610,
+        "sub_items": [],
+        "url": ""
+    },
+    "Entradas": {
+        "category": 2611,
+        "sub_items": [],
+        "url": ""
+    },
+    "Platos Principales": {
+        "category": 2612,
+        "sub_items": [],
+        "url": ""
+    },
+    "Platos Principales 2": {
+        "category": 2613,
+        "sub_items": [],
+        "url": ""
+    },
+    "Raviolones": {
+        "category": 2614,
+        "sub_items": [],
+        "url": ""
+    },
+    "Sorrentinos": {
+        "category": 2615,
+        "sub_items": [],
+        "url": ""
+    },
+    "\u00d1oquis": {
+        "category": 2616,
+        "sub_items": [],
+        "url": ""
+    },
+    "Extras": {
+        "category": 2617,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tallarines y Canelones": {
+        "category": 2618,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pastas Crudas": {
+        "category": 2619,
+        "sub_items": [],
+        "url": ""
+    },
+    "Promociones para Compartir": {
+        "category": 2620,
+        "sub_items": [],
+        "url": ""
+    },
+    "Plato Principal con Guarnici\u00f3n": {
+        "category": 2621,
+        "sub_items": [],
+        "url": ""
+    },
+    "Especialidades": {
+        "category": 2622,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tempura de Rabas": {
+        "category": 2623,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tablitas": {
+        "category": 2624,
+        "sub_items": [],
+        "url": ""
+    },
+    "Guarniciones": {
+        "category": 2625,
+        "sub_items": [],
+        "url": ""
+    },
+    "Vinos 750 ml": {
+        "category": 2626,
+        "sub_items": [],
+        "url": ""
+    },
+    "Salsas": {
+        "category": 213,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tartas": {
+        "category": 2627,
+        "sub_items": [],
+        "url": ""
+    },
+    "Para Empezar": {
+        "category": 2628,
+        "sub_items": [],
+        "url": ""
+    },
+    "Carnes": {
+        "category": 2629,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pollos": {
+        "category": 2630,
+        "sub_items": [],
+        "url": ""
+    },
+    "Cerdos": {
+        "category": 2631,
+        "sub_items": [],
+        "url": ""
+    },
+    "S\u00e1ndwiches para Compartir": {
+        "category": 2632,
+        "sub_items": [],
+        "url": ""
+    },
+    "Pescados": {
+        "category": 615,
+        "sub_items": [],
+        "url": ""
+    },
+    "Platos Fuertes": {
+        "category": 2633,
+        "sub_items": [],
+        "url": ""
+    },
+    "Descubrimos a Un Precio Incre\u00edble": {
+        "category": 2634,
+        "sub_items": [],
+        "url": ""
+    },
+    "Viandas": {
+        "category": 2635,
+        "sub_items": [],
+        "url": ""
+    },
+    "Sandwiches": {
+        "category": 2577,
+        "sub_items": [],
+        "url": ""
+    },
+    "Helados": {
+        "category": 176,
+        "sub_items": [],
+        "url": ""
+    },
+    "Postres Helados": {
+        "category": 786,
+        "sub_items": [],
+        "url": ""
+    },
+    "Palitos": {
+        "category": 2560,
+        "sub_items": [],
+        "url": ""
+    },
+    "Helados Sin Azucar": {
+        "category": 2543,
+        "sub_items": [],
+        "url": ""
+    },
+    "Congelados Frizzio": {
+        "category": 2544,
+        "sub_items": [],
+        "url": ""
+    },
+    "Cucuruchos & Vasitos": {
+        "category": 2546,
+        "sub_items": [],
+        "url": ""
+    },
+    "Helados a Granel": {
+        "category": 2547,
+        "sub_items": [],
+        "url": ""
+    },
+    "Potes de Helado": {
+        "category": 2548,
+        "sub_items": [],
+        "url": ""
+    },
+    "Bombones & Postres": {
+        "category": 2549,
+        "sub_items": [],
+        "url": ""
+    },
+    "Tortas Heladas": {
+        "category": 2550,
+        "sub_items": [],
+        "url": ""
+    },
+    "Postres Cremosos": {
+        "category": 2551,
+        "sub_items": [],
+        "url": ""
+    },
+    "Palitos Helados": {
+        "category": 2552,
+        "sub_items": [],
+        "url": ""
+    }
+}
