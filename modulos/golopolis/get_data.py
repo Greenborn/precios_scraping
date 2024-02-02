@@ -9,6 +9,7 @@ with open('categorias.json') as archivo_json:
 BRANCH_ID = 82
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
+BASE_URL = "https://golopolis.com.ar/app/"
 
 listado_productos = []
 
@@ -39,7 +40,8 @@ for categoria in categorias:
                 "price": float(html_data.find(class_="tt-price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
-                "category": sub_categoria["category"]
+                "category": sub_categoria["category"],
+                "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href")
             }
             listado_productos.append(producto)
             print(producto)

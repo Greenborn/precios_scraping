@@ -1,0 +1,32 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://naturaldieteticaonline.com.ar/productos/j-croc-papas-fritas-65-g/"
+    },
+    "name": "J CROC PAPAS FRITAS SABOR ASADO x 65 GRS",
+    "image": "https://acdn.mitiendanube.com/stores/914/913/products/whatsapp-image-2023-11-14-at-22-31-34-5e30f452d206c38a1d17000126759457-480-0.webp",
+    "description": "Comprá online J CROC PAPAS FRITAS SABOR ASADO x 65 GRS por $1.413,59. Hacé tu pedido y pagalo online.",
+    "sku": "606349",
+    "weight": {
+        "@type": "QuantitativeValue",
+        "unitCode": "KGM",
+        "value": "0.0000"
+    },
+    "offers": {
+        "@type": "Offer",
+        "url": "https://naturaldieteticaonline.com.ar/productos/j-croc-papas-fritas-65-g/",
+        "priceCurrency": "ARS",
+        "price": "1413.59",
+        "availability": "http://schema.org/InStock",
+        "inventoryLevel": {
+            "@type": "QuantitativeValue",
+            "value": "10"
+        },
+        "seller": {
+            "@type": "Organization",
+            "name": "Natural Dietética Online"
+        }
+    }
+}

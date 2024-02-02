@@ -36,6 +36,7 @@ def procesar_resultados(res_consulta, categoria):
                     "name": categoria + " - " + product.find(class_="js-item-name").text,
                     "price": precio,
                     "is_ext": "",
+                    "url": product.find(class_="item-link").get("href"),
                     "branch_id": BRANCH_ID,
                     "category": categorias[categoria]["category"]
                 }

@@ -56,6 +56,7 @@ for categoria in categorias:
                     "name": categoria + ' - ' +name,
                     "price": precio,
                     "is_ext": "",
+                    "url": prod.find(class_="product-name").get("href"),
                     "branch_id": BRANCH_ID,
                     "category": categorias[categoria]["category"]
                 }

@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 BRANCH_ID = 93
-URL_BASE = "https://www.otero.com.ar/"
+URL_BASE = "https://www.otero.com.ar"
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -26,6 +26,9 @@ def procesar_resultados(res_consulta, categoria):
     for product in product_html:
         name = product.find("h3").text
         try:
+            enlace = product.find(class_="box_data")
+            enlace = enlace.find("a")
+            enlace = URL_BASE + enlace.get("href")
             price = product.find(class_="precio-final")
             if (price == None):
                 print("No se pudo procesar el precio")
@@ -47,6 +50,7 @@ def procesar_resultados(res_consulta, categoria):
                     "name": categoria + ' - ' +name,
                     "price": precio,
                     "is_ext": "",
+                    "url": enlace,
                     "branch_id": BRANCH_ID,
                     "category": categorias[categoria]["category"]
                 }

@@ -1,0 +1,1 @@
+Revisar seccion perfumeria y otras sin subcategorias

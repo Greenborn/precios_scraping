@@ -1,13 +1,12 @@
-cd modulos/rappi
-sh get_data.sh
-sh get_data_1.sh
-sh get_data_2.sh
-sh get_data_nocat.sh
 
-cd ..
-cd masfarmacias
+cd modulos/masfarmacias
 python get_data.py &
 pid16 = $!
+
+cd ..
+cd rappi
+sh get_data.sh &
+pid0 = $!
 
 cd ..
 cd monarca
@@ -74,20 +73,10 @@ cd greenboutique
 python get_data.py  &
 pid13 = $!
 
-wait $pid1
-wait $pid2
-wait $pid3
-wait $pid4
-wait $pid5
-wait $pid6
-wait $pid7
-wait $pid8
-wait $pid9
-wait $pid10
-wait $pid11
-wait $pid12
-wait $pid13
-wait $pid16
+cd ..
+cd libreriatandil
+python get_data.py  &
+pid18 = $!
 
 cd ..
 cd amarillagas
@@ -106,9 +95,31 @@ cd diarco
 python get_data.py &
 pid17 = $!
 
+cd ..
+cd fava
+python get_data.py &
+pid19 = $!
+
+wait $pid0
+wait $pid1
+wait $pid2
+wait $pid3
+wait $pid4
+wait $pid5
+wait $pid6
+wait $pid7
+wait $pid8
+wait $pid9
+wait $pid10
+wait $pid11
+wait $pid12
+wait $pid13
+wait $pid18
 wait $pid14
 wait $pid15
 wait $pid17
+wait $pid16
+wait $pid19
 
 cd ..
 cd ..

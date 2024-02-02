@@ -1,0 +1,857 @@
+{
+    "LEDS": {
+        "category": 2636,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led"
+    },
+    "23\" - 32\"": {
+        "category": 2637,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/23-32"
+    },
+    "33\" - 43\"": {
+        "category": 2638,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/33-43"
+    },
+    "44\" - 75\"": {
+        "category": 2639,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/44-75"
+    },
+    "Smart": {
+        "category": 2640,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/smart-tv-android"
+    },
+    "Smart 4K": {
+        "category": 2641,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/smart-4k"
+    },
+    "Soportes y Accesorios": {
+        "category": 1688,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/todos-los-led/soportes-y-accesorios"
+    },
+    "Telefon\u00eda": {
+        "category": 2642,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/telefonia"
+    },
+    "Celulares libres": {
+        "category": 2643,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/telefonia/celulares-libres"
+    },
+    "Tel\u00e9fonos": {
+        "category": 1354,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/telefonia/telefonos"
+    },
+    "Inform\u00e1tica": {
+        "category": 1689,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/informatica"
+    },
+    "Tablets": {
+        "category": 1350,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/informatica/tablets"
+    },
+    "Notebooks": {
+        "category": 1306,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/informatica/notebooks"
+    },
+    "PC / All in one": {
+        "category": 2644,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/informatica/all-in-one"
+    },
+    "Monitores / Impresoras": {
+        "category": 2645,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/informatica/monitores-impresoras"
+    },
+    "Accesorios": {
+        "category": 951,
+        "sub_items": [],
+        "url": "https://fava.com.ar/motos/motos/accesorios"
+    },
+    "Audio": {
+        "category": 1217,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio"
+    },
+    "Minicomponentes": {
+        "category": 1383,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio/minicomponentes"
+    },
+    "Parlantes potenciados": {
+        "category": 2646,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio/parlantes-potenciados"
+    },
+    "Audio portable": {
+        "category": 2647,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio/audio-portable"
+    },
+    "Auriculares": {
+        "category": 1206,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio/auriculares2"
+    },
+    "Autoest\u00e9reos": {
+        "category": 2648,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/audio/autoestereos"
+    },
+    "Smartwatch": {
+        "category": 1694,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/smartwatch"
+    },
+    "Videojuegos": {
+        "category": 1699,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/consolas"
+    },
+    "Consolas": {
+        "category": 1255,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/consolas/consolas"
+    },
+    "C\u00e1maras y filmadoras": {
+        "category": 2649,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/camaras-y-filmadoras"
+    },
+    "C\u00e1maras digitales": {
+        "category": 1853,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tecnologia/camaras-y-filmadoras/camaras-digitales"
+    },
+    "Sillas gamer": {
+        "category": 2650,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/sillas-gamer"
+    },
+    "Heladeras": {
+        "category": 1550,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras"
+    },
+    "Heladeras 1 fr\u00edo": {
+        "category": 2651,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras/heladeras-1-frio"
+    },
+    "Heladeras con Freezer": {
+        "category": 1857,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras/heladeras-con-freezer"
+    },
+    "Heladeras No Frost": {
+        "category": 2652,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras/heladeras-no-frost"
+    },
+    "Freezer": {
+        "category": 1477,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras/freezer"
+    },
+    "Cavas / Exhibidores": {
+        "category": 2653,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/heladeras/cavas-exhibidores"
+    },
+    "Cocina": {
+        "category": 2654,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/cocina"
+    },
+    "Cocinas": {
+        "category": 1471,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/cocinas"
+    },
+    "Hornos": {
+        "category": 1472,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/hornos"
+    },
+    "Microondas": {
+        "category": 1474,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/microondas-soportes"
+    },
+    "Campanas": {
+        "category": 1595,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/campanas"
+    },
+    "Anafes": {
+        "category": 1473,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/anafes"
+    },
+    "Hornos El\u00e9ctricos": {
+        "category": 1659,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/hornos-electricos"
+    },
+    "Hamburgueseras": {
+        "category": 2655,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/hamburgueseras"
+    },
+    "Purificadores": {
+        "category": 1597,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/cocina/purificadores"
+    },
+    "Ayudantes de cocina": {
+        "category": 2656,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2"
+    },
+    "Licuadoras": {
+        "category": 1454,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno/licuadoras"
+    },
+    "Batidoras / Minipimmers": {
+        "category": 2657,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/batidoras-minipimmers"
+    },
+    "Balanzas de Cocina": {
+        "category": 1675,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/balanzas-de-cocina"
+    },
+    "F\u00e1bricas de pastas / de pan / de helado": {
+        "category": 2658,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/hornos-de-pan"
+    },
+    "Ollas / Freidoras": {
+        "category": 2659,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/ollas-freidoras"
+    },
+    "Parrillas el\u00e9ctricas": {
+        "category": 2660,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/parrillas-electricas"
+    },
+    "Procesadoras": {
+        "category": 1456,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/procesadoras"
+    },
+    "Vaporeras": {
+        "category": 1674,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/vaporieras"
+    },
+    "Pochoclera": {
+        "category": 2661,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/ayudantes-de-cocina2/pochoclera"
+    },
+    "Desayuno": {
+        "category": 776,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno"
+    },
+    "Cafeteras": {
+        "category": 1585,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno/cafeteras"
+    },
+    "Pavas El\u00e9ctricas": {
+        "category": 1667,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno/pavas-electricas"
+    },
+    "Jugueras / Exprimidores": {
+        "category": 2662,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno/jugueras-exprimidores"
+    },
+    "Tostadoras / Sandwicheras": {
+        "category": 2663,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/desayuno/tostadoras"
+    },
+    "Climatizacion": {
+        "category": 1652,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion"
+    },
+    "Aire acondicionado split": {
+        "category": 2664,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion/aire-acondicionado-split"
+    },
+    "Aire acondicionado port\u00e1til": {
+        "category": 2665,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion/aire-acondicionado-portatil"
+    },
+    "Ventilaci\u00f3n": {
+        "category": 1418,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion/ventilacion"
+    },
+    "Calefacci\u00f3n a gas": {
+        "category": 1443,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion/calefaccion-a-gas"
+    },
+    "Calefacci\u00f3n el\u00e9ctrica": {
+        "category": 1445,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/climatizacion/calefaccion-le-a"
+    },
+    "Calefacci\u00f3n a le\u00f1a": {
+        "category": 1656,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar-2/climatizacion/calefaccion-le-a-1"
+    },
+    "Lavado": {
+        "category": 1657,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/lavado"
+    },
+    "Lavarropas": {
+        "category": 1464,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/lavado/lavarropas"
+    },
+    "Secarropas": {
+        "category": 1466,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/lavado/secarropas"
+    },
+    "Lavavajillas": {
+        "category": 1467,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/lavado/lavavajillas"
+    },
+    "Hogar": {
+        "category": 2159,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/hogar"
+    },
+    "Aspiradoras": {
+        "category": 1461,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/hogar/aspiradoras"
+    },
+    "M\u00e1quinas de coser": {
+        "category": 1678,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/hogar/maquinas-de-coser"
+    },
+    "Planchas": {
+        "category": 1462,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/hogar/planchas"
+    },
+    "Fregadoras de suelo": {
+        "category": 2666,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/hogar/fregadoras-de-suelo"
+    },
+    "Agua caliente": {
+        "category": 2667,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/agua-caliente"
+    },
+    "Termotanques": {
+        "category": 1604,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/agua-caliente/termotanques"
+    },
+    "Calefones": {
+        "category": 1664,
+        "sub_items": [],
+        "url": "https://fava.com.ar/hogar/agua-caliente/calefones"
+    },
+    "Cuidado Personal": {
+        "category": 178,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2"
+    },
+    "Afeitadoras": {
+        "category": 1491,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/afeitadoras"
+    },
+    "Cortacabellos": {
+        "category": 1487,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/cortacabellos"
+    },
+    "Cortabarba": {
+        "category": 1683,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/corta-barba"
+    },
+    "Depiladoras": {
+        "category": 1490,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/depiladoras"
+    },
+    "Secadores de Pelo": {
+        "category": 1489,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/secadores-de-pelo"
+    },
+    "Planchitas": {
+        "category": 1684,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/planchitas"
+    },
+    "Modeladores / Rizadores": {
+        "category": 2668,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/modeladores-rizadores"
+    },
+    "Mascotas": {
+        "category": 158,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/cuidado-personal2/mascotas"
+    },
+    "Salud": {
+        "category": 2028,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/salud"
+    },
+    "Nebulizadores": {
+        "category": 1630,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/salud/nebulizadores"
+    },
+    "Tensi\u00f3metros / Term\u00f3metros": {
+        "category": 2669,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/salud/tenciometros"
+    },
+    "Balanzas personales": {
+        "category": 2670,
+        "sub_items": [],
+        "url": "https://fava.com.ar/salud-y-belleza/salud/balanzas-personales"
+    },
+    "Herramientas de Jard\u00edn": {
+        "category": 2671,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin"
+    },
+    "Hidrolavadoras": {
+        "category": 1522,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/hidrolavadoras"
+    },
+    "Bordeadoras y desmalezadoras": {
+        "category": 2672,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/bordeadoras"
+    },
+    "Cortadoras el\u00e9ctricas": {
+        "category": 2673,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/cortadoras-electricas"
+    },
+    "Cortadoras nafteras": {
+        "category": 2674,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/cortadoras-nafteras"
+    },
+    "Mangueras": {
+        "category": 2675,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/mangueras"
+    },
+    "Viajes y camping": {
+        "category": 2676,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/camping"
+    },
+    "Valijas": {
+        "category": 1790,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/camping/valijas"
+    },
+    "Carpas": {
+        "category": 1417,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/camping/carpas"
+    },
+    "Bolsas de dormir": {
+        "category": 1737,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/camping/bolsas-de-dormir"
+    },
+    "Deportes y gimnasios": {
+        "category": 2677,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios"
+    },
+    "Gimnasio": {
+        "category": 2678,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/gimnasio"
+    },
+    "Bicicletas de adulto": {
+        "category": 2679,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/bicicleta-de-adulto"
+    },
+    "Bicicletas de ni\u00f1o": {
+        "category": 2680,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/bicicletas-de-ni-o"
+    },
+    "Cascos para bicicletas": {
+        "category": 2681,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/cascos"
+    },
+    "Mochilas": {
+        "category": 1645,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/mochilas"
+    },
+    "Monopatines El\u00e9ctricos": {
+        "category": 1754,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/deportes-y-gimnasios/monopatin-electrico"
+    },
+    "Jard\u00edn y playa": {
+        "category": 2682,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/jardin-y-playa"
+    },
+    "Muebles de jard\u00edn": {
+        "category": 1518,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/jardin-y-playa/muebles-de-jardin"
+    },
+    "Parrillas": {
+        "category": 1521,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/jardin-y-playa/parrillas"
+    },
+    "Piletas": {
+        "category": 1519,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/jardin-y-playa/piletas"
+    },
+    "Reposeras y sombrillas": {
+        "category": 2683,
+        "sub_items": [],
+        "url": "https://fava.com.ar/tiempo-libre/jardin-y-playa/reposeras-y-sombrillas"
+    },
+    "Primera infancia": {
+        "category": 2684,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes"
+    },
+    "Cunas": {
+        "category": 1728,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes/cunas"
+    },
+    "Cochecitos": {
+        "category": 1732,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes/cochecitos"
+    },
+    "Sillitas de comer": {
+        "category": 2685,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes/sillitas-de-comer"
+    },
+    "Rodados infantiles": {
+        "category": 2686,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes/rodados-infantiles"
+    },
+    "Butacas para auto": {
+        "category": 2687,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/accesorios-bebes/butacas-para-autos"
+    },
+    "Aprend\u00e9 a jugar": {
+        "category": 2688,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/aprender-a-jugar"
+    },
+    "Estimuladores": {
+        "category": 2689,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/aprender-a-jugar/estimuladores"
+    },
+    "Monopat\u00edn": {
+        "category": 2690,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/aprender-a-jugar/monopatin"
+    },
+    "Juegos de plaza": {
+        "category": 2691,
+        "sub_items": [],
+        "url": "https://fava.com.ar/bebes-y-ni-os/aprender-a-jugar/juegos-de-plaza"
+    },
+    "Living / Comedor": {
+        "category": 2692,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor"
+    },
+    "Sillas / Banquetas": {
+        "category": 2693,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/sillas"
+    },
+    "Mesas": {
+        "category": 2694,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/mesas"
+    },
+    "Sillones": {
+        "category": 1766,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/sillones"
+    },
+    "Mesa Tv": {
+        "category": 2695,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/mesa-tv"
+    },
+    "Mesa Ratona": {
+        "category": 2696,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/mesa-ratona"
+    },
+    "Modulares": {
+        "category": 2697,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/living-comedor/modulares"
+    },
+    "Alacena": {
+        "category": 1798,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/cocina/alacena"
+    },
+    "Bajomesada": {
+        "category": 2698,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/cocina/bajomesada"
+    },
+    "Organizadores": {
+        "category": 1623,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/cocina/organizadores"
+    },
+    "Muebles de cocina": {
+        "category": 1872,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/cocina/muebles-de-cocina"
+    },
+    "Colchones": {
+        "category": 1523,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/colchones"
+    },
+    "Colchon 1 plaza": {
+        "category": 2699,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/colchones/colchon-1-plaza"
+    },
+    "Colchon 2 plazas": {
+        "category": 2700,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/colchones/colchon-2-plazas"
+    },
+    "Conjunto Sommier": {
+        "category": 2701,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/colchones/conjunto-sommier"
+    },
+    "Dormitorio": {
+        "category": 1504,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio"
+    },
+    "Camas / Respaldos": {
+        "category": 2702,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/camas"
+    },
+    "S\u00e1banas / Frazadas": {
+        "category": 2703,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/sabanas-frazadas"
+    },
+    "Toallas / Toallones": {
+        "category": 2704,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/toallas-toallones"
+    },
+    "Chiffonier / Zapateros": {
+        "category": 2705,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/chiffonier"
+    },
+    "Mesas de luz": {
+        "category": 2706,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/mesas-de-luz"
+    },
+    "Placares": {
+        "category": 2707,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/placares"
+    },
+    "Bibliotecas": {
+        "category": 2708,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/bibliotecas"
+    },
+    "Almohadas": {
+        "category": 1607,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/almohadas"
+    },
+    "Blanco": {
+        "category": 2709,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/dormitorio/blanco"
+    },
+    "Escritorios": {
+        "category": 2710,
+        "sub_items": [],
+        "url": "https://fava.com.ar/muebles/escritorios"
+    },
+    "Herramientas El\u00e9ctricas": {
+        "category": 1702,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas"
+    },
+    "Amoladoras": {
+        "category": 1508,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/amoladoras"
+    },
+    "Atornilladoras": {
+        "category": 2711,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/atornilladoras"
+    },
+    "Compresores": {
+        "category": 1510,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/compresores"
+    },
+    "Fresadora": {
+        "category": 2712,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/fresadora"
+    },
+    "Lijadoras / Pulidora": {
+        "category": 2713,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/lijadoras"
+    },
+    "Rotomartillos": {
+        "category": 2714,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/rotomartillos"
+    },
+    "Sierras caladoras": {
+        "category": 2715,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/sierras-caladoras"
+    },
+    "Sierras circulares": {
+        "category": 2716,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/sierras-circulares"
+    },
+    "Sierras ingletadoras": {
+        "category": 2717,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/sierras-ingletadoras"
+    },
+    "Taladros": {
+        "category": 1516,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/taladros"
+    },
+    "Pistolas de calor": {
+        "category": 2718,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/pistola-de-calor"
+    },
+    "Nivel Laser": {
+        "category": 2719,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/nivel-laser"
+    },
+    "Medidores": {
+        "category": 2720,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/medidores"
+    },
+    "Soldadoras": {
+        "category": 1515,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-electricas/soldadoras"
+    },
+    "Bocallaves": {
+        "category": 2721,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/bocallaves"
+    },
+    "Escaleras": {
+        "category": 1610,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/escaleras"
+    },
+    "Iluminaci\u00f3n": {
+        "category": 450,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-de-jardin/iluminacion"
+    },
+    "Herramientas Manuales": {
+        "category": 1709,
+        "sub_items": [],
+        "url": "https://fava.com.ar/herramientas/herramientas-manuales"
+    },
+    "Motos": {
+        "category": 2722,
+        "sub_items": [],
+        "url": "https://fava.com.ar/motos/motos/motos"
+    },
+    "Cascos para moto": {
+        "category": 2723,
+        "sub_items": [],
+        "url": "https://fava.com.ar/motos/motos/cascos"
+    },
+    "Accesorios para el Autom\u00f3vil": {
+        "category": 2724,
+        "sub_items": [],
+        "url": "https://fava.com.ar/motos/accesorios-para-el-automovil"
+    },
+    "Baterias": {
+        "category": 1314,
+        "sub_items": [],
+        "url": "https://fava.com.ar/motos/accesorios-para-el-automovil/baterias"
+    }
+}

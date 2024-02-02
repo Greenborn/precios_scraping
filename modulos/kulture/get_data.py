@@ -35,11 +35,16 @@ def procesar_resultados(res_consulta):
             if (data_["offers"]["availability"] == "http://schema.org/OutOfStock"):
                 print("Sin Stock")
                 continue
+        
+        if (str(data_["offers"]["price"]) == "0"):
+            print("Sin Precio")
+            continue
 
         producto = {
                     "vendor_id": 58,
                     "name": data_["name"] + " - " + data_["description"],
                     "price": float(data_["offers"]["price"]),
+                    "url": data_["offers"]["url"],
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
                     "all_data": data_,

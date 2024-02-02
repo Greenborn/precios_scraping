@@ -47,7 +47,8 @@ for categoria in categorias:
                     "price": prod["price"],
                     "is_ext": prod["id"],
                     "branch_id": BRANCH_ID,
-                    "category": categoria
+                    "category": categoria,
+                    "url": "https://emetelas.com.ar/"+prod["slug"]
                 }
                 listado_productos.append(producto)
                 print(producto)

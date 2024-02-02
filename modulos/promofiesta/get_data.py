@@ -28,6 +28,7 @@ for categoria in categorias:
                 "name": (categoria + " - " + product_html.find(class_="mb-0 text-primary fs").text.strip().replace("\n","")).strip(),
                 "price": float(product_html.find(class_="precio-color text-bold text-danger fs").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
                 "is_ext": "",
+                "url": url,
                 "branch_id": BRANCH,
                 "category": categorias[categoria]["category"]
             }

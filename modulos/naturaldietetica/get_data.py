@@ -42,6 +42,7 @@ def procesar_resultados(res_consulta):
                     "price": float(data_["offers"]["price"]),
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
+                    "url": data_["offers"]["url"],
                     "all_data": data_,
                     "category": categorias[categoria]["category"]
                 }
