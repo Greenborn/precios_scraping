@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -75,6 +77,7 @@ def scroll_hasta_el_final(driver):
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 for categoria in categorias:

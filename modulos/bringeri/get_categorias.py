@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 import requests
 import datetime
 import json

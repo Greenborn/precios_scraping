@@ -1,2 +1,2 @@
 #!/bin/bash
-python get_data2.py
+python3 get_data2.py

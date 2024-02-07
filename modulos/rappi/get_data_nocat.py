@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 import json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,9 +26,11 @@ with open(ruta_matchs_config, "r") as archivo:
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--comercio", type=int, help="Comercio")
+parser.add_argument("--headless", type=str, help="Headless")
 
 args = parser.parse_args()
 
+headless = args.headless
 comercio = args.comercio
 VENDOR = 58
 
@@ -98,6 +102,8 @@ def obtener_elementos_con_data_qa(html):
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
+if (headless == 'true'):
+    options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 url = locales[comercio]["url"]
@@ -105,7 +111,7 @@ print("Consultando URL:", url)
 
 driver.get(url)
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-            
+time.sleep(3)  
 scroll_hasta_el_final(driver)
 
 contenido = driver.page_source

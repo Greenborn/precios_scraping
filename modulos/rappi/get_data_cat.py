@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 import json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,10 +26,12 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("--comercio", type=str, help="Comercio")
 parser.add_argument("--categoria", type=int, help="Categoria")
+parser.add_argument("--headless", type=str, help="Headless")
 
 args = parser.parse_args()
 
 comercio = args.comercio
+headless = args.headless
 categoria = args.categoria
 VENDOR = 58
 
@@ -109,7 +113,8 @@ print("Consultando URL:", url_categoria)
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-#options.add_argument("--headless")
+if (headless == 'true'):
+    options.add_argument("--headless")
 driver = webdriver.Chrome(options=options)
 
 driver.get(url_categoria)

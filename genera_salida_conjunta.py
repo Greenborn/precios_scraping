@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+# -*- coding: utf-8 -*-
 import datetime
 import json
 fecha = datetime.datetime.now().strftime("%Y%m%d")
