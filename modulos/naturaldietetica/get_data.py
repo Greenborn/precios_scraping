@@ -11,10 +11,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-BRANCH_ID = 90
+BRANCH_ID = 134
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
+
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
@@ -25,7 +29,7 @@ def procesar_resultados(res_consulta):
 
     product_html = soup.find_all(class_="js-item-product")
     for product in product_html:
-        data_ = product.find(attrs={"data-component": "structured-data.item"}).text
+        data_ = product.find("script").text
 
         try:
             data_ = json.loads( str(data_) )
@@ -45,9 +49,12 @@ def procesar_resultados(res_consulta):
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
                     "url": data_["offers"]["url"],
-                    "all_data": data_,
-                    "category": categorias[categoria]["category"]
+                    #"all_data": data_,
+                    "category": categorias[categoria]["category"],
+                    "key": config["BACK_KEY"]
                 }
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         listado_productos.append(producto)
         print(producto)
 

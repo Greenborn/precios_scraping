@@ -100,6 +100,11 @@ cd fava
 python get_data.py &
 pid19 = $!
 
+cd ..
+cd naturaldietetica
+python get_data.py &
+pid20 = $!
+
 wait $pid0
 wait $pid1
 wait $pid2
@@ -120,6 +125,7 @@ wait $pid15
 wait $pid17
 wait $pid16
 wait $pid19
+wait $pid20
 
 cd ..
 cd ..
