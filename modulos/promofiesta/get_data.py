@@ -11,6 +11,9 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 listado_productos = []
 
 for categoria in categorias:
@@ -32,11 +35,14 @@ for categoria in categorias:
                 "is_ext": "",
                 "url": url,
                 "branch_id": BRANCH,
-                "category": categorias[categoria]["category"]
+                "category": categorias[categoria]["category"],
+                "key": config["BACK_KEY"]
             }
         except:
             print("producto", product_html, "no procesado")
             continue
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         listado_productos.append(producto)
         print(producto)
         print("")

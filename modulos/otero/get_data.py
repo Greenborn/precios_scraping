@@ -17,6 +17,9 @@ URL_BASE = "https://www.otero.com.ar"
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 listado_productos = []
@@ -54,9 +57,12 @@ def procesar_resultados(res_consulta, categoria):
                     "is_ext": "",
                     "url": enlace,
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"]
+                    "category": categorias[categoria]["category"],
+                    "key": config["BACK_KEY"]
                 }
         print(producto)
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         listado_productos.append(producto)
 
 def scroll_hasta_el_final(driver):

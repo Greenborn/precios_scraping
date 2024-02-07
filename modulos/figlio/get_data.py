@@ -7,6 +7,9 @@ import json
 BRANCH = 97
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 url = 'https://pedidos.masdelivery.com/panel/lib/front-api.php'
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0',
@@ -47,8 +50,12 @@ for prod in respuesta:
                     "price": prod["price"],
                     "is_ext": prod["id"],
                     "branch_id": BRANCH,
-                    "category": categoria
+                    "category": categoria,
+                    "url": "https://pedidos.masdelivery.com/figlio-premium",
+                    "key": config["BACK_KEY"]
                 }
+    enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+    print(enviar_back.json())
     listado_productos.append(producto)
     print(producto)
 

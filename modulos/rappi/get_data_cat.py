@@ -10,6 +10,7 @@ import datetime
 from bs4 import BeautifulSoup
 import time
 import csv
+import requests
 import argparse
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -21,6 +22,9 @@ with open('locales.json', 'r') as file:
 
 with open(ruta_matchs_config, "r") as archivo:
     matchs = json.load(archivo)
+
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
 
 parser = argparse.ArgumentParser()
 
@@ -166,6 +170,7 @@ for sub_cat in see_all:
             solo_cat = url_categoria.split("/")[-1]
             solo_sub_cat = sub_cat_url.split("/")[-1]
             print(nuevo_prod)
+            
             print(solo_cat, ' ',solo_sub_cat)
             if not solo_cat in matchs['categorias'] or not solo_sub_cat in matchs['categorias'][solo_cat]:
                 print('Se omite producto no hay categoria')
@@ -184,6 +189,10 @@ for sub_cat in see_all:
                 nuevo_prod['category'] = -1
             
             print(nuevo_prod)
+
+            nuevo_prod["key"] = config["BACK_KEY"]
+            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
+            print(enviar_back.json())
             todos_los_productos.append(nuevo_prod)
 
         try:

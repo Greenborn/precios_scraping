@@ -7,6 +7,9 @@ import json
 BRANCH_ID = 83
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+    
 categorias = [
     {
         "name": "hogar-y-decoracion",
@@ -50,8 +53,11 @@ for categoria in categorias:
                     "is_ext": prod["id"],
                     "branch_id": BRANCH_ID,
                     "category": categoria,
-                    "url": "https://emetelas.com.ar/"+prod["slug"]
+                    "url": "https://emetelas.com.ar/"+prod["slug"],
+                    "key": config["BACK_KEY"]
                 }
+                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+                print(enviar_back.json())
                 listado_productos.append(producto)
                 print(producto)
 

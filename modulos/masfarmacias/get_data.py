@@ -8,6 +8,9 @@ import datetime
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 BRANCH_ID = 127
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -38,8 +41,11 @@ def procesar_elementos( url, cat_id, categoria ):
             "price": float(art.find("bdi").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()),
             "is_ext": "",
             "branch_id": BRANCH_ID,
-            "category": cat_id
+            "category": cat_id,
+            "key": config["BACK_KEY"]
         }
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         cantidad = cantidad + 1
         listado_productos.append(producto)
         print(producto)

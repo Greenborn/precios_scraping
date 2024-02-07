@@ -18,6 +18,8 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
@@ -56,10 +58,13 @@ def procesar_productos( products_html ):
                     "name": categoria + ' - ' + enlace.get("title").strip(),
                     "price": precio,
                     "is_ext": "",
-                    "enlace": enlace.get("href"),
+                    "url": enlace.get("href"),
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"]
+                    "category": categorias[categoria]["category"],
+                    "key": config["BACK_KEY"]
                 }
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         print(producto)
         todos_resultados.append(producto)
 

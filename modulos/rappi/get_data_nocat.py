@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import datetime
 from bs4 import BeautifulSoup
 import time
-import csv
+import requests
 import argparse
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -22,6 +22,9 @@ with open('locales_no_cat.json', 'r') as file:
 
 with open(ruta_matchs_config, "r") as archivo:
     matchs = json.load(archivo)
+
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
 
 parser = argparse.ArgumentParser()
 
@@ -147,6 +150,9 @@ if contenido != None:
                     else:
                         nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
             todos_los_productos.append(nuevo_prod)
+            nuevo_prod["key"] = config["BACK_KEY"]
+            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
+            print(enviar_back.json())
             print(nuevo_prod)
 
     try:

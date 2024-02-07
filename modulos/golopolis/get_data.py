@@ -8,6 +8,9 @@ import datetime
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 BRANCH_ID = 82
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -43,8 +46,11 @@ for categoria in categorias:
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
                 "category": sub_categoria["category"],
-                "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href")
+                "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
+                "key": config["BACK_KEY"]
             }
+            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            print(enviar_back.json())
             listado_productos.append(producto)
             print(producto)
         path = 'salida/productos_cat'+fecha+'.json'

@@ -7,6 +7,10 @@ import json
 fecha_actual = datetime.now()
 fecha = datetime.now().strftime("%Y%m%d")
 URL = "https://pedidos.amarillagas.com/api/get_products_for_category"
+
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 BRANCH_ID = 99
 CATEGORY_ID = 1971
 
@@ -65,9 +69,14 @@ for product in response:
         "is_ext": "",
         "enlace": "",
         "branch_id": BRANCH_ID,
-        "category": CATEGORY_ID
+        "category": CATEGORY_ID,
+        "key": config["BACK_KEY"]
     }
-    print(producto)
+    print(producto, config["URL_BACK"] + "/publico/productos/importar")
+    
+    enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+    print(enviar_back.json())
+
     listado_productos.append(producto)
     print("")
 

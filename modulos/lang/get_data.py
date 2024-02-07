@@ -9,6 +9,9 @@ import re
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 BRANCH_ID = 86
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -50,14 +53,22 @@ for categoria in categorias:
 
                 precio = ''.join(precio)
                 
-                producto = {
-                    "vendor_id": 58,
-                    "name": html_data.find(class_="card-title").text,
-                    "price": float(precio.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
-                    "is_ext": "",
-                    "branch_id": BRANCH_ID,
-                    "category": sub_categoria["category"]
-                }
+                try:
+                    producto = {
+                        "vendor_id": 58,
+                        "name": html_data.find(class_="card-title").text,
+                        "price": float(precio.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
+                        "is_ext": "",
+                        "url": html_data.find(class_="card-title").find("a").get("href"),
+                        "branch_id": BRANCH_ID,
+                        "category": sub_categoria["category"],
+                        "key": config["BACK_KEY"]
+                    }
+                except:
+                    print("error")
+                    continue
+                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+                print(enviar_back.json())
                 listado_productos.append(producto)
                 print(producto)
             

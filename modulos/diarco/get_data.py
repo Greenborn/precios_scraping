@@ -11,6 +11,9 @@ URL = "https://www.diarco.com.ar/ofertas/?wlfilter=1&orderby=popularity&sucursal
 BRANCH_ID = 129
 listado_productos = []
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 contador = 1
 
 ultima = 150
@@ -68,8 +71,13 @@ while True:
             "fecha_limite": "",
             "page": contador,
             "branch_id": BRANCH_ID,
-            "category": 155
+            "category": 155,
+            "key": config["BACK_KEY"]
         }
+
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
+
         listado_productos.append(producto)
         print(producto)
 

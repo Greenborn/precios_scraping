@@ -16,6 +16,9 @@ BRANCH_ID = 88
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+    
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 listado_productos = []
@@ -46,8 +49,12 @@ def procesar_resultados(res_consulta):
                     "url": data_["offers"]["url"],
                     "branch_id": BRANCH_ID,
                     "all_data": data_,
-                    "category": categorias[categoria]["category"]
-                }
+                    "category": categorias[categoria]["category"],
+                    "key": config["BACK_KEY"]
+        }
+
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         listado_productos.append(producto)
         print(producto)
 
@@ -69,7 +76,7 @@ def scroll_hasta_el_final(driver):
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-options.add_argument('--headless')
+#options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 for categoria in categorias:

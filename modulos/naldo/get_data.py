@@ -16,6 +16,9 @@ BRANCH_ID = 91
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 listado_productos = []
@@ -40,8 +43,11 @@ def procesar_resultados(res_consulta, categoria):
                     "price": precio,
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"]
+                    "category": categorias[categoria]["category"],
+                    "key": config["BACK_KEY"]
                 }
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         listado_productos.append(producto)
         print(producto)
         print("")

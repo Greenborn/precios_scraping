@@ -9,6 +9,9 @@ URL_CATEGORIAS = "http://api.monarcadigital.com.ar/categories/struct?version=87d
 with open('data/matchs_categorias.json') as archivo_json:
     matchs = json.load(archivo_json)
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 path = 'salida/productos_cat'+fecha+'.json'
 
@@ -43,9 +46,12 @@ for categoria in matchs:
             "vendor_id": VENDOR,
             "branch_id": BRANCH,
             "reg": registro,
-            "category": matchs[str(registro['category']['id'])]
+            "category": matchs[str(registro['category']['id'])],
+            "key": config["BACK_KEY"]
         }
         print(producto)
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        print(enviar_back.json())
         productos.append(producto)
 
     with open(path, 'w') as file:

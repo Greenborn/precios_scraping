@@ -13,6 +13,9 @@ from selenium.webdriver.support import expected_conditions as EC
 
 BRANCH_ID = 104
 
+with open("../config.json", "r") as archivo:
+    config = json.load(archivo)
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -39,8 +42,11 @@ def procesar_resultados(res_consulta, categoria):
                         "is_ext": "",
                         "url": "https://www.siemprefarmacias.com.ar/" + product.find_all("a")[1].get("href"),
                         "branch_id": BRANCH_ID,
-                        "category": categorias[categoria]["category"]
+                        "category": categorias[categoria]["category"],
+                        "key": config["BACK_KEY"]
                     }
+            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            print(enviar_back.json())
             listado_productos.append(producto)
         except:
             print("no se pudo obtner enlace")
