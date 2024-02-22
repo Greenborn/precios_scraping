@@ -105,6 +105,16 @@ cd naturaldietetica
 python get_data.py &
 pid20 = $!
 
+cd ..
+cd pchome
+python get_data.py &
+pid21 = $!
+
+cd ..
+cd simplicity
+python get_data.py &
+pid22 = $!
+
 wait $pid0
 wait $pid1
 wait $pid2
@@ -126,6 +136,8 @@ wait $pid17
 wait $pid16
 wait $pid19
 wait $pid20
+wait $pid21
+wait $pid22
 
 cd ..
 cd ..
