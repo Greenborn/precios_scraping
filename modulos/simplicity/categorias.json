@@ -1,0 +1,762 @@
+{
+    "CREMAS DE MANOS Y PIES": {
+        "category": 2929,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/cremas-de-manos-y-pies"
+    },
+    "LABIALES LIQUIDOS": {
+        "category": 2137,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/labios/labiales-liquidos"
+    },
+    "ACCESORIOS PARA EQUIPAJE": {
+        "category": 2930,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/viajes/accesorios-para-equipaje"
+    },
+    "LUBRICANTES": {
+        "category": 2147,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/lubricantes"
+    },
+    "CORREAS": {
+        "category": 2931,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/mascotas/correas"
+    },
+    "VINCHAS": {
+        "category": 2932,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/vinchas"
+    },
+    "BANDAS Y CERA DEPILATORIA": {
+        "category": 2933,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/bandas-y-cera-depilatoria"
+    },
+    "CEPILLOS Y PEINES": {
+        "category": 2934,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/cepillos-y-peines"
+    },
+    "ALCOHOLES Y SANITIZANTES": {
+        "category": 2935,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/esenciales/alcoholes-y-sanitizantes"
+    },
+    "ORGANIZADORES": {
+        "category": 1623,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/libreria/organizadores"
+    },
+    "FRAGANCIAS": {
+        "category": 1994,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/femeninas/fragancias"
+    },
+    "PASTA DENTAL": {
+        "category": 28,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/pasta-dental"
+    },
+    "PADS MUNEQUERAS Y VINCHAS": {
+        "category": 2936,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/pads-munequeras-y-vinchas"
+    },
+    "ORGANIZACION DEL HOGAR": {
+        "category": 2937,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/bazar/organizacion-del-hogar"
+    },
+    "DESODORANTES": {
+        "category": 1007,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/desodorantes"
+    },
+    "REPELENTES DE INSECTOS": {
+        "category": 2938,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/esenciales/repelentes-de-insectos"
+    },
+    "PLANCHITAS Y RIZADORAS": {
+        "category": 2939,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/planchitas-y-rizadoras"
+    },
+    "ACCESORIOS PARA PESTANAS": {
+        "category": 2940,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/accesorios/accesorios-para-pestanas"
+    },
+    "MACETAS Y FLOREROS": {
+        "category": 2941,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/macetas-y-floreros"
+    },
+    "ELEMENTOS DE COCINA": {
+        "category": 2942,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/bazar/elementos-de-cocina"
+    },
+    "PILAS Y BATERIAS": {
+        "category": 234,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/limpieza/pilas-y-baterias"
+    },
+    "BANDERINES Y GUIRNALDAS": {
+        "category": 2943,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/party/banderines-y-guirnaldas"
+    },
+    "JABONES": {
+        "category": 183,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/jabones"
+    },
+    "CUADERNOS": {
+        "category": 2944,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/libreria/cuadernos"
+    },
+    "FIJADORES DE MAQUILLAJE": {
+        "category": 2945,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/fijadores-de-maquillaje"
+    },
+    "DELINEADORES": {
+        "category": 2138,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/labios/delineadores"
+    },
+    "CAFETERAS": {
+        "category": 1585,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/cafeteras"
+    },
+    "BILLETERAS MONEDEROS Y TARJETEROS": {
+        "category": 2946,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/moda/billeteras-monederos-y-tarjeteros"
+    },
+    "AMBIENTALES": {
+        "category": 2947,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/limpieza/ambientales"
+    },
+    "PACK DE FRAGANCIAS": {
+        "category": 2948,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/masculinas/pack-de-fragancias"
+    },
+    "CONTORNO DE OJOS": {
+        "category": 2949,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/contorno-de-ojos"
+    },
+    "ACCESORIOS PARA BOTIQUIN": {
+        "category": 2950,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/esenciales/accesorios-para-botiquin"
+    },
+    "TOSTADORAS": {
+        "category": 1458,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/tostadoras"
+    },
+    "PORTACOSMETICOS": {
+        "category": 2951,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/moda/portacosmeticos"
+    },
+    "BOTELLAS TERMOS Y VASOS": {
+        "category": 2952,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/bazar/botellas-termos-y-vasos"
+    },
+    "TALCOS Y PEDICOS": {
+        "category": 2953,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/talcos-y-pedicos"
+    },
+    "BOLSAS Y CAJAS DE REGALO": {
+        "category": 2954,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/party/bolsas-y-cajas-de-regalo"
+    },
+    "EXFOLIANTES": {
+        "category": 2955,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/exfoliantes"
+    },
+    "INSECTICIDAS": {
+        "category": 961,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/limpieza/insecticidas"
+    },
+    "RUBORES Y CONTORNOS": {
+        "category": 2956,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/rubores-y-contornos"
+    },
+    "SETS DE LIBRERIA": {
+        "category": 2957,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/libreria/sets-de-libreria"
+    },
+    "LLAVEROS": {
+        "category": 2958,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/moda/llaveros"
+    },
+    "ELEMENTOS DE ESCRITORIO": {
+        "category": 2959,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/libreria/elementos-de-escritorio"
+    },
+    "MATE": {
+        "category": 2960,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/bazar/mate"
+    },
+    "TRATAMIENTOS PARA UNAS": {
+        "category": 2961,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/unas/tratamientos-para-unas"
+    },
+    "TINTAS Y GELES": {
+        "category": 2962,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/cejas/tintas-y-geles"
+    },
+    "CORTADORAS Y AFEITADORAS ELECTRICAS": {
+        "category": 2963,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/cortadoras-y-afeitadoras-electricas"
+    },
+    "ACCESORIOS PARA CELULARES": {
+        "category": 1695,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/tech/accesorios-para-celulares"
+    },
+    "PROTECTORES FACIALES": {
+        "category": 2964,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/protectores-faciales"
+    },
+    "LIMPIEZA FACIAL": {
+        "category": 2965,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/limpieza-facial"
+    },
+    "ESPONJAS Y CEPILLOS DE BANO": {
+        "category": 2966,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/esponjas-y-cepillos-de-bano"
+    },
+    "UNAS POSTIZAS": {
+        "category": 2967,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/unas/unas-postizas"
+    },
+    "HIGIENE DEL BEBE": {
+        "category": 2062,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bebes/higiene-del-bebe"
+    },
+    "HIGIENE MENSTRUAL": {
+        "category": 2968,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/higiene-menstrual"
+    },
+    "EXPRIMIDORES ELECTRICOS": {
+        "category": 2969,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/exprimidores-electricos"
+    },
+    "CORTINAS Y COLGANTES": {
+        "category": 2970,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/party/cortinas-y-colgantes"
+    },
+    "GLOBOS Y CONFETTI": {
+        "category": 2971,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/party/globos-y-confetti"
+    },
+    "VELAS AROMATIZANTES E INCIENSOS": {
+        "category": 2972,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/spa-y-relajacion/velas-aromatizantes-e-inciensos"
+    },
+    "BASES Y POLVOS": {
+        "category": 2973,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/bases-y-polvos"
+    },
+    "BRONCEADORES E ILUMINADORES": {
+        "category": 2974,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/bronceadores-e-iluminadores"
+    },
+    "SPRAYS SERUMS Y OLEOS": {
+        "category": 2975,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/sprays-serums-y-oleos"
+    },
+    "AURICULARES Y PARLANTES": {
+        "category": 2976,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/tech/auriculares-y-parlantes"
+    },
+    "ORGANIZADORES DE MAQUILLAJE": {
+        "category": 2977,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/accesorios/organizadores-de-maquillaje"
+    },
+    "SHAMPOOS": {
+        "category": 2919,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/shampoos-y-acondicionadores/shampoos"
+    },
+    "LICUADORAS Y BATIDORAS": {
+        "category": 2978,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/licuadoras-y-batidoras"
+    },
+    "SALES Y ESPUMA DE BANO": {
+        "category": 2979,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/spa-y-relajacion/sales-y-espuma-de-bano"
+    },
+    "BARBIJOS Y TAPABOCAS": {
+        "category": 2018,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/esenciales/barbijos-y-tapabocas"
+    },
+    "ESPUMA Y GEL DE AFEITAR": {
+        "category": 2980,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/espuma-y-gel-de-afeitar"
+    },
+    "MEDIAS": {
+        "category": 1429,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/textil/medias"
+    },
+    "ADORNOS": {
+        "category": 2981,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/adornos"
+    },
+    "MOCHILAS Y CARTUCHERAS": {
+        "category": 2982,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/moda/mochilas-y-cartucheras"
+    },
+    "ARTICULOS DE LIMPIEZA": {
+        "category": 2832,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/limpieza/articulos-de-limpieza"
+    },
+    "ACCESORIOS DE BANO": {
+        "category": 2983,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/accesorios-de-bano"
+    },
+    "GOMITAS Y SCRUNCHIES": {
+        "category": 2984,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/gomitas-y-scrunchies"
+    },
+    "ALGODONES E HISOPOS": {
+        "category": 2985,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/algodones-e-hisopos"
+    },
+    "AFEITADORAS Y REPUESTOS": {
+        "category": 2986,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/afeitadoras-y-repuestos"
+    },
+    "PAVAS ELECTRICAS": {
+        "category": 1667,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/pavas-electricas"
+    },
+    "BIJOU": {
+        "category": 2987,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/moda/bijou"
+    },
+    "QUITAESMALTES": {
+        "category": 1022,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/unas/quitaesmaltes"
+    },
+    "NUTRICION INFANTIL": {
+        "category": 2013,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bebes/nutricion-infantil"
+    },
+    "MASCARAS FACIALES": {
+        "category": 2988,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/mascaras-faciales"
+    },
+    "AMPOLLAS": {
+        "category": 2989,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/ampollas"
+    },
+    "POCHOCLERAS": {
+        "category": 2990,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/electro-hogar/pochocleras"
+    },
+    "CREMAS DEPILATORIAS": {
+        "category": 2991,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/cremas-depilatorias"
+    },
+    "MASAJEADORES Y CEPILLOS": {
+        "category": 2992,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/masajeadores-y-cepillos"
+    },
+    "NINOS": {
+        "category": 2993,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/infantiles/ninos"
+    },
+    "CREMAS PARA PEINAR": {
+        "category": 596,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/modelado-y-peinado/cremas-para-peinar"
+    },
+    "BANDEJAS E INDIVIDUALES": {
+        "category": 2994,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/bandejas-e-individuales"
+    },
+    "ACCESORIOS": {
+        "category": 951,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/unas/accesorios"
+    },
+    "LABIALES EN BARRA": {
+        "category": 2995,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/labios/labiales-en-barra"
+    },
+    "OXIDANTES Y DECOLORANTES": {
+        "category": 2996,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/oxidantes-y-decolorantes"
+    },
+    "BROCHAS PINCELES Y ESPONJAS": {
+        "category": 2997,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/accesorios/brochas-pinceles-y-esponjas"
+    },
+    "ALMOHADAS Y ANTIFACES": {
+        "category": 2998,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/viajes/almohadas-y-antifaces"
+    },
+    "BODY SPLASH": {
+        "category": 2999,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/femeninas/body-splash"
+    },
+    "ENJUAGUES BUCALES": {
+        "category": 2924,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/enjuagues-bucales"
+    },
+    "APOSITOS": {
+        "category": 351,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/esenciales/apositos"
+    },
+    "SUPLEMENTOS DIETARIOS": {
+        "category": 2149,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/fitness/suplementos-dietarios"
+    },
+    "CABLES Y CARGADORES": {
+        "category": 3000,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/tech/cables-y-cargadores"
+    },
+    "SUPLEMENTOS DEPORTIVOS": {
+        "category": 2026,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/fitness/suplementos-deportivos"
+    },
+    "CREMAS CORPORALES": {
+        "category": 373,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/cremas-corporales"
+    },
+    "VASOS TAZAS Y BOTELLAS": {
+        "category": 3001,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/infantiles/vasos-tazas-y-botellas"
+    },
+    "ACCESORIOS PARA EL BANO": {
+        "category": 3002,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/accesorios-para-el-bano"
+    },
+    "BALSAMOS LABIALES": {
+        "category": 3003,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/balsamos-labiales"
+    },
+    "POST SOLARES": {
+        "category": 3004,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/post-solares"
+    },
+    "PANALES": {
+        "category": 707,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bebes/panales"
+    },
+    "SOMBRAS": {
+        "category": 2139,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/ojos/sombras"
+    },
+    "FIJADORES": {
+        "category": 976,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/modelado-y-peinado/fijadores"
+    },
+    "HEBILLAS E INVISIBLES": {
+        "category": 3005,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/hebillas-e-invisibles"
+    },
+    "LIMPIEZA PARA LA ROPA": {
+        "category": 3006,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/limpieza/limpieza-para-la-ropa"
+    },
+    "ACCESORIOS PARA BEBES": {
+        "category": 3007,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bebes/accesorios-para-bebes"
+    },
+    "AUTOBRONCEANTES": {
+        "category": 3008,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/autobronceantes"
+    },
+    "CEPILLOS DE DIENTES": {
+        "category": 3009,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/cepillos-de-dientes"
+    },
+    "PRESERVATIVOS": {
+        "category": 1135,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/preservativos"
+    },
+    "INFANTILES Y BEBES": {
+        "category": 3010,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/infantiles-y-bebes"
+    },
+    "ESMALTES": {
+        "category": 2145,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/unas/esmaltes"
+    },
+    "CREMAS FACIALES": {
+        "category": 372,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/cremas-faciales"
+    },
+    "ESTIMULADORES SEXUALES": {
+        "category": 3011,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/estimuladores-sexuales"
+    },
+    "ACCESORIOS PARA JUGAR": {
+        "category": 3012,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/mascotas/accesorios-para-jugar"
+    },
+    "PRE BASES": {
+        "category": 3013,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/pre-bases"
+    },
+    "ACCESORIOS PARA COMPUTADORAS": {
+        "category": 3014,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/tech/accesorios-para-computadoras"
+    },
+    "MATERNIDAD": {
+        "category": 2075,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/bebes/maternidad"
+    },
+    "CEPILLOS Y ACCESORIOS": {
+        "category": 3015,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/mascotas/cepillos-y-accesorios"
+    },
+    "MASCARAS Y CREMAS": {
+        "category": 3016,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/mascaras-y-cremas"
+    },
+    "TEXTILES": {
+        "category": 3017,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/textiles"
+    },
+    "DELINEADORES Y LAPICES": {
+        "category": 3018,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/cejas/delineadores-y-lapices"
+    },
+    "KITS DE COLORACION": {
+        "category": 3019,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/kits-de-coloracion"
+    },
+    "BEBEDEROS Y COMEDEROS": {
+        "category": 1936,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/mascotas/bebederos-y-comederos"
+    },
+    "TINTURAS": {
+        "category": 2127,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/tinturas"
+    },
+    "ESPEJOS CUADROS Y PORTARETRATOS": {
+        "category": 3020,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/deco-hogar/espejos-cuadros-y-portaretratos"
+    },
+    "NINAS": {
+        "category": 3021,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/infantiles/ninas"
+    },
+    "ROPA INTERIOR": {
+        "category": 3022,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/textil/ropa-interior"
+    },
+    "CORRECTORES": {
+        "category": 2141,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/rostro/correctores"
+    },
+    "SECADORES DE PELO": {
+        "category": 1489,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/secadores-de-pelo"
+    },
+    "ORGANIZADORES DE VIAJE": {
+        "category": 3023,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/viajes/organizadores-de-viaje"
+    },
+    "DEPILADORAS ELECTRICAS": {
+        "category": 3024,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/depiladoras-electricas"
+    },
+    "MASCARAS DE CEJAS": {
+        "category": 3025,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/cejas/mascaras-de-cejas"
+    },
+    "PROTECTORES CORPORALES": {
+        "category": 3026,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/protectores-corporales"
+    },
+    "COLLARES Y CHAPITAS": {
+        "category": 3027,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/mascotas/collares-y-chapitas"
+    },
+    "PAPELES Y PANUELOS": {
+        "category": 3028,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/papeles-y-panuelos"
+    },
+    "JUEGOS": {
+        "category": 1480,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/infantiles/juegos"
+    },
+    "BRILLO LABIAL": {
+        "category": 3029,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/labios/brillo-labial"
+    },
+    "BROCHES": {
+        "category": 299,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/broches"
+    },
+    "BEBES": {
+        "category": 1121,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/fragancias/infantiles/bebes"
+    },
+    "TABLETAS LIMPIADORAS Y ADHESIVOS": {
+        "category": 3030,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/tabletas-limpiadoras-y-adhesivos"
+    },
+    "ANTIFACES Y MASCARAS DE GEL": {
+        "category": 3031,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/antifaces-y-mascaras-de-gel"
+    },
+    "ESPEJOS Y PINZAS DE DEPILAR": {
+        "category": 3032,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/accesorios/espejos-y-pinzas-de-depilar"
+    },
+    "ACCESORIOS DEPORTIVOS": {
+        "category": 3033,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/fitness/accesorios-deportivos"
+    },
+    "SETS DE BANO": {
+        "category": 3034,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/regaleria/infantiles/sets-de-bano"
+    },
+    "CUIDADO INTERDENTAL": {
+        "category": 3035,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/cuidado-interdental"
+    },
+    "ACONDICIONADORES": {
+        "category": 2920,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/cuidado-capilar/shampoos-y-acondicionadores/acondicionadores"
+    },
+    "ACCESORIOS DE LIMPIEZA": {
+        "category": 3036,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/hogar/bazar/accesorios-de-limpieza"
+    },
+    "MASCARAS DE PESTANAS": {
+        "category": 2140,
+        "sub_items": [],
+        "url": "https://www.simplicity.com.ar/maquillaje/ojos/mascaras-de-pestanas"
+    }
+}

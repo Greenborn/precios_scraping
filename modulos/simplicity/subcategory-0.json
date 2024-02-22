@@ -1,0 +1,626 @@
+{
+	"urlset": {
+		"url": [
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/cremas-de-manos-y-pies",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/labios/labiales-liquidos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/viajes/accesorios-para-equipaje",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/lubricantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/mascotas/correas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/vinchas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/bandas-y-cera-depilatoria",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/cepillos-y-peines",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/esenciales/alcoholes-y-sanitizantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/libreria/organizadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/masculinas/fragancias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/pasta-dental",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/pads-munequeras-y-vinchas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/bazar/organizacion-del-hogar",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/desodorantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/esenciales/repelentes-de-insectos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/planchitas-y-rizadoras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/accesorios/accesorios-para-pestanas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/macetas-y-floreros",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/bazar/elementos-de-cocina",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/limpieza/pilas-y-baterias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/party/banderines-y-guirnaldas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/jabones",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/libreria/cuadernos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/fijadores-de-maquillaje",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/labios/delineadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/cafeteras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/moda/billeteras-monederos-y-tarjeteros",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/limpieza/ambientales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/femeninas/pack-de-fragancias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/contorno-de-ojos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/esenciales/accesorios-para-botiquin",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/masculinas/pack-de-fragancias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/tostadoras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/moda/portacosmeticos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/bazar/botellas-termos-y-vasos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/talcos-y-pedicos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/party/bolsas-y-cajas-de-regalo",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/exfoliantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/limpieza/insecticidas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/rubores-y-contornos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/libreria/sets-de-libreria",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/moda/llaveros",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/libreria/elementos-de-escritorio",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/bazar/mate",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/unas/tratamientos-para-unas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/cejas/tintas-y-geles",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/cortadoras-y-afeitadoras-electricas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/tech/accesorios-para-celulares",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/protectores-faciales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/limpieza-facial",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/esponjas-y-cepillos-de-bano",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/unas/unas-postizas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bebes/higiene-del-bebe",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/higiene-menstrual",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/exprimidores-electricos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/party/cortinas-y-colgantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/party/globos-y-confetti",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/spa-y-relajacion/velas-aromatizantes-e-inciensos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/bases-y-polvos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/bronceadores-e-iluminadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/sprays-serums-y-oleos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/tech/auriculares-y-parlantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/accesorios/organizadores-de-maquillaje",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/shampoos-y-acondicionadores/shampoos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/licuadoras-y-batidoras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/spa-y-relajacion/sales-y-espuma-de-bano",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/esenciales/barbijos-y-tapabocas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/espuma-y-gel-de-afeitar",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/textil/medias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/adornos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/moda/mochilas-y-cartucheras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/limpieza/articulos-de-limpieza",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/accesorios-de-bano",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/gomitas-y-scrunchies",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/algodones-e-hisopos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/afeitadoras-y-repuestos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/pavas-electricas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/moda/bijou",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/unas/quitaesmaltes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bebes/nutricion-infantil",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/mascaras-faciales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/ampollas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/femeninas/fragancias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/electro-hogar/pochocleras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/cremas-depilatorias",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/masajeadores-y-cepillos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/infantiles/ninos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/modelado-y-peinado/cremas-para-peinar",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/bandejas-e-individuales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/unas/accesorios",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/labios/labiales-en-barra",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/oxidantes-y-decolorantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/accesorios/brochas-pinceles-y-esponjas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/viajes/almohadas-y-antifaces",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/femeninas/body-splash",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/enjuagues-bucales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/esenciales/apositos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/fitness/suplementos-dietarios",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/tech/cables-y-cargadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/fitness/suplementos-deportivos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/cuerpo/cremas-corporales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/infantiles/vasos-tazas-y-botellas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/accesorios-para-el-bano",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/balsamos-labiales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/post-solares",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bebes/panales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/ojos/sombras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/modelado-y-peinado/fijadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/hebillas-e-invisibles",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/limpieza/limpieza-para-la-ropa",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bebes/accesorios-para-bebes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/autobronceantes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/cepillos-de-dientes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/preservativos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/infantiles-y-bebes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/unas/esmaltes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/rostro/cremas-faciales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bienestar-sexual/estimuladores-sexuales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/mascotas/accesorios-para-jugar",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/pre-bases",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/tech/accesorios-para-computadoras",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/bebes/maternidad",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/mascotas/cepillos-y-accesorios",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/tratamientos/mascaras-y-cremas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/textiles",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/ojos/delineadores-y-lapices",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/kits-de-coloracion",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/mascotas/bebederos-y-comederos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/coloracion-y-oxidantes/tinturas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/deco-hogar/espejos-cuadros-y-portaretratos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/infantiles/ninas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/textil/ropa-interior",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/rostro/correctores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/electro-capilar/secadores-de-pelo",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/viajes/organizadores-de-viaje",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/depilacion-y-afeitado/depiladoras-electricas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/cejas/mascaras-de-cejas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/cejas/delineadores-y-lapices",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/proteccion-solar/protectores-corporales",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/mascotas/collares-y-chapitas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-personal/papeles-y-panuelos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/infantiles/juegos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/labios/brillo-labial",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/moda-y-accesorios/accesorios-para-el-pelo/broches",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/fragancias/infantiles/bebes",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/tabletas-limpiadoras-y-adhesivos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-de-la-piel/accesorios/antifaces-y-mascaras-de-gel",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/accesorios/espejos-y-pinzas-de-depilar",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/fitness/accesorios-deportivos",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/regaleria/infantiles/sets-de-bano",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-personal/higiene-oral/cuidado-interdental",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/cuidado-capilar/shampoos-y-acondicionadores/acondicionadores",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/hogar/bazar/accesorios-de-limpieza",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			},
+			{
+				"loc": "https://www.simplicity.com.ar/maquillaje/ojos/mascaras-de-pestanas",
+				"lastmod": "2024-02-17T10:43:18.058Z"
+			}
+		]
+	}
+}

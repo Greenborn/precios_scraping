@@ -1,0 +1,246 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/crema-para-manos-antibacterial-maracuya-x-70-ml/p",
+                "name": "Crema para Manos Farmacity Antibacterial Maracuyá x 70 ml",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Farmacity"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/158946/151545_crema-para-manos-antibacterial-maracuya-x-70-ml_imagen-1.jpg?v=638205497102300000",
+                "description": "&lt;h3&gt;Descripción:&lt;h/3&gt;&lt;p&gt;-Crema Manos Antibacterial Maracuyá Farmacity Pomo x 70ml.&lt;/p&gt;&lt;p&gt;-Crema para manos Farmacity maracuyá, con aceite de macadamia y aceite de jojoba, ayuda a hidratar y suavizar la piel.&lt;/p&gt; &lt;h3&gt;Beneficios:&lt;h/3&gt;&lt;p&gt;-Antibacterial.&lt;/p&gt;&lt;p&gt;-Elimina el 99,9% de bacterias&lt;/p&gt;&lt;p&gt;-Humectante.&lt;/p&gt;&lt;p&gt;-Para pieles sensibles.&lt;/p&gt;&lt;p&gt;-Mantiene tus manos siempre suaves.&lt;/p&gt;&lt;p&gt;-Nutre tu piel.&lt;/p&gt;&lt;p&gt;-Dermatológicamente testeada.&lt;/p&gt;&lt;p&gt;-No deja grasitud en las manos.&lt;/p&gt;&lt;p&gt;-Ideal para llevar en la cartera.&lt;/p&gt;&lt;h3&gt;Modo de uso:&lt;h/3&gt;&lt;p&gt;-Aplicar una pequeña cantidad de crema en las manos y masajear suavemente hasta que absorba.&lt;/p&gt;&lt;h3&gt;Precauciones:&lt;h/3&gt;&lt;p&gt;-Para uso externo.&lt;/p&gt;&lt;p&gt;-No ingerir.&lt;/p&gt;&lt;p&gt;-Si observa alguna reacción desfavorable suspenda su uso. En caso de que persista, consulte a su médico.&lt;/p&gt;&lt;p&gt;-Mantener alejado del alcance de los niños.&lt;/p&gt;&lt;p&gt;-Evite el contacto con los ojos, en caso de irritación enjuague con abundante agua.&lt;/p&gt;&lt;p&gt;-No conservar a temperatura elevada.&lt;/p&gt;",
+                "mpn": "151545",
+                "sku": "151545",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1720,
+                    "highPrice": 1720,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1720,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "151545",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:24:51Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/crema-para-manos-home-spa-dreamy-x-50-g/p",
+                "name": "Crema para Manos Home Spa Dreamy x 50 g",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Home Spa"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/159956/224521_crema-para-manos-home-spa-dreamy-x-50-g_imagen-1.jpg?v=638205503928400000",
+                "description": "&lt;h3&gt;Descripción:&lt;/h3&gt;&lt;p&gt;La crema de manos Home Spa Dreamy humectante, estimula los procesos de renovación de la piel. Está especialmente desarrollada para satisfacer las necesidades de la piel, brindándole un cuidado intensivo, dejando tus manos suaves y tersas por más tiempo. Su uso continuo mejora la habilidad de la piel para retener su hidratación, revitalizándola y haciendo una diferencia visible en su luminosidad.&lt;/p&gt; &lt;h3&gt;Beneficios:&lt;/h3&gt;&lt;p&gt;-Rápida absorción. -Ligera y refrescante. -Fórmula suave que hidrata y suaviza. -Mejora la textura de la piel, otorga elasticidad. -Revitaliza la piel. -Sensación aterciopelada. -Brinda sedosidad, brillo y luminosidad. -Puede utilizarse diariamente. -Para todo tipo de piel.&lt;/p&gt; &lt;h3&gt;Modo de uso:&lt;/h3&gt;&lt;p&gt;Colocar la cantidad deseada en la palma de la mano y aplicarla de manera uniforme con movimientos circulares hasta que penetre.&lt;/p&gt;",
+                "mpn": "224521",
+                "sku": "224521",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 2990,
+                    "highPrice": 2990,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 2990,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "224521",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:24:51Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/crema-para-manos-antibacterial-almendras-x-70-ml/p",
+                "name": "Crema para Manos Farmacity Antibacterial Almendras x 70 ml",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Farmacity"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/158949/151547_crema-para-manos-antibacterial-almendras-x-70-ml_imagen-1.jpg?v=638205497111800000",
+                "description": "&lt;h3&gt;Descripción:&lt;h/3&gt;&lt;p&gt;-Crema Manos Antibacterial Almendras Farmacity Pomo x 70ml.&lt;/p&gt;&lt;p&gt;-Crema para manos Farmacity almendras, con aceite de almendras y manteca de karité, ayuda a hidratar y suavizar la piel.&lt;/p&gt; &lt;h3&gt;Beneficios:&lt;h/3&gt;&lt;p&gt;-Antibacterial.&lt;/p&gt;&lt;p&gt;-Elimina el 99,9% de bacterias&lt;/p&gt;&lt;p&gt;-Humectante.&lt;/p&gt;&lt;p&gt;-Para pieles sensibles.&lt;/p&gt;&lt;p&gt;-Mantiene tus manos siempre suaves.&lt;/p&gt;&lt;p&gt;-Nutre tu piel.&lt;/p&gt;&lt;p&gt;-Dermatológicamente testeada.&lt;/p&gt;&lt;p&gt;-No deja grasitud en las manos.&lt;/p&gt;&lt;p&gt;-Ideal para llevar en la cartera.&lt;/p&gt;&lt;h3&gt;Modo de uso:&lt;h/3&gt;&lt;p&gt;-Aplicar una pequeña cantidad de crema en las manos y masajear suavemente hasta que absorba.&lt;/p&gt;&lt;h3&gt;Precauciones:&lt;h/3&gt;&lt;p&gt;-Para uso externo.&lt;/p&gt;&lt;p&gt;-No ingerir.&lt;/p&gt;&lt;p&gt;-Si observa alguna reacción desfavorable suspenda su uso. En caso de que persista, consulte a su médico.&lt;/p&gt;&lt;p&gt;-Mantener alejado del alcance de los niños.&lt;/p&gt;&lt;p&gt;-Evite el contacto con los ojos, en caso de irritación enjuague con abundante agua.&lt;/p&gt;&lt;p&gt;-No conservar a temperatura elevada.&lt;/p&gt;",
+                "mpn": "151547",
+                "sku": "151547",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1720,
+                    "highPrice": 1720,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1720,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "151547",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:23:39Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/crema-de-manos-bless-almendra-y-castana-con-vitamina-e-x-80-g/p",
+                "name": "Crema de Manos Bless Almendra y Castaña con Vitamina E x 80 g",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Bless"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/159840/223042_crema-de-manos-bless-almendra-y-castana-con-vitamina-e-x-80-g_imagen-1.jpg?v=638205503255730000",
+                "description": "&lt;h3&gt;Descripción:&lt;/h3&gt;&lt;p&gt;Loción hidratante que combina extractos naturales con aceites esenciales que miman la piel y la dejan deliciosamente perfumada con esencia de almendra y castaña. &lt;h3&gt;Beneficios:&lt;/h3&gt;&lt;p&gt;Textura no grasa de rápida absorción. Dermatológicamente probada. &lt;/p&gt;",
+                "mpn": "223042",
+                "sku": "223042",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 5465,
+                    "highPrice": 5465,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 5465,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "223042",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:24:51Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/crema-de-pies-marchand-d-aromes-verbena-y-limon-x-80-g/p",
+                "name": "Crema de Pies Marchand D´Aromes Verbena y Limón x 80 g",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Marchand D´Aromes"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/169221/235459_crema-de-pies-marchand-d-aromes-verbena-y-limon-x-80-g_imagen-1.jpg?v=638273831094830000",
+                "description": "&lt;h3&gt;Descripción:&lt;/h3&gt;&lt;p&gt;Fórmula adicionada con urea extra reparadora que aporta hidratación y suavidad en pieles secas, inclusive con descamación, y mejora las uñas.&lt;/p&gt;",
+                "mpn": "235459",
+                "sku": "235459",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 6000,
+                    "highPrice": 6000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 6000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "235459",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:24:50Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.simplicity.com.ar/mascara-para-pies-farmacity-skin/p",
+                "name": "Máscara para Pies Farmacity Skin",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Farmacity Skin"
+                },
+                "image": "https://simplicityar.vtexassets.com/arquivos/ids/159533/216534_mascara-para-pies-farmacity-skin_imagen-1.jpg?v=638205501145400000",
+                "description": "&lt;h3&gt;Descripción:&lt;/h3&gt;&lt;p&gt;Máscara para Pies Farmacity Skin.&lt;/p&gt;&lt;p&gt;Con Manteca de Karité y Aceites de Almendras.&lt;/p&gt;&lt;p&gt;Reconforta, nutre e hidrata los pies resecos.&lt;/p&gt;&lt;p&gt;Suavizando y reparando las áreas asperas.&lt;/p&gt;&lt;p&gt;En su formato de botas son practicas y cubren toda la superficie del pie.&lt;/p&gt; &lt;p&gt;Actuan en 15 minutos.&lt;/p&gt; &lt;p&gt;Reduce durezas.&lt;/p&gt;",
+                "mpn": "216534",
+                "sku": "216534",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 5340.6,
+                    "highPrice": 5340.6,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 5340.6,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/OutOfStock",
+                            "sku": "216534",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-02-22T17:24:51Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Farmacity Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        }
+    ]
+}
