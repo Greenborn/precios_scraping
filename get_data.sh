@@ -88,8 +88,6 @@ cd farmaciassiempre
 python get_data.py &
 pid15 = $!
 
-
-
 cd ..
 cd diarco
 python get_data.py &
@@ -115,6 +113,11 @@ cd simplicity
 python get_data.py &
 pid22 = $!
 
+cd ..
+cd vea
+python get_data.py &
+pid23 = $!
+
 wait $pid0
 wait $pid1
 wait $pid2
@@ -138,6 +141,7 @@ wait $pid19
 wait $pid20
 wait $pid21
 wait $pid22
+wait $pid23
 
 cd ..
 cd ..
