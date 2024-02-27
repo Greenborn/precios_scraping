@@ -19,4 +19,4 @@ for habilitado in habilitados:
     
 with open("resultados/productos"+fecha+".json", 'w') as file:
     json.dump(todos_productos, file)
-    print("Se genero resultados/productos"+fecha+".json")
+    print("Se genero resultados/productos"+fecha+".json", len(todos_productos))

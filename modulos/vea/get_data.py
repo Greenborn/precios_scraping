@@ -12,6 +12,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import argparse
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -23,6 +24,13 @@ BRANCH_ID = 18
 BASE_URL  = "https://www.vea.com.ar"
 USER      = "ratertico@proton.me"
 fecha     = datetime.datetime.now().strftime("%Y%m%d")
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
+
 
 def hacer_clic_por_texto(driver, texto):
     try:
@@ -70,6 +78,7 @@ time.sleep(15)
 
 listado_productos = []
 
+diccio_nombres = {}
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
     cant = 0
@@ -77,11 +86,12 @@ def procesar_resultados(res_consulta, categoria):
     if(data_ == None):
         return 0
     
-    data_ = data_.find("script").text
+    data_ = data_.find("script")
     if(data_ == None):
         return 0
     
     try:
+        data_ = data_.text
         data_ = json.loads(data_)
     except:
         return 0
@@ -97,6 +107,12 @@ def procesar_resultados(res_consulta, categoria):
         if (len(item["offers"]["offers"]) != 1):
             continue
         
+        if (item["name"] in diccio_nombres):
+            print("producto repetido")
+            continue
+
+        diccio_nombres[ item["name"] ] = True
+
         cant = cant + 1
         producto = {
                     "vendor_id": 58,
@@ -121,19 +137,38 @@ def procesar_resultados(res_consulta, categoria):
 
     return cant
 
+procesar = True
+print(categoria_inicio)
+
+if (categoria_inicio != None):
+    procesar = False
+
 for categoria in categorias:
     url = categorias[categoria]['url']
+    path = 'salida/productos_cat'+fecha+'.json'
     print(categoria, url)
 
-    page = 1
-    while True:
-        url_page = url + "?page=" + str(page)
-        driver.get(url_page)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-        
-        res_consulta = driver.page_source
-        if (procesar_resultados(res_consulta, categoria) == 0):
-            break
+    if (categoria == categoria_inicio):
+        print(categoria, categoria_inicio)
+        procesar = True
+        continue
 
-        page = page + 1
-    print("")
+    if (procesar == True):
+        page = 1
+        while True:
+            url_page = url + "?page=" + str(page)
+            driver.get(url_page)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+            
+            res_consulta = driver.page_source
+            if (procesar_resultados(res_consulta, categoria) == 0):
+                break
+
+            page = page + 1
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
+
+    with open(path, 'w') as file:
+        json.dump(listado_productos, file)
+        print(path,' actualizado')
