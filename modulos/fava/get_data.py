@@ -4,6 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import argparse
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -15,6 +16,13 @@ BRANCH_ID = 133
 BASE_URL = "https://fava.com.ar"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
+
 
 listado_productos = []
 
@@ -102,10 +110,25 @@ def procesar_elementos( url, cat_id, categoria, cookies_ ):
 response = requests.get(BASE_URL)
 cookies = response.cookies
 
+procesar = True
+print(categoria_inicio)
+
+if (categoria_inicio != None):
+    procesar = False
+
 for categoria in categorias:
     url = categorias[categoria]['url']
 
-    procesar_elementos( url, categorias[categoria]["category"],  categoria, cookies )
+    if (categoria == categoria_inicio):
+        print(categoria, categoria_inicio)
+        procesar = True
+        continue
+
+    if (procesar == True):
+        procesar_elementos( url, categorias[categoria]["category"],  categoria, cookies )
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
     
     path = 'salida/productos_cat'+fecha+'.json'
     with open(path, 'w') as file:
