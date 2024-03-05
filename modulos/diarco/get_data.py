@@ -44,8 +44,12 @@ while True:
 
         html_data = BeautifulSoup(str(product.contents), 'html.parser')
         
-        nombre = html_data.find(class_="woocommerce-loop-product__title").text + " - " + html_data.find(class_="product-brand-title").text + " - "  + html_data.find(class_="woocommerce-product-details__short-description").text
-        
+        try:
+            nombre = html_data.find(class_="woocommerce-loop-product__title").text + " - " + html_data.find(class_="product-brand-title").text + " - "  + html_data.find(class_="woocommerce-product-details__short-description").text
+        except:
+            print("No se pudo obtener nombre de producto")
+            continue
+
         try:
             text = html_data.find(class_='woocommerce-Price-amount').text
             print(text)
