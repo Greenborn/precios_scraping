@@ -76,17 +76,22 @@ def procesar_resultados(res_consulta, categoria):
 
         if (len(item["offers"]["offers"]) != 1):
             continue
-
-        producto = {
-                    "vendor_id": 58,
-                    "name": categoria + " - " + item["name"],
-                    "price": float(item["offers"]["offers"][0]["price"]),
-                    "url": item["@id"],
-                    "is_ext": "",
-                    "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
-                }
+        
+        producto = {}
+        try:
+            producto = {
+                        "vendor_id": 58,
+                        "name": categoria + " - " + item["name"],
+                        "price": float(item["offers"]["offers"][0]["price"]),
+                        "url": item["@id"],
+                        "is_ext": "",
+                        "branch_id": BRANCH_ID,
+                        "category": categorias[categoria]["category"],
+                        "key": config["BACK_KEY"]
+                    }
+        except:
+            print("No se pudo procesar el elemento")
+            continue
         
         print(producto)
         enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
