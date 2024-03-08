@@ -1,0 +1,111 @@
+{
+    "data": {
+        "product": {
+            "id": "4539",
+            "name": "Alfajor Tradicional Blanco (80 g)",
+            "description": "Alfajor Tradicional Blanco (80 g)",
+            "slug": "consuma-dignidad-chasqui1-1062",
+            "variants": [
+                {
+                    "id": "4863",
+                    "name": "Alfajor Tradicional Blanco (80 g)",
+                    "options": [],
+                    "price": 88235,
+                    "priceWithTax": 97500,
+                    "sku": "14002",
+                    "stockLevel": "IN_STOCK",
+                    "__typename": "ProductVariant"
+                }
+            ],
+            "featuredAsset": {
+                "id": "5197",
+                "width": 2160,
+                "height": 1380,
+                "name": "img_20200721_171207-1.jpg",
+                "preview": "/panel-assets/channel-88/preview/72/img_20200721_171207-1__preview.jpg",
+                "focalPoint": null,
+                "__typename": "Asset"
+            },
+            "assets": [
+                {
+                    "id": "5197",
+                    "width": 2160,
+                    "height": 1380,
+                    "name": "img_20200721_171207-1.jpg",
+                    "preview": "/panel-assets/channel-88/preview/72/img_20200721_171207-1__preview.jpg",
+                    "focalPoint": null,
+                    "__typename": "Asset"
+                }
+            ],
+            "collections": [
+                {
+                    "id": "284",
+                    "slug": "dulces",
+                    "breadcrumbs": [
+                        {
+                            "id": "525",
+                            "name": "__root_collection__",
+                            "slug": "__root_collection__",
+                            "__typename": "CollectionBreadcrumb"
+                        },
+                        {
+                            "id": "284",
+                            "name": "Dulces",
+                            "slug": "dulces",
+                            "__typename": "CollectionBreadcrumb"
+                        }
+                    ],
+                    "__typename": "Collection"
+                },
+                {
+                    "id": "491",
+                    "slug": "alfajores",
+                    "breadcrumbs": [
+                        {
+                            "id": "525",
+                            "name": "__root_collection__",
+                            "slug": "__root_collection__",
+                            "__typename": "CollectionBreadcrumb"
+                        },
+                        {
+                            "id": "491",
+                            "name": "Alfajores",
+                            "slug": "alfajores",
+                            "__typename": "CollectionBreadcrumb"
+                        }
+                    ],
+                    "__typename": "Collection"
+                }
+            ],
+            "facetValues": [
+                {
+                    "name": "Artesanal",
+                    "code": "artesanal",
+                    "__typename": "FacetValue"
+                },
+                {
+                    "name": "Kilómetro Cero",
+                    "code": "kilometro_cero",
+                    "__typename": "FacetValue"
+                },
+                {
+                    "name": "Alfajores",
+                    "code": "alfajores",
+                    "__typename": "FacetValue"
+                }
+            ],
+            "customFields": {
+                "productor": {
+                    "id": "695",
+                    "name": "Piu Dolce",
+                    "localidad": "Tandil",
+                    "provincia": "Buenos Aires",
+                    "descriptionOffered": "Piu Dolce",
+                    "__typename": "Productor"
+                },
+                "__typename": "ProductCustomFields"
+            },
+            "__typename": "Product"
+        }
+    }
+}
