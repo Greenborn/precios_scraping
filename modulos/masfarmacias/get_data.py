@@ -4,6 +4,13 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -51,26 +58,41 @@ def procesar_elementos( url, cat_id, categoria ):
         print(producto)
     return cantidad
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+procesar = True
+print(categoria_inicio)
 
-    procesados = procesar_elementos( url, categorias[categoria]["category"],  categoria )
-    if (procesados == 0):
+if (categoria_inicio != None):
+    procesar = False
+
+for categoria in categorias:
+    if (categoria == categoria_inicio):
+        print(categoria, categoria_inicio)
+        procesar = True
         continue
 
-    pag = 2
-    while True:
-        print("pagina ", pag)
-        url_page = url + "page/" + str(pag)
-        try:
-            procesados = procesar_elementos( url_page, categorias[categoria]["category"],  categoria  )
-        except:
-            break
-        if procesados == 0:
-            break
-        pag = pag + 1
+    url = categorias[categoria]['url']
 
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
+    if (procesar == True):
+        procesados = procesar_elementos( url, categorias[categoria]["category"],  categoria )
+        if (procesados == 0):
+            continue
+
+        pag = 2
+        while True:
+            print("pagina ", pag)
+            url_page = url + "page/" + str(pag)
+            try:
+                procesados = procesar_elementos( url_page, categorias[categoria]["category"],  categoria  )
+            except:
+                break
+            if procesados == 0:
+                break
+            pag = pag + 1
+
+        path = 'salida/productos_cat'+fecha+'.json'
+        with open(path, 'w') as file:
+            json.dump(listado_productos, file)
+            print('estado.json actualizado')
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
