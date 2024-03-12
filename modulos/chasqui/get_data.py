@@ -72,6 +72,8 @@ options.add_argument('--disable-dev-shm-usage')
 #options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
+diccio_prods_name = {}
+
 for categoria in categorias:
     url = categorias[categoria]['url']
 
@@ -139,6 +141,12 @@ for categoria in categorias:
                     })
                 data_response_prod = response_prod.json()
                 data_prod = data_response_prod["data"]["product"]
+
+                if (data_prod["name"] in diccio_prods_name):
+                    print("producto repetido")
+                    continue
+                diccio_prods_name[data_prod["name"]] = 1
+                
                 producto = {
                         "vendor_id": 58,
                         "name": categoria + " - " + data_prod["name"],
