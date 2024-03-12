@@ -4,6 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
+import argparse
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -19,6 +20,12 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 listado_productos = []
 
 diccio_nam = {}
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
 
 def procesar_elementos( url, cat_id, categoria ):
     cantidad = 0
@@ -59,10 +66,25 @@ def procesar_elementos( url, cat_id, categoria ):
         print(producto)
     return cantidad
 
+procesar = True
+print(categoria_inicio)
+
+if (categoria_inicio != None):
+    procesar = False
+
 for categoria in categorias:
     url = categorias[categoria]['url']
 
-    procesar_elementos( url, categorias[categoria]["category"],  categoria )
+    if (categoria == categoria_inicio):
+        print(categoria, categoria_inicio)
+        procesar = True
+        continue
+
+    if (procesar == True):
+        procesar_elementos( url, categorias[categoria]["category"],  categoria )
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
     
     path = 'salida/productos_cat'+fecha+'.json'
     with open(path, 'w') as file:
