@@ -57,8 +57,12 @@ def procesar_resultados(res_consulta, categoria):
     if(data_ == None):
         return
     
-    data_ = data_.find("script").text
-    if(data_ == None):
+    try:
+        data_ = data_.find("script").text
+        if(data_ == None):
+            return
+    except:
+        print("No se puede obtener json")
         return
     
     try:
