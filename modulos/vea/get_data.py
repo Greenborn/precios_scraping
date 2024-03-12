@@ -84,16 +84,19 @@ def procesar_resultados(res_consulta, categoria):
     cant = 0
     data_ = soup.find(class_="flex flex-column min-vh-100 w-100")
     if(data_ == None):
+        print("no se encuentra contenedo resultados", data_)
         return 0
     
     data_ = data_.find("script")
     if(data_ == None):
+        print("No se encuentra script")
         return 0
     
     try:
         data_ = data_.text
         data_ = json.loads(data_)
     except:
+        print("No se pudo hacer json.loads")
         return 0
     
     data_ = data_["itemListElement"]
@@ -102,9 +105,11 @@ def procesar_resultados(res_consulta, categoria):
         try:
             item = element["item"]
         except:
+            print("no se encuentra items en json")
             continue
 
         if (len(item["offers"]["offers"]) != 1):
+            print("len offers: ", len(item["offers"]["offers"]))
             continue
         
         if (item["name"] in diccio_nombres):
@@ -159,7 +164,7 @@ for categoria in categorias:
             url_page = url + "?page=" + str(page)
             driver.get(url_page)
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-            
+            time.sleep(2)
             res_consulta = driver.page_source
             if (procesar_resultados(res_consulta, categoria) == 0):
                 break
