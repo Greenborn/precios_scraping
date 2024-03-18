@@ -23,7 +23,7 @@ for element in elements:
     ul_element = element.find('ul', class_='dropdown-menu')
     enlaces = ul_element.find_all('a')
     for sub_cat in enlaces:
-        enlace = { "texto": sub_cat.text, "category":"", "url": sub_cat.get("href") }
+        enlace = { "texto": sub_cat.text.replace("\n","").strip(), "category":"", "url": sub_cat.get("href") }
         arbol_categorias[categoria]["sub_items"].append(enlace)
         print(enlace)
     print("")

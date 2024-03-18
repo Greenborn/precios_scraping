@@ -3,8 +3,8 @@
         "category": 1195,
         "sub_items": [
             {
-                "texto": "Kit teclado y mouse",
-                "category": 4377,
+                "texto": "Kit teclado\n                    mouse",
+                "category": 1196,
                 "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/kit-teclado-mouse/"
             },
             {
@@ -13,13 +13,13 @@
                 "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/pendrive/"
             },
             {
-                "texto": "Tabletas Digitalizadoras",
-                "category": 4378,
+                "texto": "Tabletas\n                    Digitalizadoras",
+                "category": 1198,
                 "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/tabletas-digitalizadoras/"
             },
             {
-                "texto": "Tarjetas de Memoria",
-                "category": 4379,
+                "texto": "Tarjetas de\n                    Memoria",
+                "category": 1199,
                 "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/tarjetas-de-memoria/"
             },
             {
@@ -103,8 +103,8 @@
                 "url": "https://www.langtecnologia.com.ar/cables/bobina/"
             },
             {
-                "texto": "Fibra                    Optica",
-                "category": 4380,
+                "texto": "Fibra\n                    Optica",
+                "category": 1213,
                 "url": "https://www.langtecnologia.com.ar/cables/fibra-optica/"
             },
             {
@@ -118,8 +118,8 @@
         "category": 1215,
         "sub_items": [
             {
-                "texto": "Adaptadores                    para fuente",
-                "category": 4381,
+                "texto": "Adaptadores\n                    para fuente",
+                "category": 1216,
                 "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/adaptadores-para-fuente/"
             },
             {
@@ -133,8 +133,8 @@
                 "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/bahia/"
             },
             {
-                "texto": "CABLES Y                    ADAPTADORES",
-                "category": 4382,
+                "texto": "CABLES Y\n                    ADAPTADORES",
+                "category": 1219,
                 "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-y--adaptadores/"
             },
             {
@@ -198,8 +198,8 @@
                 "url": "https://www.langtecnologia.com.ar/camaras-deportivas/accesorios/"
             },
             {
-                "texto": "CAMARAS                    DEPORTIVAS",
-                "category": 4383,
+                "texto": "CAMARAS\n                    DEPORTIVAS",
+                "category": 1231,
                 "url": "https://www.langtecnologia.com.ar/camaras-deportivas/camaras-deportivas/"
             }
         ]
@@ -234,7 +234,7 @@
             }
         ]
     },
-    "COMERCIO Y OFICINA": {
+    "COMERCIO Y OFICINA ": {
         "category": 1235,
         "sub_items": [
             {
@@ -253,13 +253,13 @@
                 "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/destructor-papel/"
             },
             {
-                "texto": "Lectores                    codigo de barra",
-                "category": 4384,
+                "texto": "Lectores\n                    codigo de barra",
+                "category": 1239,
                 "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/lectores-codigo-de-barra/"
             },
             {
-                "texto": "Registradora                    Fiscal",
-                "category": 4385,
+                "texto": "Registradora\n                    Fiscal",
+                "category": 1240,
                 "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/registradora-fiscal/"
             }
         ]
@@ -323,8 +323,8 @@
         "category": 1252,
         "sub_items": [
             {
-                "texto": "All                    In One",
-                "category": 4386,
+                "texto": "All\n                    In One",
+                "category": 1253,
                 "url": "https://www.langtecnologia.com.ar/computadoras/all-in-one/"
             },
             {
@@ -388,8 +388,8 @@
                 "url": "https://www.langtecnologia.com.ar/energia/estabilizadores/"
             },
             {
-                "texto": "Protectores                    Sobretension",
-                "category": 4387,
+                "texto": "Protectores\n                    Sobretension",
+                "category": 1262,
                 "url": "https://www.langtecnologia.com.ar/energia/protectores-sobretension/"
             },
             {
@@ -408,8 +408,8 @@
         "category": 1265,
         "sub_items": [
             {
-                "texto": "ESCRITORIOS                    Y MOBILIARIO",
-                "category": 4388,
+                "texto": "ESCRITORIOS\n                    Y MOBILIARIO",
+                "category": 1266,
                 "url": "https://www.langtecnologia.com.ar/escritorios-y-mobiliario/escritorios-y-mobiliario/"
             }
         ]
@@ -453,8 +453,8 @@
                 "url": "https://www.langtecnologia.com.ar/fotografia/flash/"
             },
             {
-                "texto": "Lente / Accesorios                    Lente",
-                "category": 4389,
+                "texto": "Lente / Accesorios\n                    Lente",
+                "category": 1274,
                 "url": "https://www.langtecnologia.com.ar/fotografia/lente---accesorios-lente/"
             },
             {
@@ -563,8 +563,8 @@
                 "url": "https://www.langtecnologia.com.ar/insumos/filamentos/"
             },
             {
-                "texto": "Papel                    / Resma",
-                "category": 4390,
+                "texto": "Papel\n                    / Resma",
+                "category": 1290,
                 "url": "https://www.langtecnologia.com.ar/insumos/papel---resma/"
             },
             {
@@ -613,8 +613,8 @@
         "category": 1297,
         "sub_items": [
             {
-                "texto": "LENTES                    VR",
-                "category": 4391,
+                "texto": "LENTES\n                    VR",
+                "category": 1298,
                 "url": "https://www.langtecnologia.com.ar/lentes-vr/lentes-vr/"
             }
         ]
@@ -688,8 +688,8 @@
         "category": 1306,
         "sub_items": [
             {
-                "texto": "Base                    cooler",
-                "category": 4392,
+                "texto": "Base\n                    cooler",
+                "category": 1307,
                 "url": "https://www.langtecnologia.com.ar/notebooks/base-cooler/"
             },
             {
@@ -768,8 +768,8 @@
         "category": 1315,
         "sub_items": [
             {
-                "texto": "PILAS Y                    CARGADORES",
-                "category": 4393,
+                "texto": "PILAS Y\n                    CARGADORES",
+                "category": 1316,
                 "url": "https://www.langtecnologia.com.ar/pilas-y-cargadores/pilas-y-cargadores/"
             },
             {
@@ -798,8 +798,8 @@
                 "url": "https://www.langtecnologia.com.ar/placas-red-externas/pci---pciex/"
             },
             {
-                "texto": "PLACAS RED                    EXTERNAS",
-                "category": 4394,
+                "texto": "PLACAS RED\n                    EXTERNAS",
+                "category": 1322,
                 "url": "https://www.langtecnologia.com.ar/placas-red-externas/placas-red-externas/"
             },
             {
@@ -823,8 +823,8 @@
                 "url": "https://www.langtecnologia.com.ar/placas-red-internas/lan/"
             },
             {
-                "texto": "PLACAS RED                    INTERNAS",
-                "category": 4395,
+                "texto": "PLACAS RED\n                    INTERNAS",
+                "category": 1325,
                 "url": "https://www.langtecnologia.com.ar/placas-red-internas/placas-red-internas/"
             },
             {
@@ -838,8 +838,8 @@
         "category": 1326,
         "sub_items": [
             {
-                "texto": "Power                    Bank",
-                "category": 4396,
+                "texto": "Power\n                    Bank",
+                "category": 1327,
                 "url": "https://www.langtecnologia.com.ar/power-banks/power-bank/"
             }
         ]
@@ -893,8 +893,8 @@
                 "url": "https://www.langtecnologia.com.ar/routers---modems/antena/"
             },
             {
-                "texto": "Balanceador de                    Carga",
-                "category": 4397,
+                "texto": "Balanceador de\n                    Carga",
+                "category": 1335,
                 "url": "https://www.langtecnologia.com.ar/routers---modems/balanceador-de-carga/"
             },
             {
@@ -938,13 +938,13 @@
         "category": 1339,
         "sub_items": [
             {
-                "texto": "Camara                    IP",
-                "category": 4398,
+                "texto": "Camara\n                    IP",
+                "category": 1340,
                 "url": "https://www.langtecnologia.com.ar/seguridad/camara-ip/"
             },
             {
-                "texto": "Disco                    Nas",
-                "category": 4399,
+                "texto": "Disco\n                    Nas",
+                "category": 1341,
                 "url": "https://www.langtecnologia.com.ar/seguridad/disco-nas/"
             },
             {
@@ -988,8 +988,8 @@
         "category": 1345,
         "sub_items": [
             {
-                "texto": "Base                    Monitor",
-                "category": 4400,
+                "texto": "Base\n                    Monitor",
+                "category": 1346,
                 "url": "https://www.langtecnologia.com.ar/soportes/base-monitor/"
             },
             {
