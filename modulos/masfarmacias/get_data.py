@@ -41,11 +41,25 @@ def procesar_elementos( url, cat_id, categoria ):
         if (nombre in diccio_nam):
             continue
         diccio_nam[nombre] = True
+
+        try:
+            precio = art.find_all("bdi")
+            if len(precio) == 2:
+                precio = precio[1].text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()
+            elif len(precio) == 1:
+                precio = precio[0].text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()
+            else:
+                print("No se puede determinar precio")
+                continue
+        except:
+            print("Error al obtener precio")
+            continue
+
         producto = {
             "vendor_id": 58,
             "name": nombre,
             "url": art.find_all("a")[2].get("href"),
-            "price": float(art.find("bdi").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()),
+            "price": float(precio),
             "is_ext": "",
             "branch_id": BRANCH_ID,
             "category": cat_id,
