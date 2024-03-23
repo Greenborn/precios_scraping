@@ -1,156 +1,116 @@
 {
-    "ACCESORIOS/PERIFERICOS": {
-        "category": 1195,
+    "ALMACENAMIENTO PORTATIL": {
+        "category": 4501,
         "sub_items": [
             {
-                "texto": "Kit teclado y mouse",
-                "category": 4377,
-                "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/kit-teclado-mouse/"
+                "texto": "Discos Externos",
+                "category": 2759,
+                "url": "https://www.langtecnologia.com.ar/almacenamiento-portatil/discos-externos/"
             },
             {
-                "texto": "Pendrive",
-                "category": 1197,
-                "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/pendrive/"
+                "texto": "Discos Opticos/Cassettes",
+                "category": 4502,
+                "url": "https://www.langtecnologia.com.ar/almacenamiento-portatil/discos-opticos-cassettes/"
             },
             {
-                "texto": "Tabletas Digitalizadoras",
-                "category": 4378,
-                "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/tabletas-digitalizadoras/"
+                "texto": "Lectores de Memoria",
+                "category": 4503,
+                "url": "https://www.langtecnologia.com.ar/almacenamiento-portatil/lectores-de-memoria/"
+            },
+            {
+                "texto": "Pendrives",
+                "category": 2761,
+                "url": "https://www.langtecnologia.com.ar/almacenamiento-portatil/pendrives/"
             },
             {
                 "texto": "Tarjetas de Memoria",
                 "category": 4379,
-                "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/tarjetas-de-memoria/"
-            },
-            {
-                "texto": "Webcam",
-                "category": 1200,
-                "url": "https://www.langtecnologia.com.ar/accesorios-perifericos/webcam/"
+                "url": "https://www.langtecnologia.com.ar/almacenamiento-portatil/tarjetas-de-memoria/"
             }
         ]
     },
-    "ACCESORIOS RED": {
-        "category": 1201,
+    "AUDIO Y TV": {
+        "category": 4504,
         "sub_items": [
             {
-                "texto": "Adaptador SFP",
-                "category": 1202,
-                "url": "https://www.langtecnologia.com.ar/accesorios-red/adaptador-sfp/"
+                "texto": "Auriculares",
+                "category": 1206,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/auriculares/"
             },
             {
-                "texto": "Media Converter",
-                "category": 1203,
-                "url": "https://www.langtecnologia.com.ar/accesorios-red/media-converter/"
+                "texto": "Microfonos",
+                "category": 1299,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/microfonos/"
             },
             {
-                "texto": "Otros",
-                "category": 1140,
-                "url": "https://www.langtecnologia.com.ar/accesorios-red/otros/"
+                "texto": "Parlantes",
+                "category": 1311,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/parlantes/"
             },
             {
-                "texto": "Poe",
-                "category": 1204,
-                "url": "https://www.langtecnologia.com.ar/accesorios-red/poe/"
+                "texto": "Radios",
+                "category": 1331,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/radios/"
+            },
+            {
+                "texto": "Soportes",
+                "category": 1345,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/soportes/"
+            },
+            {
+                "texto": "Televisores",
+                "category": 1355,
+                "url": "https://www.langtecnologia.com.ar/audio-y-tv/televisores/"
             }
         ]
     },
-    "ACCESS POINT": {
-        "category": 1205,
+    "CABLES Y  ADAPTADORES": {
+        "category": 4505,
         "sub_items": [
             {
-                "texto": "ACCESS POINT",
-                "category": 1205,
-                "url": "https://www.langtecnologia.com.ar/access-point/access-point/"
-            }
-        ]
-    },
-    "AURICULARES": {
-        "category": 1206,
-        "sub_items": [
-            {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/auriculares/accesorios/"
+                "texto": "Adaptadores Audio Video",
+                "category": 4506,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/adaptadores-audio-video/"
             },
             {
-                "texto": "Cable In Ear",
-                "category": 1207,
-                "url": "https://www.langtecnologia.com.ar/auriculares/cable-in-ear/"
-            },
-            {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/auriculares/gamer/"
-            },
-            {
-                "texto": "Inalambrico",
-                "category": 1209,
-                "url": "https://www.langtecnologia.com.ar/auriculares/inalambrico/"
-            },
-            {
-                "texto": "Oficina / PC",
-                "category": 1210,
-                "url": "https://www.langtecnologia.com.ar/auriculares/oficina---pc/"
-            }
-        ]
-    },
-    "CABLES": {
-        "category": 1211,
-        "sub_items": [
-            {
-                "texto": "Bobina",
-                "category": 1212,
-                "url": "https://www.langtecnologia.com.ar/cables/bobina/"
-            },
-            {
-                "texto": "Fibra                    Optica",
-                "category": 4380,
-                "url": "https://www.langtecnologia.com.ar/cables/fibra-optica/"
-            },
-            {
-                "texto": "Pathcord",
-                "category": 1214,
-                "url": "https://www.langtecnologia.com.ar/cables/pathcord/"
-            }
-        ]
-    },
-    "CABLES Y ADAPTADORES": {
-        "category": 1215,
-        "sub_items": [
-            {
-                "texto": "Adaptadores                    para fuente",
-                "category": 4381,
+                "texto": "Adaptadores para fuente",
+                "category": 4507,
                 "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/adaptadores-para-fuente/"
             },
             {
-                "texto": "Audio",
-                "category": 1217,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/audio/"
+                "texto": "Adaptadores USB",
+                "category": 4508,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/adaptadores-usb/"
             },
             {
-                "texto": "Bahia",
-                "category": 1218,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/bahia/"
+                "texto": "Cables de Audio y Video",
+                "category": 4509,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-de-audio-y-video/"
             },
             {
-                "texto": "CABLES Y                    ADAPTADORES",
-                "category": 4382,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-y--adaptadores/"
+                "texto": "Cables de Red",
+                "category": 2777,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-de-red/"
             },
             {
-                "texto": "Caddy",
-                "category": 1220,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/caddy/"
+                "texto": "Cables Impresora",
+                "category": 4510,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-impresora/"
             },
             {
-                "texto": "Capturadora",
-                "category": 1221,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/capturadora/"
+                "texto": "Cables Lightning",
+                "category": 4511,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-lightning/"
             },
             {
-                "texto": "Carry",
-                "category": 1222,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/carry/"
+                "texto": "Cables USB",
+                "category": 4512,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/cables-usb/"
+            },
+            {
+                "texto": "Capturadoras",
+                "category": 4513,
+                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/capturadoras/"
             },
             {
                 "texto": "Corriente",
@@ -161,76 +121,56 @@
                 "texto": "Datos",
                 "category": 1224,
                 "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/datos/"
-            },
-            {
-                "texto": "Hub Usb",
-                "category": 1225,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/hub-usb/"
-            },
-            {
-                "texto": "Lector Memoria",
-                "category": 1226,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/lector-memoria/"
-            },
-            {
-                "texto": "Placa de sonido",
-                "category": 1227,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/placa-de-sonido/"
-            },
-            {
-                "texto": "usb",
-                "category": 1228,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/usb/"
-            },
-            {
-                "texto": "Video",
-                "category": 1229,
-                "url": "https://www.langtecnologia.com.ar/cables-y--adaptadores/video/"
             }
         ]
     },
-    "CAMARAS DEPORTIVAS": {
-        "category": 1230,
+    "CAMARAS Y FOTOGRAFIA": {
+        "category": 4514,
         "sub_items": [
             {
                 "texto": "Accesorios",
                 "category": 951,
-                "url": "https://www.langtecnologia.com.ar/camaras-deportivas/accesorios/"
+                "url": "https://www.langtecnologia.com.ar/camaras-y-fotografia/accesorios/"
             },
             {
-                "texto": "CAMARAS                    DEPORTIVAS",
-                "category": 4383,
-                "url": "https://www.langtecnologia.com.ar/camaras-deportivas/camaras-deportivas/"
-            }
-        ]
-    },
-    "CAMARAS IP": {
-        "category": 1232,
-        "sub_items": [
+                "texto": "Baterias",
+                "category": 1314,
+                "url": "https://www.langtecnologia.com.ar/camaras-y-fotografia/baterias/"
+            },
             {
-                "texto": "CAMARAS IP",
-                "category": 1232,
-                "url": "https://www.langtecnologia.com.ar/camaras-ip/camaras-ip/"
+                "texto": "Bolsos",
+                "category": 1938,
+                "url": "https://www.langtecnologia.com.ar/camaras-y-fotografia/bolsos/"
+            },
+            {
+                "texto": "Camaras",
+                "category": 1271,
+                "url": "https://www.langtecnologia.com.ar/camaras-y-fotografia/camaras/"
             }
         ]
     },
-    "CELULARES": {
-        "category": 1233,
+    "CELULARES Y TELEFONOS": {
+        "category": 4515,
         "sub_items": [
             {
                 "texto": "Accesorios",
                 "category": 951,
-                "url": "https://www.langtecnologia.com.ar/celulares/accesorios/"
+                "url": "https://www.langtecnologia.com.ar/celulares-y-telefonos/accesorios/"
             },
             {
                 "texto": "Cargadores",
                 "category": 1234,
-                "url": "https://www.langtecnologia.com.ar/celulares/cargadores/"
+                "url": "https://www.langtecnologia.com.ar/celulares-y-telefonos/cargadores/"
             },
             {
                 "texto": "Celulares",
                 "category": 1233,
-                "url": "https://www.langtecnologia.com.ar/celulares/celulares/"
+                "url": "https://www.langtecnologia.com.ar/celulares-y-telefonos/celulares/"
+            },
+            {
+                "texto": "Telefonos de Linea",
+                "category": 4516,
+                "url": "https://www.langtecnologia.com.ar/celulares-y-telefonos/telefonos-de-linea/"
             }
         ]
     },
@@ -238,29 +178,49 @@
         "category": 1235,
         "sub_items": [
             {
-                "texto": "Calculadora",
-                "category": 1236,
-                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/calculadora/"
+                "texto": "Calculadoras",
+                "category": 4517,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/calculadoras/"
             },
             {
                 "texto": "Contadora",
                 "category": 1237,
-                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/contadora/"
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/contadora/"
             },
             {
-                "texto": "Destructor Papel",
-                "category": 1238,
-                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/destructor-papel/"
+                "texto": "Destructores Papel",
+                "category": 4518,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/destructores-papel/"
             },
             {
-                "texto": "Lectores                    codigo de barra",
-                "category": 4384,
-                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/lectores-codigo-de-barra/"
+                "texto": "Lectores codigo de barra",
+                "category": 4519,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/lectores-codigo-de-barra/"
             },
             {
-                "texto": "Registradora                    Fiscal",
-                "category": 4385,
-                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina-/registradora-fiscal/"
+                "texto": "Pantallas Proyector",
+                "category": 4520,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/pantallas-proyector/"
+            },
+            {
+                "texto": "Presentadores de Diapositivas",
+                "category": 4521,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/presentadores-de-diapositivas/"
+            },
+            {
+                "texto": "Proyectores",
+                "category": 1328,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/proyectores/"
+            },
+            {
+                "texto": "Registradoras Fiscales",
+                "category": 4522,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/registradoras-fiscales/"
+            },
+            {
+                "texto": "Scanners",
+                "category": 4523,
+                "url": "https://www.langtecnologia.com.ar/comercio-y-oficina/scanners/"
             }
         ]
     },
@@ -268,24 +228,29 @@
         "category": 1241,
         "sub_items": [
             {
-                "texto": "Cooler",
-                "category": 1242,
-                "url": "https://www.langtecnologia.com.ar/componentes/cooler/"
+                "texto": "Accesorios Discos",
+                "category": 4524,
+                "url": "https://www.langtecnologia.com.ar/componentes/accesorios-discos/"
             },
             {
-                "texto": "Disco Externo",
-                "category": 1243,
-                "url": "https://www.langtecnologia.com.ar/componentes/disco-externo/"
+                "texto": "Coolers",
+                "category": 2763,
+                "url": "https://www.langtecnologia.com.ar/componentes/coolers/"
             },
             {
-                "texto": "Disco Interno",
-                "category": 1244,
-                "url": "https://www.langtecnologia.com.ar/componentes/disco-interno/"
+                "texto": "Discos HDD",
+                "category": 4525,
+                "url": "https://www.langtecnologia.com.ar/componentes/discos-hdd/"
             },
             {
-                "texto": "Fuente",
-                "category": 1245,
-                "url": "https://www.langtecnologia.com.ar/componentes/fuente/"
+                "texto": "Discos SSD",
+                "category": 4526,
+                "url": "https://www.langtecnologia.com.ar/componentes/discos-ssd/"
+            },
+            {
+                "texto": "Fuentes de Poder",
+                "category": 4527,
+                "url": "https://www.langtecnologia.com.ar/componentes/fuentes-de-poder/"
             },
             {
                 "texto": "Gabinetes",
@@ -293,14 +258,19 @@
                 "url": "https://www.langtecnologia.com.ar/componentes/gabinetes/"
             },
             {
-                "texto": "Insumos de Limpieza",
-                "category": 1247,
-                "url": "https://www.langtecnologia.com.ar/componentes/insumos-de-limpieza/"
+                "texto": "Gabinetes Rack",
+                "category": 1276,
+                "url": "https://www.langtecnologia.com.ar/componentes/gabinetes-rack/"
             },
             {
-                "texto": "Memoria Ram",
-                "category": 1248,
-                "url": "https://www.langtecnologia.com.ar/componentes/memoria-ram/"
+                "texto": "Lectoras Grabadoras",
+                "category": 4528,
+                "url": "https://www.langtecnologia.com.ar/componentes/lectoras-grabadoras/"
+            },
+            {
+                "texto": "Memorias Ram",
+                "category": 4529,
+                "url": "https://www.langtecnologia.com.ar/componentes/memorias-ram/"
             },
             {
                 "texto": "Motherboards",
@@ -308,14 +278,19 @@
                 "url": "https://www.langtecnologia.com.ar/componentes/motherboards/"
             },
             {
-                "texto": "Placa de Video",
-                "category": 1250,
-                "url": "https://www.langtecnologia.com.ar/componentes/placa-de-video/"
+                "texto": "Placas de Sonido",
+                "category": 4530,
+                "url": "https://www.langtecnologia.com.ar/componentes/placas-de-sonido/"
             },
             {
-                "texto": "Procesador",
-                "category": 1251,
-                "url": "https://www.langtecnologia.com.ar/componentes/procesador/"
+                "texto": "Placas de Video",
+                "category": 2769,
+                "url": "https://www.langtecnologia.com.ar/componentes/placas-de-video/"
+            },
+            {
+                "texto": "Procesadores",
+                "category": 4531,
+                "url": "https://www.langtecnologia.com.ar/componentes/procesadores/"
             }
         ]
     },
@@ -323,49 +298,54 @@
         "category": 1252,
         "sub_items": [
             {
-                "texto": "All                    In One",
-                "category": 4386,
-                "url": "https://www.langtecnologia.com.ar/computadoras/all-in-one/"
+                "texto": "PC con Monitor",
+                "category": 4532,
+                "url": "https://www.langtecnologia.com.ar/computadoras/pc-con-monitor/"
             },
             {
-                "texto": "Armadas",
-                "category": 1254,
-                "url": "https://www.langtecnologia.com.ar/computadoras/armadas/"
+                "texto": "PC sin Monitor",
+                "category": 4533,
+                "url": "https://www.langtecnologia.com.ar/computadoras/pc-sin-monitor/"
             }
         ]
     },
-    "CONSOLAS": {
-        "category": 1255,
+    "DISPOSITIVOS SMART TV": {
+        "category": 4534,
         "sub_items": [
             {
-                "texto": "CONSOLAS",
-                "category": 1255,
-                "url": "https://www.langtecnologia.com.ar/consolas/consolas/"
+                "texto": "Conversores Smart TV",
+                "category": 4535,
+                "url": "https://www.langtecnologia.com.ar/dispositivos-smart-tv-/conversores-smart-tv/"
+            },
+            {
+                "texto": "Dispositivos Inteligentes",
+                "category": 4536,
+                "url": "https://www.langtecnologia.com.ar/dispositivos-smart-tv-/dispositivos-inteligentes/"
             }
         ]
     },
-    "CPU": {
-        "category": 1256,
+    "EBOOKS Y TABLETS": {
+        "category": 4537,
         "sub_items": [
             {
-                "texto": "Bassic",
-                "category": 1257,
-                "url": "https://www.langtecnologia.com.ar/cpu/bassic/"
+                "texto": "Accesorios",
+                "category": 951,
+                "url": "https://www.langtecnologia.com.ar/ebooks-y-tablets/accesorios/"
             },
             {
-                "texto": "CPU",
-                "category": 1256,
-                "url": "https://www.langtecnologia.com.ar/cpu/cpu/"
+                "texto": "Cargadores",
+                "category": 1234,
+                "url": "https://www.langtecnologia.com.ar/ebooks-y-tablets/cargadores/"
             },
             {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/cpu/gamer/"
+                "texto": "Ebooks",
+                "category": 4538,
+                "url": "https://www.langtecnologia.com.ar/ebooks-y-tablets/ebooks/"
             },
             {
-                "texto": "Professional",
-                "category": 1258,
-                "url": "https://www.langtecnologia.com.ar/cpu/professional/"
+                "texto": "Tablets",
+                "category": 1350,
+                "url": "https://www.langtecnologia.com.ar/ebooks-y-tablets/tablets/"
             }
         ]
     },
@@ -373,269 +353,164 @@
         "category": 1259,
         "sub_items": [
             {
-                "texto": "ELECTRO",
-                "category": 1259,
-                "url": "https://www.langtecnologia.com.ar/electro/electro/"
-            }
-        ]
-    },
-    "ENERGIA": {
-        "category": 1260,
-        "sub_items": [
-            {
-                "texto": "Estabilizadores",
-                "category": 1261,
-                "url": "https://www.langtecnologia.com.ar/energia/estabilizadores/"
+                "texto": "Electrodomesticos",
+                "category": 1651,
+                "url": "https://www.langtecnologia.com.ar/electro/electrodomesticos/"
             },
-            {
-                "texto": "Protectores                    Sobretension",
-                "category": 4387,
-                "url": "https://www.langtecnologia.com.ar/energia/protectores-sobretension/"
-            },
-            {
-                "texto": "UPS",
-                "category": 1263,
-                "url": "https://www.langtecnologia.com.ar/energia/ups/"
-            },
-            {
-                "texto": "Zapatillas",
-                "category": 1264,
-                "url": "https://www.langtecnologia.com.ar/energia/zapatillas/"
-            }
-        ]
-    },
-    "ESCRITORIOS Y MOBILIARIO": {
-        "category": 1265,
-        "sub_items": [
-            {
-                "texto": "ESCRITORIOS                    Y MOBILIARIO",
-                "category": 4388,
-                "url": "https://www.langtecnologia.com.ar/escritorios-y-mobiliario/escritorios-y-mobiliario/"
-            }
-        ]
-    },
-    "FOTOGRAFIA": {
-        "category": 1267,
-        "sub_items": [
-            {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/fotografia/accesorios/"
-            },
-            {
-                "texto": "Bateria / Cargador",
-                "category": 1268,
-                "url": "https://www.langtecnologia.com.ar/fotografia/bateria---cargador/"
-            },
-            {
-                "texto": "Bolsos / Mochilas",
-                "category": 1269,
-                "url": "https://www.langtecnologia.com.ar/fotografia/bolsos---mochilas/"
-            },
-            {
-                "texto": "Cables Camara",
-                "category": 1270,
-                "url": "https://www.langtecnologia.com.ar/fotografia/cables-camara/"
-            },
-            {
-                "texto": "Camaras",
-                "category": 1271,
-                "url": "https://www.langtecnologia.com.ar/fotografia/camaras/"
-            },
-            {
-                "texto": "Disparadores",
-                "category": 1272,
-                "url": "https://www.langtecnologia.com.ar/fotografia/disparadores/"
-            },
-            {
-                "texto": "Flash",
-                "category": 1273,
-                "url": "https://www.langtecnologia.com.ar/fotografia/flash/"
-            },
-            {
-                "texto": "Lente / Accesorios                    Lente",
-                "category": 4389,
-                "url": "https://www.langtecnologia.com.ar/fotografia/lente---accesorios-lente/"
-            },
-            {
-                "texto": "Memoria Camara",
-                "category": 1275,
-                "url": "https://www.langtecnologia.com.ar/fotografia/memoria-camara/"
-            }
-        ]
-    },
-    "GABINETES RACK": {
-        "category": 1276,
-        "sub_items": [
-            {
-                "texto": "GABINETES RACK",
-                "category": 1276,
-                "url": "https://www.langtecnologia.com.ar/gabinetes-rack/gabinetes-rack/"
-            }
-        ]
-    },
-    "GPS": {
-        "category": 1277,
-        "sub_items": [
             {
                 "texto": "GPS",
                 "category": 1277,
-                "url": "https://www.langtecnologia.com.ar/gps/gps/"
+                "url": "https://www.langtecnologia.com.ar/electro/gps/"
             }
         ]
     },
-    "HERRAMIENTAS": {
-        "category": 1278,
+    "ENERGIA E ILUMINACION": {
+        "category": 4539,
         "sub_items": [
             {
-                "texto": "HERRAMIENTAS",
+                "texto": "Cargadores Pilas y Baterias",
+                "category": 4540,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/cargadores-pilas-y-baterias/"
+            },
+            {
+                "texto": "Estabilizadores y Protectores Sobretension",
+                "category": 4541,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/estabilizadores-y-protectores-sobretension/"
+            },
+            {
+                "texto": "Fuentes y Transformadores",
+                "category": 4542,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/fuentes-y-transformadores/"
+            },
+            {
+                "texto": "Iluminacion y Accesorios",
+                "category": 4543,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/iluminacion-y-accesorios/"
+            },
+            {
+                "texto": "Pilas y Baterias",
+                "category": 234,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/pilas-y-baterias/"
+            },
+            {
+                "texto": "Power Banks",
+                "category": 1326,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/power-banks/"
+            },
+            {
+                "texto": "Ups",
+                "category": 1263,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/ups/"
+            },
+            {
+                "texto": "Zapatillas Corriente",
+                "category": 4544,
+                "url": "https://www.langtecnologia.com.ar/energia-e-iluminacion/zapatillas-corriente/"
+            }
+        ]
+    },
+    "GAMER": {
+        "category": 1208,
+        "sub_items": [
+            {
+                "texto": "Cargadores Patineta",
+                "category": 4545,
+                "url": "https://www.langtecnologia.com.ar/gamer/cargadores-patineta/"
+            },
+            {
+                "texto": "Consolas",
+                "category": 1255,
+                "url": "https://www.langtecnologia.com.ar/gamer/consolas/"
+            },
+            {
+                "texto": "Joysticks y Accesorios",
+                "category": 4546,
+                "url": "https://www.langtecnologia.com.ar/gamer/joysticks-y-accesorios/"
+            },
+            {
+                "texto": "Palancas",
+                "category": 1309,
+                "url": "https://www.langtecnologia.com.ar/gamer/palancas/"
+            },
+            {
+                "texto": "Realidad Virtual",
+                "category": 4547,
+                "url": "https://www.langtecnologia.com.ar/gamer/realidad-virtual/"
+            },
+            {
+                "texto": "Volantes",
+                "category": 1357,
+                "url": "https://www.langtecnologia.com.ar/gamer/volantes/"
+            }
+        ]
+    },
+    "HERRAMIENTAS Y LIMPIEZA": {
+        "category": 4548,
+        "sub_items": [
+            {
+                "texto": "Herramientas",
                 "category": 1278,
-                "url": "https://www.langtecnologia.com.ar/herramientas/herramientas/"
+                "url": "https://www.langtecnologia.com.ar/herramientas-y-limpieza/herramientas/"
+            },
+            {
+                "texto": "Limpieza Electronica y Refrigeracion",
+                "category": 4549,
+                "url": "https://www.langtecnologia.com.ar/herramientas-y-limpieza/limpieza-electronica-y-refrigeracion/"
             }
         ]
     },
-    "ILUMINACION": {
-        "category": 450,
+    "IMPRESORAS E INSUMOS DE IMPRESION": {
+        "category": 4550,
         "sub_items": [
             {
-                "texto": "Led",
-                "category": 1279,
-                "url": "https://www.langtecnologia.com.ar/iluminacion/led/"
-            },
-            {
-                "texto": "RGB",
-                "category": 1280,
-                "url": "https://www.langtecnologia.com.ar/iluminacion/rgb/"
-            }
-        ]
-    },
-    "IMPRESORAS": {
-        "category": 1281,
-        "sub_items": [
-            {
-                "texto": "3D",
-                "category": 1282,
-                "url": "https://www.langtecnologia.com.ar/impresoras/3d/"
-            },
-            {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/impresoras/accesorios/"
-            },
-            {
-                "texto": "Fiscal",
-                "category": 1283,
-                "url": "https://www.langtecnologia.com.ar/impresoras/fiscal/"
-            },
-            {
-                "texto": "Laser",
-                "category": 1284,
-                "url": "https://www.langtecnologia.com.ar/impresoras/laser/"
-            },
-            {
-                "texto": "Multifuncion",
-                "category": 1285,
-                "url": "https://www.langtecnologia.com.ar/impresoras/multifuncion/"
-            },
-            {
-                "texto": "Plotter",
-                "category": 1286,
-                "url": "https://www.langtecnologia.com.ar/impresoras/plotter/"
-            },
-            {
-                "texto": "Sistema Continuo",
-                "category": 1287,
-                "url": "https://www.langtecnologia.com.ar/impresoras/sistema-continuo/"
-            }
-        ]
-    },
-    "INSUMOS": {
-        "category": 888,
-        "sub_items": [
-            {
-                "texto": "Cartucho",
-                "category": 1288,
-                "url": "https://www.langtecnologia.com.ar/insumos/cartucho/"
+                "texto": "Cartuchos",
+                "category": 1380,
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/cartuchos/"
             },
             {
                 "texto": "Filamentos",
                 "category": 1289,
-                "url": "https://www.langtecnologia.com.ar/insumos/filamentos/"
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/filamentos/"
             },
             {
-                "texto": "Papel                    / Resma",
-                "category": 4390,
-                "url": "https://www.langtecnologia.com.ar/insumos/papel---resma/"
+                "texto": "Impresoras",
+                "category": 1281,
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/impresoras/"
+            },
+            {
+                "texto": "Papel/Resma",
+                "category": 4551,
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/papel-resma/"
             },
             {
                 "texto": "Resinas",
                 "category": 1291,
-                "url": "https://www.langtecnologia.com.ar/insumos/resinas/"
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/resinas/"
             },
             {
-                "texto": "Tinta",
-                "category": 1292,
-                "url": "https://www.langtecnologia.com.ar/insumos/tinta/"
+                "texto": "Tintas",
+                "category": 4552,
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/tintas/"
             },
             {
-                "texto": "Toner",
-                "category": 1293,
-                "url": "https://www.langtecnologia.com.ar/insumos/toner/"
+                "texto": "Toners",
+                "category": 4553,
+                "url": "https://www.langtecnologia.com.ar/impresoras-e-insumos-de-impresion/toners/"
             }
         ]
     },
-    "JOYSTICKS": {
-        "category": 1294,
+    "MOCHILAS Y FUNDAS": {
+        "category": 1377,
         "sub_items": [
             {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/joysticks/accesorios/"
+                "texto": "Fundas",
+                "category": 1435,
+                "url": "https://www.langtecnologia.com.ar/mochilas-y-fundas/fundas/"
             },
             {
-                "texto": "JOYSTICK",
-                "category": 1295,
-                "url": "https://www.langtecnologia.com.ar/joysticks/joystick/"
-            }
-        ]
-    },
-    "KITS": {
-        "category": 1296,
-        "sub_items": [
-            {
-                "texto": "KITS",
-                "category": 1296,
-                "url": "https://www.langtecnologia.com.ar/kits/kits/"
-            }
-        ]
-    },
-    "LENTES VR": {
-        "category": 1297,
-        "sub_items": [
-            {
-                "texto": "LENTES                    VR",
-                "category": 4391,
-                "url": "https://www.langtecnologia.com.ar/lentes-vr/lentes-vr/"
-            }
-        ]
-    },
-    "MICROFONOS": {
-        "category": 1299,
-        "sub_items": [
-            {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/microfonos/gamer/"
-            },
-            {
-                "texto": "Karaoke",
-                "category": 1300,
-                "url": "https://www.langtecnologia.com.ar/microfonos/karaoke/"
-            },
-            {
-                "texto": "Oficina",
-                "category": 1301,
-                "url": "https://www.langtecnologia.com.ar/microfonos/oficina/"
+                "texto": "Mochilas",
+                "category": 1645,
+                "url": "https://www.langtecnologia.com.ar/mochilas-y-fundas/mochilas/"
             }
         ]
     },
@@ -648,39 +523,14 @@
                 "url": "https://www.langtecnologia.com.ar/monitores/consumo/"
             },
             {
+                "texto": "Fuentes",
+                "category": 2765,
+                "url": "https://www.langtecnologia.com.ar/monitores/fuentes/"
+            },
+            {
                 "texto": "Gamer",
                 "category": 1208,
                 "url": "https://www.langtecnologia.com.ar/monitores/gamer/"
-            }
-        ]
-    },
-    "Mouse": {
-        "category": 1304,
-        "sub_items": [
-            {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/mouse/gamer/"
-            },
-            {
-                "texto": "Oficina",
-                "category": 1301,
-                "url": "https://www.langtecnologia.com.ar/mouse/oficina/"
-            }
-        ]
-    },
-    "MOUSEPAD": {
-        "category": 1305,
-        "sub_items": [
-            {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/mousepad/gamer/"
-            },
-            {
-                "texto": "Oficina",
-                "category": 1301,
-                "url": "https://www.langtecnologia.com.ar/mousepad/oficina/"
             }
         ]
     },
@@ -688,19 +538,14 @@
         "category": 1306,
         "sub_items": [
             {
-                "texto": "Base                    cooler",
-                "category": 4392,
-                "url": "https://www.langtecnologia.com.ar/notebooks/base-cooler/"
+                "texto": "Bases cooler",
+                "category": 4554,
+                "url": "https://www.langtecnologia.com.ar/notebooks/bases-cooler/"
             },
             {
                 "texto": "Cargadores",
                 "category": 1234,
                 "url": "https://www.langtecnologia.com.ar/notebooks/cargadores/"
-            },
-            {
-                "texto": "Fundas / Mochilas",
-                "category": 1308,
-                "url": "https://www.langtecnologia.com.ar/notebooks/fundas---mochilas/"
             },
             {
                 "texto": "Notebooks",
@@ -709,228 +554,73 @@
             }
         ]
     },
-    "PALANCAS": {
-        "category": 1309,
+    "PERIFERICOS": {
+        "category": 4555,
         "sub_items": [
             {
-                "texto": "Palanca",
-                "category": 1310,
-                "url": "https://www.langtecnologia.com.ar/palancas/palanca/"
+                "texto": "Hubs USB",
+                "category": 4556,
+                "url": "https://www.langtecnologia.com.ar/perifericos/hubs-usb/"
+            },
+            {
+                "texto": "Kits Teclado - Mouse - Mousepad - Auriculares",
+                "category": 4557,
+                "url": "https://www.langtecnologia.com.ar/perifericos/kits-teclado---mouse---mousepad---auriculares/"
+            },
+            {
+                "texto": "Mouse",
+                "category": 1304,
+                "url": "https://www.langtecnologia.com.ar/perifericos/mouse/"
+            },
+            {
+                "texto": "Mouse pad",
+                "category": 4558,
+                "url": "https://www.langtecnologia.com.ar/perifericos/mouse-pad/"
+            },
+            {
+                "texto": "Teclados",
+                "category": 1353,
+                "url": "https://www.langtecnologia.com.ar/perifericos/teclados/"
+            },
+            {
+                "texto": "Webcams",
+                "category": 1692,
+                "url": "https://www.langtecnologia.com.ar/perifericos/webcams/"
             }
         ]
     },
-    "PARLANTES": {
-        "category": 1311,
+    "REDES Y CONECTIVIDAD": {
+        "category": 4559,
         "sub_items": [
             {
-                "texto": "Barras de sonido",
-                "category": 1312,
-                "url": "https://www.langtecnologia.com.ar/parlantes/barras-de-sonido/"
+                "texto": "Accesorios Red",
+                "category": 1201,
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/accesorios-red/"
             },
             {
-                "texto": "Inalambrico",
-                "category": 1209,
-                "url": "https://www.langtecnologia.com.ar/parlantes/inalambrico/"
+                "texto": "Access Point",
+                "category": 1205,
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/access-point/"
             },
             {
-                "texto": "Oficina / PC",
-                "category": 1210,
-                "url": "https://www.langtecnologia.com.ar/parlantes/oficina---pc/"
+                "texto": "Placas de Red",
+                "category": 4560,
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/placas-de-red/"
             },
             {
-                "texto": "Tripode",
-                "category": 1313,
-                "url": "https://www.langtecnologia.com.ar/parlantes/tripode/"
-            }
-        ]
-    },
-    "PILAS Y BATERIAS": {
-        "category": 234,
-        "sub_items": [
-            {
-                "texto": "Baterias",
-                "category": 1314,
-                "url": "https://www.langtecnologia.com.ar/pilas-y-baterias/baterias/"
-            },
-            {
-                "texto": "Cargadores",
-                "category": 1234,
-                "url": "https://www.langtecnologia.com.ar/pilas-y-baterias/cargadores/"
-            },
-            {
-                "texto": "PILAS",
-                "category": 1134,
-                "url": "https://www.langtecnologia.com.ar/pilas-y-baterias/pilas/"
-            }
-        ]
-    },
-    "PILAS Y CARGADORES": {
-        "category": 1315,
-        "sub_items": [
-            {
-                "texto": "PILAS Y                    CARGADORES",
-                "category": 4393,
-                "url": "https://www.langtecnologia.com.ar/pilas-y-cargadores/pilas-y-cargadores/"
-            },
-            {
-                "texto": "Power Bank",
-                "category": 1317,
-                "url": "https://www.langtecnologia.com.ar/pilas-y-cargadores/power-bank/"
-            }
-        ]
-    },
-    "PLACAS RED EXTERNAS": {
-        "category": 1318,
-        "sub_items": [
-            {
-                "texto": "Bluetooth",
-                "category": 1319,
-                "url": "https://www.langtecnologia.com.ar/placas-red-externas/bluetooth/"
-            },
-            {
-                "texto": "Lan",
-                "category": 1320,
-                "url": "https://www.langtecnologia.com.ar/placas-red-externas/lan/"
-            },
-            {
-                "texto": "PCI / PCIEx",
-                "category": 1321,
-                "url": "https://www.langtecnologia.com.ar/placas-red-externas/pci---pciex/"
-            },
-            {
-                "texto": "PLACAS RED                    EXTERNAS",
-                "category": 4394,
-                "url": "https://www.langtecnologia.com.ar/placas-red-externas/placas-red-externas/"
-            },
-            {
-                "texto": "Wifi",
-                "category": 1323,
-                "url": "https://www.langtecnologia.com.ar/placas-red-externas/wifi/"
-            }
-        ]
-    },
-    "PLACAS RED INTERNAS": {
-        "category": 1324,
-        "sub_items": [
-            {
-                "texto": "Bluetooth",
-                "category": 1319,
-                "url": "https://www.langtecnologia.com.ar/placas-red-internas/bluetooth/"
-            },
-            {
-                "texto": "Lan",
-                "category": 1320,
-                "url": "https://www.langtecnologia.com.ar/placas-red-internas/lan/"
-            },
-            {
-                "texto": "PLACAS RED                    INTERNAS",
-                "category": 4395,
-                "url": "https://www.langtecnologia.com.ar/placas-red-internas/placas-red-internas/"
-            },
-            {
-                "texto": "Wifi",
-                "category": 1323,
-                "url": "https://www.langtecnologia.com.ar/placas-red-internas/wifi/"
-            }
-        ]
-    },
-    "POWER BANKS": {
-        "category": 1326,
-        "sub_items": [
-            {
-                "texto": "Power                    Bank",
-                "category": 4396,
-                "url": "https://www.langtecnologia.com.ar/power-banks/power-bank/"
-            }
-        ]
-    },
-    "PROYECTORES": {
-        "category": 1328,
-        "sub_items": [
-            {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/proyectores/accesorios/"
-            },
-            {
-                "texto": "Pantalla",
-                "category": 1329,
-                "url": "https://www.langtecnologia.com.ar/proyectores/pantalla/"
-            },
-            {
-                "texto": "Proyector",
-                "category": 1330,
-                "url": "https://www.langtecnologia.com.ar/proyectores/proyector/"
-            }
-        ]
-    },
-    "RADIOS": {
-        "category": 1331,
-        "sub_items": [
-            {
-                "texto": "RADIOS",
-                "category": 1331,
-                "url": "https://www.langtecnologia.com.ar/radios/radios/"
-            }
-        ]
-    },
-    "REPETIDORES WIFI": {
-        "category": 1332,
-        "sub_items": [
-            {
-                "texto": "REPETIDORES WIFI",
+                "texto": "Repetidores Wifi",
                 "category": 1332,
-                "url": "https://www.langtecnologia.com.ar/repetidores-wifi/repetidores-wifi/"
-            }
-        ]
-    },
-    "ROUTERS / MODEMS": {
-        "category": 1333,
-        "sub_items": [
-            {
-                "texto": "Antena",
-                "category": 1334,
-                "url": "https://www.langtecnologia.com.ar/routers---modems/antena/"
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/repetidores-wifi/"
             },
             {
-                "texto": "Balanceador de                    Carga",
-                "category": 4397,
-                "url": "https://www.langtecnologia.com.ar/routers---modems/balanceador-de-carga/"
+                "texto": "Routers y Modems",
+                "category": 4561,
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/routers-y-modems/"
             },
             {
-                "texto": "Lan",
-                "category": 1320,
-                "url": "https://www.langtecnologia.com.ar/routers---modems/lan/"
-            },
-            {
-                "texto": "ROUTERS / MODEMS",
-                "category": 1333,
-                "url": "https://www.langtecnologia.com.ar/routers---modems/routers---modems/"
-            },
-            {
-                "texto": "Wifi",
-                "category": 1323,
-                "url": "https://www.langtecnologia.com.ar/routers---modems/wifi/"
-            }
-        ]
-    },
-    "SCANNER": {
-        "category": 1336,
-        "sub_items": [
-            {
-                "texto": "Escritorio",
-                "category": 1337,
-                "url": "https://www.langtecnologia.com.ar/scanner/escritorio/"
-            },
-            {
-                "texto": "Portatil",
-                "category": 1338,
-                "url": "https://www.langtecnologia.com.ar/scanner/portatil/"
-            },
-            {
-                "texto": "SCANNER",
-                "category": 1336,
-                "url": "https://www.langtecnologia.com.ar/scanner/scanner/"
+                "texto": "Switch",
+                "category": 4562,
+                "url": "https://www.langtecnologia.com.ar/redes-y-conectividad/switch/"
             }
         ]
     },
@@ -938,29 +628,24 @@
         "category": 1339,
         "sub_items": [
             {
-                "texto": "Camara                    IP",
-                "category": 4398,
-                "url": "https://www.langtecnologia.com.ar/seguridad/camara-ip/"
-            },
-            {
-                "texto": "Disco                    Nas",
-                "category": 4399,
-                "url": "https://www.langtecnologia.com.ar/seguridad/disco-nas/"
-            },
-            {
-                "texto": "SEGURIDAD",
-                "category": 1339,
-                "url": "https://www.langtecnologia.com.ar/seguridad/seguridad/"
+                "texto": "Camaras IP",
+                "category": 1232,
+                "url": "https://www.langtecnologia.com.ar/seguridad/camaras-ip/"
             }
         ]
     },
-    "SILLAS": {
-        "category": 1342,
+    "SILLAS Y ESCRITORIOS": {
+        "category": 4563,
         "sub_items": [
             {
-                "texto": "SILLAS",
+                "texto": "Escritorios",
+                "category": 2710,
+                "url": "https://www.langtecnologia.com.ar/sillas-y-escritorios/escritorios/"
+            },
+            {
+                "texto": "Sillas",
                 "category": 1342,
-                "url": "https://www.langtecnologia.com.ar/sillas/sillas/"
+                "url": "https://www.langtecnologia.com.ar/sillas-y-escritorios/sillas/"
             }
         ]
     },
@@ -984,118 +669,13 @@
             }
         ]
     },
-    "SOPORTES": {
-        "category": 1345,
+    "TABLETAS DIGITALIZADORAS": {
+        "category": 4378,
         "sub_items": [
             {
-                "texto": "Base                    Monitor",
-                "category": 4400,
-                "url": "https://www.langtecnologia.com.ar/soportes/base-monitor/"
-            },
-            {
-                "texto": "SOPORTES",
-                "category": 1345,
-                "url": "https://www.langtecnologia.com.ar/soportes/soportes/"
-            }
-        ]
-    },
-    "SWITCHES": {
-        "category": 1347,
-        "sub_items": [
-            {
-                "texto": "Desktop",
-                "category": 1348,
-                "url": "https://www.langtecnologia.com.ar/switches/desktop/"
-            },
-            {
-                "texto": "Rack",
-                "category": 1349,
-                "url": "https://www.langtecnologia.com.ar/switches/rack/"
-            },
-            {
-                "texto": "SWITCHES",
-                "category": 1347,
-                "url": "https://www.langtecnologia.com.ar/switches/switches/"
-            }
-        ]
-    },
-    "TABLETS": {
-        "category": 1350,
-        "sub_items": [
-            {
-                "texto": "Accesorios",
-                "category": 951,
-                "url": "https://www.langtecnologia.com.ar/tablets/accesorios/"
-            },
-            {
-                "texto": "Cargadores",
-                "category": 1234,
-                "url": "https://www.langtecnologia.com.ar/tablets/cargadores/"
-            },
-            {
-                "texto": "Funda",
-                "category": 1351,
-                "url": "https://www.langtecnologia.com.ar/tablets/funda/"
-            },
-            {
-                "texto": "Tablet",
-                "category": 1352,
-                "url": "https://www.langtecnologia.com.ar/tablets/tablet/"
-            }
-        ]
-    },
-    "TECLADOS": {
-        "category": 1353,
-        "sub_items": [
-            {
-                "texto": "Gamer",
-                "category": 1208,
-                "url": "https://www.langtecnologia.com.ar/teclados/gamer/"
-            },
-            {
-                "texto": "Oficina",
-                "category": 1301,
-                "url": "https://www.langtecnologia.com.ar/teclados/oficina/"
-            }
-        ]
-    },
-    "TELEFONOS": {
-        "category": 1354,
-        "sub_items": [
-            {
-                "texto": "TELEFONOS",
-                "category": 1354,
-                "url": "https://www.langtecnologia.com.ar/telefonos/telefonos/"
-            }
-        ]
-    },
-    "TELEVISORES": {
-        "category": 1355,
-        "sub_items": [
-            {
-                "texto": "TELEVISORES",
-                "category": 1355,
-                "url": "https://www.langtecnologia.com.ar/televisores/televisores/"
-            }
-        ]
-    },
-    "TV BOX": {
-        "category": 1356,
-        "sub_items": [
-            {
-                "texto": "TV BOX",
-                "category": 1356,
-                "url": "https://www.langtecnologia.com.ar/tv-box/tv-box/"
-            }
-        ]
-    },
-    "VOLANTES": {
-        "category": 1357,
-        "sub_items": [
-            {
-                "texto": "VOLANTES",
-                "category": 1357,
-                "url": "https://www.langtecnologia.com.ar/volantes/volantes/"
+                "texto": "Tabletas Digitalizadoras",
+                "category": 4378,
+                "url": "https://www.langtecnologia.com.ar/tabletas-digitalizadoras/tabletas-digitalizadoras/"
             }
         ]
     }
