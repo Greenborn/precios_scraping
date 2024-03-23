@@ -73,19 +73,23 @@ while True:
             titulo_oferta = titulo_oferta + " - " + _descript2
         
         # en promociones 3x2 por ej
+        promo_cnt = ''
         if (_decimal_2 == "" and _decimal_1 == ""):
+            promo_cnt = price_cnt
             titulo_oferta = price_cnt + " - " + titulo_oferta
         elif (_decimal_1 == "%"):
+            promo_cnt     = price_cnt + _decimal_1 + " " + _decimal_2
             titulo_oferta = price_cnt + _decimal_1 + " " + _decimal_2 + " " + titulo_oferta
 
         promocion = {
             "orden":       0,
             "titulo":      titulo_oferta,
             "id_producto": 0,
-            "datos_extra": {},
+            "datos_extra": { "promo_cnt": promo_cnt },
             "precio":      -1,
             "branch_id":   BRANCH_ID,
-            "url":         url_oferta
+            "url":         url_oferta,
+            "key": config["BACK_KEY"]
         }
 
         if (_decimal_2 == "FINAL"):
