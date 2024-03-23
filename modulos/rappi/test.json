@@ -1,0 +1,2412 @@
+{
+    "props": {
+        "pageProps": {
+            "_nextI18Next": {
+                "initialI18nStore": {
+                    "es-AR": {
+                        "common": {
+                            "head_title": "Restaurantes cerca de mi para pedir Delivery - Rappi",
+                            "head_description": "Pide delivery en los mejores {{numberOfRestaurants}} restaurantes en {{location}} y consigue 15 días de envíos gratis. Rappi entrega su pedido en minutos",
+                            "category_by_city_head_title": "{{cuisine}} Delivery en {{city}}",
+                            "category_by_city_head_description": "Pide en los mejores {{numberOfRestaurants}} restaurantes que hacen Delivery de {{cuisine}} en {{city}} y consigue 15 días de envíos gratis con Rappi",
+                            "restaurant_head_title": "{{restaurantName}} Delivery {{location}}",
+                            "restaurant_head_title_whitelist": "{{storeName}} delivery en {{location}} - Rappi",
+                            "restaurant_head_description": "Pedí Delivery en {{restaurantName}} {{location}} de tu comida favorita y Rappi te la lleva en minutos a tu casa",
+                            "restaurant_head_description_whitelist": "Consiga 15 días de delivery gratis en {{storeName}}. Descubra las mejores promociones y comidas más populares de {{storeName}} en Rappi. Enviamos a domicilio en {{eta}}",
+                            "company": "Rappi",
+                            "titles": {
+                                "main_categories": "Principales categorías",
+                                "favorites": "Tus favoritos",
+                                "best_promos": "¡Las mejores promos!",
+                                "restaurant_promos": "Restaurantes con Descuentos y Promociones",
+                                "restaurant_promos_category": "Restaurantes de {{category}} con promociones",
+                                "best_rated": "Restaurantes mejor evaluados",
+                                "rest_by_category": "Lo mejor en {{category}}",
+                                "top_ten": "Top 10 Restaurantes en {{cuisine}}",
+                                "top_releases": "Nuevos restaurantes de {{category}}",
+                                "fast_delivery": "Los más cercanos",
+                                "show_all": "Ver todos",
+                                "country_cuisine": "Mejores {{numberOfRestaurants}} restaurantes de {{cuisine}}",
+                                "city_cuisine": "Mejores {{numberOfRestaurants}} restaurantes de {{cuisine}} en {{city}}",
+                                "opened": "Restaurantes cerca de mí",
+                                "closed": "Restaurantes cerrados"
+                            },
+                            "about_restaurant": {
+                                "header": "Acerca de {{name}}",
+                                "address": "Dirección",
+                                "schedule": "Horario de atención",
+                                "description": "¡El mejor servicio!"
+                            },
+                            "location_search": {
+                                "subtitle": "Compártenos tu ubicación",
+                                "title": "Encuentra tu \u003c1\u003e{{store}}\u003c/1\u003e\u003c2\u003e más cercano\u003c/2\u003e",
+                                "input_placeholder": "Ingresa tu ubicación o activa tu localización"
+                            },
+                            "countryCuisine": {
+                                "title": "Restaurantes en Argentina",
+                                "content": "\u003cp\u003eLos restaurantes en Argentina se caracterizan por ofrecer aquellas recetas tradicionales que se fueron transmitiendo de generación en generación, por ejemplo: las empanadas salteñas, tucumanas, los alfajores cordobeses con dulce de leche, las pastas, las milanesas, pizza con fainá.  En Argentina podés disfrutar de los principales viñedos y bodegas donde se generan excelentes vinos varietales que se exportan a todo el mundo.\u003c/p\u003e\u003cbr\u003e\u003c/br\u003e\u003cbr\u003e\u003c/br\u003e\u003cp\u003eEn Argentina hay una gran variedad de restaurantes italianos, restaurantes peruanos, restaurantes especializados en la cocina asiática como son los restaurantes japoneses o coreanos y muchas más opciones de comidas internacionales y regionales. Entre los mejores Restaurantes en Argentina vas a poder pedir por alguna de las recetas típicas, pero con notas gourmet que elevan cada sabor y hacen de cada plato o producto algo único y memorable. Por ejemplo: el asado, pero con diferentes tipos de cocciones, a la parrilla, a la estaca, a la cruz, a la llama, con diferentes tipos de leñas o con carbón y como acompañamiento verduras asadas, ensaladas de cuscús con verduras, ensalada de papa y zanahoria con mayonesa, o las clásicas papas revueltas con huevo.\u003c/p\u003e\u003cbr\u003e\u003c/br\u003e\u003cbr\u003e\u003c/br\u003e\u003cp\u003eHace tu pedido de delivery en Restaurantes con Rappi y te lo llevamos en minutos\u003c/p\u003e"
+                            },
+                            "breadCrumbList": {
+                                "delivery": "Delivery",
+                                "name_delivery": "{{name}} Delivery",
+                                "restaurants": "Restaurantes",
+                                "restaurants_with_connection": "Restaurantes en",
+                                "home": "Inicio",
+                                "brand_close_to_me": "{{brand}} cerca de mi",
+                                "online": "Online"
+                            },
+                            "cuisine_city_name": "{{name}} en {{city}}",
+                            "cuisine_city_delivery_name": "{{name}} Delivery {{city}}",
+                            "city_name": "Restaurantes {{city}}",
+                            "cuisineTagName": "{{name}} delivery",
+                            "page_404": {
+                                "title": "Lo sentimos",
+                                "message": "No hemos encontrado nada aquí.",
+                                "button": "Explora Restaurantes"
+                            },
+                            "filters": {
+                                "title": "Filtrar por",
+                                "view_more": "Ver más filtros",
+                                "delete": "Borrar filtros",
+                                "order_by": "Ordenar por",
+                                "relevance": "Relevancia"
+                            },
+                            "slider": {
+                                "see_all": "Ver todos",
+                                "see_all_restaurants": "Ver +{{count}} \n restaurantes"
+                            },
+                            "altImages": " Delivery",
+                            "menu": "Menú",
+                            "link_box": {
+                                "restaurants": {
+                                    "title": "Restaurantes Cerca de Mi",
+                                    "url": "Restaurantes en {{city}}"
+                                },
+                                "restaurant": {
+                                    "title": "Restaurantes similares a {{brand}}"
+                                },
+                                "brands": {
+                                    "title": "{{brand}} en {{location}}",
+                                    "url": "{{brand}} {{city}}"
+                                },
+                                "category": {
+                                    "title": "{{cuisine}} cerca de mi",
+                                    "url": "{{category}} en {{city}}"
+                                },
+                                "city_home": {
+                                    "title": "Pide Delivery en tus Restaurantes Favoritos",
+                                    "url": "{{brand}} Delivery en {{city}}"
+                                },
+                                "city": {
+                                    "title": "{{cuisine}} Delivery {{city}}",
+                                    "url": "{{brand}} Delivery en {{city}}"
+                                },
+                                "city_category": {
+                                    "title": "Pide Delivery en tus Restaurantes Favoritos",
+                                    "url": "{{brand}} Delivery"
+                                },
+                                "show_more": "Ver más...",
+                                "show_less": "Ver menos"
+                            },
+                            "cityCuisineTitle": "{{cuisine}} en {{city}}",
+                            "free_shipping_banner": {
+                                "first_text": "¿Nuevo en Rappi?",
+                                "register_text": "Regístrate",
+                                "second_text_mobile": "y disfruta de...",
+                                "second_text": "Disfruta de...",
+                                "third_text": "¡hasta 15 días de entregas gratis!",
+                                "button": "Registrarme",
+                                "link_text_mobile": "Aplican TyC",
+                                "link_text": "Términos y condiciones",
+                                "link_url": "https://promos.rappi.com/argentina/hasta15diasenviogratis"
+                            },
+                            "pill": {
+                                "bold_message": "Envío GRATIS",
+                                "message": "por 15 días (nuevos usuarios)"
+                            },
+                            "banner_fmf": {
+                                "new_user_question_text": "¿Nuevo en Rappi?",
+                                "new_user_benefit_text": "Disfrutá de envío gratis por 15 días.",
+                                "register_text": "¡Registrarme!",
+                                "terms_and_condition_text": "Aplican TyC",
+                                "terms_and_conditions_url": "https://promos.rappi.com/argentina/15diasenviogratis"
+                            },
+                            "goToLogin": "Ingreso",
+                            "wordConnector": "y",
+                            "userOptions": {
+                                "myAccount": "Mi Cuenta",
+                                "myOrders": "Mis Pedidos",
+                                "logOut": "Cerrar sesión"
+                            },
+                            "search": "Buscar en Rappi...",
+                            "top_restaurants_title": "Mejores {{restQuantity}} Restaurantes de {{cuisine}} en {{city}}",
+                            "request_login": "Para poder seguir navegando favor de registrarte o inicia sesión.",
+                            "confirm_indentity": "Confirma tu identidad",
+                            "login": "Iniciar Sesión"
+                        },
+                        "restaurants": {
+                            "restaurants": {
+                                "title": "Restaurantes Cerca de Mi",
+                                "menu": "Menú y Precios",
+                                "rating_reviews": "Calificaciones y opiniones",
+                                "catalog_title": "Restaurantes cerca de mi ubicación",
+                                "faqs": {
+                                    "title": "Preguntas frecuentes",
+                                    "questions": [
+                                        {
+                                            "title": "¿Dónde puedo encontrar restaurantes que hagan delivery en pocos minutos?",
+                                            "description": "En Rappi tienes la opción de seleccionar \"Menos de 35 min\" que aparece en la parte superior de los listados de restaurantes, y de esa manera accedes a aquellos que hacen delivery más rápido"
+                                        },
+                                        {
+                                            "title": "¿Cómo puedo obtener 15 días de envíos gratis con Rappi?",
+                                            "description": "Si realizas tu primera compra en restaurantes de Argentina accedes a 15 días de envíos gratis"
+                                        }
+                                    ]
+                                },
+                                "categories": {
+                                    "title": "Principales categorías",
+                                    "show_less_categories": "Ver menos categorías",
+                                    "show_more_categories": "Ver más categorías",
+                                    "singular_categories_selected": "categoría seleccionada",
+                                    "prefix": "Comida {{category}}",
+                                    "faqs": {
+                                        "title": "Preguntas frecuentes",
+                                        "questions": [
+                                            {
+                                                "title": "¿Cuáles son los mejores restaurantes de {{cuisine}} en Argentina?",
+                                                "description": "Los mejores restaurantes de {{cuisine}} en Argentina son:"
+                                            },
+                                            {
+                                                "title": "¿Cuáles son los mejores restaurantes de {{cuisine}} con promociones en Argentina?",
+                                                "description": "Los mejores restaurantes de {{cuisine}} con promociones en Argentina son:"
+                                            }
+                                        ]
+                                    },
+                                    "cityFaqs": {
+                                        "popular_rests": {
+                                            "title": "¿Cuáles son los mejores restaurantes de {{cuisine}} en {{city}}?",
+                                            "description": "Los mejores restaurantes para pedir delivery de {{cuisine}} en {{city}} son: "
+                                        },
+                                        "promos_rests": {
+                                            "title": "¿Cuáles son los mejores restaurantes de {{cuisine}} con promociones en {{city}}?",
+                                            "description": "Los mejores restaurantes con promociones para pedir delivery de {{cuisine}} en {{city}} son: "
+                                        },
+                                        "rating_rests": {
+                                            "title": "¿Cuáles son los mejores restaurantes de {{cuisine}} que tienen una calificación superior a {{rating}} estrellas en {{city}}?",
+                                            "description": "Los mejores restaurantes con una calificación superior a {{rating}} estrellas para pedir delivery de {{cuisine}} en {{city}} son: "
+                                        }
+                                    }
+                                },
+                                "location": {
+                                    "highlight": "restaurante"
+                                },
+                                "show_more": "Ver más restaurantes",
+                                "filters": {
+                                    "title": "Resultados",
+                                    "show_filters": "Ver más filtros",
+                                    "delete_filters": "Borrar filtros",
+                                    "empty_msg": "Lo sentimos! No encontramos resultados para tu búsqueda",
+                                    "filter_by": "Filtrar por: ",
+                                    "by_feature": "Por característica",
+                                    "by_price_range": "Por precio",
+                                    "by_category": "Categorías",
+                                    "btn_clean": "Limpiar",
+                                    "btn_apply": "Aplicar",
+                                    "payment": "Métodos de pago",
+                                    "Other": "Otros",
+                                    "categories": "Categorías",
+                                    "low_delivery_price": "Menos de {{value}} min",
+                                    "rating": "Más de {{value}}",
+                                    "discounts": "Promociones",
+                                    "low_shipping_cost": "Menor costo de domicilio",
+                                    "metadata_categories": "Tipo de comida",
+                                    "empty": {
+                                        "msg_title": "Lo sentimos",
+                                        "msg_description": "No hemos encontrado resultados para tu búsqueda",
+                                        "primary_button_text": "Borrar filtros"
+                                    }
+                                },
+                                "city": {
+                                    "title": "Restaurantes con delivery en {{city}}",
+                                    "faqs": {
+                                        "title": "Preguntas frecuentes",
+                                        "questions": {
+                                            "rating_rests": {
+                                                "title": "¿Cuáles son los mejores restaurantes con una calificación de más de {{rating}} estrellas en {{city}}?",
+                                                "description": "Los mejores restaurantes para pedir delivery en {{city}} son: "
+                                            },
+                                            "promos_rests": {
+                                                "title": "¿Cuáles son los mejores restaurantes con promociones en {{city}}?",
+                                                "description": "Los mejores restaurantes con promociones para pedir delivery en {{city}} son: "
+                                            },
+                                            "new_rests": {
+                                                "title": "¿Cuáles son los nuevos restaurantes donde puedes pedir delivery en {{city}}?",
+                                                "description": "En Rappi tenemos estos nuevos restaurantes donde puedes pedir delivery en {{city}} son: "
+                                            }
+                                        }
+                                    },
+                                    "head_title": "Delivery de comida {{city}} en {{numberOfStores}} restaurantes - Rappi",
+                                    "head_description": "Pida delivery en los mejores {{numberOfStores}} restaurantes en {{city}} y con Rappi le entregamos su pedido en minutos",
+                                    "breadcrumb_title": "Restaurantes Delivery en {{city}}"
+                                },
+                                "error_msg": {
+                                    "msg_description_no_coverage": "Pronto llegaremos a tu zona para hacer tu vida mas fácil",
+                                    "primary_button_text_no_coverage": "Ir al inicio"
+                                }
+                            },
+                            "restaurant": {
+                                "address_modal": {
+                                    "title": {
+                                        "mainText": "Queremos asegurarnos de que",
+                                        "secondaryText": "tiene cobertura en tu zona."
+                                    },
+                                    "description": "Por favor ingresa tu dirección."
+                                },
+                                "clear_basket_confirmation": {
+                                    "title": "¿Quieres cambiar tu pedido?",
+                                    "description": "Recuerda que tienes productos agregados en tu canasta de \u003cstrong\u003e{{brand_name}}\u003c/strong\u003e, ¿Deseas eliminarlos y agregar nuevos productos?",
+                                    "cta_confirm": "Si, eliminar",
+                                    "cta_cancel": "Conservar"
+                                },
+                                "toppings": {
+                                    "not_available": "Agotado",
+                                    "sugested": "Sugerido",
+                                    "mandatory": "Obligatorio",
+                                    "add": "Agregar",
+                                    "add_pay": "Agregar e ir a pagar",
+                                    "add_shop": "Agregar y seguir comprando",
+                                    "disccount_msg": "El descuento no aplica sobre ingredientes con costo adicional",
+                                    "comments": "Comentarios",
+                                    "comments_placeholder": "Añade instrucciones o comentarios...",
+                                    "comments_msg": "*En este campo no se aceptan modificaciones que generen valor adicional en la factura. Puedes chatear con tu Rappi si quieres cambios.",
+                                    "subtotal": "Subtotal:",
+                                    "popular": "popular",
+                                    "toppings_error": "Error al agregar producto",
+                                    "read_more": "Leer más",
+                                    "read_less": "Leer menos",
+                                    "mandatory_tooltip": "Selecciona una opción para todos los campos obligatorios."
+                                },
+                                "toppings_modal": {
+                                    "disccount_msg": "El descuento no aplica sobre ingredientes con costo adicional",
+                                    "read_less": "Leer menos",
+                                    "read_more": "Leer más",
+                                    "popular": "popular",
+                                    "add": "Agregar",
+                                    "add_shop": "Agregar y seguir comprando",
+                                    "add_pay": "Agregar e ir a pagar",
+                                    "mandatory": "Obligatorio",
+                                    "mandatory_tooltip": "Selecciona una opción para todos los campos obligatorios.",
+                                    "done": "Listo",
+                                    "not_available": "Agotado",
+                                    "sugested": "Sugerido",
+                                    "address_modal_main_text": "Queremos asegurarnos de que",
+                                    "address_modal_secondary_text": "tiene cobertura en tu zona.",
+                                    "address_modal_description": "Por favor ingresa tu dirección.",
+                                    "clear_basket_confirmation": {
+                                        "title": "¿Quieres cambiar tu pedido?",
+                                        "description": "Recuerda que tienes productos agregados en tu canasta de \u003cstrong\u003e{{brand_name}}\u003c/strong\u003e, ¿Deseas eliminarlos y agregar nuevos productos?",
+                                        "cta_confirm": "Si, eliminar",
+                                        "cta_cancel": "Conservar"
+                                    },
+                                    "error": {
+                                        "title": "Ocurrió un problema",
+                                        "message": "Vuelve a seleccionar tu producto"
+                                    }
+                                },
+                                "cost_etas": {
+                                    "shipping": "Envío",
+                                    "etas": "Entrega",
+                                    "delivery": "Delivery",
+                                    "pickup": "Pickup",
+                                    "rating": "Calificación",
+                                    "infoDesktop": "Información adicional",
+                                    "infoMobile": "Info adicional",
+                                    "promos": "Promociones",
+                                    "address": "Dirección:",
+                                    "btnInfoModal": "Entendido",
+                                    "restLink": "Ir a Restaurantes",
+                                    "newInRappi": "¡Nuevo en Rappi!",
+                                    "freeShipping": "Gratis",
+                                    "onlyNewUsers": "nuevos usuarios"
+                                },
+                                "no_location_alert": {
+                                    "title": "No conocemos tu dirección",
+                                    "message": "Para continuar agrega una dirección válida."
+                                },
+                                "order_again": {
+                                    "title": "Pídelo de nuevo",
+                                    "show_more": "Ver más"
+                                },
+                                "restaurant_closed": "Abre {{time}}",
+                                "no_coverage_tag": "Sin cobertura en tu zona",
+                                "not_open_today_tag": "Cerrado por hoy",
+                                "restaurant_unavailable": "No disponible",
+                                "similar_restaurants": "Ver otros restaurantes similares",
+                                "no_descriptive_text": "Texto descriptivo no disponible",
+                                "ccp_restaurant": "No afiliado a Rappi",
+                                "only_pickup": {
+                                    "modal_title": "Esta tienda no cuenta con delivery momentáneamente",
+                                    "status_tag": "Sin delivery momentáneamente"
+                                },
+                                "no_coverage_modal": "Este restaurante no hace envíos a tu dirección de entrega",
+                                "similar_restaurants_address": "Encuentra restaurantes con envío a: \u003cstrong\u003e{{address}}\u003c/strong\u003e",
+                                "similar_restaurants_btn": "Ver restaurantes disponibles",
+                                "store_unavailable_in_rappi": "Esta tienda no está disponible en Rappi",
+                                "not_products": "Esta tienda no tiene productos disponibles en este momento.",
+                                "not_available": "Temporalmente no disponible",
+                                "open_time": "Abre {{time}}",
+                                "no_cash": "No efectivo",
+                                "conditional_faq": {
+                                    "description": "lo cual es verdaderamente bueno en comparación con el resto de los restaurantes ubicados en los alrededores de {{address}}"
+                                },
+                                "global_offers": {
+                                    "see_more": "Ver más",
+                                    "see_less": "Ver menos"
+                                },
+                                "subtotal": {
+                                    "products": "Productos",
+                                    "go_to_basket": "Ir al carrito",
+                                    "go_to_pay": "Ir a pagar"
+                                }
+                            },
+                            "promotions": {
+                                "title": "¡Las mejores promos!"
+                            },
+                            "favorites": "Mis favoritos",
+                            "search": {
+                                "title": "Resultados para \"\u003cstrong\u003e{{query}}\u003c/strong\u003e\"",
+                                "not_found": {
+                                    "title": "Lo Sentimos",
+                                    "message": "No hemos encontrado resultados para \"\u003cstrong\u003e{{query}}\u003c/strong\u003e\" en {{brand}}",
+                                    "btn": "Ver menu completo"
+                                }
+                            },
+                            "location": {
+                                "seo": {
+                                    "title": "Dirección y Horarios {{brand}} Sucursal {{address}}",
+                                    "description": "Pide {{brand}} Delivery con Rappi de Sucursal {{address}}. Consulta los Horarios y Días de Delivery Aquí"
+                                },
+                                "googleMyBusiness": {
+                                    "schedule-title": "Horarios de Apertura y Cierre",
+                                    "address-title": "¿Dónde comprar {{cuisine}} en {{city}}?",
+                                    "description-title": "Sobre {{brand}}",
+                                    "description": "{{brand}} es un restaurante ubicado en {{country}}, en donde puedes pedir {{cusinesText}} con servicio a domicilio en la ciudad de {{city}}.",
+                                    "description-raiting": "\u003cbr\u003e\u003cbr\u003eEste restaurante tiene una calificación de {{score}} dentro de Rappi a partir de {{total_reviews}} opiniones de nuestros usuarios.",
+                                    "open": "Abierto",
+                                    "closed": "Cerrado",
+                                    "location": "Ubicación",
+                                    "unavailable_address": "Dirección no disponible",
+                                    "unavailable_map": "Mapa no disponible"
+                                }
+                            },
+                            "automatedContent": {
+                                "description-rating-customer": "En los {{days}} mas de {{totalReviews}} opiniones de clientes de Rappi fueron realizadas pidiendo delivery a domicilio de {{restaurantName}} en {{city}} y lo calificaron con un promedio de {{score}} sobre un máximo de 5.",
+                                "description-rating-one-comment": "{{percentage1}}% de los clientes que pidieron online en {{restaurantName}} de {{city}} valoraron {{review1}}.",
+                                "description-rating-two-comments": "{{percentage1}}% de los clientes que pidieron online en {{restaurantName}} de {{city}} valoraron {{review1}} y el {{percentage2}}% opinaron {{review2}}.",
+                                "description-rating-three-comments": "{{percentage1}}% de los clientes que pidieron online en {{restaurantName}} de {{city}} valoraron {{review1}}, mientras que {{percentage2}}% opinaron {{review2}} y finalmente el {{percentage3}}% comentó {{review3}}.",
+                                "description-rating": "Del total de Restaurantes, {{restaurantName}} es uno de los más importantes en {{city}} con {{score}} de rating sobre un máximo de 5.",
+                                "description-popular-items": "Los clientes de Rappi normalmente piden delivery de {{popularItems}} en {{restaurantName}}.",
+                                "top-meals-title": "Entre las comidas mas pedidas de {{restaurantName}} tenemos:",
+                                "location-title": "{{restaurantName}} esta cerca de:",
+                                "rating-title": "Los usuarios de Rappi han calificado a {{restaurantName}} con {{rating}} sobre un máximo de 5."
+                            },
+                            "top_brand_carousel": {
+                                "title": "¡Los 10 más elegidos!"
+                            },
+                            "burgerCategory": "Hamburguesas"
+                        },
+                        "rr-partner": {
+                            "meta_title": "{{store_name}} Precios y Menú para Delivery - Rappi",
+                            "meta_description": "Consigue 15 días de delivery gratis en {{store_name}}. Descubre las comidas más populares de {{store_name}} en Rappi.",
+                            "subtitle": "{{store_name}} Menú Delivery",
+                            "faqs": {
+                                "title": "Preguntas frecuentes",
+                                "questions": [
+                                    {
+                                        "question": "¿{{storeName}} hace delivery?",
+                                        "answer": "Si, puedes pedir delivery en {{storeName}} con Rappi."
+                                    },
+                                    {
+                                        "question": "¿Cuál es la dirección de {{storeName}}?",
+                                        "answer": "La dirección de {{storeName}} es {{address}}."
+                                    },
+                                    {
+                                        "question": "¿Cuáles son las comidas más populares de {{storeName}}?",
+                                        "answer": "Las comidas más populares de {{storeName}} son: {{popularItems}}.",
+                                        "subject": "popular_dishes"
+                                    },
+                                    {
+                                        "question": "¿Cuál es el rating de {{storeName}}?",
+                                        "answer": "El rating de {{storeName}} es {{rating}}.",
+                                        "subject": "rating"
+                                    }
+                                ]
+                            },
+                            "aboutTable": {
+                                "title": "Sobre {{storeName}}",
+                                "address": "Dirección",
+                                "cuisineType": "Especialidad",
+                                "rating": "Rating",
+                                "how_much_it_costs": "Cuanto sale?",
+                                "costs": "cuesta",
+                                "eta": "Tiempo de Entrega Aproximado",
+                                "promotionMessage": "Promoción Vigente",
+                                "openingHours": "Horario de Apertura",
+                                "closingHours": "Horario de Cierre",
+                                "ruc": "RUC",
+                                "socialReason": "Razón social"
+                            }
+                        }
+                    }
+                },
+                "initialLocale": "es-AR",
+                "ns": [
+                    "common",
+                    "restaurants",
+                    "rr-partner"
+                ],
+                "userConfig": {
+                    "i18n": {
+                        "defaultLocale": "es-AR",
+                        "locales": [
+                            "es-AR"
+                        ],
+                        "localeDetection": false,
+                        "returnObjects": true
+                    },
+                    "react": {
+                        "useSuspense": false
+                    },
+                    "default": {
+                        "i18n": {
+                            "defaultLocale": "es-AR",
+                            "locales": [
+                                "es-AR"
+                            ],
+                            "localeDetection": false,
+                            "returnObjects": true
+                        },
+                        "react": {
+                            "useSuspense": false
+                        }
+                    }
+                }
+            },
+            "storeIdQueryParam": "212366-mostaza",
+            "location": {
+                "city": "Buenos Aires",
+                "lat": -34.5887308,
+                "lng": -58.4302191,
+                "url": "buenos-aires",
+                "address": "Buenos Aires",
+                "autoLocation": true
+            },
+            "canonicalPath": "/restaurantes/212366-mostaza",
+            "existsCurrentLocation": false,
+            "scheduleData": [
+                {
+                    "day": "Lunes",
+                    "time": {
+                        "openTime": "10:15",
+                        "closeTime": "22:45"
+                    }
+                },
+                {
+                    "day": "Martes",
+                    "time": {
+                        "openTime": "10:15",
+                        "closeTime": "22:45"
+                    }
+                },
+                {
+                    "day": "Miércoles",
+                    "time": {
+                        "openTime": "10:15",
+                        "closeTime": "22:45"
+                    }
+                },
+                {
+                    "day": "Sábado",
+                    "time": {
+                        "openTime": "10:15",
+                        "closeTime": "22:45"
+                    }
+                },
+                {
+                    "day": "Domingo",
+                    "time": {
+                        "openTime": "10:15",
+                        "closeTime": "22:45"
+                    }
+                }
+            ],
+            "fallback": {
+                "@\"restaurant/212366\",#lng:-58.4302191,lat:-34.5887308,,": {
+                    "id": 212366,
+                    "cityId": 492,
+                    "brandId": 5627,
+                    "brandName": "Mostaza",
+                    "name": "Mostaza - Tandil",
+                    "status": "OPEN",
+                    "address": "Panamá 351, Tandil, Provincia de Buenos Aires, Argentina",
+                    "storeType": "restaurant",
+                    "deliveryPrice": 0,
+                    "deliveryPriceStyle": "VISIBLE",
+                    "eta": "35 min",
+                    "isCurrentlyAvailable": true,
+                    "isOpenToday": true,
+                    "logo": "https://images.rappi.com.ar/restaurants_logo/logo-1663343379859-1683122311466.png?e=webp\u0026d=10x10\u0026q=10",
+                    "rating": 3.9,
+                    "schedule": "10:15:00 - 22:45:00",
+                    "schedules": [
+                        {
+                            "open_time": "10:15:00",
+                            "close_time": "22:45:00"
+                        }
+                    ],
+                    "categories": "Hamburguesa · Americana",
+                    "partnerType": "restaurant",
+                    "promotionMessage": "Disfruta de 52,7192 % de descuento en productos seleccionados. Verás el descuento reflejado los productos seleccionados.",
+                    "globalOffers": [
+                        {
+                            "id": 766822,
+                            "type": "offer_by_product",
+                            "tag": "Hasta 52% Off",
+                            "metadata": {},
+                            "title": "VFD\t-52,7192%\tD. DLX JR + PR\tCenas\tL4",
+                            "description": "Partner App Discount-Product",
+                            "message": "Disfruta de 52,7192 % de descuento en productos seleccionados. Verás el descuento reflejado los productos seleccionados.",
+                            "url": "",
+                            "value": 52,
+                            "min_amount": null,
+                            "action": "gbrappi://com.grability.rappi?goto=view_prime_modal\u0026source={SOURCE}",
+                            "conditions": "\u003cb\u003eCondiciones de la oferta:\u003c/b\u003e\u003cul\u003e\u003cli\u003eOferta exclusiva para usuarios PRO\u003c/li\u003e\u003cli\u003eAplica para compras entre $0 y $20.000.000\u003c/li\u003e\u003cli\u003eOferta válida hasta agotar existencias\u003c/li\u003e\u003c/ul\u003e",
+                            "chevron": {
+                                "deeplink": "gbrappi://com.grability.rappi?goto=view_prime_modal\u0026source={SOURCE}"
+                            },
+                            "apply_to_user": false,
+                            "color": "#76d548",
+                            "type_filter": "percentage_filter",
+                            "is_prime_exclusive": true
+                        }
+                    ],
+                    "location": [
+                        -59.11468508718,
+                        -37.323990685391
+                    ],
+                    "tags": [
+                        "Hamburguesa",
+                        "Americana"
+                    ],
+                    "ratingData": {
+                        "score": 3.9,
+                        "total_reviews": 234,
+                        "score_info": {
+                            "1": 41,
+                            "2": 15,
+                            "3": 10,
+                            "4": 35,
+                            "5": 133
+                        },
+                        "style": "LOW"
+                    },
+                    "latestOrders": [],
+                    "corridors": [
+                        {
+                            "name": "Almuerzos",
+                            "products": [
+                                {
+                                    "id": 2113019838,
+                                    "name": "Tostado Xl Cheddar \u0026 Jamón + Bebida",
+                                    "description": "Tostado grande con queso cheddar, jamón y mayonesa acompañado de gaseosa a elección.",
+                                    "price": 3499,
+                                    "realPrice": 4550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 23,
+                                    "discountText": "-23%",
+                                    "image": "4987d8b4-031d-4734-bf11-8f9fe2174045-1709234280154.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237182,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997037,
+                                    "name": "Nuggets X6 + Papas Regulares",
+                                    "description": "6 Bocaditos de pechuga de pollo acompañados de papas fritas regulares.",
+                                    "price": 3799,
+                                    "realPrice": 6450,
+                                    "isAvailable": true,
+                                    "discountInPercent": 41,
+                                    "discountText": "-41%",
+                                    "image": "a04a8426-dac0-49ef-90d7-838fbeec4acc-1706985206796.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237182,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976463,
+                                    "name": "Combo Cheddar Junior",
+                                    "description": "Hamburguesa con carne junior, queso cheddar, cebollita,  mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 4599,
+                                    "realPrice": 8900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 48,
+                                    "discountText": "-48%",
+                                    "image": "4626c378-1148-4f60-a568-6cc47ea20ce4-1686745713997.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237182,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2113022198,
+                                    "name": "Doble Deluxe Junior + Gaseosa",
+                                    "description": "Hamburguesa con doble carne junior, queso cheddar, lechuga, tomate, cebollita, mayonesa y kétchup, acompañada de una bebida a elección..",
+                                    "price": 4599,
+                                    "realPrice": 9400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 51,
+                                    "discountText": "-51%",
+                                    "image": "6586fedf-5625-4f2a-ae90-4275052a7379-1709641388009.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237182,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cenas",
+                            "products": [
+                                {
+                                    "id": 2112997019,
+                                    "name": "Combo Deluxe Junior",
+                                    "description": "Hamburguesa de carne junior, queso cheddar, lechuga, tomate, cebollita, mayonesa y kétchup, acompañadas de papas fritas regulares y bebida a elección.",
+                                    "price": 8750,
+                                    "realPrice": 8750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d1359d4c-6dd8-4776-8dd0-a3bc85a664d6-1706980480097.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244887,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2113019839,
+                                    "name": "Doble Cheddar Junior + Papas Regulares",
+                                    "description": "Hamburguesa con doble carne junior, queso cheddar, cebollita,  mostaza y kétchup, acompañada de papas fritas regulares.",
+                                    "price": 9900,
+                                    "realPrice": 9900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ce84a74b-9568-4cfd-b765-6538e6231b63-1709234194470.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244887,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2113019840,
+                                    "name": "Doble Deluxe Junior + Papas Regulares",
+                                    "description": "Hamburguesa con doble carne junior, queso cheddar, lechuga, tomate, cebollita, mayonesa y kétchup, acompañada de papas fritas regulares.",
+                                    "price": 10150,
+                                    "realPrice": 10150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "8d6cce40-b9c8-4b2c-a1ec-4b11111b6647-1709234381298.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244887,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tu Combo Es con Cerveza",
+                            "products": [
+                                {
+                                    "id": 2113036651,
+                                    "name": "Combo Cuarto Doble con Stella",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y cerveza stella artois 473cc..",
+                                    "price": 9399,
+                                    "realPrice": 13400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 30,
+                                    "discountText": "-30%",
+                                    "image": "66a93755-0668-49be-a82a-566959a935ad-1710764062676.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 247664,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Burger Fest",
+                            "products": [
+                                {
+                                    "id": 2113019846,
+                                    "name": "Mega Bigbang Cheddar + Papas Regulares",
+                                    "description": "Mega hamburguesa de carne con pan brioche, queso cheddar , bacon,  kétchup, cebollita y salsa cheddar, acompañada de papas fritas regulares.",
+                                    "price": 7520,
+                                    "realPrice": 10750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 30,
+                                    "discountText": "-30%",
+                                    "image": "f4af84a7-3729-4b0f-88a5-45bc869d9bc7-1709238550032.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244889,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2113029292,
+                                    "name": "Combo Doble Bacon Junior",
+                                    "description": "Hamburguesa con doble carne junior, doble queso cheddar, bacon, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 6630,
+                                    "realPrice": 10750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 38,
+                                    "discountText": "-38%",
+                                    "image": "bd4d5d48-612c-4c25-ab56-34c420e74ccd-1710172632787.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244889,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Descuentos Increíbles",
+                            "products": [
+                                {
+                                    "id": 2113019847,
+                                    "name": "Combo Doble Cheddar Junior",
+                                    "description": "Hamburguesa con doble carne junior, doble queso cheddar, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección.",
+                                    "price": 5959.5,
+                                    "realPrice": 10250,
+                                    "isAvailable": true,
+                                    "discountInPercent": 42,
+                                    "discountText": "-42%",
+                                    "image": "fdce977a-34a7-4ccd-8ed6-2fae2f43e610-1709237396375.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 244890,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mega Ofertas",
+                            "products": [
+                                {
+                                    "id": 2112976473,
+                                    "name": "Combo Mega Cuarto",
+                                    "description": "Mega hamburguesa de carne con doble queso cheddar, cebollita, mostaza y kétchup, acompañada de papas fritas regulares bebida a elección..",
+                                    "price": 8390.5,
+                                    "realPrice": 9350,
+                                    "isAvailable": true,
+                                    "discountInPercent": 10,
+                                    "discountText": "-10%",
+                                    "image": "3996479c-870e-4a2e-ad46-405828746a78-1702572951229.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237172,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997021,
+                                    "name": "Combo Mega Bacon",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, bacon, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección.",
+                                    "price": 8840,
+                                    "realPrice": 9850,
+                                    "isAvailable": true,
+                                    "discountInPercent": 10,
+                                    "discountText": "-10%",
+                                    "image": "5663b846-e54d-45b4-8be3-302d9a1d9d98-1706980724045.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237172,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976480,
+                                    "name": "Combo Mega Cuarto Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 9880,
+                                    "realPrice": 11150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 11,
+                                    "discountText": "-11%",
+                                    "image": "b3f5dbfd-23b0-4396-87ba-a4f03e2a7d1d-1702573077260.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237172,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976482,
+                                    "name": "Combo Mega Bigbang Cheddar Doble",
+                                    "description": "Mega hamburguesa con carne doble, con pan brioche, doble queso cheddar , bacon, salsa cheddar, ketchup y cebolla, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 10440,
+                                    "realPrice": 12350,
+                                    "isAvailable": true,
+                                    "discountInPercent": 15,
+                                    "discountText": "-15%",
+                                    "image": "5fec3b7e-7b88-4c7d-9d1d-a199b5bf824c-1702581263909.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237172,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976474,
+                                    "name": "Combo Pollo Crispy Deluxe",
+                                    "description": "Hamburguesa de medallón de pollo crispy, queso cheddar, tomate, lechuga, cebollita, mayonesa y kétchup acompañada de papas fritas regulares y una bebida a elección..",
+                                    "price": 6760,
+                                    "realPrice": 7900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 14,
+                                    "discountText": "-14%",
+                                    "image": "5879fbb1-5af5-4edf-9e84-22f6a41efcbf-1703160905569.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237172,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Para Compartir",
+                            "products": [
+                                {
+                                    "id": 2112997022,
+                                    "name": "2 Combos Mega Cuarto",
+                                    "description": "2 Mega hamburguesas de carne con doble queso cheddar, cebollita, mostaza y kétchup, acompañada con 2 papas regulares y 2 bebidas a eleccion.",
+                                    "price": 14520,
+                                    "realPrice": 18700,
+                                    "isAvailable": true,
+                                    "discountInPercent": 22,
+                                    "discountText": "-22%",
+                                    "image": "b2a65b25-919d-4072-a9f9-8cc5f5b65129-1706980873343.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240857,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997023,
+                                    "name": "2 Mega Cuarto Bacon + 2 Papas Regulares",
+                                    "description": "2 Mega hamburguesas de carne con queso cheddar, bacon, cebollita, mostaza y kétchup acompañadas de 2 papas fritas regulares.",
+                                    "price": 14240,
+                                    "realPrice": 18400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 23,
+                                    "discountText": "-23%",
+                                    "image": "a94a3b7a-f2bb-4824-ac51-1e5affe46cff-1706981187621.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240857,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997024,
+                                    "name": "2 Pollo Crispy Deluxe + Papas Regulares",
+                                    "description": "2 Hamburguesas de medallón de pollo crispy, queso cheddar, tomate, lechuga, cebollita, mayonesa y kétchup, acompañado de 2 papas fritas regulares.",
+                                    "price": 11830,
+                                    "realPrice": 16800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 30,
+                                    "discountText": "-30%",
+                                    "image": "4cf84f09-0085-4e27-a78a-2ea27355a48b-1706981282312.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240857,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Snack Time",
+                            "products": [
+                                {
+                                    "id": 2113038062,
+                                    "name": "Balde de Papas",
+                                    "description": "Balde con 320gr de papas fritas crujientes..",
+                                    "price": 6100,
+                                    "realPrice": 6100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "febb0e02-f28e-4755-8b1e-434abf5aacea-1710851997048.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 247906,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2113038063,
+                                    "name": "Balde de Nuggets",
+                                    "description": "Balde con 30 bocaditos de pechuga de pollo..",
+                                    "price": 10750,
+                                    "realPrice": 10750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "8bb1da4c-bae7-453f-881d-0f650c48751f-1710852052163.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 247906,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2113038064,
+                                    "name": "Balde de Nuggets + 2 Gaseosas",
+                                    "description": "Balde con 30 bocaditos de pechuga de pollo, acompañados de 2 gaseosas a elección..",
+                                    "price": 13000,
+                                    "realPrice": 16900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 23,
+                                    "discountText": "-23%",
+                                    "image": "f5eb22c2-dadb-449c-b696-6444735cc96f-1710881356299.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 247906,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2113038065,
+                                    "name": "Balde de Papas + 2 Cervezas",
+                                    "description": "Balde con 320gr de papas fritas crujientes,  acompañadas de 2 cervezas stella artois 473cc..",
+                                    "price": 8750,
+                                    "realPrice": 12350,
+                                    "isAvailable": true,
+                                    "discountInPercent": 29,
+                                    "discountText": "-29%",
+                                    "image": "72efc365-c224-49cb-8d7d-909f8d319e2d-1710881371826.png",
+                                    "showDiscountTag": true,
+                                    "isDiscountPrimeExclusive": true,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 247906,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cajitas Mostaza",
+                            "products": [
+                                {
+                                    "id": 2112976434,
+                                    "name": "Cajita Mostaza Nuggets",
+                                    "description": "5 Bocaditos de pechuga de pollo acompañados de papas fritas, gaseosa a elección y juguete de la última colección.",
+                                    "price": 6550,
+                                    "realPrice": 6550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "da324986-0852-4199-9944-6c28f637f29d-1705498973049.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237178,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976453,
+                                    "name": "Cajita Mostaza Hamburguesa",
+                                    "description": "Hamburguesa de carne junior acompañada de papas fritas, gaseosa a elección y juguete de la última colección.",
+                                    "price": 6550,
+                                    "realPrice": 6550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "34a6c1f6-ee09-4975-a7ae-5548e77f0d68-1705499013668.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237178,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976445,
+                                    "name": "Cajita Mostaza Hamburguesa con Queso",
+                                    "description": "Hamburguesa de carne junior con queso cheddar acompañada de papas fritas, gaseosa a elección y juguete de la última colección.",
+                                    "price": 6800,
+                                    "realPrice": 6800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "74f711df-fe85-414e-a2ca-6c0c601d64d8-1705499045478.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237178,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ensaladas \u0026 Wraps",
+                            "products": [
+                                {
+                                    "id": 2112997025,
+                                    "name": "Ensalada Caesar Grill",
+                                    "description": "Ensalada con pollo grill, lechuga, queso en hebras y croutons.",
+                                    "price": 6150,
+                                    "realPrice": 6150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "0010b899-401e-40e6-a987-c98bef35f0ad-1706982181442.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997026,
+                                    "name": "Ensalada Caesar con Pollo + Bebida",
+                                    "description": "Ensalada con un medallon 100% a base de plantas, lechuga, tomate y arroz yamaní, acompañada de una bebida a elección.",
+                                    "price": 8150,
+                                    "realPrice": 8150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "224e0d89-504d-45f4-9adb-9dd65bd8fdd2-1706982262089.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976483,
+                                    "name": "Ensalada Yamani con Pollo",
+                                    "description": "Ensalada con pollo, lechuga, tomate, queso en hebras y arroz yamani.",
+                                    "price": 6150,
+                                    "realPrice": 6150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ed33cedf-73c8-4b35-b4db-d2ebb01195ce-1703162617565.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976438,
+                                    "name": "Ensalada Yamani con Pollo + Bebida",
+                                    "description": "Ensalada con pollo (elegí entre crispy o grill), lechuga, tomate, queso en hebras y arroz yamaní acompañada de una bebida a elección.",
+                                    "price": 7900,
+                                    "realPrice": 7900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "02bf1074-5376-496d-86a4-da30c3580dd0-1666014764991.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976486,
+                                    "name": "Wrap Cheddar Ltc",
+                                    "description": "Wrap relleno con pollo crispy, queso cheddar ,tomate, lechuga, cebolla y mayonesa..",
+                                    "price": 5400,
+                                    "realPrice": 5400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "b53e32ca-8dd7-4ca9-832e-715a627849b2-1703778583487.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976485,
+                                    "name": "Wrap Cheddar Ltc + Bebida",
+                                    "description": "Wrap relleno con pollo crispy, queso cheddar, tomate, lechuga, cebolla y mayonesa, acompañado de un bebida a elección..",
+                                    "price": 7000,
+                                    "realPrice": 7000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "84d16a63-5fa6-4984-90ff-c1a6c24981d0-1703777839435.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237179,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pollos \u0026 Nuggets",
+                            "products": [
+                                {
+                                    "id": 2112976432,
+                                    "name": "Nuggets X 10",
+                                    "description": "10 Bocaditos de pechuga de pollo crujientes.",
+                                    "price": 5200,
+                                    "realPrice": 5200,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "e810ae13-2432-40d5-8e87-429f6c9e7a94-1644266204760.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237176,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976424,
+                                    "name": "Combo Nuggets X10",
+                                    "description": "10 Bocaditos de pechuga de pollo, acompañados de papas fritas regulares y una bebida elección.",
+                                    "price": 8600,
+                                    "realPrice": 8600,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "b4ce7aa6-a620-4209-8306-785c4809344b-1702579801109.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237176,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976429,
+                                    "name": "Combo Pollo Crispy Deluxe Bacon",
+                                    "description": "Hamburguesa de medallón de pollo crispy, queso cheddar, bacon, tomate, lechuga, cebollita, mayonesa y kétchup, acompañada de papas fritas regulares y bebida a elección. .",
+                                    "price": 8600,
+                                    "realPrice": 8600,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "320eef1a-f376-406d-8b04-57542900be63-1696085578069.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237176,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976484,
+                                    "name": "Combo Pollo Bigbang",
+                                    "description": "Hamburguesa de medallón de pollo crispy con pan brioche, queso cheddar, bacon, salsa cheddar, ketchup y cebolla, acompañada de papas fritas regulares y bebida a elección.",
+                                    "price": 9350,
+                                    "realPrice": 9350,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "2397a9bb-d821-4ba0-9742-13fec050676a-1703162805273.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237176,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cero Carne",
+                            "products": [
+                                {
+                                    "id": 2112976454,
+                                    "name": "Combo Cero Carne Veggie",
+                                    "description": "Hamburguesa 100% a base de plantas con lechuga, tomate, cebollita y kétchup, acompañada de papas fritas regulares y una bebida a elección.",
+                                    "price": 7000,
+                                    "realPrice": 7000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "5aa52de8-39f2-453c-8417-70459b70dfbe-1678724998407.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237183,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976456,
+                                    "name": "Combo Cero Carne Cheddar",
+                                    "description": "Hamburguesa 100% a base de plantas con queso cheddar, lechuga, tomate, cebollita, mayonesa y kétchup, acompañada de papas fritas regulares y una bebida a elección.",
+                                    "price": 7450,
+                                    "realPrice": 7450,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "e3cbe56d-41e6-4d0c-a1e8-48443a845315-1678808434422.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237183,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976455,
+                                    "name": "Combo Cero Carne Doble",
+                                    "description": "Hamburguesa con doble medallon 100% a base de plantas, con doble queso cheddar,mostaza, y kétchup, acompañada de papas fritas regulares y una bebida a elección.",
+                                    "price": 8800,
+                                    "realPrice": 8800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "64f65a06-40fa-4e15-b00b-be685bf88e92-1678725144790.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237183,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976476,
+                                    "name": "Ensalada Cero Carne + Bebida",
+                                    "description": "Ensalada con un medallón 100% a base de plantas, lechuga, queso en hebras y croutons, acompañada de una bebida a elección.",
+                                    "price": 6700,
+                                    "realPrice": 6700,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "6405e667-5a06-4642-85e3-790eb5316850-1702577555321.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237183,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976487,
+                                    "name": "Wrap Veggie Cero Carne + Bebida",
+                                    "description": "Wrap relleno con medallón 100% a base de plantas, tomate, lechuga, cebolla y mayonesa, acompañado de un bebida a elección..",
+                                    "price": 6700,
+                                    "realPrice": 6700,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ab9012bb-4687-4be0-84aa-66e1d7555e4b-1703778455742.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237183,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Combos Mostaza",
+                            "products": [
+                                {
+                                    "id": 2112976475,
+                                    "name": "Combo Mega Pampeano",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, jamón, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 8900,
+                                    "realPrice": 8900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d2525067-4f7e-414e-b5ab-371aadf3af9f-1702574400608.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976446,
+                                    "name": "Combo Mega Evolution",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, bacon, lechuga, tomate, cebollita y salsa evolution, acompañada de papas fritas regulares y gaseosa.",
+                                    "price": 9450,
+                                    "realPrice": 9450,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d982b4f5-c0fd-4c66-842e-373ae8ff1acf-1693495915328.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976447,
+                                    "name": "Combo Mega Cuarto Deluxe Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, tomate, lechuga, cebollita, mayonesa y kétchup, acompañada de papas fritas regulares y bebida a elección.",
+                                    "price": 10550,
+                                    "realPrice": 10550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "7aeed875-aace-4d63-9821-941ada3c9099-1672749134156.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976435,
+                                    "name": "Combo Mega Pampeano Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, doble jamón, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y gaseosa a elección.",
+                                    "price": 10550,
+                                    "realPrice": 10550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "97c367f5-b11e-42cb-9388-469f9a58808b-1682337582219.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": true,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976428,
+                                    "name": "Combo Mega Bacon Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, bacon, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección.",
+                                    "price": 10750,
+                                    "realPrice": 10750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "0287428d-292d-4daf-adac-b8198d3454f1-1696101418235.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976452,
+                                    "name": "Combo Mega Evolution Doble",
+                                    "description": "Mega hamburguesa con carne doble, queso cheddar, bacon, lechuga, tomate, cebollita y salsa evolution, acompañada de papas fritas regulares y gaseosa a elección.",
+                                    "price": 9250,
+                                    "realPrice": 9250,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "29217e53-4ec0-40d9-8a0d-a80e762a5348-1693495951646.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976477,
+                                    "name": "Combo Mega Bacon",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, bacon, cebollita, mostaza y kétchup, acompañada de papas fritas regulares y bebida a elección..",
+                                    "price": 8800,
+                                    "realPrice": 8800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "e5be4899-ead2-4535-9d6a-43d5dc3e45f6-1702577838151.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237175,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Hamburguesas Individuales",
+                            "products": [
+                                {
+                                    "id": 2112976467,
+                                    "name": "Doble Cheddar Junior",
+                                    "description": "Hamburguesa con doble carne junior, doble queso cheddar, cebollita, mostaza y kétchup.",
+                                    "price": 2800,
+                                    "realPrice": 2800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ba0ac0c6-1d76-4fdd-bc1c-a2727d7992c6-1691582172344.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976468,
+                                    "name": "Doble Bacon Junior",
+                                    "description": "Hamburguesa con doble carne junior, doble queso cheddar, bacon, cebollita, mostaza y kétchup.",
+                                    "price": 3000,
+                                    "realPrice": 3000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ac53e280-f5bd-4191-8c1b-adbbb3b7755f-1691582253815.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976464,
+                                    "name": "Mega Cuarto Deluxe",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, tomate, lechuga, cebollita, mayonesa y kétchup..",
+                                    "price": 6500,
+                                    "realPrice": 6500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "1fbbe07e-2133-41d9-a0b1-f32ea58d8aed-1686760919376.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976465,
+                                    "name": "Mega Cuarto Deluxe Doble",
+                                    "description": "Mega doble hamburguesa de carne con queso cheddar, tomate, lechuga, cebollita, mayonesa y kétchup..",
+                                    "price": 8100,
+                                    "realPrice": 8100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "239f19e2-c7b7-437b-b293-351f42913460-1686760967685.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976439,
+                                    "name": "Mega Cuarto",
+                                    "description": "Mega hamburguesa de carne con doble queso cheddar, cebollita, mostaza y kétchup.",
+                                    "price": 6300,
+                                    "realPrice": 6300,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "c994be73-cdd8-4fd3-8d7a-36206fd7c14c-1659099407209.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976430,
+                                    "name": "Mega Cuarto Doble",
+                                    "description": "Mega hamburguesas con doble carne, doble queso cheddar, cebollita, mostaza y kétchup.",
+                                    "price": 7900,
+                                    "realPrice": 7900,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "9542e4c7-22df-4807-9b75-268c9a5bb6d6-1659099469621.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976423,
+                                    "name": "Mega Pampeano",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, jamón, cebollita, mostaza y kétchup.",
+                                    "price": 6500,
+                                    "realPrice": 6500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d7fa0711-3779-492d-90da-d1e59085c587-1663874491931.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976451,
+                                    "name": "Mega Pampeano Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, jamón, cebollita, mostaza y kétchup.",
+                                    "price": 8100,
+                                    "realPrice": 8100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "4a186c6a-3fd8-4155-b8a5-0639a6b212cd-1666635375679.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976437,
+                                    "name": "Mega Bacon",
+                                    "description": "Mega hamburguesa de carne con queso cheddar, bacon, cebollita, mostaza y kétchup.",
+                                    "price": 6700,
+                                    "realPrice": 6700,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "f58b1bac-3b67-4cc0-875e-eb0b45470ca3-1696101331905.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976436,
+                                    "name": "Mega Bacon Doble",
+                                    "description": "Mega hamburguesa con doble carne, doble queso cheddar, bacon, cebollita, mostaza y kétchup.",
+                                    "price": 8300,
+                                    "realPrice": 8300,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "22e20f10-0854-4565-b313-ae9019615788-1696101352257.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997027,
+                                    "name": "Mega Big Bang Cheddar",
+                                    "description": "Mega hamburguesa de carne con pan brioche, doble queso cheddar, bacon, salsa cheddar, kétchup y cebollita.",
+                                    "price": 7350,
+                                    "realPrice": 7350,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "11f73d5e-ea5e-45ed-b4f7-e1348ccdee9e-1706982932387.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997028,
+                                    "name": "Mega Big Bang Cheddar Doble",
+                                    "description": "Mega hamburguesa con carne doble, con pan brioche, triple queso cheddar, bacon, salsa cheddar, kétchup y cebollita.",
+                                    "price": 8950,
+                                    "realPrice": 8950,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d782e7ac-ee19-445e-815e-b9184ee10f52-1706982979404.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237171,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Papas Fritas",
+                            "products": [
+                                {
+                                    "id": 2112976431,
+                                    "name": "Papas Regulares",
+                                    "description": "Papas fritas bastón crujientes regulares.",
+                                    "price": 2250,
+                                    "realPrice": 2250,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "1c7cf6c2-1ed0-4cc3-82a0-c004e1745bb4-1706983023604.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237177,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976441,
+                                    "name": "Papas Grandes",
+                                    "description": "Papas fritas bastón crujientes grandes.",
+                                    "price": 2600,
+                                    "realPrice": 2600,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "9c2cee8a-7d7a-41b9-915a-7a0504fd9ee5-1706983043998.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237177,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Bebidas",
+                            "products": [
+                                {
+                                    "id": 2112976440,
+                                    "name": "Coca Cola Sabor Original 500Cc",
+                                    "description": "Coca cola sabor original 500cc.",
+                                    "price": 2100,
+                                    "realPrice": 2100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "9c0e3331-eecb-401f-95d3-e7bb44c5c597-1664372516657.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237173,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976442,
+                                    "name": "Coca Cola Sin Azúcares 500Cc",
+                                    "description": "Coca cola sin azúcares 500cc.",
+                                    "price": 2100,
+                                    "realPrice": 2100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "17d429eb-5122-412a-a062-5be1b4fd0222-1664372479637.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237173,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976425,
+                                    "name": "Sprite Sin Azúcares 500Cc",
+                                    "description": "Sprite sin azúcares 500cc.",
+                                    "price": 2100,
+                                    "realPrice": 2100,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "37d63585-80f8-4e56-ab5c-bf7fcd7c9a00-1666183349369.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237173,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976433,
+                                    "name": "Agua Smart Water Sin Gas 591 Cc",
+                                    "description": "Agua smart water sin gas 591 cc.",
+                                    "price": 1750,
+                                    "realPrice": 1750,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "d788d2d0-9e47-498b-8ee6-99ab00a544a7-1666183364786.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237173,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976459,
+                                    "name": "Cerveza Stella Artois 473Cc",
+                                    "description": "Cerveza stella artois lata 473cc.",
+                                    "price": 2400,
+                                    "realPrice": 2400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "8938e5a1-b4b0-4deb-98a7-80a30e215629-1700575538197.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237173,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Café Espresso",
+                            "products": [
+                                {
+                                    "id": 2112997029,
+                                    "name": "Latte",
+                                    "description": "Café combinado de 40% café espresso y 60% leche.",
+                                    "price": 1500,
+                                    "realPrice": 1500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "1806bba0-a1c2-4381-98a4-c1ce48346e1a-1706983516591.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240858,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997030,
+                                    "name": "Lágrima",
+                                    "description": "Café combinado de 10% café espresso y 90% leche.",
+                                    "price": 1500,
+                                    "realPrice": 1500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "068f5eb9-f709-46ab-8b04-9c05a51dff95-1706983585921.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240858,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997031,
+                                    "name": "Capuccino",
+                                    "description": "Café combinado de 40% café espresso y 60% leche, con un toque de canela y  chocolate.",
+                                    "price": 1500,
+                                    "realPrice": 1500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "5c83fbe5-39b1-4cfd-bfb9-f63d050ad257-1706983709694.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240858,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997032,
+                                    "name": "Latte Caramel",
+                                    "description": "Café combinado de 40% café espresso y 60% leche,  con un toque de salsa caramel.",
+                                    "price": 1650,
+                                    "realPrice": 1650,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "dddeb666-e9d1-4bbd-b240-6647e862e423-1706983756592.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240858,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112997033,
+                                    "name": "Caramel Moka",
+                                    "description": "Café combinado de 40% café espresso y 60% leche, con un toque de salsa caramel y chocolate.",
+                                    "price": 1650,
+                                    "realPrice": 1650,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "77da07f9-6942-4c7a-9a09-c620410d100f-1706983805464.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 240858,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Desayunos y Meriendas",
+                            "products": [
+                                {
+                                    "id": 2112976471,
+                                    "name": "Tostado Extra Cheddar + Café O Jugo",
+                                    "description": "Tostado de queso cheddar con mayonesa acompañado de un café a elección o jugo de naranja.",
+                                    "price": 4000,
+                                    "realPrice": 4000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "ab025b35-0a9a-46e9-a217-7dea54214ea3-1692817504072.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976448,
+                                    "name": "Tostado Queso \u0026 Jamón + Café O Jugo",
+                                    "description": "Tostado de queso tybo y jamón con mayonesa acompañado de un café a elección o jugo de naranja.",
+                                    "price": 4000,
+                                    "realPrice": 4000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "fbe7fb48-e195-4b51-8fe3-5ab9fa7f1e5d-1692817062015.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976450,
+                                    "name": "Tostado Big Cheddar \u0026 Jamón +Café O Jugo",
+                                    "description": "Tostado big xl con queso cheddar y jamón con mayonesa  acompañado de un café a elección o jugo de naranja.",
+                                    "price": 4550,
+                                    "realPrice": 4550,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "987864a0-f759-4802-b714-bd85a195b84b-1692817103045.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976462,
+                                    "name": "2 Medialunas + Café O Jugo",
+                                    "description": "2 Medialunas de manteca, acompañadas de un café a elección o jugo de naranja.",
+                                    "price": 2150,
+                                    "realPrice": 2150,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "992d4763-9c9a-4c6f-9603-307e20c6c718-1701435419584.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976470,
+                                    "name": "3 Medialunas + Café a Elección",
+                                    "description": "3 Medialunas de manteca, acompañadas de un café  a elección. .",
+                                    "price": 2800,
+                                    "realPrice": 2800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "4731ea41-dbbd-4638-a909-929f708810d2-1692817204676.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976478,
+                                    "name": "Muffin + Café O Jugo",
+                                    "description": "Muffin de vainilla , acompañado de un café a eleccion o jugo de naranja.",
+                                    "price": 3050,
+                                    "realPrice": 3050,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "292546d4-8ac4-4a33-900c-b2a0b84b4c50-1702578491751.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976479,
+                                    "name": "Alfajor + Café O Jugo",
+                                    "description": "Alfajor de chocolate acompañado de un café a elección o jugo de naranja.",
+                                    "price": 3400,
+                                    "realPrice": 3400,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "c1f0f4ac-8534-4d85-8165-0b77c322e839-1702578561280.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": true
+                                },
+                                {
+                                    "id": 2112976469,
+                                    "name": "Tostado Extra Cheddar",
+                                    "description": "Tostado de queso cheddar con mayonesa.",
+                                    "price": 2800,
+                                    "realPrice": 2800,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "79e768ae-9057-41ee-b88d-6dd4c277fe67-1691584121194.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976443,
+                                    "name": "Tostado Queso \u0026 Jamón",
+                                    "description": "Tostado de queso tybo y jamón con mayonesa.",
+                                    "price": 3000,
+                                    "realPrice": 3000,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "be5e5eb4-cbcc-4d37-8b77-c59d94e84ec5-1695124410916.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                },
+                                {
+                                    "id": 2112976444,
+                                    "name": "Tostado Xl Cheddar \u0026 Jamón",
+                                    "description": "Tostado big xl de queso cheddar y jamón con mayonesa.",
+                                    "price": 3500,
+                                    "realPrice": 3500,
+                                    "isAvailable": true,
+                                    "discountInPercent": 0,
+                                    "discountText": "",
+                                    "image": "6e5ad129-8e04-4e80-8643-e3f32bbeb9d0-1695124424437.png",
+                                    "showDiscountTag": false,
+                                    "isDiscountPrimeExclusive": false,
+                                    "minUnitsToAdd": 1,
+                                    "ad": "",
+                                    "corridorId": 237180,
+                                    "isPopular": false,
+                                    "hasToppings": false
+                                }
+                            ]
+                        }
+                    ],
+                    "backgroundImage": "https://images.rappi.com.ar/restaurants_background/1-1710200051591.jpg",
+                    "saturation": {
+                        "delivery": false,
+                        "eta": false,
+                        "noCash": false
+                    },
+                    "new": null,
+                    "reviewsData": {
+                        "options_info": [
+                            {
+                                "text": "Tal como lo pedí",
+                                "value": 15,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restBadPackage.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Faltaron algunos items",
+                                "value": 11,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restBadPrice.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Pésima calidad",
+                                "value": 11,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restBadFood.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Justo lo que pedí",
+                                "value": 10,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restGoodPrice.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Calidad de la comida",
+                                "value": 10,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restGoodFood.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "No fue lo que pedí",
+                                "value": 9,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/rtBadPresentation.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "La calidad de los ingredientes",
+                                "value": 7,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restGoodFood.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "No fue lo que pedí",
+                                "value": 3,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/rtBadPresentation.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "No fue lo que pedí",
+                                "value": 3,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/rtBadPresentation.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Mala presentación",
+                                "value": 3,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/rtBadPresentation.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Buena presentación",
+                                "value": 3,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restGoodPackage.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Tomó en cuenta mis pedidos",
+                                "value": 2,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restGoodPrice.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Falto un item",
+                                "value": 2,
+                                "image": "https://img.rappi.com/support/ratings/bubbles/restBadPrice.png?e=webp\u0026d=32x32\u0026q=10"
+                            },
+                            {
+                                "text": "Otras razones",
+                                "value": 11,
+                                "image": "https://rappi-uploads-ar.s3.amazonaws.com/stores-detail-icon/placeholder-store-rest.png?e=webp\u0026d=32x32\u0026q=10"
+                            }
+                        ],
+                        "view_detail": "Ver detalle",
+                        "total_reviews_text": "Últimos 90 días",
+                        "popular_products": [
+                            {
+                                "id": "212366_2112976435",
+                                "product_id": 2112976435,
+                                "name": "Combo Mega Pampeano Doble",
+                                "image": "97c367f5-b11e-42cb-9388-469f9a58808b-1682337582219.png"
+                            }
+                        ]
+                    },
+                    "relatedAvailableRestaurantsModal": {
+                        "title": "Restaurante fuera de cobertura",
+                        "subtitle": "Te recomendamos restaurantes similares",
+                        "primaryButtonText": "Ver todos los restaurantes",
+                        "restaurants": [
+                            {
+                                "id": 113850,
+                                "status": "OPEN",
+                                "name": "Growlers",
+                                "logo": "ae147d47-8740-4622-842d-084916074a48-1677185739557.png",
+                                "fullQualityImage": "68fa3dc4-87d7-48e6-99fb-7853a64c014d-1677173364458.png",
+                                "nextAvailableTime": "",
+                                "etaString": "45 min",
+                                "rating": 3.3,
+                                "promotionText": "Hasta 40% Off",
+                                "deliveryCost": 979,
+                                "hasFreeShipping": false,
+                                "categories": [
+                                    256,
+                                    294
+                                ],
+                                "isNew": false,
+                                "brandId": 3319,
+                                "reviewAmount": 38
+                            },
+                            {
+                                "id": 222259,
+                                "status": "OPEN",
+                                "name": "Ese Es Mi Pollo",
+                                "logo": "6-1708460991006-1708993049369.png",
+                                "fullQualityImage": "9-1708460991784-1708993050110.jpg",
+                                "nextAvailableTime": "",
+                                "etaString": "30 min",
+                                "rating": 0,
+                                "promotionText": "$225 Off en Envío: Ver TyC",
+                                "deliveryCost": 439,
+                                "hasFreeShipping": false,
+                                "categories": [
+                                    275,
+                                    256
+                                ],
+                                "isNew": true,
+                                "brandId": 75509,
+                                "reviewAmount": 0
+                            },
+                            {
+                                "id": 124990,
+                                "status": "OPEN",
+                                "name": "Burger King",
+                                "logo": "burger-1610076116103.png",
+                                "fullQualityImage": "burger_king-1658511465368.jpg",
+                                "nextAvailableTime": "",
+                                "etaString": "19 min",
+                                "rating": 3.6,
+                                "promotionText": "Hasta 50% Off",
+                                "deliveryCost": 439,
+                                "hasFreeShipping": false,
+                                "categories": [
+                                    256,
+                                    294
+                                ],
+                                "isNew": false,
+                                "brandId": 13453,
+                                "reviewAmount": 686
+                            },
+                            {
+                                "id": 220030,
+                                "status": "OPEN",
+                                "name": "Dr. Papa",
+                                "logo": "drpapa-1600781686052-1674248272728-1702499294566.png",
+                                "fullQualityImage": "home1-1668810853902-1674248273539-1702499295239.jpg",
+                                "nextAvailableTime": "",
+                                "etaString": "37 min",
+                                "rating": 4.1,
+                                "promotionText": "$225 Off en Envío: Ver TyC",
+                                "deliveryCost": 489,
+                                "hasFreeShipping": false,
+                                "categories": [
+                                    256,
+                                    294
+                                ],
+                                "isNew": false,
+                                "brandId": 19465,
+                                "reviewAmount": 43
+                            },
+                            {
+                                "id": 113374,
+                                "status": "OPEN",
+                                "name": "Dogg",
+                                "logo": "113374-1543237487.png",
+                                "fullQualityImage": "ardogg-1665753666745.jpg",
+                                "nextAvailableTime": "",
+                                "etaString": "24 min",
+                                "rating": 3.6,
+                                "promotionText": "$225 Off en Envío: Ver TyC",
+                                "deliveryCost": 319,
+                                "hasFreeShipping": false,
+                                "categories": [
+                                    256,
+                                    258
+                                ],
+                                "isNew": false,
+                                "brandId": 5154,
+                                "reviewAmount": 46
+                            }
+                        ]
+                    },
+                    "city": "Tandil",
+                    "legalFormalities": null
+                }
+            },
+            "seoRestaurantContent": null
+        },
+        "__N_SSG": true
+    },
+    "page": "/restaurantes/ssg/[id]",
+    "query": {
+        "id": "212366-mostaza"
+    },
+    "buildId": "K_Xuy_goTez2jR0KOjlks",
+    "assetPrefix": "/static-restaurantes",
+    "isFallback": false,
+    "dynamicIds": [
+        64366,
+        78005,
+        78173,
+        95168,
+        1282,
+        27179,
+        94001
+    ],
+    "gsp": true,
+    "customServer": true,
+    "locale": "es-AR",
+    "locales": [
+        "es-AR"
+    ],
+    "defaultLocale": "es-AR",
+    "scriptLoader": []
+}

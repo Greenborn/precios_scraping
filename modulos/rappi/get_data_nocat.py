@@ -122,38 +122,67 @@ contenido = obtener_contenido_por_id(contenido, 'restaurantLayoutContainer')
 
 todos_los_productos = []
 
-if contenido != None:
-    productos = obtener_elementos_con_data_qa(contenido)
-    for producto in productos:
-        
-        if producto['titulo'] != None:
-            nuevo_prod = {}
-            nuevo_prod['vendor_id'] = VENDOR
-            nuevo_prod['name'] = producto['titulo'] +' - '+ producto['descripcion']
-            nuevo_prod['name'] = nuevo_prod['name'].strip()
-            try:
-                nuevo_prod['price'] = float(producto['precio'].replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip())
-            except:
-                print(producto['precio'], "no se puede procesar")
-                continue
-            nuevo_prod['is_ext'] = producto['data_qa']
+ofertas_keys = {  }
 
+if contenido != None:
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    try:
+        json_data = json.loads(soup.find("script", {"id": "__NEXT_DATA__"}).text)
+    except:
+        print("No se encontraron datos")
+        exit()
+
+    prods_data = json_data["props"]["pageProps"]["fallback"]
+    for key in prods_data:
+        prods_data = prods_data[key]
+        break
+    prods_data = prods_data["corridors"]
+
+    for pasillo in prods_data:
+        nombre_categoria = pasillo["name"]
+        for prod in pasillo["products"]:
+            
             solo_comercio = url.split("/")[-1]
-            nuevo_prod['branch_id'] = matchs["comercios"][solo_comercio]
-            try:
-                nuevo_prod['category'] = matchs["categorias"][producto["category_name"]]
-            except:
-                with open("categorias.json", 'r') as file:
-                    categorias = json.load(file)
-                    if producto["category_name"] in categorias:
-                        nuevo_prod['category'] = categorias[producto["category_name"]]["category"]
-                    else:
-                        nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
-            todos_los_productos.append(nuevo_prod)
-            nuevo_prod["key"] = config["BACK_KEY"]
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
-            print(enviar_back.json())
-            print(nuevo_prod)
+
+            if prod["discountInPercent"] != 0:
+                print("Es promocion")
+                
+                promocion = {
+                    "orden":       0,
+                    "titulo":      prod["discountText"] + ' - ' + prod["name"] + " - " + prod["description"],
+                    "id_producto": 0,
+                    #"datos_extra": { "promo_cnt": promo_cnt },
+                    "datos_extra": {},
+                    "precio":      float(prod["price"]),
+                    "url":         url+"?productDetail="+str(prod['id']),
+                    "key":         config["BACK_KEY"]
+                }
+                promocion['branch_id'] = matchs["comercios"][solo_comercio]
+                print(promocion)
+                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+                print(enviar_back.json())
+            else:
+                nuevo_prod = {
+                        "vendor_id": 58,
+                        "name": prod["name"] + " - " + prod["description"],
+                        "price": float(prod["price"]),
+                        "url": url+"?productDetail="+str(prod['id']),
+                        "key": config["BACK_KEY"]
+                    }
+                nuevo_prod['branch_id'] = matchs["comercios"][solo_comercio]
+                try:
+                    nuevo_prod['category'] = matchs["categorias"][nombre_categoria]
+                except:
+                    with open("categorias.json", 'r') as file:
+                        categorias = json.load(file)
+                        if nombre_categoria in categorias:
+                            nuevo_prod['category'] = categorias[nombre_categoria]["category"]
+                        else:
+                            nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
+                print(nuevo_prod)
+                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
+                print(enviar_back.json())
+            print("")
 
     try:
         with open(path, 'r') as file:
