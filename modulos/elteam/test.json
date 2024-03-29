@@ -1,0 +1,37 @@
+
+{
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://eltheamcomputacion.mitiendanube.com/productos/cargador-portatil-enox3700-negro/"
+    },
+    "name": "CARGADOR PORTATIL ENOX3700 NEGRO",
+    "image": "https://dcdn.mitiendanube.com/stores/286/135/products/power-klip1-f5b3ee3f4c493859eb16584165385176-480-0.webp",
+    "description": "Producto: CARGADOR PORTATIL ENOX3700 NEGRO Acerca de este producto: Energía portátil para tu estilo de vida inagotable El Enox3700 es un cargador de batería ...",
+                "sku": "127200544",
+                        "brand": {
+            "@type": "Thing",
+            "name": "KLIPXTREME"
+        },
+                        "weight": {
+            "@type": "QuantitativeValue",
+            "unitCode": "KGM",
+            "value": "0.0000"
+        },
+            "offers": {
+        "@type": "Offer",
+        "url": "https://eltheamcomputacion.mitiendanube.com/productos/cargador-portatil-enox3700-negro/",
+        "priceCurrency": "ARS",
+        "price": "11900",
+                        "availability": "http://schema.org/InStock",
+            "inventoryLevel": {
+                "@type": "QuantitativeValue",
+                "value": "1"
+            },
+                    "seller": {
+            "@type": "Organization",
+            "name": "Eltheam.ar"
+        }
+    }
+}
