@@ -16,13 +16,9 @@ BRANCH_ID = 104
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 listado_productos = []
-ofertas_ = []
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
@@ -30,46 +26,43 @@ def procesar_resultados(res_consulta, categoria):
     product_html = soup.find_all(class_="col-lg-4 col-md-4 col-sm-6 col-xs-vista ga-impresion producto")
     for product in product_html:
         try:
-            precio = product.get("precio")
+            precio = product.find("span",class_="valor").find(class_="precio hidden").text.replace(".","").replace(",",".")
             #precio = precio.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").replace(".", "").strip()
         except:
             print("no se pudieron obtener datos")
             continue
 
-        if (product.find(class_="valor-anterior") != None):
-            print("Oferta detectada!")
-            ofertas_.append(product)
-            continue
-
         try:
-            producto = {
-                        "vendor_id": 58,
-                        "name": categoria + " - " + product.get("nombre"),
-                        "price": float(precio),
-                        "is_ext": "",
-                        "url": "https://www.siemprefarmacias.com.ar/" + product.find_all("a")[1].get("href"),
-                        "branch_id": BRANCH_ID,
-                        "category": categorias[categoria]["category"],
-                        "key": config["BACK_KEY"]
-                    }
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            url_oferta = "https://www.siemprefarmacias.com.ar/" + product.find_all("a")[1].get("href")
+            
+            promocion = {
+                "orden":       0,
+                "titulo":      product.get("nombre"),
+                "id_producto": 0,
+                "datos_extra": { "promo_cnt": '' },
+                "precio":      precio,
+                "branch_id":   BRANCH_ID,
+                "url":         url_oferta,
+                "key": config["BACK_KEY"]
+            }
+            print("")
+            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
             print(enviar_back.json())
-            listado_productos.append(producto)
-        except:
+            listado_productos.append(promocion)
+        except Exception as e:
+            print(e)
             print("no se pudo obtner enlace")
             continue
-        print(producto)
+        print(promocion)
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
     while True:
-        # Mover el scroll hasta el final de la página actual
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         
         time.sleep(2)
         current_scroll_position = driver.execute_script("return window.pageYOffset")
 
-        # Si no hay más contenido para mostrar (es decir, no se ha desplazado más), salir del bucle
         if current_scroll_position == last_scroll_position:
             break
 
@@ -90,31 +83,28 @@ def hacer_clic_por_texto(driver, texto):
         return False
     return True
 
-for categoria in categorias:
-    print("Procesado categoria: ",categoria)
 
-    url = categorias[categoria]['url']
-    print("haciendo petición a: ", url)
-    driver.get(url)
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+
+url = "https://www.siemprefarmacias.com.ar/c/ofertas/77"
+print("haciendo petición a: ", url)
+driver.get(url)
+WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
     
     
+scroll_hasta_el_final(driver)
+while True:
+    res = hacer_clic_por_texto(driver, 'Ver más productos')
+    time.sleep(3)
     scroll_hasta_el_final(driver)
-    while True:
-        res = hacer_clic_por_texto(driver, 'Ver más productos')
-        time.sleep(3)
-        scroll_hasta_el_final(driver)
-        if not res:
-            break
+    if not res:
+        break
 
-    res_consulta = driver.page_source
-    procesar_resultados(res_consulta, categoria)
-    
+res_consulta = driver.page_source
+procesar_resultados(res_consulta, "")
 
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
+path = 'salida/productos_ofertas_'+fecha+'.json'
+with open(path, 'w') as file:
+    json.dump(listado_productos, file)
+    print(path,' actualizado')
 
-print("precios ", len(listado_productos))
-print("ofertas ", len(ofertas_))
+print("obtenidos ", len(listado_productos))
