@@ -7,32 +7,53 @@ import datetime
 import hashlib
 import re
 
+import time
+import random
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 BASE_URL = "https://www.region20.com.ar"
 URL      = BASE_URL + "/propiedades/departamento-alquiler.htm?action=listar_subcategorias_inmuebles&subcategoria=5&localidades_seleccionadas=134&precio_seleccionado_menor=&precio_seleccionado_mayor=&usuarios_seleccionados=&tipo_seleccionado=&tiendas_seleccionadas=&marcas_seleccionadas=&modelos_seleccionados=&anios_seleccionados=&combustible_seleccionado=&0km_seleccionado=&financiacion_seleccionada=&credito_seleccionado=&forma_pago_seleccionadas=&ambientes_seleccionadas=&dormitorios_seleccionadas=&banios_seleccionados=&aestrenar_seleccionado=&moneda=&txt_buscar=&fecha_seleccionada="
 FECHA    = datetime.datetime.now().strftime("%Y%m%d")
 
-response = requests.get(URL)
-response = response.text
+options = webdriver.ChromeOptions()
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+#options.add_argument('--headless')
+driver = webdriver.Chrome(options=options)
+
+print("haciendo petición a: ", URL)
+driver.get(URL)
+WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+response = driver.page_source
+
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
 
-
 soup = BeautifulSoup(response, 'html.parser')
 
-articulos = soup.find_all(class_="caja-galeria")
+articulos = soup.find_all(class_="aviso-galeria")
 
 listado = []
 for articulo in articulos:
     enlace = BASE_URL + articulo.find(class_="titulo-listado").find("a").get("href")
 
-    print(enlace)
-    rta_post = requests.get( enlace )
-    rta_post = rta_post.text
+    time.sleep( random.randint(2, 3) )
+    driver.delete_all_cookies()
+    driver.execute_script("window.localStorage.clear()")
+    driver.execute_script("window.sessionStorage.clear()")
+    driver.get(enlace)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+    rta_post = driver.page_source
 
     post_soup = BeautifulSoup(rta_post, 'html.parser')
-
-    locador = post_soup.find(class_="userName").find("strong").text.strip()
+    #print(rta_post)
+    locador = post_soup.find(class_="userName").text.strip()
     titulo  = post_soup.find(class_="highlightTitle").text.strip()
 
     try:
