@@ -1,0 +1,486 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/505322/p",
+                "name": "Smart Tv Hitachi 50 Cdh-Le50/26  4K Google Tv C/Voz",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HITACHI"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/170688/505322.1.jpg?v=638255461623130000",
+                "description": "&lt;h1&gt;&lt;em&gt;&lt;strong&gt;&amp;nbsp;SMART TV HITACHI 50&amp;nbsp;LE504KSMART26&lt;/strong&gt;&lt;/em&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;M&amp;aacute;s experiencias en una sola pantalla&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div&gt;El nuevo Google TV es m&amp;aacute;s inteligente y est&amp;aacute; destinado a optimizar la experiencia existente de Android TV para que sea m&amp;aacute;s intuitiva y &amp;uacute;til.&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Control a trav&amp;eacute;s de los idiomas m&amp;aacute;s hablados del mundo. Cuando la vida se desarrolle a tu alrededor, usa tu voz en su lugar.&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;En lugar de limitarse a los canales, los sonidos se pueden colocar y mover con precisi&amp;oacute;n en un espacio tridimensional.&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;High Dynamic Range (HDR), brinda una experiencia superior con un brillo sorprendente, detalles de sombras excepcionales y colores vivos. Disfrut&amp;aacute; de incre&amp;iacute;bles detalles de imagen como si estuvieras en un cine Chromecast te permite enviar al TV aplicaciones, im&amp;aacute;genes y videos favoritos desde cualquier dispositivo m&amp;oacute;vil, con la m&amp;aacute;xima calidad. Env&amp;iacute;e su contenido y luego&amp;nbsp;puede continuar explorando en su tel&amp;eacute;fono o Tablet.&lt;/div&gt;",
+                "mpn": "3574",
+                "sku": "3574",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 499999,
+                    "highPrice": 499999,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 499999,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "3574",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:41:39Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/207288/p",
+                "name": "Lavarropas Whirlpool 11Kg Ww11Bl 700Rpm Blanco",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "WHIRLPOOL"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/160542/p--207288-9.jpg?v=638193495672470000",
+                "description": "&lt;h1&gt;&lt;strong&gt;LAVARROPAS CARGA SUPERIOR&amp;nbsp; WHIRLPOOL 11KG BLANCO WW11BL&lt;/strong&gt;&lt;/h1&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Remoci&amp;oacute;n de manchas PRO&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;Remueve hasta 42 de las manchas m&amp;aacute;s dif&amp;iacute;ciles con agua fr&amp;iacute;a, como desodorante y caf&amp;eacute; con leche.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Ciclo Ropa de mascotas&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;&amp;iexcl;Mejor remoci&amp;oacute;n de pelos de mascotas! Remueve hasta un 80% m&amp;aacute;s de pelos.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Smart action&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;Conjunto de componentes que generan acci&amp;oacute;n mec&amp;aacute;nica mejorando el desempe&amp;ntilde;o de lavado, removiendo la suciedad de las prendas y dej&amp;aacute;ndolas limpias.&lt;/p&gt;\r\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;Compuesto por los siguientes elementos:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Filtro atrapa pelusa con dise&amp;ntilde;o renovado. Es desmontable para una f&amp;aacute;cil limpieza. Permite la entrada de agua por los laterales y la salida sin pelusa por el frente. Es un 40% m&amp;aacute;s eficiente en filtrado de pelusas en comparaci&amp;oacute;n con la plataforma anterior.&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Lifter al costado del tambor para una agitaci&amp;oacute;n intensa promoviendo la remoci&amp;oacute;n de manchas. Esta pieza genera turbulencia y flujos de agua a trav&amp;eacute;s de la acci&amp;oacute;n mec&amp;aacute;nica (uno de los principales contribuidores para el buen lavado de la ropa).&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Mini impellers que generan corrientes de agua ascendentes para una mayor penetraci&amp;oacute;n en las fibras de la ropa. Adem&amp;aacute;s, con su dise&amp;ntilde;o renovado favorece al cuidado de la ropa.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Xpert Cycles&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;Ciclos de lavado pensados y desarrollados especialmente por Whirlpool.&amp;nbsp; Ofrecen un gran desempe&amp;ntilde;o de limpieza, remoci&amp;oacute;n de manchas y cuidado para las prendas del consumidor.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Detalle de ciclos:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Anti-pelusas: Ciclo de lavado delicado que reduce la formaci&amp;oacute;n de pelusas. Recomendado para prendas importantes o delicadas que tengan manchas simples.&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Antial&amp;eacute;rgico: Ciclo especial con cuatro enjuagues para una mayor remoci&amp;oacute;n de jab&amp;oacute;n.&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Remoci&amp;oacute;n de manchas PRO: Remueve hasta 42 de las manchas m&amp;aacute;s dif&amp;iacute;ciles con agua fr&amp;iacute;a, como desodorante y caf&amp;eacute; con leche.&lt;/p&gt;\r\n&lt;p&gt;&amp;bull; Ropa de mascotas:&amp;nbsp; Ciclo desarrollado para el lavado de las prendas de las mascotas. Lavado con enjuague largo y doble para mayor filtraje de pelos.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Ciclo edred&amp;oacute;n&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;La gran capacidad de este lavarropas y su ciclo experto, permiten realizar el lavado de un edred&amp;oacute;n queen size.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Dise&amp;ntilde;o y panel&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;Dise&amp;ntilde;o renovado e innovador. 5 a&amp;ntilde;os de garant&amp;iacute;a limitada en la tarjeta interfaz&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Sensado autom&amp;aacute;tico&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;\r\n&lt;p&gt;Ahorro de agua y energ&amp;iacute;a con la opci&amp;oacute;n de sensado inteligente de carga. Optimiza el consumo de agua y uso de energ&amp;iacute;a en funci&amp;oacute;n de la carga de ropa sensada.&lt;/p&gt;",
+                "mpn": "480",
+                "sku": "480",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 799000,
+                    "highPrice": 799000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 799000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "480",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:36:22Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/conj-lexington-160x200-602580x1-602883x2-602890/p",
+                "name": "Conjunto King Koil Lexington 160x200",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "KING KOIL"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/174016/602890.jpg?v=638318576312800000",
+                "description": "&lt;p&gt;&lt;strong&gt;Conjunto Colch&amp;oacute;n Lexington 160x200 con Sommier World Luxury Tejido Punto 80x200: Elegancia y Comodidad de Lujo&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Este conjunto combina el Colch&amp;oacute;n Lexington de 160x200 con el Sommier World Luxury de Tejido Punto de 80x200. Experimenta la elegancia y la comodidad de lujo en tu dormitorio. El colch&amp;oacute;n Lexington est&amp;aacute; dise&amp;ntilde;ado para brindar un descanso excepcional, mientras que el sommier World Luxury proporciona un soporte estable para un sue&amp;ntilde;o reparador. Descubre el confort y el estilo en un solo conjunto de alta calidad.&lt;/p&gt;\r\n&lt;iframe width=&quot;1000&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/PtyiTWqOo0Q?si=Q8SuebfUOxLaAYCk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+                "mpn": "10497",
+                "sku": "10496",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1449599,
+                    "highPrice": 1449599,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1449599,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "10496",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:38:44Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/326l-erd34bbdna-blanca-a--208045/p",
+                "name": "Heladera Eslabon De Lujo 326L Erd34bbdna Blanca &quot;A&quot;",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "ESLABON DE LUJO"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/174886/1.1.jpg?v=638357558734030000",
+                "description": "&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;La Heladera Eslab&amp;oacute;n de Lujo ERD34, en elegante color blanco, se presenta como la elecci&amp;oacute;n ideal para preservar la frescura y organizar tus alimentos en el hogar. Con una capacidad total de 326 litros, este electrodom&amp;eacute;stico ofrece un amplio espacio que te permitir&amp;aacute; almacenar tus compras de manera eficiente y mantener todo en orden. El congelador se encuentra estrat&amp;eacute;gicamente ubicado en la parte superior, facilitando el acceso a tus productos congelados.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Destacando por su sistema de deshielo Cycle defrost, esta heladera reduce las preocupaciones y el mantenimiento para brindarte una experiencia sin complicaciones. Su eficiencia energ&amp;eacute;tica de clase A garantiza un consumo reducido de energ&amp;iacute;a, lo que se traduce en ahorros significativos en tus facturas el&amp;eacute;ctricas. Con 3 estantes y un pr&amp;aacute;ctico caj&amp;oacute;n para vegetales en la secci&amp;oacute;n principal, as&amp;iacute; como un estante adicional en el congelador, disfrutar&amp;aacute;s de una organizaci&amp;oacute;n &amp;oacute;ptima.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;El control de temperatura te brinda la flexibilidad de ajustar la heladera seg&amp;uacute;n tus necesidades, mientras que la luz interior facilita la b&amp;uacute;squeda de alimentos incluso en condiciones de poca iluminaci&amp;oacute;n. El porta botellas incorporado a&amp;ntilde;ade un toque adicional de comodidad, permiti&amp;eacute;ndote tener tus bebidas favoritas siempre al alcance y en perfecto estado.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;",
+                "mpn": "35549",
+                "sku": "35548",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 649000,
+                    "highPrice": 649000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 649000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "35548",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:42:36Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/207296/p",
+                "name": "Cocina Volcan 55Cm 87673Vm Inox Mg C/Luz E/E",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "VOLCAN"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/172453/207296.1.jpg?v=638273557237200000",
+                "description": "&lt;h1&gt;&lt;em&gt;&lt;strong&gt;COCINA VOLCAN 55CM 87673V&lt;/strong&gt;&lt;/em&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;br type=&quot;_moz&quot; /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Cuatro quemadores de m&amp;aacute;xima potencia con tapas enlozadas de f&amp;aacute;cil limpieza.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Termocupla de seguridad en todas las hornallas.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Horno de f&amp;aacute;cil limpieza de gran capacidad con tres niveles de cocci&amp;oacute;n y v&amp;aacute;lvula de seguridad.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Puerta de horno completamente desmontable para facilitar su limpieza.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Caj&amp;oacute;n parrilla deslizable con puerta volcable.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Con luz en el horno y encendido electr&amp;oacute;nico.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Incluye 1 rejilla y 1 asadera en el horno, y 1 rejilla y 1 asadera en el caj&amp;oacute;n parrilla&lt;/span&gt;&lt;/div&gt;",
+                "mpn": "1223",
+                "sku": "1223",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 653299,
+                    "highPrice": 653299,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 653299,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "1223",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:37:11Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/207662/p",
+                "name": "Aire Acondicionado Bgh Ventana 3400W Frio &quot;A&quot; Bc35Wfq",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BGH"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/164841/207662.1.jpg?v=638235607136030000",
+                "description": "&lt;h1&gt;&lt;strong&gt;&lt;em&gt;&amp;nbsp;BGH Silent Air Ventana&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;F&amp;aacute;cil manejo con menor consumo.&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;A MAYOR EFICIENCIA ENERG&amp;Eacute;TICA&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;CONTROL REMOTO&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;ENFRIAMIENTO R&amp;Aacute;PIDO&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;BAJO NIVEL SONORO&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;NO AFECTA LA CAPA DE OZONO&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;DEFLECTOR DE AIRE 4 V&amp;Iacute;AS&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;h4&gt;&lt;em&gt;&lt;strong&gt;FUNCI&amp;Oacute;N SUE&amp;Ntilde;O&lt;/strong&gt;&lt;/em&gt;&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Funci&amp;oacute;n Sue&amp;ntilde;o&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;Habilit&amp;aacute; esta opci&amp;oacute;n durante la noche para lograr un ajuste autom&amp;aacute;tico de la temperatura, acompa&amp;ntilde;ando la variaci&amp;oacute;n t&amp;iacute;pica de la temperatura corporal y as&amp;iacute; evitar la sensaci&amp;oacute;n de fr&amp;iacute;o durante el sue&amp;ntilde;o.&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Mayor Eficiencia Energ&amp;eacute;tica&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;Ahorr&amp;aacute; energ&amp;iacute;a disfrutando del m&amp;aacute;ximo confort.&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Enfriamiento R&amp;aacute;pido&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;Enfri&amp;aacute; en menor tiempo tus ambientes gracias a los deflectores de aire y el ventilador&amp;nbsp;que operan a sus m&amp;aacute;ximas capacidades.&lt;/div&gt;",
+                "mpn": "1049",
+                "sku": "1049",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 649999,
+                    "highPrice": 649999,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 649999,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "1049",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:40:43Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/9kg-wnq90ab-inv-1400rpm-15prog-blanco/p",
+                "name": "Lavarropass Whirlpool  9KG Wnq90ab Inv 1400RPM 15 Prog Blanco",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "WHIRLPOOL"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/171936/1.jpg?v=638265964236500000",
+                "description": "&lt;h1&gt;&amp;nbsp;LAVARROPAS 9KG INV 1400RPM 15PROG BLANCO WHIRLPOOL WNQ90AB&lt;/h1&gt;&lt;h3&gt;6to SENTIDO&lt;/h3&gt;&lt;p&gt;Sensores inteligentes detectan el nivel de carga para optimizar el ciclo minimizando el uso de recursos. Ahorra hasta 40% de agua y de energ&amp;iacute;a, comparando lavados de carga m&amp;iacute;nima y m&amp;aacute;xima en un mismo ciclo.&lt;/p&gt;&lt;h3&gt;XPERT INVERTER&lt;/h3&gt;&lt;p&gt;Ahorro superior, mejor rendimiento y durabilidad.&lt;/p&gt;&lt;h3&gt;FRESHCARE+&lt;/h3&gt;&lt;p&gt;Prendas como reci&amp;eacute;n lavadas por hasta 6 horas de concluido el ciclo.&lt;/p&gt;&lt;h3&gt;LIMPIEZA CON VAPOR&lt;/h3&gt;&lt;p&gt;STEAM REFRESH / REFRESCAR CON VAPOR &amp;iexcl;Potenci&amp;aacute; tu lavado con vapor!&lt;/p&gt;&lt;h3&gt;REFRESCAR CON VAPOR&lt;/h3&gt;&lt;p&gt;&amp;iexcl;Refresca tu ropa y reduce hasta un 40% las arrugas!&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+                "mpn": "3784",
+                "sku": "3784",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 899000,
+                    "highPrice": 899000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 899000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "3784",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:37:06Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/207025/p",
+                "name": "Heladera Eslabón de Lujo ERD34AB Cíclica Blanca 326LTS",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "ESLABON DE LUJO"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/173621/207025.jpg?v=638294400959930000",
+                "description": "&lt;h1&gt;&lt;strong&gt;HELADERA CICLICA ESLABON DE LUJO BLANCA 326LTS ERD34AB&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Estantes resistentes&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;El vidrio templado ofrece calidad y resistencia en los estantes. Son f&amp;aacute;ciles de limpiar, lo que permite visualizar facilmente la suciedad.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Comodidad y Organizaci&amp;oacute;n&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Optima organizacion gracias a la flexibilidad de los estantes en altura y anaqueles ubicados en la puerta que permiten alcanzar las bebidas y todo tipo de productos con mayor comodidad segun las preferencias.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Estantes flex&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Estantes flexibles para adaptar el espacio de guardado. Gracias a las guias que posee en su interior los estantes de vidrio pueden regularse en altura y posicionarse de acuerdo a las necesidades y preferencias del consumidor.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Optima Organizaci&amp;oacute;n&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Anaqueles de dise&amp;ntilde;o texturado ubicados en la puerta para organizar los alimentos en forma &amp;oacute;ptima. Permite separar bebidas y comestibles para tener un alcance comodo.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Dise&amp;ntilde;o Moderno&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Manijas de dise&amp;ntilde;o moderno incorporadas a la puerta que facilita la apertura. Posee dise&amp;ntilde;o texturado y una posicion vertical&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Control de temperatura&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;La temperatura puede seleccionarse por medio de la perilla del termostato que se encuentra en su interior. Existen tres niveles de temperatura: Minimo - MIN (Pocos alimentos en la heladera, d&amp;iacute;as fr&amp;iacute;os y poca apertura de puerta.) Media - MED (Condiciones normales) Maxima - MAX ( Muchos alimentos en la heladera, d&amp;iacute;as calurosos y apertura frecuente de puerta)&lt;/p&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Compartimiento fresh&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Compartimiento dise&amp;ntilde;ado para conservar frutas y/o verduras de forma &amp;oacute;ptima, adem&amp;aacute;s permite una facil organizacion de la heladera.&lt;/p&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Patas Estabilizadoras&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Cuenta con patas estabilizadores que permiten nivelar adecuadamente la heladera para evitar ruidos y vibraciones.&lt;/p&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Balc&amp;oacute;n botellas&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Asegura un almacenamiento &amp;oacute;ptimo para botellas debido a que tiene una altura ideal para colocar las mismas.&lt;/p&gt;&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Eficiencia energ&amp;eacute;tica A&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+                "mpn": "73",
+                "sku": "73",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 649000,
+                    "highPrice": 649000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 649000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "73",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:42:36Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/7kg-elaf07w-1000rpm-15-prog-a-blanco-208066/p",
+                "name": "LAVARROPAS ELECTROLUX 7KG ELAF07W 1000RPM 15 PROG. A++ BLANCO",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "ELECTROLUX"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/175707/1.png?v=638446486324370000",
+                "description": "&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;El moderno y potente Lavarropas carga frontal Electrolux ELAF07W 7kg blanco har&amp;aacute; del lavadode tus prendas una tarea sencilla y amena. Cuenta con 15 programas especiales y un tipo delavado diferente para ropa blanca, deportiva o de beb&amp;eacute;s, posee tambi&amp;eacute;n P&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;El moderno y potente Lavarropas carga frontal ElectroluxELAF07W 7kg blanco har&amp;aacute; del lavado de tus prendas unatarea sencilla y amena. Cuenta con 15 programasespeciales y un tipo de lavado diferente para ropa blanca,deportiva o de beb&amp;eacute;s, posee tambi&amp;eacute;n Plancha F&amp;aacute;cil quepermitir&amp;aacute; que tu ropa salga impecable y sin arrugas. ElLavarropas carga frontal Electrolux viene tambi&amp;eacute;n conEco Lavado para economizar tiempo y energ&amp;iacute;a, es idealpara prendas ligera a medianamente sucias. Sumado asu selector de temperatura del agua, el LavarropasElectrolux est&amp;aacute; dise&amp;ntilde;ado con panel de control digital ypantalla LCD. Su amplia puerta frontal con apertura de 180&amp;deg; y mayor elevaci&amp;oacute;n, hace que la cargade tu ropa sea m&amp;aacute;s pr&amp;aacute;ctica. Con 85 cm de alto, 60 cm de ancho y 55 cm de profundidad, elLavarropas carga frontal Electrolux 7 kg blanco es el l&amp;iacute;der en limpieza y cuidado de tus prendaspreferidas.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;strong&gt;Destacados&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Puerta elevada y amplia con apertura 180&amp;deg;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Mayor comodidad de carga&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Eficiencia Energ&amp;eacute;tica A++&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;M&amp;aacute;ximo ahorro de energ&amp;iacute;a sin resignar calidad de lavado&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Eco Lavado&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Ahorre tiempo y energ&amp;iacute;a en el lavado de prendas ligera a medianamente sucias&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Plancha F&amp;aacute;cil&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Programa que te permite que tu ropa salga sin arrugas. Mayor facilidad a la horade planchar.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Selector de Temperatura de agua&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Permite modificar la temperatura del programa de lavado.Posee autocalententamiento&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;&lt;em&gt;Programas Especiales&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 14px;&quot;&gt;Un tipo de lavado para cada prenda: ropa Blanca, ropa deportiva, ropade de beb&amp;eacute;s. Son 15 programas.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;",
+                "mpn": "41670",
+                "sku": "41669",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 699000,
+                    "highPrice": 699000,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 699000,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "41669",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:40:13Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/43-s5135-77g-smart-fhd-roku-tv-505444/p",
+                "name": "Smart TV 43 AOC S5135/77G FHD ROKU TV",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "AOC"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/175357/1.jpg?v=638417206348200000",
+                "description": "&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;em&gt;&lt;strong&gt;Explora un Mundo de Entretenimiento con el Smart TV 43 S5135/77G FHD ROKU TV&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;em&gt;Sum&amp;eacute;rgete en la experiencia visual de alta definici&amp;oacute;n con nuestro Smart TV 43 S5135/77G, potenciado por la avanzada tecnolog&amp;iacute;a ROKU TV. Este televisor inteligente ofrece una combinaci&amp;oacute;n perfecta de calidad de imagen excepcional y funcionalidades inteligentes, brind&amp;aacute;ndote una experiencia de entretenimiento sin igual en la comodidad de tu hogar.&lt;/em&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Caracter&amp;iacute;sticas Destacadas:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Imagen Full HD Impresionante&lt;/strong&gt;: Disfruta de im&amp;aacute;genes n&amp;iacute;tidas y vibrantes en una pantalla FHD de 43 pulgadas. Cada detalle cobra vida, desde tus programas favoritos hasta los eventos deportivos, ofreciendo una calidad de imagen que redefine tus expectativas.&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;ROKU TV para un Acceso Ilimitado:&lt;/strong&gt; Experimenta la libertad de elecci&amp;oacute;n con la plataforma ROKU TV integrada. Accede a un vasto cat&amp;aacute;logo de aplicaciones y canales de transmisi&amp;oacute;n, desde servicios de streaming populares hasta contenido exclusivo, todo desde la comodidad de tu control remoto.&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Conectividad Vers&amp;aacute;til:&lt;/strong&gt; Equipado con m&amp;uacute;ltiples puertos HDMI y USB, nuestro Smart TV te permite conectar f&amp;aacute;cilmente tus dispositivos favoritos, como consolas de juegos, reproductores de medios y m&amp;aacute;s, brind&amp;aacute;ndote una experiencia de entretenimiento personalizada.&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Interfaz Intuitiva y F&amp;aacute;cil de Navegar: &lt;/strong&gt;Descubre la comodidad de una interfaz de usuario intuitiva. Explora y selecciona tus contenidos favoritos con facilidad, personaliza tu pantalla de inicio y disfruta de un acceso r&amp;aacute;pido a todo lo que te apasiona.&lt;/p&gt;\r\n&lt;p&gt;&lt;br&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Dise&amp;ntilde;o Elegante y Eficiente: &lt;/strong&gt;El Smart TV 43 S5135/77G no solo ofrece un rendimiento excepcional, sino que tambi&amp;eacute;n presenta un dise&amp;ntilde;o elegante que complementa cualquier espacio. Ya sea en la sala de estar o en el dormitorio, este televisor se integra perfectamente con tu estilo de vida.&lt;/p&gt;\r\n&lt;p&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;em&gt;Descubre el placer de un entretenimiento sin l&amp;iacute;mites con el Smart TV 43 S5135/77G FHD ROKU TV. Eleva tus momentos de cine en casa, disfruta de tus series favoritas y explora una nueva dimensi&amp;oacute;n de entretenimiento interactivo.&lt;/em&gt;&lt;/p&gt;",
+                "mpn": "41648",
+                "sku": "41647",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 349999,
+                    "highPrice": 349999,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 349999,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "41647",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:36:37Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/207576/p",
+                "name": "Heladera Ariston TRE44AK  No Frost 397L Inverter Inox",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "ARISTON"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/164774/1.jpg?v=638235599000900000",
+                "description": "&lt;h1&gt;&lt;strong&gt;HELADERA NO FROST ARISTON 397L INVERTER INOX TRE44AK&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Sus caracter&amp;iacute;sticas:&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;bull; Capacidad neta total: 397 ltrs&lt;/p&gt;&lt;p&gt;&amp;bull; Inverter: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Sexto Sentido: No&lt;/p&gt;&lt;p&gt;&amp;bull; Eficiencia Energ&amp;eacute;tica / Clase Clim&amp;aacute;tica A+ / T&lt;/p&gt;&lt;p&gt;&amp;bull; Rango de temperatura: Refrigerador (5 niveles) - Freezer (5 niveles)&lt;/p&gt;&lt;p&gt;&amp;bull; Puerta Reversible: No&lt;/p&gt;&lt;p&gt;&amp;bull; Display / Panel Touch: No&lt;/p&gt;&lt;p&gt;&amp;bull; Control de temperatura Externo: En freezer y Refrigerador&lt;/p&gt;&lt;p&gt;&amp;bull; Compartimento extra fr&amp;iacute;o: No&lt;/p&gt;&lt;p&gt;&amp;bull; Hielo f&amp;aacute;cil: No&lt;/p&gt;&lt;p&gt;&amp;bull; F&amp;aacute;brica de Hielo: No&lt;/p&gt;&lt;p&gt;&amp;bull; Recipiente para hielo: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Congelamiento r&amp;aacute;pido: Si, turbo freezer&lt;/p&gt;&lt;p&gt;&amp;bull; Dispenser de agua: No&lt;/p&gt;&lt;p&gt;&amp;bull; Dispenser de hielo: No&lt;/p&gt;&lt;p&gt;&amp;bull; Alarma de puerta: No&lt;/p&gt;&lt;p&gt;&amp;bull; Traba de seguridad: No&lt;/p&gt;&lt;p&gt;&amp;bull; Material de estantes: Vidrio templado en refrigerador&lt;/p&gt;&lt;p&gt;&amp;bull; Cantidad de estantes en el refrigerador: 4&lt;/p&gt;&lt;p&gt;&amp;bull; Cantidad de estantes en el freezer: 2 gavetas/cajones + compartimiento turbo freezer&lt;/p&gt;&lt;p&gt;&amp;bull; Estantes removibles: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Cantidad de estantes removibles: 4&lt;/p&gt;&lt;p&gt;&amp;bull; Pies niveladores: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Ruedas: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Porta huevos: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Compartimiento L&amp;aacute;cteos: No&lt;/p&gt;&lt;p&gt;&amp;bull; Caj&amp;oacute;n de vegetales: Si&lt;/p&gt;&lt;p&gt;&amp;bull; Compartimiento botellas: No&lt;/p&gt;&lt;p&gt;&amp;bull; Porta latas: No&lt;/p&gt;&lt;p&gt;&amp;bull; Luz LED interior Si&lt;/p&gt;&lt;p&gt;&amp;bull; Color: INOXIDABLE (Con tecnologia EVOX)&lt;/p&gt;",
+                "mpn": "99",
+                "sku": "99",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1874999,
+                    "highPrice": 1874999,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1874999,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "99",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:40:43Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.naldo.com.ar/505313/p",
+                "name": "Smart Tv Rca 50 AND50P6UHD  4K Google Tv",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "RCA"
+                },
+                "image": "https://naldoar.vtexassets.com/arquivos/ids/170606/505313-1-Mesa-de-trabajo-1.jpg?v=638255384075270000",
+                "description": "&lt;h1&gt;&lt;strong&gt;SMART TV RCA 50&amp;rdquo; 4K UHD GOOGLE TV AND50P6UHD&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Un mundo de entretenimiento. Con la ayuda de Google, explora el contenido de todas tus aplicaciones, organizado de forma inteligente solo para vos. &lt;strong&gt;Google TV&lt;/strong&gt; se basa en lo que has visto para recomendarte qu&amp;eacute; disfrutar a continuaci&amp;oacute;n.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;em&gt;&lt;strong&gt;Google Assistance&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;&lt;p&gt;Un asistente personal listo para facilitar tu vida. Hacele preguntas y pedirle que complete tu agenda. Es tu Google personal y siempre est&amp;aacute; listo para ayudarte. Buscar el contenido que te interesa y organiza tu d&amp;iacute;a.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Chromecast Integrado&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Los nuevos Google TV de RCA con Chromecast integrado te permiten, utilizando tu dispositivo m&amp;oacute;vil o tablet, enviar a la pantalla grande tu contenido favorito.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Inteligencia Artificial&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Utiliz&amp;aacute; la experiencia del usuario para ir ofreci&amp;eacute;ndote contenido seg&amp;uacute;n tu inter&amp;eacute;s, basado principalmente en el historial de tus reproducciones.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Bluetooth&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Gracias al bluetooth podes vincular el Google TV con otros dispositivos de audio o m&amp;oacute;viles que haya en la casa o en la oficina, pudiendo trabajar o entretenerte de una manera mas pr&amp;aacute;ctica y sin cables.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Micro Dimming&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Optimiza la calidad de imagen. El micro Dimming divide la pantalla en zonas garantizadando una mejora del contraste y la nitidez y los niveles de color controlando la iluminacion de panel. Hace las luces m&amp;aacute;s claras y las sombras m&amp;aacute;s oscuras.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Dolby Audio&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Dolby Audio inunda la sala con un sonido Surround envolvente.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;HDR&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Todo tu contenido con m&amp;aacute;s claridad y color, mejor nitidez, mayor rango din&amp;aacute;mico, mayor rango de color y detalles de imagen m&amp;aacute;s claros. im&amp;aacute;genes m&amp;aacute;s reales.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;&lt;em&gt;Google Play&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Descarga y disfrut&amp;aacute; todas las aplicaciones para usar en tu Android TV RCA. Juegos, pel&amp;iacute;culas, m&amp;uacute;sica y muchas mas desde la comodidad de tu casa.&lt;/p&gt;",
+                "mpn": "3469",
+                "sku": "3469",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 519999,
+                    "highPrice": 519999,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 519999,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "3469",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-01T19:39:42Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Naldo Lombardi SA Arg"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        }
+    ]
+}

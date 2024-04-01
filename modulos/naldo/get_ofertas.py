@@ -13,8 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 BRANCH_ID = 91
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
+URL = "https://www.naldo.com.ar/250?O=OrderByReleaseDateDESC&map=productClusterIds&page=1"
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -26,7 +25,6 @@ descuentos_no_procesados = []
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
-
     data_json = soup.find("script", {"type": "application/ld+json"})
     
     if (data_json == None):
@@ -38,10 +36,6 @@ def procesar_resultados(res_consulta, categoria):
     for prd_data in data_json:
         _data = prd_data['item']
 
-        if (not "offers" in _data):
-            print("No se puede procesar")
-            continue
-
         if (len(_data["offers"]["offers"]) != 1):
             descuentos_no_procesados.append(prd_data)
             with open('tipos_descuentos.json', 'w') as file:
@@ -50,20 +44,22 @@ def procesar_resultados(res_consulta, categoria):
 
         precio = _data["offers"]["offers"][0]["price"]
 
-        producto = {
-                    "vendor_id": 58,
-                    "name": categoria + ' - ' + _data["brand"]["name"] + " - " + _data["name"],
-                    "price": precio,
-                    "is_ext": "",
-                    "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
+        promocion = {
+                    "orden":       0,
+                    "titulo":      _data["name"],
+                    "id_producto": 0,
+                    #"datos_extra": { "promo_cnt": promo_cnt },
+                    "datos_extra": { },
+                    "precio":      float(precio),
+                    "branch_id":   BRANCH_ID,
+                    "url":         _data["@id"],
+                    "key":         config["BACK_KEY"]
                 }
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+
+        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
         print(enviar_back.json())
-        listado_productos.append(producto)
-        print(producto)
-        print("")        
+        print(promocion)
+        print("")
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
@@ -86,29 +82,25 @@ options.add_argument('--disable-dev-shm-usage')
 #options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
-for categoria in categorias:
-    print("Procesado categoria: ",categoria)
 
-    url = categorias[categoria]['url']
-    print("haciendo petición a: ", url)
+print("haciendo petición a: ", URL)
 
-    try:
-        driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-        res_consulta = driver.page_source
-    except:
-        print("error atajado")
-        continue
+try:
+    driver.get(URL)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+    res_consulta = driver.page_source
+except:
+    print("error atajado")
+    exit()
 
-    scroll_hasta_el_final(driver)
-    #try:
-    procesar_resultados(res_consulta, categoria)
-    """except Exception as e:
-        print(e)
-        print("error procesando")
-        continue"""
+scroll_hasta_el_final(driver)
+try:
+    procesar_resultados(res_consulta, "")
+except:
+    print("error procesando")
+    exit()
 
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
+path = 'salida/productos_ofertas_'+fecha+'.json'
+with open(path, 'w') as file:
+    json.dump(listado_productos, file)
+    print(path,' actualizado')

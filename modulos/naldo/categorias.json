@@ -599,60 +599,55 @@
         "sub_items": [],
         "url": "https://www.naldo.com.ar/rodados/monopatines"
     },
-    "Ofertas": {
-        "category": 1537,
+    "1.lavarropas": {
+        "category": 4564,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/250?map=productClusterIds&O=OrderByReleaseDateDESC"
+        "url": "https://www.naldo.com.ar/lavarropas?map=ft&_q=lavarropas"
     },
-    "1.heladeras": {
-        "category": 1538,
+    "2.heladeras": {
+        "category": 4565,
         "sub_items": [],
         "url": "https://www.naldo.com.ar/heladeras?map=ft&_q=heladeras"
     },
-    "2.aire acondicionado": {
-        "category": 1539,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/aire%20acondicionado?map=ft&_q=aire acondicionado"
-    },
-    "3.ventiladores": {
-        "category": 1540,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/ventiladores?map=ft&_q=ventiladores"
-    },
-    "4.celulares": {
-        "category": 1541,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/celulares?map=ft&_q=celulares"
-    },
-    "5.pileta": {
-        "category": 1542,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/pileta?map=ft&_q=pileta"
-    },
-    "6.ventilador": {
-        "category": 1543,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/ventilador?map=ft&_q=ventilador"
-    },
-    "7.bicicleta": {
-        "category": 1544,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/bicicleta?map=ft&_q=bicicleta"
-    },
-    "8.samsung": {
-        "category": 1545,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/samsung?map=ft&_q=samsung"
-    },
-    "9.cocinas": {
-        "category": 1546,
+    "3.cocinas": {
+        "category": 4566,
         "sub_items": [],
         "url": "https://www.naldo.com.ar/cocinas?map=ft&_q=cocinas"
     },
-    "10.parlantes": {
-        "category": 1547,
+    "4.motos": {
+        "category": 4567,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/parlantes?map=ft&_q=parlantes"
+        "url": "https://www.naldo.com.ar/motos?map=ft&_q=motos"
+    },
+    "5.termotanque": {
+        "category": 4568,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/termotanque?map=ft&_q=termotanque"
+    },
+    "6.bicicleta": {
+        "category": 4569,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/bicicleta?map=ft&_q=bicicleta"
+    },
+    "7.celulares": {
+        "category": 4570,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/celulares?map=ft&_q=celulares"
+    },
+    "8.colchones": {
+        "category": 4571,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/colchones?map=ft&_q=colchones"
+    },
+    "9.cocina": {
+        "category": 4572,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/cocina?map=ft&_q=cocina"
+    },
+    "10.microondas": {
+        "category": 4573,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/microondas?map=ft&_q=microondas"
     },
     "Televisores": {
         "category": 1355,
@@ -664,10 +659,10 @@
         "sub_items": [],
         "url": "https://www.naldo.com.ar/celulares/celulares"
     },
-    "Gaming": {
-        "category": 1548,
+    "Calefacci\u00f3n": {
+        "category": 1557,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/tecnologia/gaming"
+        "url": "https://www.naldo.com.ar/climatizacion/calefaccion"
     },
     "Aires": {
         "category": 1549,
@@ -679,35 +674,45 @@
         "sub_items": [],
         "url": "https://www.naldo.com.ar/electrodomesticos/heladeras"
     },
-    "Ventilaci\u00f3n": {
-        "category": 1418,
+    "Notebooks": {
+        "category": 1306,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/climatizacion/ventiladores"
+        "url": "https://www.naldo.com.ar/tecnologia/informatica/notebook"
     },
     "Bicicletas": {
         "category": 1551,
         "sub_items": [],
         "url": "https://www.naldo.com.ar/rodados/bicicletas"
     },
-    "Smartwatches": {
-        "category": 1343,
+    "Muebles": {
+        "category": 1555,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/tecnologia/relojes/smartwach"
+        "url": "https://www.naldo.com.ar/hogar-jardin-y-tiempo-libre/muebles"
     },
-    "Notebooks": {
-        "category": 1306,
+    "Ventilaci\u00f3n": {
+        "category": 1418,
         "sub_items": [],
-        "url": "https://www.naldo.com.ar/tecnologia/informatica/notebook"
-    },
-    "Herramientas": {
-        "category": 1278,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/hogar-jardin-y-tiempo-libre/herramientas"
+        "url": "https://www.naldo.com.ar/climatizacion/ventiladores"
     },
     "Jard\u00edn": {
         "category": 1552,
         "sub_items": [],
         "url": "https://www.naldo.com.ar/hogar-jardin-y-tiempo-libre/jardin/cortadora-de-cesped"
+    },
+    "Gaming": {
+        "category": 1548,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/tecnologia/gaming"
+    },
+    "Smartwatches": {
+        "category": 1343,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/tecnologia/relojes/smartwach"
+    },
+    "Herramientas": {
+        "category": 1278,
+        "sub_items": [],
+        "url": "https://www.naldo.com.ar/hogar-jardin-y-tiempo-libre/herramientas"
     },
     "Camping": {
         "category": 1553,
@@ -724,11 +729,6 @@
         "sub_items": [],
         "url": "https://www.naldo.com.ar/electrodomesticos"
     },
-    "Muebles": {
-        "category": 1555,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/hogar-jardin-y-tiempo-libre/muebles"
-    },
     "Belleza": {
         "category": 1093,
         "sub_items": [],
@@ -743,11 +743,6 @@
         "category": 1352,
         "sub_items": [],
         "url": "https://www.naldo.com.ar/tecnologia/informatica/tablets"
-    },
-    "Calefacci\u00f3n": {
-        "category": 1557,
-        "sub_items": [],
-        "url": "https://www.naldo.com.ar/climatizacion/calefaccion"
     },
     "Audio": {
         "category": 1217,
