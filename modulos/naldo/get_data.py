@@ -11,7 +11,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import argparse
+
 BRANCH_ID = 91
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -99,30 +107,47 @@ options.add_argument('--disable-dev-shm-usage')
 #options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
+procesar = True
+print(categoria_inicio)
+
+if (categoria_inicio != None):
+    procesar = False
+
 for categoria in categorias:
     print("Procesado categoria: ",categoria)
 
-    url = categorias[categoria]['url']
-    print("haciendo petición a: ", url)
-
-    try:
-        driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-        res_consulta = driver.page_source
-    except:
-        print("error atajado")
+    if (categoria == categoria_inicio):
+        print(categoria, categoria_inicio)
+        procesar = True
         continue
 
-    scroll_hasta_el_final(driver)
-    #try:
-    time.sleep(2)
-    procesar_resultados(res_consulta, categoria)
-    """except Exception as e:
-        print(e)
-        print("error procesando")
-        continue"""
+    if (procesar == True):
+        url = categorias[categoria]['url']
+        print("haciendo petición a: ", url)
 
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+            res_consulta = driver.page_source
+        except:
+            print("error atajado")
+            continue
+
+        scroll_hasta_el_final(driver)
+        #try:
+        time.sleep(2)
+        procesar_resultados(res_consulta, categoria)
+        """except Exception as e:
+            print(e)
+            print("error procesando")
+            continue"""
+
+        path = 'salida/productos_cat'+fecha+'.json'
+        with open(path, 'w') as file:
+            json.dump(listado_productos, file)
+            print(path,' actualizado')
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
+
+print("Total elementos ",len(listado_productos))
