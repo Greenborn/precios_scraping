@@ -23,12 +23,20 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 listado_productos = []
 descuentos_no_procesados = []
+producto_ya_listado = {}
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
 
     data_json = soup.find("script", {"type": "application/ld+json"})
-    
+    all_json_data = soup.find_all("script", {"type": "application/ld+json"})
+    #print(len(all_json_data))
+    for json_d in all_json_data:
+        #print(len(json_d.text), json_d.text)
+        if (len(json_d.text) > 512):
+            data_json = json_d
+            break
+
     if (data_json == None):
         print("no se encontraron resultados")
         return 0
@@ -47,6 +55,11 @@ def procesar_resultados(res_consulta, categoria):
             with open('tipos_descuentos.json', 'w') as file:
                 json.dump(descuentos_no_procesados, file)
             continue
+        
+        if (_data["name"] in producto_ya_listado):
+            print("producto repetido")
+            continue
+        producto_ya_listado[_data["name"]] = 1
 
         precio = _data["offers"]["offers"][0]["price"]
 
@@ -102,6 +115,7 @@ for categoria in categorias:
 
     scroll_hasta_el_final(driver)
     #try:
+    time.sleep(2)
     procesar_resultados(res_consulta, categoria)
     """except Exception as e:
         print(e)
