@@ -22,7 +22,7 @@
     "Papeles para armar": {
         "category": 1394,
         "sub_items": [],
-        "url": "https://www.kultureweb.com/fumador/parafernalia/papeles-para-armar/"
+        "url": "https://www.kultureweb.com/fumador/papelillos/papeles-para-armar1/"
     },
     "Bandejas": {
         "category": 274,
@@ -69,6 +69,11 @@
         "sub_items": [],
         "url": "https://www.kultureweb.com/fumador/parafernalia/armadores/"
     },
+    "Extracciones": {
+        "category": 1404,
+        "sub_items": [],
+        "url": "https://www.kultureweb.com/fumador/accesorios-y-herramientas/extracciones/"
+    },
     "Vaporizadores": {
         "category": 1402,
         "sub_items": [],
@@ -78,11 +83,6 @@
         "category": 1403,
         "sub_items": [],
         "url": "https://www.kultureweb.com/fumador/vaporizadores/hierbas/"
-    },
-    "Extracciones": {
-        "category": 1404,
-        "sub_items": [],
-        "url": "https://www.kultureweb.com/fumador/accesorios-y-herramientas/extracciones/"
     },
     "Accesorios y Herramientas": {
         "category": 1405,
@@ -98,6 +98,11 @@
         "category": 1407,
         "sub_items": [],
         "url": "https://www.kultureweb.com/fumador/accesorios-y-herramientas/decoracion/"
+    },
+    "Papelillos": {
+        "category": 4574,
+        "sub_items": [],
+        "url": "https://kultureweb.com/fumador/papelillos/"
     },
     "Cultivo": {
         "category": 1408,
@@ -122,7 +127,7 @@
     "Vegetacion": {
         "category": 1412,
         "sub_items": [],
-        "url": "https://www.kultureweb.com/cultivo/nutrientes/vegetacion/"
+        "url": "https://www.kultureweb.com/semillas-y-esquejes/semillas/vegetacion1/"
     },
     "Complementos Varios": {
         "category": 1413,
@@ -242,6 +247,11 @@
     "Semillas": {
         "category": 1433,
         "sub_items": [],
-        "url": "https://www.kultureweb.com/semillas-y-esquejes/semillas/"
+        "url": "https://kultureweb.com/semillas-y-esquejes/semillas/"
+    },
+    "VARIOS": {
+        "category": 1126,
+        "sub_items": [],
+        "url": "https://www.kultureweb.com/varios/"
     }
 }
