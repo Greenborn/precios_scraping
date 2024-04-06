@@ -3,6 +3,15 @@
 import requests
 from datetime import datetime
 import json
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 fecha_actual = datetime.now()
 fecha = datetime.now().strftime("%Y%m%d")
@@ -74,8 +83,9 @@ for product in response:
     }
     print(producto, config["URL_BACK"] + "/publico/productos/importar")
     
-    enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-    print(enviar_back.json())
+    sio.emit('registrar_precio', producto)
+    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+    print("")
 
     listado_productos.append(producto)
     print("")
