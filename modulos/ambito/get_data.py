@@ -5,6 +5,15 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import argparse
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -69,8 +78,9 @@ def procesar_elementos( url, cat_id, categoria ):
             except:
                 continue
             cantidad = cantidad + 1
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            print(enviar_back.json())
+            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            sio.emit('registrar_precio', producto)
+            print("")
             listado_productos.append(producto)
             print(producto)
 
