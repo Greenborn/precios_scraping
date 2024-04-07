@@ -10,6 +10,14 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 BRANCH_ID = 104
 
@@ -21,7 +29,6 @@ with open('categorias.json') as archivo_json:
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 ofertas_ = []
 
 def procesar_resultados(res_consulta, categoria):
@@ -52,9 +59,9 @@ def procesar_resultados(res_consulta, categoria):
                         "category": categorias[categoria]["category"],
                         "key": config["BACK_KEY"]
                     }
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            print(enviar_back.json())
-            listado_productos.append(producto)
+            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            #print(enviar_back.json())
+            sio.emit('registrar_precio', producto)
         except:
             print("no se pudo obtner enlace")
             continue
@@ -111,10 +118,5 @@ for categoria in categorias:
     procesar_resultados(res_consulta, categoria)
     
 
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
 
-print("precios ", len(listado_productos))
 print("ofertas ", len(ofertas_))
