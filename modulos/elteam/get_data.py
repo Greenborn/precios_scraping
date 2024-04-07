@@ -11,6 +11,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 BRANCH_ID = 88
 
 with open('categorias.json') as archivo_json:
@@ -20,8 +29,6 @@ with open("../config.json", "r") as archivo:
     config = json.load(archivo)
     
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-listado_productos = []
 
 def procesar_resultados(res_consulta):
     soup = BeautifulSoup(res_consulta, 'html.parser')
@@ -53,9 +60,9 @@ def procesar_resultados(res_consulta):
                     "key": config["BACK_KEY"]
         }
 
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
-        listado_productos.append(producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
+        sio.emit('registrar_precio', producto)
         print(producto)
 
 def scroll_hasta_el_final(driver):
@@ -91,10 +98,3 @@ for categoria in categorias:
     scroll_hasta_el_final(driver)
     procesar_resultados(res_consulta)
     
-
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
-
-print("obtenidos ", len(listado_productos))
