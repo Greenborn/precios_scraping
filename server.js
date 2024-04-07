@@ -1,5 +1,6 @@
 require("dotenv").config()
 
+const fs = require("fs")
 const express = require('express');
 const { createServer } = require("http");
 const { Server } = require("socket.io");
@@ -60,10 +61,42 @@ io.on('connection', socket => {
   });
 });
 
+let ciclo_numero = 0
 const INTERVALO_ENVIO = 100
+const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
+const INTERVALO_GUARDADO = 10000
 
 async function procesar_envios() {
+    ciclo_numero ++
+
+    if (ciclo_numero % REINTENTO_ERR_MOD == 0) {
+        let tipos_envios = Object.keys(envios_server)
+        for (let i = 0; i < tipos_envios.length; i++) {
+            let envio_info  = envios_server[tipos_envios[i]]
+            let lista_envio = envio_info.data_error
+            let url_envio   = envio_info.url
+            let cantidad    = lista_envio.length
+            if (cantidad > 0) {
+                let elemento = lista_envio.pop()
+                console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
+                axios.post(url_envio, elemento)
+                    .then(function (response) {
+                    console.log(response.data)
+                        //Si se obtine codigo 200, se envia a la lista de enviadas
+                        envio_info.data_enviada.push( elemento )
+                    })
+                    .catch(function (error) {
+                        //Caso contrario se reporta y se enviua a la lista de errores
+                    //console.log("Error al realizar petición", cantidad );
+                        envio_info.data_error.push( elemento )
+                    })
+            }
+        }
+        return
+    }
+    
+
     let tipos_envios = Object.keys(envios_server)
     for (let i = 0; i < tipos_envios.length; i++) {
         for (let j = 0; j < RAFAGAS_ENVIO; j++) {
@@ -76,7 +109,7 @@ async function procesar_envios() {
                 console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
                 axios.post(url_envio, elemento)
                     .then(function (response) {
-                    //console.log(response.data)
+                    console.log(response.data)
                         //Si se obtine codigo 200, se envia a la lista de enviadas
                         envio_info.data_enviada.push( elemento )
                     })
@@ -94,5 +127,18 @@ async function procesar_envios() {
 setInterval(async () => {
     await procesar_envios()
 }, INTERVALO_ENVIO)
+
+setInterval(async () => {
+    let HOY = new Date()
+    let fecha = String(HOY.getFullYear())+String(HOY.getMonth())+String(HOY.getDate())
+    try {
+        fs.writeFile("./resultados/runtime"+fecha+".json", JSON.stringify(envios_server), err => {
+            console.log("Done writing"); // Success
+        })
+    } catch (error) {
+        console.log("error al guardar archivo")
+    }
+    
+}, INTERVALO_GUARDADO)
 
 httpServer.listen(port, () => console.log(`server listening on port ${port}`));
