@@ -5,6 +5,14 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import argparse
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
@@ -16,8 +24,6 @@ BRANCH_ID = 139
 BASE_URL = "https://www.puntoblu.com.ar/"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-listado_productos = []
 
 diccio_nam = {}
 
@@ -73,9 +79,9 @@ def procesar_elementos( url, cat_id, categoria ):
                     return cantidad
                 continue
 
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            print(enviar_back.json())
-            listado_productos.append(producto)
+            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            #print(enviar_back.json())
+            sio.emit('registrar_precio', producto)
             print(producto)
             print("")
             cantidad = cantidad + 1
@@ -102,9 +108,3 @@ for categoria in categorias:
         print("ignorando categoria: ", categoria)
         continue
     
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
-
-print("obtenidos ", len(listado_productos))
