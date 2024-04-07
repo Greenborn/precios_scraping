@@ -12,6 +12,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -27,7 +36,6 @@ args = parser.parse_args()
 categoria_inicio = args.categoria_inicio
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-listado_productos = []
 
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
@@ -49,7 +57,6 @@ def scroll_hasta_el_final(driver):
 
         last_scroll_position = current_scroll_position
 
-listado_productos = []
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
 
@@ -98,12 +105,12 @@ def procesar_resultados(res_consulta, categoria):
             continue
         
         print(producto)
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
+        sio.emit('registrar_precio', producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
 
         prod_log = producto
         prod_log["all_data"] = element
-        listado_productos.append(prod_log)
         
         print("")
 
@@ -150,8 +157,4 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
 
