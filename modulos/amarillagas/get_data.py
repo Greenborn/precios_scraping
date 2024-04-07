@@ -68,7 +68,6 @@ response = response.json()
 if (response == None):
     exit(0)
 
-listado_productos = []
 response = response["data"]
 for product in response:
     producto = {
@@ -86,11 +85,3 @@ for product in response:
     sio.emit('registrar_precio', producto)
     #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
     print("")
-
-    listado_productos.append(producto)
-    print("")
-
-path = 'salida/productos_cat'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
