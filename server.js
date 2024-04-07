@@ -69,8 +69,10 @@ const INTERVALO_GUARDADO = 10000
 
 async function procesar_envios() {
     ciclo_numero ++
+    let envio_pendiente = envios_server['registrar_precio'].data_enviar.length > 0 
+                            || envios_server['registrar_oferta'].data_enviar.length > 0
 
-    if (ciclo_numero % REINTENTO_ERR_MOD == 0) {
+    if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !envio_pendiente) {
         let tipos_envios = Object.keys(envios_server)
         for (let i = 0; i < tipos_envios.length; i++) {
             let envio_info  = envios_server[tipos_envios[i]]
@@ -80,6 +82,17 @@ async function procesar_envios() {
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
                 console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
+                
+                if (tipos_envios[i] === 'registrar_precio' && elemento?.name == undefined){
+                    envios_server['registrar_oferta'].data_enviar.push(elemento)
+                    console.log('recatalogando')
+                    return
+                } else if (tipos_envios[i] === 'registrar_oferta' && elemento?.titulo == undefined){
+                    envios_server['registrar_precio'].data_enviar.push(elemento)
+                    console.log('recatalogando')
+                    return
+                } 
+                
                 axios.post(url_envio, elemento)
                     .then(function (response) {
                     console.log(response.data)
@@ -107,6 +120,17 @@ async function procesar_envios() {
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
                 console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
+                
+                if (tipos_envios[i] === 'registrar_precio' && elemento?.name == undefined){
+                    envios_server['registrar_oferta'].data_enviar.push(elemento)
+                    console.log('recatalogando')
+                    return
+                } else if (tipos_envios[i] === 'registrar_oferta' && elemento?.titulo == undefined){
+                    envios_server['registrar_precio'].data_enviar.push(elemento)
+                    console.log('recatalogando')
+                    return
+                } 
+                
                 axios.post(url_envio, elemento)
                     .then(function (response) {
                     console.log(response.data)
@@ -128,17 +152,50 @@ setInterval(async () => {
     await procesar_envios()
 }, INTERVALO_ENVIO)
 
+let chequeo_runtime_pendiente = true
+
 setInterval(async () => {
-    let HOY = new Date()
-    let fecha = String(HOY.getFullYear())+String(HOY.getMonth())+String(HOY.getDate())
-    try {
-        fs.writeFile("./resultados/runtime"+fecha+".json", JSON.stringify(envios_server), err => {
-            console.log("Done writing"); // Success
-        })
-    } catch (error) {
-        console.log("error al guardar archivo")
+    if (chequeo_runtime_pendiente){
+        chequeo_runtime_pendiente = false
+        let HOY = new Date()
+        let fecha = String(HOY.getFullYear())+String(HOY.getMonth())+String(HOY.getDate())
+        
+        if (fs.existsSync("./resultados/runtime"+fecha+".json")) {
+            try {
+                console.log("Se encontro archivo runtime, procesando")
+                fs.readFile("./resultados/runtime"+fecha+".json", function(err, data) {
+                    // Converting to JSON
+                    const data_runtime = JSON.parse(data);
+                    
+                    envios_server['registrar_precio'].data_enviar  = envios_server['registrar_precio'].data_enviar.concat(data_runtime['registrar_precio'].data_enviar)
+                    envios_server['registrar_precio'].data_enviada = envios_server['registrar_precio'].data_enviada.concat(data_runtime['registrar_precio'].data_enviada)
+                    envios_server['registrar_precio'].data_error   = envios_server['registrar_precio'].data_error.concat(data_runtime['registrar_precio'].data_error)
+
+                    envios_server['registrar_oferta'].data_enviar  = envios_server['registrar_oferta'].data_enviar.concat(data_runtime['registrar_oferta'].data_enviar)
+                    envios_server['registrar_oferta'].data_enviada = envios_server['registrar_oferta'].data_enviada.concat(data_runtime['registrar_oferta'].data_enviada)
+                    envios_server['registrar_oferta'].data_error   = envios_server['registrar_oferta'].data_error.concat(data_runtime['registrar_oferta'].data_error)
+                });
+            } catch (error) {
+                console.log(error)
+                chequeo_runtime_pendiente = true
+            }
+        } else {
+            console.log("no hay archivo runtime encontrado")
+        }
+        
+    } else {
+        let HOY = new Date()
+        let fecha = String(HOY.getFullYear())+String(HOY.getMonth())+String(HOY.getDate())
+        try {
+            fs.writeFile("./resultados/runtime"+fecha+".json", JSON.stringify(envios_server), err => {
+                console.log("Done writing"); // Success
+            })
+        } catch (error) {
+            console.log("error al guardar archivo")
+        }
+        
     }
-    
+    return
 }, INTERVALO_GUARDADO)
 
 httpServer.listen(port, () => console.log(`server listening on port ${port}`));
