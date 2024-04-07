@@ -11,14 +11,21 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 BRANCH_ID = 92
 
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-listado_productos = []
 
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
@@ -64,10 +71,5 @@ for categoria in categorias:
                     "category": categorias[categoria]["category"]
                 }
         print(producto)
-        listado_productos.append(producto)
-    
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
-    
+        sio.emit('registrar_precio', producto)
+   
