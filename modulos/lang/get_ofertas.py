@@ -6,6 +6,16 @@ from bs4 import BeautifulSoup
 import datetime
 import re
 
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
 
@@ -68,8 +78,9 @@ while ciclar:
         except:
             print("error")
             continue
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        print(enviar_back.json())
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+        #print(enviar_back.json())
+        sio.emit('registrar_oferta', promocion)
         listado_productos.append(promocion)
         print(promocion)
         print("")

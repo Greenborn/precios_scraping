@@ -6,6 +6,15 @@ from bs4 import BeautifulSoup
 import datetime
 import re
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -16,7 +25,6 @@ BRANCH_ID = 86
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 
 for categoria in categorias:
     print("Procesado categoria Nivel 0: ",categoria)
@@ -67,16 +75,12 @@ for categoria in categorias:
                 except:
                     print("error")
                     continue
-                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-                print(enviar_back.json())
-                listado_productos.append(producto)
+                sio.emit('registrar_precio', producto)
+                #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+                #print(enviar_back.json())
                 print(producto)
             
             page = page +1
 
-path = 'salida/productos_cat'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
 
 
