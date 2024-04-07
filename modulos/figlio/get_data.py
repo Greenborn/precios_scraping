@@ -3,6 +3,14 @@
 import requests
 import datetime
 import json
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 BRANCH = 97
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -40,7 +48,7 @@ respuesta = respuesta['GetLocationMenu']["currentMenu"]['dishes']
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
-listado_productos = []
+
 for prod in respuesta:
 
     categoria = categorias[prod['category_name']]["category"]
@@ -54,12 +62,7 @@ for prod in respuesta:
                     "url": "https://pedidos.masdelivery.com/figlio-premium",
                     "key": config["BACK_KEY"]
                 }
-    enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-    print(enviar_back.json())
-    listado_productos.append(producto)
+    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+    #print(enviar_back.json())
+    sio.emit('registrar_precio', producto)
     print(producto)
-
-path = 'salida/productos_cat'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
