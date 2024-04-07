@@ -33,12 +33,11 @@ BASE_URL = "https://www.prestigio.com.ar"
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-options.add_argument('--headless')
+#options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 
 diccio_nam = {}
 
@@ -55,7 +54,12 @@ def procesar_elementos( url, cat_id, categoria ):
     diccio_cat_nam = {}
 
     while (True):
-        driver.get(url+'?page='+str(pagina))
+        print(url+'?page='+str(pagina))
+        try:
+            driver.get(url+'?page='+str(pagina))
+        except:
+            return cantidad
+        
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
         response = driver.page_source
         soup = BeautifulSoup(response, 'html.parser')
@@ -67,11 +71,17 @@ def procesar_elementos( url, cat_id, categoria ):
         
         for art in articulos:
             try:
+                sub_name = art.find(class_="vtex-product-summary-2-x-productBrandName").text + art.find(class_="vtex-product-summary-2-x-productBrand--default-shelf-name").text
                 nombre_prod = categoria + ' - ' + art.find(class_="vtex-product-summary-2-x-productBrandName").text
                 nombre_prod = nombre_prod + " " + art.find(class_="vtex-product-summary-2-x-productBrand--default-shelf-name").text
                 enlace = art.find("a")
                 precio = art.find(class_="vtex-product-price-1-x-sellingPriceValue").text
                 precio = float(precio.replace("$", "").replace(".", "").replace(",", ".").strip())
+
+                if (sub_name in diccio_cat_nam):
+                    print("Producto repetido")
+                    return cantidad
+                diccio_cat_nam[sub_name] = True
 
                 producto = {
                         "vendor_id": 58,
@@ -85,7 +95,6 @@ def procesar_elementos( url, cat_id, categoria ):
                     }
                 print(producto)
                 sio.emit('registrar_precio', producto)
-                listado_productos.append(producto)
                 print("")
             except:
                 print("error al procesar")
@@ -115,10 +124,5 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-    
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
 
 print(total)
