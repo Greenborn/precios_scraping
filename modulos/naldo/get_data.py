@@ -11,6 +11,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 import argparse
 
 BRANCH_ID = 91
@@ -80,9 +89,9 @@ def procesar_resultados(res_consulta, categoria):
                     "category": categorias[categoria]["category"],
                     "key": config["BACK_KEY"]
                 }
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
-        listado_productos.append(producto)
+        sio.emit('registrar_precio', producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
         print(producto)
         print("")        
 
@@ -142,12 +151,6 @@ for categoria in categorias:
             print("error procesando")
             continue"""
 
-        path = 'salida/productos_cat'+fecha+'.json'
-        with open(path, 'w') as file:
-            json.dump(listado_productos, file)
-            print(path,' actualizado')
     else:
         print("ignorando categoria: ", categoria)
         continue
-
-print("Total elementos ",len(listado_productos))

@@ -11,6 +11,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 BRANCH_ID = 91
 
 URL = "https://www.naldo.com.ar/250?O=OrderByReleaseDateDESC&map=productClusterIds&page=1"
@@ -20,7 +30,6 @@ with open("../config.json", "r") as archivo:
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 descuentos_no_procesados = []
 
 def procesar_resultados(res_consulta, categoria):
@@ -55,9 +64,9 @@ def procesar_resultados(res_consulta, categoria):
                     "url":         _data["@id"],
                     "key":         config["BACK_KEY"]
                 }
-
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        print(enviar_back.json())
+        sio.emit('registrar_oferta', promocion)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+        #print(enviar_back.json())
         print(promocion)
         print("")
 
@@ -99,8 +108,3 @@ try:
 except:
     print("error procesando")
     exit()
-
-path = 'salida/productos_ofertas_'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
