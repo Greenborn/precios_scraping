@@ -6,6 +6,15 @@ from bs4 import BeautifulSoup
 import datetime
 import argparse
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -17,7 +26,6 @@ BASE_URL  = "https://sampietroweb.com.ar"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 
 diccio_nam = {}
 
@@ -85,19 +93,11 @@ for categoria in categorias:
                 "category": categorias[categoria]["category"],
                 "key": config["BACK_KEY"]
             }
-
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            print(enviar_back.json())
-            listado_productos.append(producto)
+            sio.emit('registrar_precio', producto)
 
             print(producto)
             print("")
 
-        path = 'salida/productos_cat'+fecha+'.json'
-        with open(path, 'w') as file:
-            json.dump(listado_productos, file)
-            print(path,' actualizado')
     else:
         print("ignorando categoria: ", categoria)
         continue
-print("cantidad de elementos: ", len(listado_productos))
