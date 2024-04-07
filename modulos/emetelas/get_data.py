@@ -34,7 +34,6 @@ categorias = [
     }
 ]
 
-listado_productos = []
 
 
 with socketio.SimpleClient() as sio:
@@ -67,13 +66,5 @@ with socketio.SimpleClient() as sio:
                         "key": config["BACK_KEY"]
                     }
                     sio.emit('registrar_precio', producto)
-                    listado_productos.append(producto)
                     print(producto)
                     print("")
-
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
-
-    print("obtenidos ", len(listado_productos))
