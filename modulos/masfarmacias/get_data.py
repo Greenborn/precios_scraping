@@ -6,6 +6,17 @@ from bs4 import BeautifulSoup
 import datetime
 import argparse
 
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
@@ -21,8 +32,6 @@ with open("../config.json", "r") as archivo:
 BRANCH_ID = 127
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-listado_productos = []
 
 diccio_nam = {}
 
@@ -65,10 +74,10 @@ def procesar_elementos( url, cat_id, categoria ):
             "category": cat_id,
             "key": config["BACK_KEY"]
         }
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
+        sio.emit('registrar_precio', producto)
         cantidad = cantidad + 1
-        listado_productos.append(producto)
         print(producto)
     return cantidad
 
@@ -103,10 +112,6 @@ for categoria in categorias:
                 break
             pag = pag + 1
 
-        path = 'salida/productos_cat'+fecha+'.json'
-        with open(path, 'w') as file:
-            json.dump(listado_productos, file)
-            print('estado.json actualizado')
     else:
         print("ignorando categoria: ", categoria)
         continue

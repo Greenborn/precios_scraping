@@ -5,6 +5,15 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import argparse
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -13,7 +22,6 @@ BRANCH_ID = 127
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 
 diccio_nam = {}
 
@@ -71,10 +79,11 @@ def procesar_elementos( url, cat_id, categoria ):
                     "url":         art.find_all("a")[2].get("href"),
                     "key":         config["BACK_KEY"]
                 }
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        print(enviar_back.json())
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+        #print(enviar_back.json())
+        sio.emit('registrar_oferta', promocion)
+
         cantidad = cantidad + 1
-        listado_productos.append(promocion)
         print(promocion)
         print("")
     return cantidad
@@ -92,8 +101,4 @@ while True:
         break
     pag = pag + 1
 
-path = 'salida/ofertas'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print('estado.json actualizado')
     
