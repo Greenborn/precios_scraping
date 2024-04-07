@@ -13,6 +13,16 @@ import csv
 import requests
 import argparse
 
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.rappi.com.ar"
 ruta_matchs_config = "matchs_categoria_comercio.json"
@@ -81,14 +91,6 @@ def hacer_clic_por_texto(driver, texto):
     except:
         print("No se pudo hacer clic en el elemento")
 
-def obtener_contenido_por_dataqa(html, dataqa):
-    soup = BeautifulSoup(html, 'html.parser')
-    elemento = soup.find(attrs={'data-qa': dataqa})
-    if elemento:
-        return str(elemento)
-    else:
-        return None
-    
 def obtener_elementos_sub_cat(html):
     elementos = []
     if (html == None):
@@ -131,6 +133,8 @@ see_all = obtener_contenido_por_clase(contenido_sub,"wrapper-see-all")
 path = 'salida/productos_cat'+fecha+'.json'
 
 todos_los_productos = []
+todos_los_descuentos = []
+discounts_types = {}
 
 for sub_cat in see_all:
     enlaces_cat = obtener_enlaces_con_info( sub_cat )
@@ -154,53 +158,83 @@ for sub_cat in see_all:
             continue
 
         contenido_sub_cat = driver.page_source
-                                    
-        wrapper_sub_cat = obtener_contenido_por_dataqa(contenido_sub_cat, 'wrapper-component')
-        productos = obtener_elementos_sub_cat(wrapper_sub_cat)
 
-        
-        for producto in productos:
-            nuevo_prod = {}
-            nuevo_prod['vendor_id'] = VENDOR
-            nuevo_prod['name'] = producto['titulo'] +' - '+ producto['descripcion']
-            nuevo_prod['name'] = nuevo_prod['name'].strip()
-            nuevo_prod['price'] = float(producto['precio'].replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip())
-            nuevo_prod['is_ext'] = producto['data_qa']
-
-            solo_cat = url_categoria.split("/")[-1]
-            solo_sub_cat = sub_cat_url.split("/")[-1]
-            print(nuevo_prod)
-            
-            print(solo_cat, ' ',solo_sub_cat)
-            if not solo_cat in matchs['categorias'] or not solo_sub_cat in matchs['categorias'][solo_cat]:
-                print('Se omite producto no hay categoria')
-                print(solo_cat, ' ',solo_sub_cat)
-                with open("categorias_faltantes.csv", "a", newline="") as archivo_csv:
-                    writer = csv.writer(archivo_csv)
-                    writer.writerow([solo_cat, solo_sub_cat])
-                continue
-            
-            solo_comercio = comercio.split("/")[-1]
-            nuevo_prod['branch_id'] = matchs["comercios"][solo_comercio]
-            
-            if (solo_cat in matchs["categorias"]):
-                nuevo_prod['category'] = matchs["categorias"][solo_cat][solo_sub_cat]
-            else:
-                nuevo_prod['category'] = -1
-            
-            print(nuevo_prod)
-
-            nuevo_prod["key"] = config["BACK_KEY"]
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
-            print(enviar_back.json())
-            todos_los_productos.append(nuevo_prod)
-
+        soup = BeautifulSoup(contenido_sub_cat, 'html.parser')
         try:
-            with open(path, 'r') as file:
-                todos_los_productos = todos_los_productos + json.load(file)
+            json_data = json.loads(soup.find("script", {"id": "__NEXT_DATA__"}).text)
         except:
-            print("No se pudo cargar archivo dump de productos catalogados")
+            print("No se encontraron datos")
+            exit()
 
-        with open(path, 'w') as file:
-            json.dump(todos_los_productos, file)
-            todos_los_productos = []
+        prods_data = json_data["props"]["pageProps"]["fallback"]
+        for key in prods_data:
+            prods_data = prods_data[key]
+            break
+        prods_data = prods_data["aisle_detail_response"]["data"]["components"]
+
+        for comp_prod in prods_data:
+            for prod in comp_prod["resource"]["products"]:
+                #print(prod)
+                nombre_categoria = prod["category_name"]
+                solo_comercio = comercio.split("/")[-1]
+
+                if prod["have_discount"]:
+                    print("Es promocion")
+                    if (prod["discount_type"] == "percentage"):
+                        texto_descuento = ""
+                        if (prod["discounts"]["pay_products"] == "1"):
+                            texto_descuento = prod["discounts"]["earnings"]
+                        elif (prod["discounts"]["pay_products"] == "2"):
+                            texto_descuento = prod["discounts"]["earnings"] + " llevando 2 unidades "
+                        else:
+                            discounts_types[prod['id']] = prod["discounts"]
+                            print("promocion descuento no contemplada")
+                            discounts_types[prod["discount_type"]] = True
+                            with open('tipos_descuentos.json', 'w') as file:
+                                json.dump(discounts_types, file)
+                            continue
+                        promocion = {
+                            "orden":       0,
+                            "titulo":      texto_descuento + ' - ' + prod["name"] + " - " + prod["description"],
+                            "id_producto": 0,
+                            "datos_extra": { "promo_cnt": texto_descuento, "_data": prod["discounts"]  },
+                            "datos_extra": {},
+                            "precio":      float(prod["price"]),
+                            "url":         sub_cat_url,
+                            "key":         config["BACK_KEY"]
+                        }
+                        promocion['branch_id'] = matchs["comercios"][solo_comercio]
+                        print(promocion)
+                        sio.emit('registrar_oferta', promocion)
+                        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+                        todos_los_descuentos.append(promocion)
+                        #print(enviar_back.json())
+                    else:
+                        discounts_types[prod["discount_type"]] = True
+                        with open('tipos_descuentos.json', 'w') as file:
+                            json.dump(discounts_types, file)
+                else:
+                    nuevo_prod = {
+                            "vendor_id": 58,
+                            "name": prod["name"] + " - " + prod["description"],
+                            "price": float(prod["price"]),
+                            "url": sub_cat_url,
+                            "key": config["BACK_KEY"]
+                        }
+                    nuevo_prod['branch_id'] = matchs["comercios"][solo_comercio]
+                    try:
+                        nuevo_prod['category'] = matchs["categorias"][nombre_categoria]
+                    except:
+                        with open("categorias.json", 'r') as file:
+                            categorias = json.load(file)
+                            if nombre_categoria in categorias:
+                                nuevo_prod['category'] = categorias[nombre_categoria]["category"]
+                            else:
+                                nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
+                    print(nuevo_prod)
+                    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
+                    #print(enviar_back.json())
+                    sio.emit('registrar_precio', nuevo_prod)
+                    todos_los_productos.append(nuevo_prod)
+                    print("")
+

@@ -11,6 +11,15 @@ from bs4 import BeautifulSoup
 import time
 import requests
 import argparse
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.rappi.com.ar"
@@ -61,47 +70,6 @@ def obtener_contenido_por_id(html, id_):
     else:
         return None
     
-def obtener_elementos_con_data_qa(html):
-    elementos = []
-    soup = BeautifulSoup(html, 'html.parser')
-    elementos_con_data_qa = soup.find_all(attrs={"data-qa": True})
-    for elemento in elementos_con_data_qa:
-        html_interno = str(elemento.contents)
-        valor_data_qa = elemento.get("data-qa")
-        texto_h4 = elemento.find("h4").text if elemento.find("h4") else None
-        contenido_p = elemento.find("p").text if elemento.find("p") else None
-        texto_chakra_skeleton = elemento.find(class_="chakra-skeleton").text if elemento.find(class_="chakra-skeleton") else None
-        root_cat = elemento.find_parent().find_parent().find_parent()
-
-        if root_cat == None:
-            continue
-        root_cat = root_cat.find("h3")
-        if root_cat == None:
-            continue
-
-        nombre_cat = root_cat.text.strip()
-
-        with open("categorias_encontradas.json", 'r') as file:
-            categorias = json.load(file)
-        
-        if not nombre_cat in categorias:
-            categorias[nombre_cat] = { "category":"", "sub_items": [], "url": "" }
-
-            with open('categorias_encontradas.json', 'w') as file:
-                json.dump(categorias, file)
-                print('categorias_encontradas.json actualizado!')
-        
-        elementos.append({
-            #"html_interno": html_interno,
-            "data_qa": valor_data_qa,
-            "titulo": texto_h4,
-            "descripcion": contenido_p,
-            "precio": texto_chakra_skeleton,
-            "category_name": root_cat.text.strip()
-        })
-    return elementos
-
-
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
@@ -159,8 +127,9 @@ if contenido != None:
                 }
                 promocion['branch_id'] = matchs["comercios"][solo_comercio]
                 print(promocion)
-                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-                print(enviar_back.json())
+                sio.emit('registrar_oferta', promocion)
+                #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+                #print(enviar_back.json())
             else:
                 nuevo_prod = {
                         "vendor_id": 58,
@@ -180,8 +149,9 @@ if contenido != None:
                         else:
                             nuevo_prod['category'] = matchs["categorias"]["no catalogado"]
                 print(nuevo_prod)
-                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
-                print(enviar_back.json())
+                sio.emit('registrar_precio', nuevo_prod)
+                #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=nuevo_prod)
+                #print(enviar_back.json())
             print("")
 
     try:
