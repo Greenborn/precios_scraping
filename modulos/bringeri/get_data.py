@@ -14,6 +14,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import argparse
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -54,8 +63,6 @@ inputs_modal[0].send_keys( CP )
 hacer_clic_por_texto(driver, 'Guardar')
 
 time.sleep(15)
-
-listado_productos = []
 
 diccio_nombres = {}
 def procesar_resultados(res_consulta, categoria):
@@ -105,12 +112,12 @@ def procesar_resultados(res_consulta, categoria):
                 }
         
         print(producto)
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
+        sio.emit('registrar_precio', producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
 
         prod_log = producto
         prod_log["all_data"] = element
-        listado_productos.append(prod_log)
         
         print("")
 
@@ -147,7 +154,3 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
