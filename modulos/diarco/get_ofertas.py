@@ -11,7 +11,6 @@ path = 'salida/productos_cat'+fecha+'.json'
 URL = "https://www.diarco.com.ar/ofertas/"
 UR_OFERTA = "https://www.diarco.com.ar/ofertas/?e-filter-9a897e7-sucursal=tandil&tipo-sucursal=mayorista#"
 BRANCH_ID = 129
-listado_productos = []
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -113,9 +112,5 @@ while True:
         print("")
 
     contador = contador + 1
-
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print('estado.json actualizado')
 
 print("Promo", cont_promo)
