@@ -5,6 +5,15 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -16,7 +25,6 @@ BRANCH_ID = 82
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://golopolis.com.ar/app/"
 
-listado_productos = []
 
 for categoria in categorias:
     print("Procesado categoria Nivel 0: ",categoria)
@@ -49,16 +57,12 @@ for categoria in categorias:
                 "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
                 "key": config["BACK_KEY"]
             }
-            enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            print(enviar_back.json())
-            listado_productos.append(producto)
+            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+            #print(enviar_back.json())
+            sio.emit('registrar_precio', producto)
             print(producto)
-        path = 'salida/productos_cat'+fecha+'.json'
-        with open(path, 'w') as file:
-            json.dump(listado_productos, file)
-            print('estado.json actualizado')
+        
 
     print("")
 
-print("Se obtuvieron ", len(listado_productos), " productos")
 
