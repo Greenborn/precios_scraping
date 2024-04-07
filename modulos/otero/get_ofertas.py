@@ -11,6 +11,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
 URL = "https://www.otero.com.ar/tienda/whirlpool-special-days"
@@ -20,7 +30,6 @@ with open("../config.json", "r") as archivo:
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
@@ -59,10 +68,10 @@ def procesar_resultados(res_consulta, categoria):
                         "key":         config["BACK_KEY"]
                     }
         print(promocion)
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        print(enviar_back.json())
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
+        sio.emit('registrar_oferta', promocion)
+        #print(enviar_back.json())
         print("")
-        listado_productos.append(promocion)
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
@@ -115,9 +124,3 @@ for pagina in paginas:
     procesar_resultados(res_consulta, "")
 
 
-path = 'salida/productos_ofertas_'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
-
-print("obtenidos ", len(listado_productos), " productos")

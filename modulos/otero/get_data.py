@@ -12,6 +12,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import argparse
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
 
@@ -29,7 +38,6 @@ parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cua
 args = parser.parse_args()
 categoria_inicio = args.categoria_inicio
 
-listado_productos = []
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
@@ -68,9 +76,9 @@ def procesar_resultados(res_consulta, categoria):
                     "key": config["BACK_KEY"]
                 }
         print(producto)
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
-        listado_productos.append(producto)
+        sio.emit('registrar_precio', producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
 
 def scroll_hasta_el_final(driver):
     last_scroll_position = 0
@@ -139,11 +147,6 @@ for categoria in categorias:
             procesar_resultados(res_consulta, categoria)
         
 
-        path = 'salida/productos_cat'+fecha+'.json'
-        with open(path, 'w') as file:
-            json.dump(listado_productos, file)
-            print(path,' actualizado')
     else:
         print("ignorando categoria: ", categoria)
         continue
-print("cantidad de elementos: ", len(listado_productos))
