@@ -25,8 +25,6 @@ BRANCH_ID = 145
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-listado_productos = []
-
 diccio_nam = {}
 
 parser = argparse.ArgumentParser()
@@ -81,7 +79,6 @@ def procesar_elementos( url, cat_id, categoria ):
             #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
             sio.emit('registrar_precio', producto)
             print("")
-            listado_productos.append(producto)
             print(producto)
 
         pagina = pagina + 1
@@ -108,10 +105,5 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-    
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
 
 print(total)
