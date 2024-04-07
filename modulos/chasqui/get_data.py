@@ -12,6 +12,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -29,8 +38,6 @@ parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cua
 args = parser.parse_args()
 categoria_inicio = args.categoria_inicio
 
-
-listado_productos = []
 def get_cookies_header( cookies ):
     return '; '.join([f'{key}={value}' for key, value in cookies.items()]) 
 
@@ -87,6 +94,7 @@ for categoria in categorias:
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
 
         res_consulta = driver.page_source
+        time.sleep(3)
         auth_token = driver.execute_script("return sessionStorage.getItem('authToken')")
         
         headers_ = {
@@ -159,8 +167,9 @@ for categoria in categorias:
                         "key": config["BACK_KEY"]
                     }
                 print(producto)
-                enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-                print(enviar_back.json())
+                sio.emit('registrar_precio', producto)
+                #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+                #print(enviar_back.json())
                 print("")
             except:
                 continue
@@ -169,8 +178,4 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-    
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print(path,' actualizado')
+
