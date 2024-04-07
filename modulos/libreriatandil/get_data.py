@@ -6,6 +6,15 @@ from bs4 import BeautifulSoup
 import datetime
 import argparse
 
+import socketio
+sio = socketio.SimpleClient()
+sio.connect('http://localhost:7777')
+
+sio.emit('cliente_conectado')
+if (not sio.receive()[1]["status"]):
+    print("Rechazado")
+    exit()
+
 with open('categorias.json') as archivo_json:
     categorias = json.load(archivo_json)
 
@@ -16,8 +25,6 @@ BRANCH_ID = 130
 BASE_URL = "https://www.libreriatandil.com.ar/"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-listado_productos = []
 
 diccio_nam = {}
 
@@ -60,9 +67,9 @@ def procesar_elementos( url, cat_id, categoria ):
         except:
             continue
         cantidad = cantidad + 1
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
-        listado_productos.append(producto)
+        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+        #print(enviar_back.json())
+        sio.emit('registrar_precio', producto)
         print(producto)
     return cantidad
 
@@ -85,8 +92,3 @@ for categoria in categorias:
     else:
         print("ignorando categoria: ", categoria)
         continue
-    
-    path = 'salida/productos_cat'+fecha+'.json'
-    with open(path, 'w') as file:
-        json.dump(listado_productos, file)
-        print('estado.json actualizado')
