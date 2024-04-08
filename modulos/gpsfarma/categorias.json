@@ -1,0 +1,367 @@
+{
+    "Corporales": {
+        "category": 2008,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/dermocosmetica/corporales.html"
+    },
+    "Faciales": {
+        "category": 2009,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/dermocosmetica/faciales.html"
+    },
+    "Solares": {
+        "category": 4646,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/dermocosmetica/solares.html"
+    },
+    "Capilares": {
+        "category": 4647,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/dermocosmetica/capilares.html"
+    },
+    "Sin Tacc": {
+        "category": 1826,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cosmetica-natural/sin-tacc.html"
+    },
+    "Sin Parabenos": {
+        "category": 4648,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cosmetica-natural/sin-parabenos.html"
+    },
+    "Sin Sal": {
+        "category": 1112,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cosmetica-natural/sin-sal.html"
+    },
+    "Cruelty Free": {
+        "category": 4649,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cosmetica-natural/cruelty-free.html"
+    },
+    "Maquillaje": {
+        "category": 180,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cosmetica-natural/maquillaje.html"
+    },
+    "Nutrici\u00f3n Especial": {
+        "category": 4650,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/productos-saludables/nutricion-especial.html"
+    },
+    "Suplementos Dietarios": {
+        "category": 2149,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/productos-saludables/suplementos-dietarios.html"
+    },
+    "Alimentos Saludables": {
+        "category": 2788,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/productos-saludables/alimentos-saludables.html"
+    },
+    "Suplementos Deportivos": {
+        "category": 2026,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/productos-saludables/suplementos-deportivos.html"
+    },
+    "Labios": {
+        "category": 1172,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/maquillaje/labios.html"
+    },
+    "Ojos": {
+        "category": 1168,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/maquillaje/ojos.html"
+    },
+    "Rostro": {
+        "category": 1170,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/maquillaje/rostro.html"
+    },
+    "U\u00f1as": {
+        "category": 1169,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/maquillaje/u-as.html"
+    },
+    "Accesorios": {
+        "category": 951,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/accesorios.html"
+    },
+    "Set Infantiles": {
+        "category": 4651,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/maquillaje/set-infantiles.html"
+    },
+    "Cepillos": {
+        "category": 2007,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-oral/cepillos.html"
+    },
+    "Accesorios dentales": {
+        "category": 4208,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-oral/accesorios-dentales.html"
+    },
+    "Cremas Dentales": {
+        "category": 2100,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-oral/cremas-dentales.html"
+    },
+    "Enjuagues bucales": {
+        "category": 2924,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-oral/enjuagues-bucales.html"
+    },
+    "Higiene": {
+        "category": 4652,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-bebe/higiene.html"
+    },
+    "Nutrici\u00f3n Infantil": {
+        "category": 2013,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-bebe/nutricion-infantil.html"
+    },
+    "Pa\u00f1ales": {
+        "category": 707,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-bebe/pa-ales.html"
+    },
+    "Accesorios Beb\u00e9": {
+        "category": 4653,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-bebe/accesorios-bebe.html"
+    },
+    "Repelentes": {
+        "category": 256,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/repelentes.html"
+    },
+    "Post Lavado": {
+        "category": 4654,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-cabello/post-lavado.html"
+    },
+    "Shampoo": {
+        "category": 18,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-cabello/shampoo.html"
+    },
+    "Acondicionador": {
+        "category": 2058,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-cabello/acondicionador.html"
+    },
+    "Accesorios para el Pelo": {
+        "category": 2125,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-cabello/accesorios-para-el-pelo.html"
+    },
+    "Coloraci\u00f3n": {
+        "category": 576,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-cabello/coloracion.html"
+    },
+    "Insecticidas y Repelentes": {
+        "category": 945,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/insecticidas-y-repelentes.html"
+    },
+    "Limpieza del Hogar": {
+        "category": 1119,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/limpieza-del-hogar.html"
+    },
+    "Desodorantes de Ambiente": {
+        "category": 2160,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/desodorantes-de-ambiente.html"
+    },
+    "Pilas y Baterias": {
+        "category": 234,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/pilas-y-baterias.html"
+    },
+    "Limpieza de la Ropa": {
+        "category": 2829,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/limpieza-de-la-ropa.html"
+    },
+    "Accesorios Hogar": {
+        "category": 4655,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/accesorios-hogar.html"
+    },
+    "Papeles": {
+        "category": 1001,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/papeles.html"
+    },
+    "Fitness": {
+        "category": 1644,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/hogar/fitness.html"
+    },
+    "Desodorantes": {
+        "category": 1007,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/desodorantes.html"
+    },
+    "Protecci\u00f3n Femenina": {
+        "category": 1043,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/proteccion-femenina.html"
+    },
+    "Jabones": {
+        "category": 183,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/jabones.html"
+    },
+    "Talcos": {
+        "category": 1039,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/talcos.html"
+    },
+    "Depilaci\u00f3n": {
+        "category": 1015,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/depilacion.html"
+    },
+    "Afeitada": {
+        "category": 2090,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-personal/afeitada.html"
+    },
+    "Diabetes": {
+        "category": 4656,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/diabetes.html"
+    },
+    "Primeros Auxilios": {
+        "category": 2019,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/primeros-auxilios.html"
+    },
+    "Farmacia": {
+        "category": 1095,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/farmacia.html"
+    },
+    "Ortopedia": {
+        "category": 2158,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/ortopedia.html"
+    },
+    "Cuidado Sexual": {
+        "category": 4657,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/cuidado-sexual.html"
+    },
+    "\u00d3ptica": {
+        "category": 2023,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/optica.html"
+    },
+    "Pa\u00f1uelos descartables": {
+        "category": 4658,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/pa-uelos-descartables.html"
+    },
+    "Protecci\u00f3n": {
+        "category": 4659,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-de-la-salud/proteccion.html"
+    },
+    "Electro Belleza": {
+        "category": 4660,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/electro/electro-belleza.html"
+    },
+    "Electro Salud": {
+        "category": 4661,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/electro/electro-salud.html"
+    },
+    "Electro Hogar": {
+        "category": 2030,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/electro/electro-hogar.html"
+    },
+    "Electro Beb\u00e9": {
+        "category": 4662,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/electro/electro-bebe.html"
+    },
+    "Femeninas": {
+        "category": 4663,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/perfumes-y-fragancias/femeninas.html"
+    },
+    "Importados": {
+        "category": 4664,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/perfumes-y-fragancias/importados.html"
+    },
+    "Masculinas": {
+        "category": 4665,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/perfumes-y-fragancias/masculinas.html"
+    },
+    "Infantiles": {
+        "category": 2102,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/perfumes-y-fragancias/infantiles.html"
+    },
+    "Unisex": {
+        "category": 1997,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/perfumes-y-fragancias/unisex.html"
+    },
+    "Protecci\u00f3n para Adultos": {
+        "category": 4666,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-adulto/proteccion-para-adultos.html"
+    },
+    "Climaterio": {
+        "category": 4667,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/cuidado-del-adulto/climaterio.html"
+    },
+    "Cuidados \u00cdntimos": {
+        "category": 2085,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/catalog/category/view/s/cuidados-intimos/id/11137/"
+    },
+    "Edulcorantes": {
+        "category": 4668,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/alimentos/edulcorantes.html"
+    },
+    "Chocolates y Golosinas": {
+        "category": 4669,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/alimentos/chocolates-y-golosinas.html"
+    },
+    "Almac\u00e9n": {
+        "category": 123,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/alimentos/almacen.html"
+    },
+    "Librer\u00eda": {
+        "category": 1132,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/bazar-y-regaleria/libreria.html"
+    },
+    "Jugueter\u00eda y Regaler\u00eda": {
+        "category": 4670,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/bazar-y-regaleria/jugueteria-y-regaleria.html"
+    },
+    "Bazar": {
+        "category": 350,
+        "sub_items": [],
+        "url": "https://gpsfarma.com/categorias/bazar-y-regaleria/bazar.html"
+    }
+}
