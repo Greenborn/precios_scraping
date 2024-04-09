@@ -41,7 +41,7 @@ def procesar_elementos( url, cat_id, categoria ):
     diccio_cat_nam = {}
 
     while (True):
-        response = requests.get(url+'?p='+str(pagina)+'&product_list_limit=36')
+        response = requests.get(url+'?p='+str(pagina)+'&product_list_limit=36', cookies={ "region_id":"702", "city_id":"290"})
         print(url+'?p='+str(pagina))
         response = response.text
         soup = BeautifulSoup(response, 'html.parser')
@@ -72,6 +72,11 @@ def procesar_elementos( url, cat_id, categoria ):
             if (cont_oferta != None):
                 texto_oferta = cont_oferta.find("img").get("alt")
                 print(texto_oferta)
+                try:
+                    precio = float(art.find(class_="special-price").find(class_="price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip())
+                except:
+                    print("no se pudo obtener precio")
+                    precio = float(art.find(class_="price-final_price").find(class_="price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip())
 
                 promocion = {
                     "orden":       0,
@@ -79,7 +84,7 @@ def procesar_elementos( url, cat_id, categoria ):
                     "id_producto": 0,
                     #"datos_extra": { "promo_cnt": promo_cnt },
                     "datos_extra": {},
-                    "precio":      float(art.find(class_="price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()),
+                    "precio":      precio,
                     "branch_id":   BRANCH_ID,
                     "url":         enlace.get("href"),
                     "key":         config["BACK_KEY"]
@@ -90,17 +95,20 @@ def procesar_elementos( url, cat_id, categoria ):
                 print("no es oferta")
 
                 try:
+                    precio = float(art.find(class_="price-final_price").find(class_="price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip())
+
                     producto = {
                         "vendor_id": 58,
                         "name": nombre,
                         "url": enlace.get("href"),
-                        "price": float(art.find(class_="price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(".", "").replace(",", ".").strip()),
+                        "price": precio,
                         "is_ext": "",
                         "branch_id": BRANCH_ID,
                         "category": cat_id,
                         "key": config["BACK_KEY"]
                     }
                 except:
+                    print("no se pudo obtener precio")
                     continue
                 cantidad = cantidad + 1
                 sio.emit('registrar_precio', producto)
