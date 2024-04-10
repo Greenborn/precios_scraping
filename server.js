@@ -26,12 +26,14 @@ let envios_server = {
         "data_enviar":[],
         "data_enviada": [],
         "data_error": [],
+        "data_error_status": [],
         "url": process.env.URL_BACK  + "/publico/productos/importar"
     },
     'registrar_oferta': {
         "data_enviar":[],
         "data_enviada": [],
         "data_error": [],
+        "data_error_status": [],
         "url": process.env.URL_BACK  + "/publico/productos/importar_oferta"
     }
 }
@@ -62,7 +64,7 @@ io.on('connection', socket => {
 });
 
 let ciclo_numero = 0
-const INTERVALO_ENVIO = 100
+const INTERVALO_ENVIO = 50
 const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
@@ -76,7 +78,11 @@ async function procesar_envios() {
         let tipos_envios = Object.keys(envios_server)
         for (let i = 0; i < tipos_envios.length; i++) {
             let envio_info  = envios_server[tipos_envios[i]]
-            let lista_envio = envio_info.data_error
+            let lista_envio = null
+            if (ciclo_numero % 2 == 0)
+                lista_envio = envio_info.data_error
+            else 
+                lista_envio = envio_info.data_error_status
             let url_envio   = envio_info.url
             let cantidad    = lista_envio.length
             if (cantidad > 0) {
@@ -97,7 +103,10 @@ async function procesar_envios() {
                     .then(function (response) {
                     console.log(response.data)
                         //Si se obtine codigo 200, se envia a la lista de enviadas
-                        envio_info.data_enviada.push( elemento )
+                        if (response.data.stat)
+                            envio_info.data_enviada.push( elemento )
+                        else 
+                            envio_info.data_error_status.push( elemento )
                     })
                     .catch(function (error) {
                         //Caso contrario se reporta y se enviua a la lista de errores
@@ -119,7 +128,12 @@ async function procesar_envios() {
             let cantidad = lista_envio.length
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
-                console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
+                console.log( 
+                    tipos_envios[i],
+                    ' Por enviar ', cantidad, 
+                    ' enviadas ', envio_info.data_enviada.length, 
+                    ' errores ', envio_info.data_error.length,  
+                    ' errores status ', envio_info.data_error_status.length)
                 
                 if (tipos_envios[i] === 'registrar_precio' && elemento?.name == undefined){
                     envios_server['registrar_oferta'].data_enviar.push(elemento)
@@ -135,7 +149,10 @@ async function procesar_envios() {
                     .then(function (response) {
                     console.log(response.data)
                         //Si se obtine codigo 200, se envia a la lista de enviadas
-                        envio_info.data_enviada.push( elemento )
+                        if (response.data.stat)
+                            envio_info.data_enviada.push( elemento )
+                        else 
+                            envio_info.data_error_status.push( elemento )
                     })
                     .catch(function (error) {
                         //Caso contrario se reporta y se enviua a la lista de errores
@@ -170,10 +187,12 @@ setInterval(async () => {
                     envios_server['registrar_precio'].data_enviar  = envios_server['registrar_precio'].data_enviar.concat(data_runtime['registrar_precio'].data_enviar)
                     envios_server['registrar_precio'].data_enviada = envios_server['registrar_precio'].data_enviada.concat(data_runtime['registrar_precio'].data_enviada)
                     envios_server['registrar_precio'].data_error   = envios_server['registrar_precio'].data_error.concat(data_runtime['registrar_precio'].data_error)
+                    envios_server['registrar_precio'].data_error_status   = envios_server['registrar_precio'].data_error_status.concat(data_runtime['registrar_precio'].data_error_status)
 
                     envios_server['registrar_oferta'].data_enviar  = envios_server['registrar_oferta'].data_enviar.concat(data_runtime['registrar_oferta'].data_enviar)
                     envios_server['registrar_oferta'].data_enviada = envios_server['registrar_oferta'].data_enviada.concat(data_runtime['registrar_oferta'].data_enviada)
                     envios_server['registrar_oferta'].data_error   = envios_server['registrar_oferta'].data_error.concat(data_runtime['registrar_oferta'].data_error)
+                    envios_server['registrar_oferta'].data_error_status   = envios_server['registrar_oferta'].data_error_status.concat(data_runtime['registrar_oferta'].data_error_status)
                 });
             } catch (error) {
                 console.log(error)
