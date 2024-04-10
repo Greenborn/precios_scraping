@@ -138,6 +138,7 @@ with socketio.SimpleClient() as sio:
                         "price": float(registro['price']),
                         "vendor_id": VENDOR,
                         "branch_id": BRANCH,
+                        "barcode": registro['barcode'],
                         #"reg": registro,
                         "url": URL_MONARCA_APP,
                         "category": categoria_asignada,
