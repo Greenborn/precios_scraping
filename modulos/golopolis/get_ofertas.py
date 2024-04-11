@@ -4,15 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import socketio
+import sys
 
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "../")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -56,9 +52,5 @@ for product in product_html:
                     "key":         config["BACK_KEY"]
                 }
 
-    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-    #print(enviar_back.json())
-    sio.emit('registrar_oferta', promocion)
+    cliente.sio.emit('registrar_oferta', promocion)
     print(promocion)
-
-
