@@ -64,7 +64,7 @@ io.on('connection', socket => {
 });
 
 let ciclo_numero = 0
-const INTERVALO_ENVIO = 50
+const INTERVALO_ENVIO = 100
 const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
@@ -105,8 +105,9 @@ async function procesar_envios() {
                         //Si se obtine codigo 200, se envia a la lista de enviadas
                         if (response.data.stat)
                             envio_info.data_enviada.push( elemento )
-                        else 
-                            envio_info.data_error_status.push( elemento )
+                        else {
+                            envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
+                        }
                     })
                     .catch(function (error) {
                         //Caso contrario se reporta y se enviua a la lista de errores
@@ -151,8 +152,9 @@ async function procesar_envios() {
                         //Si se obtine codigo 200, se envia a la lista de enviadas
                         if (response.data.stat)
                             envio_info.data_enviada.push( elemento )
-                        else 
-                            envio_info.data_error_status.push( elemento )
+                        else {
+                            envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
+                        }
                     })
                     .catch(function (error) {
                         //Caso contrario se reporta y se enviua a la lista de errores
