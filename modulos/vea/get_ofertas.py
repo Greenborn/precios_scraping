@@ -3,17 +3,15 @@
 import json
 from bs4 import BeautifulSoup
 import datetime
+
 import time
 import sys
-import argparse
 
 sys.path.insert(1, "../")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
 from selenium_utils import *
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -22,12 +20,7 @@ BRANCH_ID = 18
 BASE_URL  = "https://www.vea.com.ar"
 USER      = "ratertico@proton.me"
 fecha     = datetime.datetime.now().strftime("%Y%m%d")
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
+URL_OFERTAS = "https://www.vea.com.ar/36637?map=productClusterIds"
 
 driver = get_driver()
 
@@ -62,6 +55,7 @@ btn_modal = modal[0].find_elements("tag name", "button")
 btn_modal[4].click()
 time.sleep(15)
 
+listado_productos = []
 
 diccio_nombres = {}
 def procesar_resultados(res_consulta, categoria):
@@ -97,61 +91,68 @@ def procesar_resultados(res_consulta, categoria):
             print("len offers: ", len(item["offers"]["offers"]))
             continue
         
-        if (item["name"] in diccio_nombres):
+        if (item["@id"] in diccio_nombres):
             print("producto repetido")
             continue
 
-        diccio_nombres[ item["name"] ] = True
+        diccio_nombres[ item["@id"] ] = True
 
         cant = cant + 1
         producto = {
                     "vendor_id": 58,
-                    "name": categoria + " - " + item["name"],
-                    "price": float(item["offers"]["highPrice"]),
+                    "name": item["name"],
+                    "price": float(item["offers"]["offers"][0]["price"]),
                     "url": item["@id"],
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
                     "key": config["BACK_KEY"]
                 }
-        cliente.sio.emit('registrar_precio', producto)
-        print(producto)
+        
+        print(item)
+        print("")
+        texto_descuento = ""
+        promocion = {
+                        "orden":       0,
+                        "titulo":      texto_descuento + ' - ' + item["name"],
+                        "id_producto": 0,
+                        "datos_extra": { },
+                        "precio":      float(item["offers"]["offers"][0]["price"]),
+                        "branch_id":   BRANCH_ID,
+                        "url":         item["@id"],
+                        "key":         config["BACK_KEY"]
+                    }
+        print(promocion)
 
         prod_log = producto
         prod_log["all_data"] = element
+        listado_productos.append(prod_log)
         
         print("")
 
     return cant
 
-procesar = True
-print(categoria_inicio)
 
-if (categoria_inicio != None):
-    procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
-    path = 'salida/productos_cat'+fecha+'.json'
-    print(categoria, url)
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
-        procesar = True
-        continue
+path = 'salida/productos_oferta_'+fecha+'.json'
+    
+page = 1
+url = URL_OFERTAS
+while True:
+    url_page = url + "&page=" + str(page)
+    print(url_page)
+    driver.get(url_page)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+    time.sleep(2)
+    res_consulta = driver.page_source
+    if (procesar_resultados(res_consulta, "") == 0):
+        break
 
-    if (procesar == True):
-        page = 1
-        while True:
-            url_page = url + "?page=" + str(page)
-            driver.get(url_page)
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-            time.sleep(2)
-            res_consulta = driver.page_source
-            if (procesar_resultados(res_consulta, categoria) == 0):
-                break
+    page = page + 1
+    
 
-            page = page + 1
-    else:
-        print("ignorando categoria: ", categoria)
-        continue
+with open(path, 'w') as file:
+    json.dump(listado_productos, file)
+    print(path,' actualizado')
+
+print(len(listado_productos))

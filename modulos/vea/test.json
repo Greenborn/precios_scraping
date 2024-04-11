@@ -1,0 +1,326 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/la-saltena-noquis-de-papa-x-300g/p",
+                "name": "La Salteña ñoquis De Papa X 300g",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "LA SALTEÑA"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/784041/La-Salte-a-oquis-De-Papa-300g-1-970913.jpg?v=638215869976830000",
+                "description": "",
+                "mpn": "396601",
+                "sku": "394580",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1300,
+                    "highPrice": 1300,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1300,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "394580",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-14T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-tricolor-cuisine-co-x-500-gr/p",
+                "name": "Noquis Tricolor Cuisine &amp; Co X 500 Gr",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "CUISINE &amp; CO NBE MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/791414/oquis-Tricolor-Cuisine-co-X500gr-Noquis-Tricolor-Cuisine-Co-X-500-Gr-1-850930.jpg?v=638288337858630000",
+                "description": "",
+                "mpn": "313035",
+                "sku": "312273",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1250,
+                    "highPrice": 1250,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1250,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "312273",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-04-09T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-con-papa-bandeja-x-1-kg/p",
+                "name": "ñoquis Con Papa Bandeja X 1 Kg",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "VEA MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/645180/oquis-Con-Papa-Bandeja-Por-1-Kg-1-42067.jpg?v=637578553018270000",
+                "description": "",
+                "mpn": "44073",
+                "sku": "41244",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 171.9,
+                    "highPrice": 1719,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 171.9,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "41244",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-26T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-la-saltena-de-papa-900g/p",
+                "name": "ñoquis La Salteña De Papa 900g",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "LA SALTEÑA"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/784042/La-Salte-a-oquis-De-Papa-900g-1-970914.jpg?v=638215869980600000",
+                "description": "",
+                "mpn": "396602",
+                "sku": "394581",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 3500,
+                    "highPrice": 3500,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 3500,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "394581",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-14T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-de-papas-1-kg/p",
+                "name": "ñoquis De Papas 1 Kg",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "JUMBO ARTESANAL MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/748000/oquis-De-Papas-1-Kg-1-20702.jpg?v=637998033634800000",
+                "description": "ñoquis De Papas 1 Kg",
+                "mpn": "22785",
+                "sku": "19947",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 247.57,
+                    "highPrice": 2475.79,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 247.57,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "19947",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-26T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-de-papa/p",
+                "name": "ñoquis De Papa",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "JUMBO ARTESANAL MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/748001/oquis-De-Papa-1-779289.jpg?v=637998033648030000",
+                "description": "",
+                "mpn": "298671",
+                "sku": "297898",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1799,
+                    "highPrice": 1799,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1799,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "297898",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-26T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/fideos-al-huevo-elaboracion-propia-x-500-gr/p",
+                "name": "Fideos Al Huevo Elaboración Propia X 500 Gr.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "VEA MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/539252/Fideos-Al-Huevo-Elaboracion-Propia-X-500-Gr-1-25140.jpg?v=636989736611630000",
+                "description": "",
+                "mpn": "27209",
+                "sku": "24369",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 2499,
+                    "highPrice": 2499,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 2499,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "24369",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-26T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "@id": "https://www.vea.com.ar/noquis-de-calabaza-1-2-kg/p",
+                "name": "ñoquis De Calabaza 1/2 Kg",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "JUMBO ARTESANAL MP"
+                },
+                "image": "https://veaargentina.vtexassets.com/arquivos/ids/176851/ñoquis-De-Calabaza-1-2-Kg-ñoquis-De-Calabaza-1-2-Kg-s-e-un-1-1-2271.jpg?v=636383339047200000",
+                "description": "",
+                "mpn": "3576",
+                "sku": "1648",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": 1862.77,
+                    "highPrice": 1862.77,
+                    "priceCurrency": "ARS",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "price": 1862.77,
+                            "priceCurrency": "ARS",
+                            "availability": "http://schema.org/InStock",
+                            "sku": "1648",
+                            "itemCondition": "http://schema.org/NewCondition",
+                            "priceValidUntil": "2025-03-26T03:00:00Z",
+                            "seller": {
+                                "@type": "Organization",
+                                "name": "Jumbo Argentina IO"
+                            }
+                        }
+                    ],
+                    "offerCount": 1
+                }
+            }
+        }
+    ]
+}
