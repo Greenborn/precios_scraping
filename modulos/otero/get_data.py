@@ -11,15 +11,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import argparse
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "../")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
+from selenium_utils import scroll_hasta_el_final
 
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
@@ -76,24 +73,7 @@ def procesar_resultados(res_consulta, categoria):
                     "key": config["BACK_KEY"]
                 }
         print(producto)
-        sio.emit('registrar_precio', producto)
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        #print(enviar_back.json())
-
-def scroll_hasta_el_final(driver):
-    last_scroll_position = 0
-    while True:
-        # Mover el scroll hasta el final de la página actual
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        
-        time.sleep(2)
-        current_scroll_position = driver.execute_script("return window.pageYOffset")
-
-        # Si no hay más contenido para mostrar (es decir, no se ha desplazado más), salir del bucle
-        if current_scroll_position == last_scroll_position:
-            break
-
-        last_scroll_position = current_scroll_position
+        cliente.sio.emit('registrar_precio', producto)
 
 options = webdriver.ChromeOptions()
 options.add_argument('--no-sandbox')
