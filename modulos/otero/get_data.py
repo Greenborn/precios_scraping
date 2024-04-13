@@ -1,22 +1,14 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 import json
-import requests
 from bs4 import BeautifulSoup
 import datetime
-import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import argparse
 import sys
 
 sys.path.insert(1, "../")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
-from selenium_utils import scroll_hasta_el_final
+from selenium_utils import *
 
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
@@ -28,13 +20,6 @@ with open("../config.json", "r") as archivo:
     config = json.load(archivo)
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
 
 def procesar_resultados(res_consulta, categoria):
     soup = BeautifulSoup(res_consulta, 'html.parser')
@@ -75,11 +60,7 @@ def procesar_resultados(res_consulta, categoria):
         print(producto)
         cliente.sio.emit('registrar_precio', producto)
 
-options = webdriver.ChromeOptions()
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+driver = get_driver()
 
 procesar = True
 print(categoria_inicio)
