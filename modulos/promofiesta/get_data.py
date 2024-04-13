@@ -4,29 +4,18 @@ import requests
 import datetime
 import json
 from bs4 import BeautifulSoup
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH = 98
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
-
-
-for categoria in categorias:
+for categoria in CATEGORIAS:
     print("Procesado categoria: ", categoria)
-    url = categorias[categoria]["url"]
+    url = CATEGORIAS[categoria]["url"]
 
     response = requests.get(url)
     response = response.text
@@ -43,13 +32,13 @@ for categoria in categorias:
                 "is_ext": "",
                 "url": url,
                 "branch_id": BRANCH,
-                "category": categorias[categoria]["category"],
-                "key": config["BACK_KEY"]
+                "category": CATEGORIAS[categoria]["category"],
+                "key": CONFIG["BACK_KEY"]
             }
         except:
             print("producto", product_html, "no procesado")
             continue
-        sio.emit('registrar_precio', producto)
+        cliente.sio.emit('registrar_precio', producto)
         
         print(producto)
         print("")
