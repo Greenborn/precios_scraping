@@ -4,34 +4,17 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
+from selenium_utils import *
 
 BRANCH_ID = 133
 BASE_URL = "https://fava.com.ar"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
 
 diccio_nam = {}
 
@@ -104,11 +87,9 @@ def procesar_elementos( url, cat_id, categoria, cookies_ ):
                             "url": enlace.get("href"),
                             "branch_id": BRANCH_ID,
                             "category": cat_id,
-                            "key": config["BACK_KEY"]
+                            "key": CONFIG["BACK_KEY"]
                         }
-                sio.emit('registrar_precio', producto)
-                #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-                #print(enviar_back.json())
+                cliente.sio.emit('registrar_precio', producto)
                 print(producto)
                 cantidad = cantidad + 1
 
@@ -118,21 +99,21 @@ response = requests.get(BASE_URL)
 cookies = response.cookies
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
     if (procesar == True):
-        procesar_elementos( url, categorias[categoria]["category"],  categoria, cookies )
+        procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria, cookies )
     else:
         print("ignorando categoria: ", categoria)
         continue
