@@ -1,32 +1,17 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 import json
-import requests
 from bs4 import BeautifulSoup
 import datetime
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
+from selenium_utils import *
 
 BRANCH_ID = 88
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
     
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
@@ -56,40 +41,19 @@ def procesar_resultados(res_consulta):
                     "url": data_["offers"]["url"],
                     "branch_id": BRANCH_ID,
                     "all_data": data_,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
         }
 
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        #print(enviar_back.json())
-        sio.emit('registrar_precio', producto)
+        cliente.sio.emit('registrar_precio', producto)
         print(producto)
 
-def scroll_hasta_el_final(driver):
-    last_scroll_position = 0
-    while True:
-        # Mover el scroll hasta el final de la página actual
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        
-        time.sleep(2)
-        current_scroll_position = driver.execute_script("return window.pageYOffset")
+driver = get_driver()
 
-        # Si no hay más contenido para mostrar (es decir, no se ha desplazado más), salir del bucle
-        if current_scroll_position == last_scroll_position:
-            break
-
-        last_scroll_position = current_scroll_position
-
-options = webdriver.ChromeOptions()
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-#options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
-
-for categoria in categorias:
+for categoria in CATEGORIAS:
     print("Procesado categoria: ",categoria)
 
-    url = categorias[categoria]['url']
+    url = CATEGORIAS[categoria]['url']
     print("haciendo petición a: ", url)
     driver.get(url)
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
