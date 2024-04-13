@@ -5,6 +5,7 @@ const express = require('express');
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 const axios = require('axios');
+const BotsCtrl = require('./server_control_bots.js')
 
 const app = express();
 const httpServer = createServer(app);
@@ -13,13 +14,6 @@ const io = new Server(httpServer);
 const port = process.env.PORT || 5000;
 
 app.use(express.static(__dirname + '/latency_public'));
-
-let errores_envios = {
-    'fallo_conexion': {
-        'registrar_precio': [],
-        'registrar_oferta': []
-    }
-}
 
 let envios_server = {
     'registrar_precio': {
@@ -68,6 +62,7 @@ const INTERVALO_ENVIO = 100
 const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
+const ENVIOS_HABILITADOS = false
 
 async function procesar_envios() {
     ciclo_numero ++
@@ -99,21 +94,26 @@ async function procesar_envios() {
                     return
                 } 
                 
-                axios.post(url_envio, elemento)
-                    .then(function (response) {
-                    console.log(response.data)
-                        //Si se obtine codigo 200, se envia a la lista de enviadas
-                        if (response.data.stat)
-                            envio_info.data_enviada.push( elemento )
-                        else {
-                            envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
-                        }
-                    })
-                    .catch(function (error) {
-                        //Caso contrario se reporta y se enviua a la lista de errores
-                    //console.log("Error al realizar petición", cantidad );
-                        envio_info.data_error.push( elemento )
-                    })
+                if (ENVIOS_HABILITADOS) {
+                    axios.post(url_envio, elemento)
+                        .then(function (response) {
+                        console.log(response.data)
+                            //Si se obtine codigo 200, se envia a la lista de enviadas
+                            if (response.data.stat)
+                                envio_info.data_enviada.push( elemento )
+                            else {
+                                envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
+                            }
+                        })
+                        .catch(function (error) {
+                            //Caso contrario se reporta y se enviua a la lista de errores
+                        //console.log("Error al realizar petición", cantidad );
+                            envio_info.data_error.push( elemento )
+                        })
+                } else {
+                    console.log("envio deshabilitado")
+                    envio_info.data_enviada.push( elemento )
+                }
             }
         }
         return
@@ -145,22 +145,27 @@ async function procesar_envios() {
                     console.log('recatalogando')
                     return
                 } 
-                
-                axios.post(url_envio, elemento)
-                    .then(function (response) {
-                    console.log(response.data)
-                        //Si se obtine codigo 200, se envia a la lista de enviadas
-                        if (response.data.stat)
-                            envio_info.data_enviada.push( elemento )
-                        else {
-                            envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
-                        }
-                    })
-                    .catch(function (error) {
-                        //Caso contrario se reporta y se enviua a la lista de errores
-                    //console.log("Error al realizar petición", cantidad );
-                        envio_info.data_error.push( elemento )
-                    })
+
+                if (ENVIOS_HABILITADOS){
+                    axios.post(url_envio, elemento)
+                        .then(function (response) {
+                        console.log(response.data)
+                            //Si se obtine codigo 200, se envia a la lista de enviadas
+                            if (response.data.stat)
+                                envio_info.data_enviada.push( elemento )
+                            else {
+                                envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
+                            }
+                        })
+                        .catch(function (error) {
+                            //Caso contrario se reporta y se enviua a la lista de errores
+                        //console.log("Error al realizar petición", cantidad );
+                            envio_info.data_error.push( elemento )
+                        })
+                } else {
+                    console.log("envio deshabilitado")
+                    envio_info.data_enviada.push( elemento )
+                }
             }
         }
     }
