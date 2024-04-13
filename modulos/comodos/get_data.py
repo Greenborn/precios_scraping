@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import datetime
 import sys 
 
-sys.path.insert(1, "../")
+sys.path.insert(1, "./modulos")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
 from selenium_utils import *

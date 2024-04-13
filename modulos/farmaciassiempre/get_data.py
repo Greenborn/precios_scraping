@@ -44,7 +44,7 @@ def procesar_resultados(res_consulta, categoria):
                         "category": CATEGORIAS[categoria]["category"],
                         "key": CONFIG["BACK_KEY"]
                     }
-            sio.emit('registrar_precio', producto)
+            cliente.sio.emit('registrar_precio', producto)
         except:
             print("no se pudo obtner enlace")
             continue

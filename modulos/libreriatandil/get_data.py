@@ -17,12 +17,6 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 diccio_nam = {}
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
 def procesar_elementos( url, cat_id, categoria ):
     cantidad = 0
     url = BASE_URL + url 
@@ -62,16 +56,16 @@ def procesar_elementos( url, cat_id, categoria ):
     return cantidad
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
 for categoria in CATEGORIAS:
     url = CATEGORIAS[categoria]['url']
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 

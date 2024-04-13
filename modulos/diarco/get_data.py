@@ -16,9 +16,6 @@ URL = "https://www.diarco.com.ar/ofertas/"
 UR_OFERTA = "https://www.diarco.com.ar/ofertas/?e-filter-9a897e7-sucursal=tandil&tipo-sucursal=mayorista#"
 BRANCH_ID = 129
 
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
-
 contador = 1
 
 ultima = 150
@@ -93,7 +90,7 @@ while True:
             "precio":      -1,
             "branch_id":   BRANCH_ID,
             "url":         url_oferta,
-            "key": config["BACK_KEY"]
+            "key": CONFIG["BACK_KEY"]
         }
 
         if (_decimal_2 == "FINAL"):

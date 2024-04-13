@@ -9,7 +9,6 @@ import sys
 sys.path.insert(1, "./modulos")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
-from selenium_utils import *
 
 BRANCH_ID = 137
 BASE_URL  = "https://sampietroweb.com.ar"

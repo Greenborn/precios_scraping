@@ -12,9 +12,6 @@ cliente = ClienteCoordinador()
 BRANCH = 97
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
-
 url = 'https://pedidos.masdelivery.com/panel/lib/front-api.php'
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0',
@@ -42,13 +39,9 @@ response = requests.post(url, headers=headers, data=data)
 respuesta = response.json()
 respuesta = respuesta['GetLocationMenu']["currentMenu"]['dishes']
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-
 for prod in respuesta:
 
-    categoria = categorias[prod['category_name']]["category"]
+    categoria = CATEGORIAS[prod['category_name']]["category"]
     producto = {
                     "vendor_id": 58,
                     "name": "HELADOS - " + prod['category_name'] + ' - ' + prod['name'],
@@ -57,7 +50,7 @@ for prod in respuesta:
                     "branch_id": BRANCH,
                     "category": categoria,
                     "url": "https://pedidos.masdelivery.com/figlio-premium",
-                    "key": config["BACK_KEY"]
+                    "key": CONFIG["BACK_KEY"]
                 }
     
     cliente.sio.emit('registrar_precio', producto)
