@@ -4,12 +4,17 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime
+import sys
+
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 fecha = datetime.now().strftime("%Y%m%d")
 path = 'salida/productos_cat'+fecha+'.json'
-URL = "https://www.diarco.com.ar/ofertas/?wlfilter=1&orderby=popularity&sucursal=Tandil&padre=182&hijo=183&nieto=205&woolentor_sucursal=Tandil&product-page="
+URL = "https://www.diarco.com.ar/ofertas/"
+UR_OFERTA = "https://www.diarco.com.ar/ofertas/?e-filter-9a897e7-sucursal=tandil&tipo-sucursal=mayorista#"
 BRANCH_ID = 129
-listado_productos = []
 
 with open("../config.json", "r") as archivo:
     config = json.load(archivo)
@@ -24,7 +29,7 @@ while True:
     if (contador > ultima):
         break
 
-    url_ = URL + str(contador)
+    url_ = URL + str(contador) + "/?e-filter-9a897e7-sucursal=tandil"
     print("Consultando URL: ", url_)
 
     response = requests.get(url_)
@@ -37,60 +42,69 @@ while True:
     for product in product_html:
         class_list = product['class']
         
-        if "product_tag-club" in class_list or "tag-estandar-naranja" in class_list or  "product_tag-oferta" in class_list or "product_tag-6x5" in class_list or "product_tag-promo" in class_list or "product_tag-super-descuento" in class_list or "product_tag-cuotas" in class_list:
-            cont_promo = cont_promo + 1
-            print("Promo encontrada! se omite")
-            continue
+        _titulo    = product.find("h1")
+        _s_titulo  = product.find("h2")
+        url_oferta = url_
 
-        html_data = BeautifulSoup(str(product.contents), 'html.parser')
+        _price     = _s_titulo.find(class_="price-container").text
+        _decimal_1 = _s_titulo.find(class_="custom-decimal").text.strip()
+        _decimal_2 = _s_titulo.find(class_="custom-decimal-final").text.strip()
+
+        _descript2 = product.find_all("h2",class_="elementor-heading-title elementor-size-default")
+        if (_descript2 != None):
+            if (len(_descript2) > 1):
+                _descript2 = _descript2[1].text.strip()
+            else:
+                _descript2 = ""
+        else:
+            _descript2 = ""
+
+        _descript1 = product.find(class_="short-description-tag")
+        if (_descript1 != None):
+            _descript1 = _descript1.text.strip()
+        else:
+            _descript1 = ""
         
-        try:
-            nombre = html_data.find(class_="woocommerce-loop-product__title").text + " - " + html_data.find(class_="product-brand-title").text + " - "  + html_data.find(class_="woocommerce-product-details__short-description").text
-        except:
-            print("No se pudo obtener nombre de producto")
-            continue
+        price_cnt = _price.replace("$","").replace("%","").replace(_decimal_2,"",1)
 
-        try:
-            text = html_data.find(class_='woocommerce-Price-amount').text
-            print(text)
-            if "%" in text or  "Cuotas" in nombre or  "En la Segunda Unidad" in nombre or  "EN TODAS LAS" in nombre or "EN TODOS LOS" in nombre  or "EN TODA LA" in nombre:
-                print("Descuento encontrado! se omite") 
-                cont_descuento = cont_descuento + 1
-                continue
-            if "X" in text:
-                print("Descuento encontrado! se omite")
-                cont_descuento = cont_descuento + 1
-                continue
-            text = text.replace("C/IVA", "").replace(",", "").replace("$", "")
-            precio = float(text)/100
-        except:
-            continue
+        if (_decimal_2 == "FINAL"):
+            price_cnt = price_cnt.replace(_decimal_1,"",1)
 
-        producto = {
-            "vendor_id": 58,
-            "name": nombre,
-            "price": precio,
-            "is_ext": "",
-            "es_oferta": True,
-            "fecha_limite": "",
-            "page": contador,
-            "branch_id": BRANCH_ID,
-            "category": 155,
+        titulo_oferta = _titulo.text
+        if (_descript1 != ""):
+            titulo_oferta = titulo_oferta + " - " + _descript1
+        if (_descript2 != ""):
+            titulo_oferta = titulo_oferta + " - " + _descript2
+        
+        # en promociones 3x2 por ej
+        promo_cnt = ''
+        if (_decimal_2 == "" and _decimal_1 == ""):
+            promo_cnt = price_cnt
+            titulo_oferta = price_cnt + " - " + titulo_oferta
+        elif (_decimal_1 == "%"):
+            promo_cnt     = price_cnt + _decimal_1 + " " + _decimal_2
+            titulo_oferta = price_cnt + _decimal_1 + " " + _decimal_2 + " " + titulo_oferta
+
+        promocion = {
+            "orden":       0,
+            "titulo":      titulo_oferta,
+            "id_producto": 0,
+            "datos_extra": { "promo_cnt": promo_cnt },
+            "precio":      -1,
+            "branch_id":   BRANCH_ID,
+            "url":         url_oferta,
             "key": config["BACK_KEY"]
         }
 
-        enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        print(enviar_back.json())
+        if (_decimal_2 == "FINAL"):
+            promocion["precio"] = float(price_cnt)
 
-        listado_productos.append(producto)
-        print(producto)
+        #print( ';', _decimal_1, ';', _decimal_2, ';')
+        cont_promo = cont_promo + 1
+        print(promocion)
+        cliente.sio.emit('registrar_oferta', promocion)
+        print("")
 
     contador = contador + 1
 
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print('estado.json actualizado')
-
 print("Promo", cont_promo)
-print("Descuento", cont_descuento)
-print("Total", len(listado_productos))
