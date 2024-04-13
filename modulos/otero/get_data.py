@@ -13,12 +13,6 @@ from selenium_utils import *
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
-
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 def procesar_resultados(res_consulta, categoria):
@@ -54,8 +48,8 @@ def procesar_resultados(res_consulta, categoria):
                     "is_ext": "",
                     "url": enlace,
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
                 }
         print(producto)
         cliente.sio.emit('registrar_precio', producto)
@@ -63,21 +57,21 @@ def procesar_resultados(res_consulta, categoria):
 driver = get_driver()
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
+for categoria in CATEGORIAS:
     print("Procesado categoria: ",categoria)
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
     
     if (procesar == True):
-        url = URL_BASE+categorias[categoria]['url']
+        url = URL_BASE+CATEGORIAS[categoria]['url']
         print("haciendo petición a: ", url)
         driver.get(url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
