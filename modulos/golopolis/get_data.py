@@ -10,22 +10,15 @@ sys.path.insert(1, "../")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
-
 BRANCH_ID = 82
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://golopolis.com.ar/app/"
 
-
-for categoria in categorias:
+for categoria in CATEGORIAS:
     print("Procesado categoria Nivel 0: ",categoria)
 
-    for sub_categoria in categorias[categoria]['sub_items']:
+    for sub_categoria in CATEGORIAS[categoria]['sub_items']:
         texto_sub_cat = sub_categoria['texto']
         print("----> Procesando sub categoría: ",texto_sub_cat)
 
@@ -51,7 +44,7 @@ for categoria in categorias:
                 "branch_id": BRANCH_ID,
                 "category": sub_categoria["category"],
                 "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
-                "key": config["BACK_KEY"]
+                "key": CONFIG["BACK_KEY"]
             }
             cliente.sio.emit('registrar_precio', producto)
             print(producto)
