@@ -1,25 +1,13 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
-import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
-import socketio
+import sys
 
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 145
 
@@ -27,17 +15,10 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 diccio_nam = {}
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
 def procesar_elementos( url, cat_id, categoria ):
     cantidad = 0
     pagina   = 1
     
-
     diccio_cat_nam = {}
 
     while (True):
@@ -71,13 +52,13 @@ def procesar_elementos( url, cat_id, categoria ):
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
                     "category": cat_id,
-                    "key": config["BACK_KEY"]
+                    "key": CONFIG["BACK_KEY"]
                 }
             except:
                 continue
             cantidad = cantidad + 1
-            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            sio.emit('registrar_precio', producto)
+            
+            cliente.sio.emit('registrar_precio', producto)
             print("")
             print(producto)
 
@@ -86,22 +67,22 @@ def procesar_elementos( url, cat_id, categoria ):
     return cantidad
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
 total = 0
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
     if (procesar == True):
-        total = total + procesar_elementos( url, categorias[categoria]["category"],  categoria )
+        total = total + procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria )
     else:
         print("ignorando categoria: ", categoria)
         continue
