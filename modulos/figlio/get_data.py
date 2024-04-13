@@ -3,14 +3,11 @@
 import requests
 import datetime
 import json
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
+import sys
 
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH = 97
 fecha = datetime.datetime.now().strftime("%Y%m%d")
@@ -62,7 +59,6 @@ for prod in respuesta:
                     "url": "https://pedidos.masdelivery.com/figlio-premium",
                     "key": config["BACK_KEY"]
                 }
-    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-    #print(enviar_back.json())
-    sio.emit('registrar_precio', producto)
+    
+    cliente.sio.emit('registrar_precio', producto)
     print(producto)
