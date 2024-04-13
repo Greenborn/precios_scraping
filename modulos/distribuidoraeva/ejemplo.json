@@ -1,0 +1,47 @@
+{
+    "idProductos": 15332055,
+    "p_nombre": "OSSONO - Serum Oro Líquido 30 ml",
+    "p_precio": 8400,
+    "p_link": "ossono-serum-oro-liquido-30-ml",
+    "p_descripcion": "<p>",
+    "p_oferta": 0,
+    "p_precio_oferta": 0,
+    "p_oferta_fecha_inicio": "",
+    "p_oferta_fecha": "",
+    "p_tipo_venta": 0,
+    "p_precio_mayorista": 0,
+    "p_cantidad_minima": 1,
+    "p_destacado": 0,
+    "p_atributos": 0,
+    "p_mostrar_precio": 1,
+    "p_datos_stock": 1,
+    "p_producto_digital": 0,
+    "p_desactivado": 0,
+    "p_orden": 0,
+    "Categorias_idCategorias": 826351,
+    "imagenes": [
+        {
+            "idImagenes": 35400826,
+            "i_link": "cf71015533349ee163f8ade72a47233a7a5239adc9aa2afff3cd3f5edb01c18421374.jpg"
+        }
+    ],
+    "stock": [
+        {
+            "idStock": 34473992,
+            "s_cantidad": 0,
+            "s_ilimitado": 1,
+            "s_precio": 8400,
+            "s_oferta": 0,
+            "s_precio_oferta": 0,
+            "s_oferta_fecha_inicio": "",
+            "s_oferta_fecha": "None",
+            "s_precio_mayorista": 0,
+            "s_cantidad_minima": 1,
+            "s_mostrar_precio": 1,
+            "s_imagen": 35400826,
+            "s_producto_digital_plazo": "",
+            "s_producto_digital_observacion": "",
+            "valoratributo": []
+        }
+    ]
+}
