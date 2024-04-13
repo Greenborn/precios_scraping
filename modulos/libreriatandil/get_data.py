@@ -4,22 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 130
 BASE_URL = "https://www.libreriatandil.com.ar/"
@@ -62,14 +51,13 @@ def procesar_elementos( url, cat_id, categoria ):
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
                 "category": cat_id,
-                "key": config["BACK_KEY"]
+                "key": CONFIG["BACK_KEY"]
             }
         except:
             continue
         cantidad = cantidad + 1
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        #print(enviar_back.json())
-        sio.emit('registrar_precio', producto)
+        
+        cliente.sio.emit('registrar_precio', producto)
         print(producto)
     return cantidad
 
@@ -79,8 +67,8 @@ print(categoria_inicio)
 if (categoria_inicio != None):
     procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
 
     if (categoria == categoria_inicio):
         print(categoria, categoria_inicio)
@@ -88,7 +76,7 @@ for categoria in categorias:
         continue
 
     if (procesar == True):
-        procesar_elementos( url, categorias[categoria]["category"],  categoria )
+        procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria )
     else:
         print("ignorando categoria: ", categoria)
         continue
