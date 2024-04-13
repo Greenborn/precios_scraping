@@ -4,39 +4,23 @@ import json
 from bs4 import BeautifulSoup
 import datetime
 import time
+import sys
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
+from selenium_utils import *
 
 BRANCH_ID = 92
 
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
-options = webdriver.ChromeOptions()
-options.add_argument('--no-sandbox')
-options.add_argument('--headless')
-options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(options=options)
+driver = get_driver()
 
-for categoria in categorias:
+for categoria in CATEGORIAS:
     print("Procesado categoria: ",categoria)
 
-    url = categorias[categoria]['url']
+    url = CATEGORIAS[categoria]['url']
     print("haciendo petición a: ", url)
     
     try:
@@ -68,8 +52,9 @@ for categoria in categorias:
                     "is_ext": "",
                     "url": prod.find(class_="product-name").get("href"),
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"]
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
                 }
         print(producto)
-        sio.emit('registrar_precio', producto)
+        cliente.sio.emit('registrar_precio', producto)
    
