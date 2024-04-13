@@ -1,11 +1,25 @@
 import socketio
 import argparse
+import json
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+parser.add_argument("--ruta_categorias", type=str, help="Ruta de archivo de configuracion de categorias")
+parser.add_argument("--ruta_config", type=str, help="Ruta de archivo de configuracion general")
 args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
+CATEGORIA_INICIO = args.categoria_inicio
+RUTA_CATEGORIAS  = args.ruta_categorias
+RUTA_CONFIG      = args.ruta_config
+
+try:
+    with open( RUTA_CATEGORIAS ) as archivo_json:
+        CATEGORIAS = json.load(archivo_json)
+except:
+    print("Archivo de categorias no encontrado")
+
+with open( RUTA_CONFIG , "r") as archivo:
+    CONFIG = json.load(archivo)
 
 class ClienteCoordinador:
     def __init__(self):
