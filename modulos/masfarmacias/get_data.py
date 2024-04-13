@@ -4,30 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
+import sys
 
-import socketio
-
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 127
 
@@ -72,31 +53,29 @@ def procesar_elementos( url, cat_id, categoria ):
             "is_ext": "",
             "branch_id": BRANCH_ID,
             "category": cat_id,
-            "key": config["BACK_KEY"]
+            "key": CONFIG["BACK_KEY"]
         }
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        #print(enviar_back.json())
-        sio.emit('registrar_precio', producto)
+        cliente.sio.emit('registrar_precio', producto)
         cantidad = cantidad + 1
         print(producto)
     return cantidad
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+for categoria in CATEGORIAS:
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
-    url = categorias[categoria]['url']
+    url = CATEGORIAS[categoria]['url']
 
     if (procesar == True):
-        procesados = procesar_elementos( url, categorias[categoria]["category"],  categoria )
+        procesados = procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria )
         if (procesados == 0):
             continue
 
@@ -105,7 +84,7 @@ for categoria in categorias:
             print("pagina ", pag)
             url_page = url + "page/" + str(pag)
             try:
-                procesados = procesar_elementos( url_page, categorias[categoria]["category"],  categoria  )
+                procesados = procesar_elementos( url_page, CATEGORIAS[categoria]["category"],  categoria  )
             except:
                 break
             if procesados == 0:
