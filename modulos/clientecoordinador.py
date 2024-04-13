@@ -1,4 +1,11 @@
 import socketio
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
+args = parser.parse_args()
+categoria_inicio = args.categoria_inicio
 
 class ClienteCoordinador:
     def __init__(self):
