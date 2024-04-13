@@ -4,21 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
+import sys
 
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 139
 BASE_URL = "https://www.puntoblu.com.ar/"
@@ -26,12 +16,6 @@ BASE_URL = "https://www.puntoblu.com.ar/"
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 diccio_nam = {}
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
 
 def procesar_elementos( url, cat_id, categoria ):
     cantidad = 0
@@ -71,7 +55,7 @@ def procesar_elementos( url, cat_id, categoria ):
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
                     "category": cat_id,
-                    "key": config["BACK_KEY"]
+                    "key": CONFIG["BACK_KEY"]
                 }
             except:
                 print("error al formatear producto")
@@ -79,9 +63,7 @@ def procesar_elementos( url, cat_id, categoria ):
                     return cantidad
                 continue
 
-            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-            #print(enviar_back.json())
-            sio.emit('registrar_precio', producto)
+            cliente.sio.emit('registrar_precio', producto)
             print(producto)
             print("")
             cantidad = cantidad + 1
@@ -89,21 +71,21 @@ def procesar_elementos( url, cat_id, categoria ):
         pagina = pagina + 1
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
     if (procesar == True):
-        procesar_elementos( url, categorias[categoria]["category"],  categoria )
+        procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria )
     else:
         print("ignorando categoria: ", categoria)
         continue
