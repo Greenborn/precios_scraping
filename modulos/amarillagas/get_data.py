@@ -2,23 +2,16 @@
 # -*- coding: utf-8 -*-
 import requests
 from datetime import datetime
-import json
-import socketio
+import sys
 
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 fecha_actual = datetime.now()
 fecha = datetime.now().strftime("%Y%m%d")
 URL = "https://pedidos.amarillagas.com/api/get_products_for_category"
 
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
 
 BRANCH_ID = 99
 CATEGORY_ID = 1971
@@ -44,7 +37,6 @@ headers_ = {
 }
 
 cookies_ = {
-
 }
 
 data_ = {
@@ -78,10 +70,9 @@ for product in response:
         "enlace": "",
         "branch_id": BRANCH_ID,
         "category": CATEGORY_ID,
-        "key": config["BACK_KEY"]
+        "key": CONFIG["BACK_KEY"]
     }
-    print(producto, config["URL_BACK"] + "/publico/productos/importar")
+    print(producto)
     
-    sio.emit('registrar_precio', producto)
-    #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
+    cliente.sio.emit('registrar_precio', producto)
     print("")
