@@ -1,10 +1,18 @@
 
 const {PythonShell} =require('python-shell');
 const fs = require("fs")
+const os = require('os-utils')
 
-let procesos = []
+const EJECUCION_TICK = 2000
+const USO_PROC_RUN   = 0.75
+
+let habilitados  = []
+let ejecutados   = []
+let por_ejecutar = []
 
 async function ejecutar_bot( item ){
+    console.log('Ejecutando: ', item)
+
     let options = {
         mode: 'text',
         pythonOptions: ['-u'], // get print results in real-time
@@ -25,16 +33,20 @@ async function ejecutar_bot( item ){
 
 fs.readFile("./modulos/habilitados.json", function(err, data) {
     // Converting to JSON
-    const data_habilitados = JSON.parse(data);
-    
-    let proms = []
-    for (let i=0; i < data_habilitados.length; i++){
-        let item = data_habilitados[i]
-
-        proms.push( ejecutar_bot( item ) )
-    }
-
-    Promise.all( proms ).then( () => {
-        console.log("procesos terminados")
-    })
+    habilitados  = JSON.parse(data);
+    por_ejecutar = [...habilitados]
 });
+
+
+setInterval( async ()=> {
+    os.cpuUsage(async function(v){
+        console.log( 'CPU Usage (%): ' + v )
+
+        if (v < USO_PROC_RUN && por_ejecutar.length > 0){
+            let a_ejecutar = por_ejecutar.pop()
+            ejecutados.push(a_ejecutar)
+
+            await ejecutar_bot( a_ejecutar )
+        }
+    })
+}, EJECUCION_TICK )
