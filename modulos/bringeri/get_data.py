@@ -1,58 +1,23 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 import json
-import requests
+
 from bs4 import BeautifulSoup
 import datetime
-
-
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import argparse
+import sys
 
-import socketio
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
+from selenium_utils import *
 
 BRANCH_ID = 136
 BASE_URL  = "https://www.bringeri.com.ar"
 CP        = "7000"
 fecha     = datetime.datetime.now().strftime("%Y%m%d")
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
-
-
-def hacer_clic_por_texto(driver, texto):
-    try:
-        elemento = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//*[contains(text(), '{texto}')]")))
-        elemento.click()
-    except:
-        print("No se pudo hacer clic en el elemento")
-
-options = webdriver.ChromeOptions()
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-#options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+driver = get_driver()
 
 driver.get(BASE_URL)
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
@@ -107,15 +72,12 @@ def procesar_resultados(res_consulta, categoria):
                     "url": item["@id"],
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
                 }
         
         print(producto)
-        sio.emit('registrar_precio', producto)
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar", json=producto)
-        #print(enviar_back.json())
-
+        cliente.sio.emit('registrar_precio', producto)
         prod_log = producto
         prod_log["all_data"] = element
         
@@ -124,18 +86,18 @@ def procesar_resultados(res_consulta, categoria):
     return cant
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
     path = 'salida/productos_cat'+fecha+'.json'
     print(categoria, url)
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
