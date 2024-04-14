@@ -5,29 +5,16 @@ from bs4 import BeautifulSoup
 import datetime
 import time
 import sys
-import argparse
 
-sys.path.insert(1, "../")
+sys.path.insert(1, "./modulos")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
 from selenium_utils import *
-
-with open('categorias.json') as archivo_json:
-    categorias = json.load(archivo_json)
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
 
 BRANCH_ID = 18
 BASE_URL  = "https://www.vea.com.ar"
 USER      = "ratertico@proton.me"
 fecha     = datetime.datetime.now().strftime("%Y%m%d")
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--categoria_inicio", type=str, help="Categoria desde la cual se procesan resultados")
-args = parser.parse_args()
-categoria_inicio = args.categoria_inicio
 
 driver = get_driver()
 
@@ -111,8 +98,8 @@ def procesar_resultados(res_consulta, categoria):
                     "url": item["@id"],
                     "is_ext": "",
                     "branch_id": BRANCH_ID,
-                    "category": categorias[categoria]["category"],
-                    "key": config["BACK_KEY"]
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
                 }
         cliente.sio.emit('registrar_precio', producto)
         print(producto)
@@ -125,18 +112,18 @@ def procesar_resultados(res_consulta, categoria):
     return cant
 
 procesar = True
-print(categoria_inicio)
+print(CATEGORIA_INICIO)
 
-if (categoria_inicio != None):
+if (CATEGORIA_INICIO != None):
     procesar = False
 
-for categoria in categorias:
-    url = categorias[categoria]['url']
+for categoria in CATEGORIAS:
+    url = CATEGORIAS[categoria]['url']
     path = 'salida/productos_cat'+fecha+'.json'
     print(categoria, url)
 
-    if (categoria == categoria_inicio):
-        print(categoria, categoria_inicio)
+    if (categoria == CATEGORIA_INICIO):
+        print(categoria, CATEGORIA_INICIO)
         procesar = True
         continue
 
