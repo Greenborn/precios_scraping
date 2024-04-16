@@ -4,7 +4,7 @@ const fs = require("fs")
 const os = require('os-utils')
 
 const EJECUCION_TICK = 2000
-const USO_PROC_RUN   = 0.75
+const USO_PROC_RUN   = 0.5
 
 let habilitados  = []
 let ejecutados   = []
@@ -17,12 +17,12 @@ async function ejecutar_bot( item ){
         mode: 'text',
         pythonOptions: ['-u'], // get print results in real-time
         args: [
-            '--ruta_categorias', __dirname+'/modulos/'+item+'/categorias.json',
+            '--ruta_categorias', __dirname+'/modulos/'+item["d"]+'/categorias.json',
             '--ruta_config', __dirname+'/modulos/config.json'
         ]
     }
 
-    PythonShell.run(__dirname+'/modulos/'+item+'/get_data.py', options, function (err, result){
+    PythonShell.run(__dirname+'/modulos/'+item["d"]+'/'+item["e"]+'.py', options, function (err, result){
         if (err) {
             console.log(err)
         }
