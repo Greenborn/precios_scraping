@@ -13,6 +13,12 @@ const io = new Server(httpServer);
 
 const port = process.env.PORT || 5000;
 
+const INTERVALO_ENVIO = 100
+const REINTENTO_ERR_MOD = 5 
+const RAFAGAS_ENVIO = 1
+const INTERVALO_GUARDADO = 10000
+const ENVIOS_HABILITADOS = true
+
 app.use(express.static(__dirname + '/latency_public'));
 
 let envios_server = {
@@ -58,11 +64,6 @@ io.on('connection', socket => {
 });
 
 let ciclo_numero = 0
-const INTERVALO_ENVIO = 100
-const REINTENTO_ERR_MOD = 5 
-const RAFAGAS_ENVIO = 1
-const INTERVALO_GUARDADO = 10000
-const ENVIOS_HABILITADOS = false
 
 async function procesar_envios() {
     ciclo_numero ++
