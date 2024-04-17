@@ -4,24 +4,15 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import argparse
-import socketio
+import sys
 
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 127
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
-
 
 diccio_nam = {}
 
@@ -77,11 +68,10 @@ def procesar_elementos( url, cat_id, categoria ):
                     "precio":      float(precio),
                     "branch_id":   BRANCH_ID,
                     "url":         art.find_all("a")[2].get("href"),
-                    "key":         config["BACK_KEY"]
+                    "key":         CONFIG["BACK_KEY"]
                 }
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        #print(enviar_back.json())
-        sio.emit('registrar_oferta', promocion)
+        
+        cliente.sio.emit('registrar_oferta', promocion)
 
         cantidad = cantidad + 1
         print(promocion)
@@ -92,7 +82,7 @@ def procesar_elementos( url, cat_id, categoria ):
 pag = 1
 while True:
     print("pagina ", pag)
-    url_page = "https://www.masfarmacias.com/ofertas/"+str(pag)+"/?rule_id=1330,1331,1332,1333,1334,1335,1336,1337,1338,1339,1340,1341,1342,1343,1344,1345,1346"
+    url_page = "https://www.masfarmacias.com/ofertas/"+str(pag)+"/?rule_id=1365,1366,1367,1368,1369,1370,1371,1372,1373,1374,1375,1376,1377"
     try:
         procesados = procesar_elementos( url_page, "",  ""  )
     except:

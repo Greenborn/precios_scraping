@@ -5,19 +5,11 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import re
+import sys
 
-import socketio
-
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 86
 
@@ -73,23 +65,17 @@ while ciclar:
                     "precio":      float(precio),
                     "branch_id":   BRANCH_ID,
                     "url":         html_data.find(class_="card-title").find("a").get("href"),
-                    "key":         config["BACK_KEY"]
+                    "key":         CONFIG["BACK_KEY"]
                 }
         except:
             print("error")
             continue
-        #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-        #print(enviar_back.json())
-        sio.emit('registrar_oferta', promocion)
+
+        cliente.sio.emit('registrar_oferta', promocion)
         listado_productos.append(promocion)
         print(promocion)
         print("")
     page = page +1
-
-path = 'salida/ofertas'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print(path,' actualizado')
 
 print(len(listado_productos))
 

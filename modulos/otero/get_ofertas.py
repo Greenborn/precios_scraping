@@ -5,17 +5,14 @@ from bs4 import BeautifulSoup
 import datetime
 import sys
 
-sys.path.insert(1, "../")
+sys.path.insert(1, "./modulos")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
 from selenium_utils import *
 
 BRANCH_ID = 93
 URL_BASE = "https://www.otero.com.ar"
-URL = "https://www.otero.com.ar/tienda/whirlpool-special-days"
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+URL = "https://www.otero.com.ar/tienda/ofertas-destacadas"
 
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
@@ -53,7 +50,7 @@ def procesar_resultados(res_consulta, categoria):
                         "precio":      precio,
                         "branch_id":   BRANCH_ID,
                         "url":         enlace,
-                        "key":         config["BACK_KEY"]
+                        "key":         CONFIG["BACK_KEY"]
                     }
         print(promocion)
         cliente.sio.emit('registrar_oferta', promocion)
@@ -84,7 +81,7 @@ if len(paginas) == 0:
 
 for pagina in paginas:
     print(pagina.get("href"))
-    driver.get(url+pagina.get("href"))
+    driver.get(URL+pagina.get("href"))
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
     res_consulta = driver.page_source
     

@@ -6,12 +6,9 @@ from bs4 import BeautifulSoup
 import datetime
 import sys
 
-sys.path.insert(1, "../")
+sys.path.insert(1, "./modulos")
 from clientecoordinador import *
 cliente = ClienteCoordinador()
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
 
 BRANCH_ID = 82
 
@@ -49,7 +46,7 @@ for product in product_html:
                     "precio":      float(precio),
                     "branch_id":   BRANCH_ID,
                     "url":         BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
-                    "key":         config["BACK_KEY"]
+                    "key":         CONFIG["BACK_KEY"]
                 }
 
     cliente.sio.emit('registrar_oferta', promocion)

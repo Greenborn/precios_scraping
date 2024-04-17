@@ -4,18 +4,11 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import socketio
+import sys
 
-sio = socketio.SimpleClient()
-sio.connect('http://localhost:7777')
-
-sio.emit('cliente_conectado')
-if (not sio.receive()[1]["status"]):
-    print("Rechazado")
-    exit()
-
-with open("../config.json", "r") as archivo:
-    config = json.load(archivo)
+sys.path.insert(1, "./modulos")
+from clientecoordinador import *
+cliente = ClienteCoordinador()
 
 BRANCH_ID = 145
 
@@ -68,13 +61,12 @@ def procesar_elementos( url, cat_id, categoria ):
                     "precio":      precio,
                     "branch_id":   BRANCH_ID,
                     "url":         enlace.get("href"),
-                    "key":         config["BACK_KEY"]
+                    "key":         CONFIG["BACK_KEY"]
                 }
             except:
                 continue
             cantidad = cantidad + 1
-            #enviar_back = requests.post(config["URL_BACK"] + "/publico/productos/importar_oferta", json=promocion)
-            sio.emit('registrar_oferta', promocion)
+            cliente.sio.emit('registrar_oferta', promocion)
             print("")
             listado_productos.append(promocion)
             print(promocion)
@@ -85,10 +77,5 @@ def procesar_elementos( url, cat_id, categoria ):
 
 
 total = procesar_elementos( "https://www.pintureriasambito.com/descuentos-y-ofertas", "",  "" )
-
-path = 'salida/promociones'+fecha+'.json'
-with open(path, 'w') as file:
-    json.dump(listado_productos, file)
-    print('estado.json actualizado')
 
 print(total)

@@ -1,0 +1,1162 @@
+{
+    "Alimentos saludables": {
+        "category": 2788,
+        "sub_items": [],
+        "url": "161?map=productClusterIds"
+    },
+    "La Diet\u00e9tica": {
+        "category": 2789,
+        "sub_items": [],
+        "url": "/ladietetica"
+    },
+    "Productos Carrefour": {
+        "category": 2790,
+        "sub_items": [],
+        "url": "/4489?map=productClusterIds"
+    },
+    "Smart TVs": {
+        "category": 2799,
+        "sub_items": [],
+        "url": "/electro-y-tecnologia/smart-tv-y-soportes"
+    },
+    "Celulares": {
+        "category": 1233,
+        "sub_items": [],
+        "url": "/electro-y-tecnologia/celulares?order="
+    },
+    "Climatizaci\u00f3n": {
+        "category": 1652,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion?order="
+    },
+    "Heladeras y freezers": {
+        "category": 1661,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Heladeras-y-freezers?order"
+    },
+    "Lavado": {
+        "category": 1657,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Lavado?order="
+    },
+    "Termotanques y calefones": {
+        "category": 1663,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Termotanques-y-calefones?order="
+    },
+    "Cocinas y hornos": {
+        "category": 1658,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos?order="
+    },
+    "Peque\u00f1os electrodom\u00e9sticos": {
+        "category": 2800,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos?order="
+    },
+    "Cuidado personal y salud": {
+        "category": 2801,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud?order="
+    },
+    "Inform\u00e1tica y gaming": {
+        "category": 2802,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming?order="
+    },
+    "Audio": {
+        "category": 1217,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio?order="
+    },
+    "Muebles": {
+        "category": 1555,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles?order="
+    },
+    "Aire libre": {
+        "category": 2803,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Aire-libre?order="
+    },
+    "Ferreter\u00eda y pintura": {
+        "category": 2804,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Ferreteria-y-pintura?order="
+    },
+    "Tiempo libre y deportes": {
+        "category": 2805,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Tiempo-libre-y-deportes?order="
+    },
+    "Librer\u00eda": {
+        "category": 1132,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Libreria?order="
+    },
+    "Libros": {
+        "category": 1187,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Libros?oder="
+    },
+    "Jugueter\u00eda Carrefour": {
+        "category": 2806,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Jugueteria-Carrefour?order="
+    },
+    "Automotor": {
+        "category": 2807,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Automotor?order="
+    },
+    "Indumentaria": {
+        "category": 1426,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Indumentaria?order="
+    },
+    "Dormitorio": {
+        "category": 1504,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Dormitorio?order="
+    },
+    "Ba\u00f1o": {
+        "category": 2808,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Bano?order="
+    },
+    "Cocina y comedor": {
+        "category": 2809,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Cocina-y-comedor?order="
+    },
+    "Deco y organizaci\u00f3n": {
+        "category": 2810,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Deco-y-organizacion?order="
+    },
+    "Mermeladas y otros dulces": {
+        "category": 2811,
+        "sub_items": [],
+        "url": "/Desayuno-y-merienda/Mermeladas-y-otros-dulces"
+    },
+    "Leches": {
+        "category": 815,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches?order="
+    },
+    "Yogures": {
+        "category": 954,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Yogures"
+    },
+    "Mantecas, margarinas y levaduras": {
+        "category": 2812,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Mantecas-margarinas-y-levaduras?order="
+    },
+    "Dulce de leche": {
+        "category": 798,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Dulce-de-leche"
+    },
+    "Cremas de leche": {
+        "category": 2813,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Cremas-de-leche"
+    },
+    "Postres": {
+        "category": 177,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Postres"
+    },
+    "Huevos": {
+        "category": 124,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Huevos"
+    },
+    "Tapas y pastas frescas": {
+        "category": 2814,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Tapas-y-pastas-frescas"
+    },
+    "Dulce de membrillo y otros dulces": {
+        "category": 2815,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Dulce-de-membrillo-y-otros-dulces"
+    },
+    "Salchichas": {
+        "category": 313,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Salchichas"
+    },
+    "Quesos": {
+        "category": 857,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Quesos"
+    },
+    "Carne vacuna": {
+        "category": 336,
+        "sub_items": [],
+        "url": "/Carnes-y-pescados/Carne-vacuna"
+    },
+    "Pollo y granja": {
+        "category": 2816,
+        "sub_items": [],
+        "url": "/Carnes-y-pescados/Pollo-y-granja"
+    },
+    "Carne de cerdo": {
+        "category": 317,
+        "sub_items": [],
+        "url": "/Carnes-y-pescados/Carne-de-cerdo"
+    },
+    "Huella natural": {
+        "category": 2817,
+        "sub_items": [],
+        "url": "/Frutas-y-verduras/Huella-natural"
+    },
+    "Achuras y embutidos": {
+        "category": 186,
+        "sub_items": [],
+        "url": "/Carnes-y-pescados/Achuras-y-embutidos"
+    },
+    "Pescados y mariscos": {
+        "category": 2818,
+        "sub_items": [],
+        "url": "/Congelados/Pescados-y-mariscos"
+    },
+    "Carb\u00f3n y encendido": {
+        "category": 2819,
+        "sub_items": [],
+        "url": "/Carnes-y-pescados/Carbon-y-encendido?order="
+    },
+    "Frutas": {
+        "category": 10,
+        "sub_items": [],
+        "url": "/Frutas-y-verduras/Frutas"
+    },
+    "Verduras": {
+        "category": 2820,
+        "sub_items": [],
+        "url": "/Frutas-y-verduras/Verduras"
+    },
+    "Verduras cortadas y ensaladas preparadas": {
+        "category": 2821,
+        "sub_items": [],
+        "url": "/Frutas-y-verduras/Verduras-cortadas-y-ensaladas-preparadas"
+    },
+    "Frutos secos": {
+        "category": 210,
+        "sub_items": [],
+        "url": "/Frutas-y-verduras/Frutos-secos"
+    },
+    "Elaboraci\u00f3n Carrefour": {
+        "category": 2822,
+        "sub_items": [],
+        "url": "/Panaderia/Elaboracion-carrefour"
+    },
+    "Panificados": {
+        "category": 106,
+        "sub_items": [],
+        "url": "/Panaderia/Panificados"
+    },
+    "Pan rallado y rebozadores": {
+        "category": 2823,
+        "sub_items": [],
+        "url": "/Panaderia/Pan-rallado-y-rebozadores"
+    },
+    "Pizzas y prepizzas": {
+        "category": 2824,
+        "sub_items": [],
+        "url": "/Panaderia/Pizzas-y-prepizzas"
+    },
+    "Sandwiches, Empanadas y Tartas": {
+        "category": 2825,
+        "sub_items": [],
+        "url": "/Panaderia/Sandwiches-empanadas-y-tartas"
+    },
+    "Hamburguesas": {
+        "category": 1944,
+        "sub_items": [],
+        "url": "/Congelados/Hamburguesas"
+    },
+    "Nuggets y rebozados": {
+        "category": 2826,
+        "sub_items": [],
+        "url": "/Congelados/Nuggets-y-rebozados"
+    },
+    "Papas": {
+        "category": 2603,
+        "sub_items": [],
+        "url": "/Congelados/Papas"
+    },
+    "Verduras y frutas": {
+        "category": 2827,
+        "sub_items": [],
+        "url": "/Congelados/Verduras-y-frutas"
+    },
+    "Comidas y panificados": {
+        "category": 2828,
+        "sub_items": [],
+        "url": "/Congelados/Comidas-y-panificados"
+    },
+    "Helados y postres": {
+        "category": 175,
+        "sub_items": [],
+        "url": "/Congelados/Helados-y-postres"
+    },
+    "Pollos": {
+        "category": 2630,
+        "sub_items": [],
+        "url": "/Congelados/Pollos"
+    },
+    "Limpieza de la ropa": {
+        "category": 2829,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa"
+    },
+    "Limpieza del hogar": {
+        "category": 1119,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-pisos-y-muebles"
+    },
+    "Insecticidas": {
+        "category": 961,
+        "sub_items": [],
+        "url": "/Limpieza/Insecticidas"
+    },
+    "Limpieza de cocina": {
+        "category": 1118,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina"
+    },
+    "Lavandinas": {
+        "category": 959,
+        "sub_items": [],
+        "url": "/Limpieza/Lavandinas"
+    },
+    "Rollos de cocina y servilletas": {
+        "category": 2830,
+        "sub_items": [],
+        "url": "/Limpieza/Rollos-de-cocina-y-servilletas"
+    },
+    "Papeles higi\u00e9nicos": {
+        "category": 2831,
+        "sub_items": [],
+        "url": "/Limpieza/Papeles-higienicos"
+    },
+    "Limpieza de Ba\u00f1o": {
+        "category": 1117,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-bano"
+    },
+    "Desodorantes de ambiente": {
+        "category": 2160,
+        "sub_items": [],
+        "url": "/Limpieza/Desodorantes-de-ambiente"
+    },
+    "Art\u00edculos de limpieza": {
+        "category": 2832,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza"
+    },
+    "Cuidado del cabello": {
+        "category": 182,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello"
+    },
+    "Cuidado dental": {
+        "category": 2833,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-dental"
+    },
+    "Fragancias y maquillaje": {
+        "category": 2834,
+        "sub_items": [],
+        "url": "/Perfumeria/Fragancias-y-maquillaje"
+    },
+    "Cuidado maternal": {
+        "category": 2835,
+        "sub_items": [],
+        "url": "/Mundo-Bebe/Cuidado-maternal?order="
+    },
+    "Chupetes, mamaderas y accesorios": {
+        "category": 2836,
+        "sub_items": [],
+        "url": "/Mundo-Bebe/Chupetes-mamaderas-y-accesorios?order="
+    },
+    "Pelelas y ba\u00f1eras": {
+        "category": 2837,
+        "sub_items": [],
+        "url": "/Mundo-Bebe/Pelelas-y-baneras?order="
+    },
+    "Cochecitos y butacas": {
+        "category": 2838,
+        "sub_items": [],
+        "url": "/Mundo-Bebe/Cochecitos-y-butacas?order="
+    },
+    "Accesorios para mascotas": {
+        "category": 163,
+        "sub_items": [],
+        "url": "/mascotas/accesorios-para-mascotas"
+    },
+    "Higiene para mascotas": {
+        "category": 2839,
+        "sub_items": [],
+        "url": "/mascotas/higiene-para-mascotas"
+    },
+    "Adultos": {
+        "category": 2840,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Indumentaria/Adultos?order="
+    },
+    "Beb\u00e9s": {
+        "category": 1121,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Indumentaria/Bebes?order="
+    },
+    "Ni\u00f1os y ni\u00f1as": {
+        "category": 2841,
+        "sub_items": [],
+        "url": "/bazar-y-textil/indumentaria/ninos-y-ninas"
+    },
+    "Sin TACC": {
+        "category": 1826,
+        "sub_items": [],
+        "url": "/163?map=productClusterIds"
+    },
+    "Org\u00e1nico": {
+        "category": 2842,
+        "sub_items": [],
+        "url": "173?map=productClusterIds"
+    },
+    "Reducido y sin az\u00facar": {
+        "category": 2843,
+        "sub_items": [],
+        "url": "171?map=productClusterIds"
+    },
+    "Reducido y sin lactosa": {
+        "category": 2844,
+        "sub_items": [],
+        "url": "164?map=productClusterIds"
+    },
+    "Bajo en sodio y sin sal": {
+        "category": 2845,
+        "sub_items": [],
+        "url": "167?map=productClusterIds"
+    },
+    "Vegano y vegetariano": {
+        "category": 2846,
+        "sub_items": [],
+        "url": "165?map=productClusterIds"
+    },
+    "Huella Natural": {
+        "category": 2817,
+        "sub_items": [],
+        "url": "166?map=productClusterIds"
+    },
+    "Bebidas": {
+        "category": 48,
+        "sub_items": [],
+        "url": "/176?map=productClusterIds"
+    },
+    "Almac\u00e9n": {
+        "category": 123,
+        "sub_items": [],
+        "url": "/172?map=productClusterIds"
+    },
+    "Desayuno y merienda": {
+        "category": 2847,
+        "sub_items": [],
+        "url": "/179?map=productClusterIds"
+    },
+    "Golosinas y snacks": {
+        "category": 233,
+        "sub_items": [],
+        "url": "/181?map=productClusterIds"
+    },
+    "L\u00e1cteos y productos frescos": {
+        "category": 2848,
+        "sub_items": [],
+        "url": "/180?map=productClusterIds"
+    },
+    "Quesos y fiambres": {
+        "category": 2849,
+        "sub_items": [],
+        "url": "/186?map=productClusterIds"
+    },
+    "Congelados": {
+        "category": 741,
+        "sub_items": [],
+        "url": "/178?map=productClusterIds"
+    },
+    "Panader\u00eda": {
+        "category": 301,
+        "sub_items": [],
+        "url": "/184?map=productClusterIds"
+    },
+    "Perfumer\u00eda": {
+        "category": 992,
+        "sub_items": [],
+        "url": "/185?map=productClusterIds"
+    },
+    "Limpieza": {
+        "category": 950,
+        "sub_items": [],
+        "url": "/182?map=productClusterIds"
+    },
+    "Mundo beb\u00e9": {
+        "category": 2850,
+        "sub_items": [],
+        "url": "/177?map=productClusterIds"
+    },
+    "Mascotas": {
+        "category": 158,
+        "sub_items": [],
+        "url": "/183?map=productClusterIds"
+    },
+    "Hogar y bazar": {
+        "category": 2851,
+        "sub_items": [],
+        "url": "/175?map=productClusterIds"
+    },
+    "Sin gluten": {
+        "category": 2852,
+        "sub_items": [],
+        "url": "/188?map=productClusterIds"
+    },
+    "Electro": {
+        "category": 1259,
+        "sub_items": [],
+        "url": "/4250?map=productClusterIds&order="
+    },
+    "Smart TV": {
+        "category": 2853,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Smart-TV-y-soportes/Smart-TV?order="
+    },
+    "Soportes y accesorios": {
+        "category": 1688,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Smart-TV-y-soportes/Soportes-y-accesorios?order="
+    },
+    "Celulares libres": {
+        "category": 2643,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Celulares/Celulares-libres?order="
+    },
+    "Tel\u00e9fonos fijos e inal\u00e1mbricos": {
+        "category": 2854,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Celulares/Telefonos-fijos-e-inalambricos?order="
+    },
+    "Accesorios de celulares": {
+        "category": 2855,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Celulares/Accesorios-de-celulares?order="
+    },
+    "Aires acondicionados": {
+        "category": 1653,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion/Aires-acondicionados?order="
+    },
+    "Ventiladores y climatizadores": {
+        "category": 2856,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion/Ventiladores-y-climatizadores?order="
+    },
+    "Calefacci\u00f3n el\u00e9ctrica": {
+        "category": 1445,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion/Calefaccion-electrica?order="
+    },
+    "Calefacci\u00f3n a gas": {
+        "category": 1443,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion/Calefaccion-a-gas?order="
+    },
+    "Calefacci\u00f3n a le\u00f1a": {
+        "category": 1656,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Climatizacion/Calefaccion-a-lena?order="
+    },
+    "Heladeras": {
+        "category": 1550,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Heladeras-y-freezers/Heladeras?order="
+    },
+    "Freezers": {
+        "category": 1556,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Heladeras-y-freezers/Freezers?order="
+    },
+    "Cavas": {
+        "category": 1478,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Heladeras-y-freezers/Cavas?order="
+    },
+    "Lavarropas": {
+        "category": 1464,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Lavado/Lavarropas?order="
+    },
+    "Secarropas": {
+        "category": 1466,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Lavado/Secarropas?order="
+    },
+    "Lavasecarropas": {
+        "category": 1465,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Lavado/Lavasecarropas?order="
+    },
+    "Lavavajillas": {
+        "category": 1467,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Lavado/Lavavajillas?order="
+    },
+    "Calefones": {
+        "category": 1664,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Termotanques-y-calefones/Calefones"
+    },
+    "Calefones el\u00e9ctricos": {
+        "category": 2857,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Termotanques-y-calefones/Calefones-a-gas?order="
+    },
+    "Termotanques a gas": {
+        "category": 1861,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Termotanques-y-calefones/Termotanques-a-gas?order="
+    },
+    "Termotanques el\u00e9ctricos": {
+        "category": 1862,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Termotanques-y-calefones/Termotanques-electricos?order="
+    },
+    "Cocinas": {
+        "category": 1471,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos/Cocinas?order="
+    },
+    "Anafes": {
+        "category": 1473,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos/Anafes?order="
+    },
+    "Hornos": {
+        "category": 1472,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos/Hornos?order="
+    },
+    "Microondas": {
+        "category": 1474,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos/Microondas?order="
+    },
+    "Campanas y purificadores": {
+        "category": 2858,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cocinas-y-hornos/Campanas-y-purificadores?order="
+    },
+    "Cafeteras": {
+        "category": 1585,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Cafeteras?order="
+    },
+    "Jugueras y exprimidores": {
+        "category": 1671,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Jugueras-y-exprimidores?order="
+    },
+    "Tostadoras y sandwicheras": {
+        "category": 2859,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Tostadoras-y-sandwicheras?order="
+    },
+    "Licuadoras, procesadoras y gasificadoras": {
+        "category": 2860,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Licuadoras-procesadoras-y-gasificadoras?order="
+    },
+    "Batidoras": {
+        "category": 1447,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Batidoras?order="
+    },
+    "Cocci\u00f3n": {
+        "category": 2861,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Coccion?order="
+    },
+    "Planchas": {
+        "category": 1462,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Planchas?order="
+    },
+    "Aspiradoras": {
+        "category": 1461,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Aspiradoras?order="
+    },
+    "": {
+        "category": 2862,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Pequenos-electrodomesticos/Maquinas-de-coser?order="
+    },
+    "Planchitas de pelo": {
+        "category": 1488,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud/Planchitas-de-pelo?order="
+    },
+    "Secadores de pelo": {
+        "category": 1489,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud/Secadores-de-pelo?order="
+    },
+    "Depiladoras": {
+        "category": 1490,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud/Depiladoras?order="
+    },
+    "Afeitadoras, cortabarba y cortapelo": {
+        "category": 2863,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud/Afeitadoras-cortabarbas-y-cortapelos?order="
+    },
+    "Salud y bienestar": {
+        "category": 1680,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Cuidado-personal-y-salud/Salud-y-bienestar?order="
+    },
+    "Notebooks y PC": {
+        "category": 2864,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Notebooks-y-PC?order="
+    },
+    "Consolas y joysticks": {
+        "category": 2865,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Consolas-y-joysticks?order="
+    },
+    "Impresoras y cartuchos": {
+        "category": 2866,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Impresoras-y-cartuchos?order="
+    },
+    "Tablets": {
+        "category": 1350,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Tablets?order="
+    },
+    "Monitores": {
+        "category": 1302,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Monitores-y-proyectores?order="
+    },
+    "Teclados y mouse": {
+        "category": 2867,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Teclados-y-mouse?order="
+    },
+    "Accesorios de inform\u00e1tica": {
+        "category": 2868,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Informatica-y-gaming/Accesorios-de-informatica?order="
+    },
+    "Gaming": {
+        "category": 1548,
+        "sub_items": [],
+        "url": "/9472?map=productClusterIds"
+    },
+    "Parlantes port\u00e1tiles": {
+        "category": 2869,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio/Parlantes-portatiles?order="
+    },
+    "Equipos de sonido": {
+        "category": 2870,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio/Equipos-de-sonido?order="
+    },
+    "Auriculares": {
+        "category": 1206,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio/Auriculares?order="
+    },
+    "Audio para autos": {
+        "category": 1697,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio/Audio-para-autos?order="
+    },
+    "Radios": {
+        "category": 1331,
+        "sub_items": [],
+        "url": "/Electro-y-tecnologia/Audio/Radios?order="
+    },
+    "Sillas y banquetas": {
+        "category": 2871,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Sillas-y-banquetas?order="
+    },
+    "Mesas y escritorios": {
+        "category": 2872,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Mesas-y-escritorios?order="
+    },
+    "Sillones": {
+        "category": 1766,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Sillones?order="
+    },
+    "Bibliotecas y organizadores": {
+        "category": 2873,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Bibliotecas-y-organizadores?order="
+    },
+    "Camas y mesas de luz": {
+        "category": 2874,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Camas-y-mesas-de-luz?order="
+    },
+    "Colchones y sommiers": {
+        "category": 1768,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Muebles/Colchones-y-sommiers?order="
+    },
+    "Construcci\u00f3n": {
+        "category": 1711,
+        "sub_items": [],
+        "url": "/bazar-y-textil/ferreteria-y-pintura/construccion"
+    },
+    "Bolsos y valijas": {
+        "category": 2875,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Tiempo-libre-y-deportes/Bolsos-y-valijas?order="
+    },
+    "Accesorios de librer\u00eda": {
+        "category": 2876,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Libreria/Accesorios-de-libreria"
+    },
+    "Autoayuda": {
+        "category": 2877,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Libros/Autoayuda"
+    },
+    "Humanidades": {
+        "category": 2878,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Libros/Humanidades"
+    },
+    "Ni\u00f1os y Ni\u00f1as": {
+        "category": 2841,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Indumentaria/Ninos-y-ninas?order="
+    },
+    "Manteles y accesorios de cocina": {
+        "category": 2879,
+        "sub_items": [],
+        "url": "/bazar-y-textil/cocina-y-comedor/manteles-y-accesorios-de-cocina"
+    },
+    "Papeles de cocina y bolsas": {
+        "category": 2880,
+        "sub_items": [],
+        "url": "/Bazar-y-textil/Cocina-y-comedor/Papeles-y-bolsas"
+    },
+    "Budines y bizcochuelos": {
+        "category": 2881,
+        "sub_items": [],
+        "url": "/Desayuno-y-merienda/Budines-y-magdalenas/Budines"
+    },
+    "Miel": {
+        "category": 2882,
+        "sub_items": [],
+        "url": "/Desayuno-y-merienda/Mermeladas-y-otros-dulces/Miel"
+    },
+    "Mermeladas, dulces y jaleas": {
+        "category": 2883,
+        "sub_items": [],
+        "url": "/Desayuno-y-merienda/Mermeladas-y-otros-dulces/Mermeladas-dulces-y-jaleas"
+    },
+    "Leches enteras": {
+        "category": 2884,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches/Leches-enteras?order="
+    },
+    "Leches descremadas": {
+        "category": 2885,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches/Leches-descremadas?order="
+    },
+    "Leches vegetales": {
+        "category": 2886,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches/Leches-vegetales?order="
+    },
+    "Leches saborizadas": {
+        "category": 2887,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches/Leches-saborizadas?order="
+    },
+    "Leches en polvo": {
+        "category": 2888,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Leches/Leches-en-polvo?order="
+    },
+    "Yogures enteros": {
+        "category": 2889,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Yogures/Yogures-enteros?order="
+    },
+    "Yogures descremados": {
+        "category": 2890,
+        "sub_items": [],
+        "url": "/Lacteos-y-productos-frescos/Yogures/Yogures-descremados?order="
+    },
+    "Especialidades dulces": {
+        "category": 2891,
+        "sub_items": [],
+        "url": "/Panaderia/Elaboracion-carrefour/Especialidades-dulces"
+    },
+    "Especialidades saladas": {
+        "category": 2892,
+        "sub_items": [],
+        "url": "/Panaderia/Elaboracion-carrefour/Especialidades-saladas"
+    },
+    "Panes lacteados y de mesa": {
+        "category": 2893,
+        "sub_items": [],
+        "url": "/Panaderia/Panificados/Panes-lacteados-y-de-mesa"
+    },
+    "Pan para hamburguesas y panchos": {
+        "category": 2894,
+        "sub_items": [],
+        "url": "/Panaderia/Panificados/Pan-para-hamburguesas-y-panchos"
+    },
+    "Tortillas": {
+        "category": 2895,
+        "sub_items": [],
+        "url": "/Panaderia/Panificados/Tortillas"
+    },
+    "Jabones para la ropa": {
+        "category": 2896,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Jabones-para-la-ropa"
+    },
+    "Prelavado y quitamanchas": {
+        "category": 2897,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Prelavado-y-quitamanchas"
+    },
+    "Suavizantes para la ropa": {
+        "category": 2898,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Suavizantes-para-la-ropa"
+    },
+    "Aprestos": {
+        "category": 229,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Aprestos"
+    },
+    "Perfumantes para tela": {
+        "category": 2899,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Perfumantes-para-tela"
+    },
+    "Cuidado del calzado": {
+        "category": 172,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-la-ropa/Cuidado-del-calzado"
+    },
+    "Limpiadores de piso": {
+        "category": 2900,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-pisos-y-muebles/Limpiadores-de-piso"
+    },
+    "Autobrillos y ceras para pisos": {
+        "category": 2901,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-pisos-y-muebles/Autobrillos-y-ceras-para-pisos"
+    },
+    "Limpiavidrios": {
+        "category": 2902,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-pisos-y-muebles/Limpiavidrios"
+    },
+    "Lustramuebles": {
+        "category": 2903,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-pisos-y-muebles/Lustramuebles"
+    },
+    "Detergentes": {
+        "category": 943,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Detergentes"
+    },
+    "Esponjas y guantes": {
+        "category": 2904,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Esponjas-y-guantes"
+    },
+    "Limpiadores l\u00edquidos": {
+        "category": 2905,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Limpiadores-liquidos"
+    },
+    "Limpiadores cremosos": {
+        "category": 2906,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Limpiadores-cremosos"
+    },
+    "Para el lavavajillas": {
+        "category": 2907,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Para-el-lavavajillas"
+    },
+    "Palillos, velas y f\u00f3sforos": {
+        "category": 2908,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-cocina/Palillos-velas-y-fosforos"
+    },
+    "Limpiadores de ba\u00f1o": {
+        "category": 2909,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-bano/Limpiadores-de-bano"
+    },
+    "Canastas y bloques": {
+        "category": 2910,
+        "sub_items": [],
+        "url": "/Limpieza/Limpieza-de-bano/Canastas-y-bloques"
+    },
+    "Difusores y repuestos": {
+        "category": 2911,
+        "sub_items": [],
+        "url": "/Limpieza/Desodorantes-de-ambiente/Difusores-y-repuestos"
+    },
+    "Antihumedad": {
+        "category": 2912,
+        "sub_items": [],
+        "url": "/Limpieza/Desodorantes-de-ambiente/Antihumedad"
+    },
+    "Desodorantes y desinfectantes": {
+        "category": 2913,
+        "sub_items": [],
+        "url": "/Limpieza/Desodorantes-de-ambiente/Desodorantes-y-desinfectantes"
+    },
+    "Baldes y palanganas": {
+        "category": 2914,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Baldes-y-palanganas"
+    },
+    "Cestos de basura": {
+        "category": 2915,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Cestos-de-basura"
+    },
+    "Bolsas de residuos": {
+        "category": 549,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Bolsas-de-residuos"
+    },
+    "Escobas, secadores y palas": {
+        "category": 2916,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Escobas-secadores-y-palas"
+    },
+    "Trapos y pa\u00f1os": {
+        "category": 2917,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Trapos-y-panos"
+    },
+    "Esponjas": {
+        "category": 2918,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Esponjas"
+    },
+    "Guantes": {
+        "category": 347,
+        "sub_items": [],
+        "url": "/Limpieza/Articulos-de-limpieza/Guantes"
+    },
+    "Shampoos": {
+        "category": 2919,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Shampoos"
+    },
+    "Acondicionadores": {
+        "category": 2920,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Acondicionadores"
+    },
+    "Tratamientos capilares": {
+        "category": 2921,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Tratamientos-capilares"
+    },
+    "Cremas para peinar": {
+        "category": 596,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Cremas-para-peinar"
+    },
+    "Coloraci\u00f3n": {
+        "category": 576,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Coloracion"
+    },
+    "Gel y fijadores": {
+        "category": 2922,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Gel-y-fijadores"
+    },
+    "Piojicidas": {
+        "category": 252,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Piojicidas"
+    },
+    "Accesorios para el cabello": {
+        "category": 2923,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-del-cabello/Accesorios-para-el-cabello"
+    },
+    "Pasta dental": {
+        "category": 28,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-dental/Pasta-dental"
+    },
+    "Enjuagues bucales": {
+        "category": 2924,
+        "sub_items": [],
+        "url": "/Perfumeria/Cuidado-dental/Enjuagues-bucales"
+    },
+    "En aerosol": {
+        "category": 2925,
+        "sub_items": [],
+        "url": "/Perfumeria/Antitranspirantes-y-desodorantes/En-aerosol"
+    },
+    "En barra y roll on": {
+        "category": 2926,
+        "sub_items": [],
+        "url": "/Perfumeria/Antitranspirantes-y-desodorantes/En-barra-y-roll-on"
+    },
+    "Preservativos": {
+        "category": 1135,
+        "sub_items": [],
+        "url": "/Perfumeria/Farmacia/Preservativos"
+    },
+    "Fragancias": {
+        "category": 1994,
+        "sub_items": [],
+        "url": "/Perfumeria/Fragancias-y-maquillaje/Fragancias"
+    },
+    "Maquillajes": {
+        "category": 2927,
+        "sub_items": [],
+        "url": "/Perfumeria/Fragancias-y-maquillaje/Maquillajes"
+    },
+    "Shampoos y acondicionadores": {
+        "category": 2928,
+        "sub_items": [],
+        "url": "/Mundo-Bebe/Para-el-bano/Shampoos-y-acondicionadores"
+    }
+}
