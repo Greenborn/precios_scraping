@@ -21,21 +21,28 @@ const ENVIOS_HABILITADOS = true
 
 app.use(express.static(__dirname + '/latency_public'));
 
-let envios_server = {
-    'registrar_precio': {
-        "data_enviar":[],
-        "data_enviada": [],
-        "data_error": [],
-        "data_error_status": [],
-        "url": process.env.URL_BACK  + "/publico/productos/importar"
+const TIPOS_ENVIO = [
+    'registrar_precio', 'registrar_oferta'
+]
+
+let runtime = {
+    "envios_server": {
+        'registrar_precio': {
+            "data_enviar":[],
+            "data_enviada": [],
+            "data_error": [],
+            "data_error_status": [],
+            "url": process.env.URL_BACK  + "/publico/productos/importar"
+        },
+        'registrar_oferta': {
+            "data_enviar":[],
+            "data_enviada": [],
+            "data_error": [],
+            "data_error_status": [],
+            "url": process.env.URL_BACK  + "/publico/productos/importar_oferta"
+        }
     },
-    'registrar_oferta': {
-        "data_enviar":[],
-        "data_enviada": [],
-        "data_error": [],
-        "data_error_status": [],
-        "url": process.env.URL_BACK  + "/publico/productos/importar_oferta"
-    }
+    "estado_bot": {}
 }
 
 io.on('connection', socket => {
@@ -49,13 +56,20 @@ io.on('connection', socket => {
   });
 
   socket.on('registrar_precio', ( data ) => {
-    console.log('registrar_precio')
-    envios_server['registrar_precio'].data_enviar.push(data)
+    const endpoint = 'registrar_precio'
+    console.log(endpoint)
+    if (runtime.estado_bot[data.branch_id] == undefined){
+        runtime.estado_bot[data.branch_id] = {}
+    }
+    //Se registra última categoria procesada
+    runtime.estado_bot[data.branch_id]["category"] = data?.category
+    runtime.envios_server[endpoint].data_enviar.push(data)
   });
 
   socket.on('registrar_oferta', ( data ) => {
-    console.log('registrar_oferta')
-    envios_server['registrar_oferta'].data_enviar.push(data)
+    const endpoint = 'registrar_oferta'
+    console.log(endpoint)
+    runtime.envios_server[endpoint].data_enviar.push(data)
   });
 
   socket.on('disconnect', () => {
@@ -65,15 +79,17 @@ io.on('connection', socket => {
 
 let ciclo_numero = 0
 
+function hay_envio_pendiente(){
+    return runtime.envios_server['registrar_precio'].data_enviar.length > 0 
+            || runtime.envios_server['registrar_oferta'].data_enviar.length > 0
+}
+
 async function procesar_envios() {
     ciclo_numero ++
-    let envio_pendiente = envios_server['registrar_precio'].data_enviar.length > 0 
-                            || envios_server['registrar_oferta'].data_enviar.length > 0
 
-    if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !envio_pendiente) {
-        let tipos_envios = Object.keys(envios_server)
-        for (let i = 0; i < tipos_envios.length; i++) {
-            let envio_info  = envios_server[tipos_envios[i]]
+    if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !hay_envio_pendiente()) {
+        for (let i = 0; i < TIPOS_ENVIO.length; i++) {
+            let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
             let lista_envio = null
             if (ciclo_numero % 2 == 0)
                 lista_envio = envio_info.data_error
@@ -83,14 +99,14 @@ async function procesar_envios() {
             let cantidad    = lista_envio.length
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
-                console.log( tipos_envios[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
+                console.log( TIPOS_ENVIO[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
                 
-                if (tipos_envios[i] === 'registrar_precio' && elemento?.name == undefined){
-                    envios_server['registrar_oferta'].data_enviar.push(elemento)
+                if (TIPOS_ENVIO[i] === 'registrar_precio' && elemento?.name == undefined){
+                    runtime.envios_server['registrar_oferta'].data_enviar.push(elemento)
                     console.log('recatalogando')
                     return
-                } else if (tipos_envios[i] === 'registrar_oferta' && elemento?.titulo == undefined){
-                    envios_server['registrar_precio'].data_enviar.push(elemento)
+                } else if (TIPOS_ENVIO[i] === 'registrar_oferta' && elemento?.titulo == undefined){
+                    runtime.envios_server['registrar_precio'].data_enviar.push(elemento)
                     console.log('recatalogando')
                     return
                 } 
@@ -120,29 +136,27 @@ async function procesar_envios() {
         return
     }
     
-
-    let tipos_envios = Object.keys(envios_server)
-    for (let i = 0; i < tipos_envios.length; i++) {
+    for (let i = 0; i < TIPOS_ENVIO.length; i++) {
         for (let j = 0; j < RAFAGAS_ENVIO; j++) {
-            let envio_info  = envios_server[tipos_envios[i]]
+            let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
             let lista_envio = envio_info.data_enviar
             let url_envio   = envio_info.url
             let cantidad = lista_envio.length
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
                 console.log( 
-                    tipos_envios[i],
+                    TIPOS_ENVIO[i],
                     ' Por enviar ', cantidad, 
                     ' enviadas ', envio_info.data_enviada.length, 
                     ' errores ', envio_info.data_error.length,  
                     ' errores status ', envio_info.data_error_status.length)
                 
-                if (tipos_envios[i] === 'registrar_precio' && elemento?.name == undefined){
-                    envios_server['registrar_oferta'].data_enviar.push(elemento)
+                if (TIPOS_ENVIO[i] === 'registrar_precio' && elemento?.name == undefined){
+                    runtime.envios_server['registrar_oferta'].data_enviar.push(elemento)
                     console.log('recatalogando')
                     return
-                } else if (tipos_envios[i] === 'registrar_oferta' && elemento?.titulo == undefined){
-                    envios_server['registrar_precio'].data_enviar.push(elemento)
+                } else if (TIPOS_ENVIO[i] === 'registrar_oferta' && elemento?.titulo == undefined){
+                    runtime.envios_server['registrar_precio'].data_enviar.push(elemento)
                     console.log('recatalogando')
                     return
                 } 
@@ -189,18 +203,22 @@ setInterval(async () => {
             try {
                 console.log("Se encontro archivo runtime, procesando")
                 fs.readFile("./resultados/runtime"+fecha+".json", function(err, data) {
-                    // Converting to JSON
+                    // En runtime se concatena el estado actual al almacenado en el archivo
                     const data_runtime = JSON.parse(data);
                     
-                    envios_server['registrar_precio'].data_enviar  = envios_server['registrar_precio'].data_enviar.concat(data_runtime['registrar_precio'].data_enviar)
-                    envios_server['registrar_precio'].data_enviada = envios_server['registrar_precio'].data_enviada.concat(data_runtime['registrar_precio'].data_enviada)
-                    envios_server['registrar_precio'].data_error   = envios_server['registrar_precio'].data_error.concat(data_runtime['registrar_precio'].data_error)
-                    envios_server['registrar_precio'].data_error_status   = envios_server['registrar_precio'].data_error_status.concat(data_runtime['registrar_precio'].data_error_status)
+                    for (let i=0; i < TIPOS_ENVIO.length; i++){
+                        let t_envio       = TIPOS_ENVIO[i]
+                        let runtime_envio = runtime.envios_server[t_envio]
+                        let file_envios   = data_runtime.envios_server[t_envio]
 
-                    envios_server['registrar_oferta'].data_enviar  = envios_server['registrar_oferta'].data_enviar.concat(data_runtime['registrar_oferta'].data_enviar)
-                    envios_server['registrar_oferta'].data_enviada = envios_server['registrar_oferta'].data_enviada.concat(data_runtime['registrar_oferta'].data_enviada)
-                    envios_server['registrar_oferta'].data_error   = envios_server['registrar_oferta'].data_error.concat(data_runtime['registrar_oferta'].data_error)
-                    envios_server['registrar_oferta'].data_error_status   = envios_server['registrar_oferta'].data_error_status.concat(data_runtime['registrar_oferta'].data_error_status)
+                        runtime_envio.data_enviar       = runtime_envio.data_enviar.concat(file_envios.data_enviar)
+                        runtime_envio.data_enviada      = runtime_envio.data_enviada.concat(file_envios.data_enviada)
+                        runtime_envio.data_error        = runtime_envio.data_error.concat(file_envios.data_error)
+                        runtime_envio.data_error_status = runtime_envio.data_error_status.concat(file_envios.data_error_status)
+                    }
+                    runtime.estado_bot = data_runtime.estado_bot
+
+                    BotsCtrl.comenzar_ejecucion( runtime.estado_bot )
                 });
             } catch (error) {
                 console.log(error)
@@ -208,13 +226,14 @@ setInterval(async () => {
             }
         } else {
             console.log("no hay archivo runtime encontrado")
+            BotsCtrl.comenzar_ejecucion( runtime.estado_bot )
         }
         
     } else {
         let HOY = new Date()
         let fecha = String(HOY.getFullYear())+String(HOY.getMonth())+String(HOY.getDate())
         try {
-            fs.writeFile("./resultados/runtime"+fecha+".json", JSON.stringify(envios_server), err => {
+            fs.writeFile("./resultados/runtime"+fecha+".json", JSON.stringify(runtime), err => {
                 console.log("Done writing"); // Success
             })
         } catch (error) {
