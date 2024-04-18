@@ -73,21 +73,14 @@ def procesar_resultados(res_consulta, categoria):
 
 driver = get_driver()
 
-procesar = True
-print(CATEGORIA_INICIO)
-
-if (CATEGORIA_INICIO != None):
-    procesar = False
-
 for categoria in CATEGORIAS:
-    print("Procesado categoria: ",categoria)
-
-    if (categoria == CATEGORIA_INICIO):
-        print(categoria, CATEGORIA_INICIO)
-        procesar = True
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
         continue
 
-    if (procesar == True):
+    if (PROCESAR == True):
+        print("Procesado categoria: ",categoria)
         url = CATEGORIAS[categoria]['url']
         print("haciendo petición a: ", url)
 
@@ -103,10 +96,6 @@ for categoria in CATEGORIAS:
         #try:
         time.sleep(2)
         procesar_resultados(res_consulta, categoria)
-        """except Exception as e:
-            print(e)
-            print("error procesando")
-            continue"""
 
     else:
         print("ignorando categoria: ", categoria)

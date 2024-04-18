@@ -23,6 +23,12 @@ except:
 with open( RUTA_CONFIG , "r") as archivo:
     CONFIG = json.load(archivo)
 
+PROCESAR = True
+print(CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+
+if (CATEGORIA_INICIO != None or CATEGORIA_INICIO_ID != None):
+    PROCESAR = False
+
 class ClienteCoordinador:
     def __init__(self):
         self.sio = socketio.SimpleClient()

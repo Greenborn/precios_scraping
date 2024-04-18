@@ -52,14 +52,24 @@ def procesar_resultados(res_consulta):
 driver = get_driver()
 
 for categoria in CATEGORIAS:
-    print("Procesado categoria: ",categoria)
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
+        continue
 
-    url = CATEGORIAS[categoria]['url']
-    print("haciendo petición a: ", url)
-    driver.get(url)
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-    res_consulta = driver.page_source
-    
-    scroll_hasta_el_final(driver)
-    procesar_resultados(res_consulta)
+    if (PROCESAR == True):
+        print("Procesado categoria: ",categoria)
+
+        url = CATEGORIAS[categoria]['url']
+        print("haciendo petición a: ", url)
+        driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+        res_consulta = driver.page_source
+        
+        scroll_hasta_el_final(driver)
+        procesar_resultados(res_consulta)
+        
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
     

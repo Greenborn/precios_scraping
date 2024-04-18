@@ -72,12 +72,6 @@ def procesar_resultados(res_consulta, categoria):
         
         print("")
 
-def hacer_clic_por_texto(driver, texto):
-    try:
-        elemento = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//*[contains(text(), '{texto}')]")))
-        elemento.click()
-    except:
-        print("No se pudo hacer clic en el elemento")
     
 driver.get("https://www.simplicity.com.ar/")
 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
@@ -87,23 +81,16 @@ driver.execute_script("localStorage.setItem('modalState', '"+modal_state+"');")
 
 time.sleep(2)
 
-procesar = True
-print(CATEGORIA_INICIO)
-
-if (CATEGORIA_INICIO != None):
-    procesar = False
-
 for categoria in CATEGORIAS:
-    path = 'salida/productos_cat'+fecha+'.json'
-    url = CATEGORIAS[categoria]['url']
-
-    if (categoria == CATEGORIA_INICIO):
-        print(categoria, CATEGORIA_INICIO)
-        procesar = True
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
         continue
 
-    if (procesar == True):
-        print("haciendo petición a: ", url, procesar)
+    if (PROCESAR == True):
+        url = CATEGORIAS[categoria]['url']
+
+        print("haciendo petición a: ", url)
         driver.get(url)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
         
@@ -111,7 +98,6 @@ for categoria in CATEGORIAS:
         res_consulta = driver.page_source
         procesar_resultados(res_consulta, categoria)
 
-        
     else:
         print("ignorando categoria: ", categoria)
         continue

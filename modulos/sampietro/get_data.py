@@ -17,20 +17,14 @@ fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 diccio_nam = {}
 
-procesar = True
-print(CATEGORIA_INICIO)
-
-if (CATEGORIA_INICIO != None):
-    procesar = False
-
 for categoria in CATEGORIAS:
 
-    if (categoria == CATEGORIA_INICIO):
-        print(categoria, CATEGORIA_INICIO)
-        procesar = True
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
         continue
     
-    if (procesar == True):
+    if (PROCESAR == True):
         id = CATEGORIAS[categoria]['id']
         url = "https://sampietroweb.com.ar/Item/Search/?page=1&id="+str(id)+"&recsPerPage=2400&order=id&sort=False&itemtype=Category%2C%20Content%2C%20Product&term=&getFilterData=True&filters=&fields=Name"
         response = requests.get(url)

@@ -37,5 +37,6 @@
     {"d":"sampietro", "e": "get_data", "branch_id": 137},
     {"d":"simplicity", "e": "get_data", "branch_id": 56},
     {"d":"sumahogar", "e": "get_data", "branch_id": 92},
-    {"d":"chocoyval", "e": "get_data", "branch_id": 152}
+    {"d":"chocoyval", "e": "get_data", "branch_id": 152},
+    {"d":"chasqui", "e": "get_data", "branch_id": 138}
 ]

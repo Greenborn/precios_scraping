@@ -14,31 +14,40 @@ BRANCH = 98
 fecha = datetime.datetime.now().strftime("%Y%m%d")
 
 for categoria in CATEGORIAS:
-    print("Procesado categoria: ", categoria)
-    url = CATEGORIAS[categoria]["url"]
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
+        continue
 
-    response = requests.get(url)
-    response = response.text
+    if (PROCESAR == True):
+        print("Procesado categoria: ", categoria)
+        url = CATEGORIAS[categoria]["url"]
 
-    soup = BeautifulSoup(response, 'html.parser')
-    products_html = soup.find_all(class_="col-9 col-sm-6 col-md-4 col-xl-3 mb-4 mx-auto")
+        response = requests.get(url)
+        response = response.text
 
-    for product_html in products_html:
-        try:
-            producto = {
-                "vendor_id": 58,
-                "name": (categoria + " - " + product_html.find(class_="mb-0 text-primary fs").text.strip().replace("\n","")).strip(),
-                "price": float(product_html.find(class_="precio-color text-bold text-danger fs").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
-                "is_ext": "",
-                "url": url,
-                "branch_id": BRANCH,
-                "category": CATEGORIAS[categoria]["category"],
-                "key": CONFIG["BACK_KEY"]
-            }
-        except:
-            print("producto", product_html, "no procesado")
-            continue
-        cliente.sio.emit('registrar_precio', producto)
-        
-        print(producto)
-        print("")
+        soup = BeautifulSoup(response, 'html.parser')
+        products_html = soup.find_all(class_="col-9 col-sm-6 col-md-4 col-xl-3 mb-4 mx-auto")
+
+        for product_html in products_html:
+            try:
+                producto = {
+                    "vendor_id": 58,
+                    "name": (categoria + " - " + product_html.find(class_="mb-0 text-primary fs").text.strip().replace("\n","")).strip(),
+                    "price": float(product_html.find(class_="precio-color text-bold text-danger fs").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
+                    "is_ext": "",
+                    "url": url,
+                    "branch_id": BRANCH,
+                    "category": CATEGORIAS[categoria]["category"],
+                    "key": CONFIG["BACK_KEY"]
+                }
+            except:
+                print("producto", product_html, "no procesado")
+                continue
+            cliente.sio.emit('registrar_precio', producto)
+            
+            print(producto)
+            print("")
+    else:
+        print("ignorando categoria: ", categoria)
+        continue

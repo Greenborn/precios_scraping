@@ -85,23 +85,15 @@ def procesar_resultados(res_consulta, categoria):
 
     return cant
 
-procesar = True
-print(CATEGORIA_INICIO)
-
-if (CATEGORIA_INICIO != None):
-    procesar = False
-
 for categoria in CATEGORIAS:
-    url = CATEGORIAS[categoria]['url']
-    path = 'salida/productos_cat'+fecha+'.json'
-    print(categoria, url)
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
+        continue    
 
-    if (categoria == CATEGORIA_INICIO):
-        print(categoria, CATEGORIA_INICIO)
-        procesar = True
-        continue
-
-    if (procesar == True):
+    if (PROCESAR == True):
+        url = CATEGORIAS[categoria]['url']
+        print(categoria, url)
         page = 1
         while True:
             url_page = BASE_URL + url + "?page=" + str(page)

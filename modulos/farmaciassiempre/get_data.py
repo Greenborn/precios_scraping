@@ -52,33 +52,32 @@ def procesar_resultados(res_consulta, categoria):
 
 driver = get_driver()
 
-def hacer_clic_por_texto(driver, texto):
-    try:
-        elemento = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, f"//*[contains(text(), '{texto}')]")))
-        elemento.click()
-    except:
-        print("No se pudo hacer clic en el elemento")
-        return False
-    return True
-
 for categoria in CATEGORIAS:
-    print("Procesado categoria: ",categoria)
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
+        continue
 
-    url = CATEGORIAS[categoria]['url']
-    print("haciendo petición a: ", url)
-    driver.get(url)
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
-    
-    
-    scroll_hasta_el_final(driver)
-    while True:
-        res = hacer_clic_por_texto(driver, 'Ver más productos')
-        time.sleep(3)
+    if (PROCESAR == True):
+        print("Procesado categoria: ",categoria)
+        url = CATEGORIAS[categoria]['url']
+        print("haciendo petición a: ", url)
+        driver.get(url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'html')))
+        
+        
         scroll_hasta_el_final(driver)
-        if not res:
-            break
+        while True:
+            res = hacer_clic_por_texto(driver, 'Ver más productos')
+            time.sleep(3)
+            scroll_hasta_el_final(driver)
+            if not res:
+                break
 
-    res_consulta = driver.page_source
-    procesar_resultados(res_consulta, categoria)
+        res_consulta = driver.page_source
+        procesar_resultados(res_consulta, categoria)
+    else:
+        print("ignorando categoria: ", categoria)
+        continue
     
 print("ofertas ", len(ofertas_))

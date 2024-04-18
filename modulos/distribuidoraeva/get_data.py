@@ -66,22 +66,15 @@ def procesar_elementos( url, cat_id, categoria, id_ext ):
     
     return cantidad
 
-procesar = True
-print(CATEGORIA_INICIO)
-
-if (CATEGORIA_INICIO != None):
-    procesar = False
-
 total = 0
 for categoria in CATEGORIAS:
-    url = CATEGORIAS[categoria]['url']
-
-    if (categoria == CATEGORIA_INICIO):
-        print(categoria, CATEGORIA_INICIO)
-        procesar = True
+    if (categoria == CATEGORIA_INICIO or CATEGORIAS[categoria]["category"] == CATEGORIA_INICIO_ID):
+        print(categoria, CATEGORIA_INICIO, CATEGORIA_INICIO_ID)
+        PROCESAR = True
         continue
-
-    if (procesar == True):
+    
+    if (PROCESAR == True):
+        url = CATEGORIAS[categoria]['url']
         total = total + procesar_elementos( url, CATEGORIAS[categoria]["category"],  categoria, CATEGORIAS[categoria]['id_ext'] )
     else:
         print("ignorando categoria: ", categoria)
