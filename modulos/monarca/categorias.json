@@ -1,0 +1,3374 @@
+{
+    "ALMACEN": {
+        "category": 123,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1001
+    },
+    "BEBES Y NI\u00d1OS": {
+        "category": 227,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15295
+    },
+    "BEBIDAS CON ALCOHOL": {
+        "category": 49,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1005
+    },
+    "BEBIDAS SIN ALCOHOL": {
+        "category": 220,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1004
+    },
+    "CARNICERIA": {
+        "category": 156,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1013
+    },
+    "CONGELADOS": {
+        "category": 741,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1010
+    },
+    "DESAYUNO": {
+        "category": 776,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1002
+    },
+    "FIAMBRERIA": {
+        "category": 821,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1014
+    },
+    "FRUTAS Y VERDURAS": {
+        "category": 206,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1012
+    },
+    "KIOSCO": {
+        "category": 929,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1003
+    },
+    "LACTEOS": {
+        "category": 910,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1009
+    },
+    "LIMPIEZA": {
+        "category": 950,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1008
+    },
+    "MASCOTAS": {
+        "category": 158,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15212
+    },
+    "PANADERIA": {
+        "category": 301,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1015
+    },
+    "PAPELES": {
+        "category": 1001,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1007
+    },
+    "PERFUMERIA": {
+        "category": 992,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 1006
+    },
+    "PRODUCTOS FRESCOS": {
+        "category": 1055,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15252
+    },
+    "ACEITES": {
+        "category": 449,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5006
+    },
+    "ACETOS Y VINAGRES": {
+        "category": 232,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5007
+    },
+    "ADEREZOS": {
+        "category": 448,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5004
+    },
+    "ARROCES": {
+        "category": 285,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5009
+    },
+    "CONSERVAS": {
+        "category": 575,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5003
+    },
+    "ENCURTIDOS": {
+        "category": 441,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5002
+    },
+    "HARINAS Y PREMEZCLAS": {
+        "category": 282,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5008
+    },
+    "LEGUMBRES SECAS": {
+        "category": 286,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5010
+    },
+    "PANIFICADOS": {
+        "category": 106,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15247
+    },
+    "PASTAS SECAS": {
+        "category": 340,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5001
+    },
+    "PURE Y SALSAS DESHIDRATADAS": {
+        "category": 287,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5012
+    },
+    "REBOZADORES Y PAN RALLADO": {
+        "category": 668,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5014
+    },
+    "SAL Y OTROS CONDIMENTOS": {
+        "category": 658,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5005
+    },
+    "SNACKS": {
+        "category": 288,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5015
+    },
+    "SOPAS CALDOS Y SABORIZADORES": {
+        "category": 667,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5011
+    },
+    "ALIMENTOS INFANTILES": {
+        "category": 696,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15310
+    },
+    "COLONIAS BEBE": {
+        "category": 405,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15297
+    },
+    "CREMAS EMULSIONES Y ACEITES": {
+        "category": 631,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15299
+    },
+    "CUIDADO E HIGIENE DEL CABELLO": {
+        "category": 406,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15296
+    },
+    "JABON DE TOCADOR BEBE": {
+        "category": 404,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15298
+    },
+    "OTROS DE BEBES Y NI\u00d1OS": {
+        "category": 439,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15302
+    },
+    "PA\u00d1ALES": {
+        "category": 707,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15303
+    },
+    "TALCOS Y FECULAS BEBE": {
+        "category": 320,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15300
+    },
+    "TOALLAS HUMEDAS Y PA\u00d1OS BEBE": {
+        "category": 325,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15301
+    },
+    "APERITIVOS Y COCTEL": {
+        "category": 688,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5041
+    },
+    "CERVEZAS": {
+        "category": 686,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5040
+    },
+    "ESPUMANTES": {
+        "category": 690,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5043
+    },
+    "LICORES": {
+        "category": 692,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5045
+    },
+    "OTRAS BEBIDAS": {
+        "category": 612,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5046
+    },
+    "VINOS": {
+        "category": 689,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5042
+    },
+    "WHISKY Y DESTILADOS": {
+        "category": 691,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5044
+    },
+    "AGUAS": {
+        "category": 716,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5035
+    },
+    "AMARGOS": {
+        "category": 724,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5038
+    },
+    "GASEOSAS": {
+        "category": 722,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5037
+    },
+    "ISOTONICAS Y ENERGIZANTES": {
+        "category": 725,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5039
+    },
+    "JUGOS": {
+        "category": 719,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5036
+    },
+    "CARNE DE POLLO": {
+        "category": 727,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5118
+    },
+    "CARNES PREPARADAS": {
+        "category": 738,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5122
+    },
+    "CARNE VACUNA": {
+        "category": 336,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5115
+    },
+    "EMBUTIDOS": {
+        "category": 737,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5120
+    },
+    "MENUDENCIAS": {
+        "category": 337,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5121
+    },
+    "MILANESAS": {
+        "category": 266,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15167
+    },
+    "COMIDAS PREPARADAS CONGELADAS": {
+        "category": 730,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5104
+    },
+    "CONGELADOS DE CARNE": {
+        "category": 729,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5099
+    },
+    "CONGELADOS DE POLLO": {
+        "category": 364,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5100
+    },
+    "OTROS CONGELADOS": {
+        "category": 443,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5105
+    },
+    "VERDURAS Y FRUTAS CONGELADAS": {
+        "category": 796,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5102
+    },
+    "AZUCAR Y EDULCORANTES": {
+        "category": 790,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5022
+    },
+    "CACAO": {
+        "category": 37,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5021
+    },
+    "CAFE": {
+        "category": 8,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5019
+    },
+    "CEREALES": {
+        "category": 761,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5017
+    },
+    "DULCES Y MERMELADAS": {
+        "category": 792,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5023
+    },
+    "GALLETITAS": {
+        "category": 805,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5024
+    },
+    "GELATINAS  FLANES Y PREMEZCLAS": {
+        "category": 813,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5025
+    },
+    "LECHES": {
+        "category": 815,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5027
+    },
+    "REPOSTERIA": {
+        "category": 197,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5026
+    },
+    "TE": {
+        "category": 802,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5018
+    },
+    "YERBA": {
+        "category": 17,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5020
+    },
+    "DULCES SOLIDOS": {
+        "category": 860,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5126
+    },
+    "FIAMBRES": {
+        "category": 851,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5124
+    },
+    "FRUTAS SECAS Y DESHIDRATADAS": {
+        "category": 817,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5128
+    },
+    "QUESOS": {
+        "category": 857,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5125
+    },
+    "SALAMINES Y ESPECIALIDADES": {
+        "category": 818,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15246
+    },
+    "UNTABLES Y DIPS": {
+        "category": 264,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15322
+    },
+    "FRUTAS FRESCAS": {
+        "category": 261,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5111
+    },
+    "HUEVOS": {
+        "category": 124,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5113
+    },
+    "LE\u00d1A Y CARBON": {
+        "category": 928,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5114
+    },
+    "VERDURAS FRESCAS": {
+        "category": 924,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5112
+    },
+    "ADHESIVOS Y PEGAMENTOS": {
+        "category": 344,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5032
+    },
+    "APOSITOS": {
+        "category": 351,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15228
+    },
+    "FILOS": {
+        "category": 889,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5033
+    },
+    "FOSFOROS Y PALILLOS": {
+        "category": 896,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5034
+    },
+    "GOLOSINAS Y SNACKS": {
+        "category": 233,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5029
+    },
+    "ILUMINACION": {
+        "category": 450,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5030
+    },
+    "PILAS Y BATERIAS": {
+        "category": 234,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5031
+    },
+    "SNACKS SALUDABLES": {
+        "category": 290,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15157
+    },
+    "CREMA DE LECHE": {
+        "category": 251,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5089
+    },
+    "LECHE FRESCA": {
+        "category": 246,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5083
+    },
+    "MANTECA Y MARGARINA": {
+        "category": 218,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5087
+    },
+    "POSTRES DE NI\u00d1OS": {
+        "category": 570,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15320
+    },
+    "POSTRES Y FLANES": {
+        "category": 956,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5085
+    },
+    "QUESOS CREMA Y UNTABLES": {
+        "category": 953,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5082
+    },
+    "YOGURES": {
+        "category": 954,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5084
+    },
+    "ACCESORIOS": {
+        "category": 951,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5077
+    },
+    "ARTICULOS VARIOS DE LIMPIEZA": {
+        "category": 952,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5080
+    },
+    "BAZAR": {
+        "category": 350,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15158
+    },
+    "BOLSAS/ROLLOS": {
+        "category": 946,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5075
+    },
+    "DESODORANTES/DESODORIZANTES": {
+        "category": 940,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5071
+    },
+    "DETERGENTES": {
+        "category": 943,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5072
+    },
+    "ESPONJAS Y OVILLOS DE ACERO": {
+        "category": 315,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5074
+    },
+    "GUANTES": {
+        "category": 347,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5079
+    },
+    "INSECTICIDAS Y REPELENTES": {
+        "category": 945,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5073
+    },
+    "LAVANDINAS": {
+        "category": 959,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15160
+    },
+    "LIMPIADOR HOGAR Y PEQUE\u00d1AS SUPERFICIES": {
+        "category": 580,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5070
+    },
+    "LIMPIADOR PISOS Y GRANDES SUPERFICIES": {
+        "category": 986,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5069
+    },
+    "LIMPIEZA DE ROPA": {
+        "category": 982,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5068
+    },
+    "OTROS DE LIMPIEZA": {
+        "category": 348,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5081
+    },
+    "PROD. PARA CALZADOS Y CUEROS": {
+        "category": 564,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5078
+    },
+    "TEXTIL": {
+        "category": 988,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5076
+    },
+    "ALIMENTO PARA GATOS": {
+        "category": 160,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15214
+    },
+    "ALIMENTO PARA PERROS": {
+        "category": 161,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15213
+    },
+    "BUDINES": {
+        "category": 1000,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5136
+    },
+    "FACTURAS": {
+        "category": 115,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5130
+    },
+    "PANES": {
+        "category": 989,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5129
+    },
+    "POSTRES DULCES": {
+        "category": 993,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5131
+    },
+    "PRE PIZZAS": {
+        "category": 997,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5133
+    },
+    "PRODUCTOS DULCES SECOS": {
+        "category": 998,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5134
+    },
+    "PRODUCTOS SALADOS SECOS": {
+        "category": 999,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5135
+    },
+    "SANDWICHES DE MIGA": {
+        "category": 995,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5132
+    },
+    "PA\u00d1UELOS": {
+        "category": 977,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5066
+    },
+    "PAPEL HIGIENICO": {
+        "category": 204,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5063
+    },
+    "ROLLO DE COCINA": {
+        "category": 289,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5064
+    },
+    "SERVILLETAS": {
+        "category": 975,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5065
+    },
+    "ALGOD\u00d3N Y OTROS": {
+        "category": 973,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5061
+    },
+    "COLORACION": {
+        "category": 576,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5053
+    },
+    "COSMETICA": {
+        "category": 972,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5052
+    },
+    "CREMAS Y EMULSIONES": {
+        "category": 1036,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5048
+    },
+    "CUIDADO E HIGIENE BUCAL": {
+        "category": 346,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5057
+    },
+    "CUIDADO E HIGIENE CABELLO": {
+        "category": 1040,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5055
+    },
+    "DESODORANTES": {
+        "category": 1007,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5047
+    },
+    "JABONES": {
+        "category": 183,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15292
+    },
+    "LINEA DE AFEITAR": {
+        "category": 1038,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5050
+    },
+    "OTROS DE PERFUMERIA": {
+        "category": 363,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5062
+    },
+    "PA\u00d1ALES ADULTOS": {
+        "category": 1052,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5059
+    },
+    "PERFUMES Y COLONIAS": {
+        "category": 1037,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5049
+    },
+    "PROTECCION FEMENINA": {
+        "category": 1043,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5058
+    },
+    "SANITIZANTES": {
+        "category": 582,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15196
+    },
+    "TALCOS": {
+        "category": 1039,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 5051
+    },
+    "MILANESAS DE SOJA": {
+        "category": 1077,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15255
+    },
+    "PASTAS FRESCAS": {
+        "category": 1071,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15257
+    },
+    "SALCHICHAS DE VIENA": {
+        "category": 1072,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15258
+    },
+    "TAPAS Y PREPIZZAS": {
+        "category": 1073,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15256
+    },
+    "ACEITE DE GIRASOL": {
+        "category": 640,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10028
+    },
+    "ACEITE DE MAIZ": {
+        "category": 641,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10027
+    },
+    "ACEITE DE OLIVA": {
+        "category": 520,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10029
+    },
+    "ACEITE EN AEROSOL Y OTROS": {
+        "category": 519,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10032
+    },
+    "ACEITE GIRASOL Y OLIVA": {
+        "category": 584,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15209
+    },
+    "ACEITE MEZCLA": {
+        "category": 241,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10031
+    },
+    "ACETOS": {
+        "category": 521,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10033
+    },
+    "VINAGRE DE ALCOHOL": {
+        "category": 496,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10034
+    },
+    "VINAGRE DE MANZANA": {
+        "category": 633,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10035
+    },
+    "VINAGRE DE VINO": {
+        "category": 507,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10036
+    },
+    "KETCHUP": {
+        "category": 645,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10019
+    },
+    "MAYONESA": {
+        "category": 36,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10017
+    },
+    "MOSTAZA": {
+        "category": 644,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10020
+    },
+    "OTROS ADEREZOS": {
+        "category": 643,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10022
+    },
+    "SALSA GOLF": {
+        "category": 632,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10018
+    },
+    "ARROCES PRE-ELABORADOS": {
+        "category": 247,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10044
+    },
+    "ARROZ": {
+        "category": 29,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10043
+    },
+    "CARNES Y PATES": {
+        "category": 331,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10013
+    },
+    "ESCABECHES": {
+        "category": 602,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10015
+    },
+    "FRUTAS": {
+        "category": 10,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10011
+    },
+    "LEGUMBRES": {
+        "category": 616,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10012
+    },
+    "MORRONES": {
+        "category": 603,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15208
+    },
+    "OTRAS CONSERVAS": {
+        "category": 245,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10016
+    },
+    "PESCADOS": {
+        "category": 615,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10014
+    },
+    "TOMATES": {
+        "category": 677,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10010
+    },
+    "ACEITUNAS": {
+        "category": 676,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10004
+    },
+    "CHAMPIGNONES": {
+        "category": 678,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10005
+    },
+    "OTROS ENCURTIDOS": {
+        "category": 355,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10009
+    },
+    "PALMITOS": {
+        "category": 514,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10006
+    },
+    "HARINA DE ARROZ": {
+        "category": 661,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10041
+    },
+    "HARINA DE MAIZ": {
+        "category": 379,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10039
+    },
+    "HARINA DE TRIGO": {
+        "category": 380,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10038
+    },
+    "OTRAS HARINAS": {
+        "category": 248,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10042
+    },
+    "ARVEJAS SECAS": {
+        "category": 300,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10046
+    },
+    "LENTEJAS SECAS": {
+        "category": 292,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10049
+    },
+    "MAIZ SECO": {
+        "category": 522,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10051
+    },
+    "POROTOS SECOS": {
+        "category": 397,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10048
+    },
+    "PAN BLANCO": {
+        "category": 627,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15248
+    },
+    "PAN DE VIENA": {
+        "category": 625,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15250
+    },
+    "PAN SALVADO E INTEGRAL": {
+        "category": 626,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15249
+    },
+    "FIDEOS GUISEROS": {
+        "category": 384,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15313
+    },
+    "FIDEOS LARGOS": {
+        "category": 383,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15315
+    },
+    "FIDEOS SOPEROS": {
+        "category": 382,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15314
+    },
+    "OTRAS PASTAS SECAS": {
+        "category": 303,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10003
+    },
+    "PASTAS SECAS RELLENAS": {
+        "category": 381,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15210
+    },
+    "PURE DESHIDRATADO": {
+        "category": 283,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10058
+    },
+    "SALSAS DESHIDRATADAS": {
+        "category": 492,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10059
+    },
+    "PAN RALLADO": {
+        "category": 497,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10062
+    },
+    "REBOZADORES": {
+        "category": 498,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10061
+    },
+    "ESPECIAS": {
+        "category": 674,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10025
+    },
+    "SAL": {
+        "category": 679,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10023
+    },
+    "SALES ESPECIALES Y OTRAS": {
+        "category": 385,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10024
+    },
+    "GALLETAS SNACKS": {
+        "category": 395,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15319
+    },
+    "MANI": {
+        "category": 391,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10065
+    },
+    "OTROS SNACKS": {
+        "category": 389,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10068
+    },
+    "PALITOS DE MAIZ": {
+        "category": 390,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10066
+    },
+    "PALITOS SALADOS": {
+        "category": 408,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10064
+    },
+    "PAPAS FRITAS": {
+        "category": 675,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10063
+    },
+    "CALDOS": {
+        "category": 680,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10055
+    },
+    "SABORIZADORES": {
+        "category": 392,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10056
+    },
+    "SOPAS": {
+        "category": 681,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10054
+    },
+    "FORMULAS INFANTILES": {
+        "category": 687,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15311
+    },
+    "PA\u00d1ALES G": {
+        "category": 253,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15307
+    },
+    "PA\u00d1ALES M": {
+        "category": 352,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15306
+    },
+    "PA\u00d1ALES P": {
+        "category": 433,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15305
+    },
+    "PA\u00d1ALES RN": {
+        "category": 409,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15304
+    },
+    "PA\u00d1ALES XG": {
+        "category": 407,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15308
+    },
+    "PA\u00d1ALES XXG": {
+        "category": 440,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15309
+    },
+    "AMERICANO": {
+        "category": 422,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10154
+    },
+    "BEBIDAS LISTAS PARA TOMAR": {
+        "category": 410,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15169
+    },
+    "BITTER": {
+        "category": 412,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15170
+    },
+    "COCTELERIA": {
+        "category": 413,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10156
+    },
+    "FERNET": {
+        "category": 414,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10155
+    },
+    "VERMOUTH": {
+        "category": 411,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15171
+    },
+    "CERVEZA ESPECIAL": {
+        "category": 614,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10153
+    },
+    "CERVEZA NEGRA": {
+        "category": 416,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10152
+    },
+    "CERVEZA RUBIA": {
+        "category": 54,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10151
+    },
+    "CHAMPAGNE": {
+        "category": 699,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10165
+    },
+    "VINOS ESPUMANTES": {
+        "category": 417,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10166
+    },
+    "LICOR": {
+        "category": 700,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10181
+    },
+    "OTROS VINOS": {
+        "category": 685,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10164
+    },
+    "VINOS BLANCOS": {
+        "category": 708,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10157
+    },
+    "VINOS DE MESA": {
+        "category": 419,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10161
+    },
+    "VINOS DULCES": {
+        "category": 705,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10160
+    },
+    "VINOS GENEROSOS": {
+        "category": 418,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10163
+    },
+    "VINOS ROSADOS": {
+        "category": 420,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10159
+    },
+    "VINOS TINTOS": {
+        "category": 709,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10158
+    },
+    "GIN": {
+        "category": 747,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10172
+    },
+    "RON": {
+        "category": 706,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10178
+    },
+    "TEQUILA": {
+        "category": 432,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10175
+    },
+    "VODKA": {
+        "category": 332,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10171
+    },
+    "WHISKY": {
+        "category": 748,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10170
+    },
+    "AGUA MINERAL": {
+        "category": 743,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10141
+    },
+    "SABORIZADA": {
+        "category": 742,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10142
+    },
+    "SODA": {
+        "category": 445,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10143
+    },
+    "AMARGO COMUN": {
+        "category": 447,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10149
+    },
+    "AMARGO DIET/LIGHT": {
+        "category": 318,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10150
+    },
+    "COMUN": {
+        "category": 461,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15092
+    },
+    "DIET/LIGHT": {
+        "category": 460,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15093
+    },
+    "DE LIMON": {
+        "category": 505,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15186
+    },
+    "JUGO EN POLVO": {
+        "category": 515,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10145
+    },
+    "JUGOS LIQUIDOS": {
+        "category": 746,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10144
+    },
+    "POLLO ENTERO": {
+        "category": 66,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10348
+    },
+    "POLLO TROZADO": {
+        "category": 436,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10349
+    },
+    "PREPARADOS POLLO": {
+        "category": 314,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10357
+    },
+    "PREPARADOS VACUNO": {
+        "category": 316,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10355
+    },
+    "CHORIZOS": {
+        "category": 311,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10351
+    },
+    "MORCILLAS": {
+        "category": 734,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10352
+    },
+    "SALCHICHAS": {
+        "category": 313,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10353
+    },
+    "AZUCAR COMUN": {
+        "category": 510,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10094
+    },
+    "AZUCAR LIGHT": {
+        "category": 509,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10096
+    },
+    "EDULCORANTE": {
+        "category": 779,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10095
+    },
+    "CAFE CAPSULAS": {
+        "category": 467,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10082
+    },
+    "CAFE GRANOS": {
+        "category": 494,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10080
+    },
+    "CAFE INSTANTANEO": {
+        "category": 470,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10078
+    },
+    "CAFE MOLIDO": {
+        "category": 468,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10079
+    },
+    "CAFE SAQUITOS": {
+        "category": 452,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10081
+    },
+    "CAPUCCINOS Y OTROS": {
+        "category": 469,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10083
+    },
+    "COMPLEMENTOS DE CAFE": {
+        "category": 466,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10085
+    },
+    "MALTA": {
+        "category": 502,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10084
+    },
+    "AVENA": {
+        "category": 503,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10071
+    },
+    "CEREALES SABORIZADOS": {
+        "category": 642,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15318
+    },
+    "COPOS": {
+        "category": 472,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10069
+    },
+    "OTROS CEREALES": {
+        "category": 471,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10073
+    },
+    "SALVADO": {
+        "category": 791,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10072
+    },
+    "DULCE DE LECHE": {
+        "category": 798,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10098
+    },
+    "DULCES ARTESANALES": {
+        "category": 295,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10100
+    },
+    "JALEA": {
+        "category": 785,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10099
+    },
+    "MERMELADA": {
+        "category": 6,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10097
+    },
+    "MIEL Y DERIVADOS": {
+        "category": 473,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10101
+    },
+    "OTROS DULCES/MERMELADAS": {
+        "category": 474,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10102
+    },
+    "BIZCOCHOS": {
+        "category": 479,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10105
+    },
+    "GALLETAS DE ARROZ": {
+        "category": 478,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10107
+    },
+    "GALLETITAS DULCES": {
+        "category": 806,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10108
+    },
+    "GALLETITAS SALADAS": {
+        "category": 823,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10103
+    },
+    "GRISINES": {
+        "category": 495,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10104
+    },
+    "TOSTADAS": {
+        "category": 453,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10106
+    },
+    "FLANES": {
+        "category": 801,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10112
+    },
+    "GELATINAS": {
+        "category": 827,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10110
+    },
+    "HELADOS": {
+        "category": 176,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10111
+    },
+    "MOUSSES": {
+        "category": 438,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10114
+    },
+    "POSTRES": {
+        "category": 177,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10113
+    },
+    "LECHE CHOCOLATADA": {
+        "category": 60,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15172
+    },
+    "LECHE DESLACTOSADA": {
+        "category": 567,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10123
+    },
+    "LECHE EN POLVO": {
+        "category": 824,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10121
+    },
+    "LECHE LARGA VIDA": {
+        "category": 825,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10122
+    },
+    "OTRAS LECHES": {
+        "category": 523,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10124
+    },
+    "BIZCOCHUELO PREMEZCLA": {
+        "category": 527,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10116
+    },
+    "CHOCOLATES REPOSTERIA": {
+        "category": 402,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10117
+    },
+    "ESENCIAS": {
+        "category": 526,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10119
+    },
+    "PIONONOS Y BIZCOCHUELOS": {
+        "category": 302,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15216
+    },
+    "SALSAS": {
+        "category": 213,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10118
+    },
+    "VARIOS DE REPOSTERIA": {
+        "category": 810,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10120
+    },
+    "TE HEBRAS": {
+        "category": 504,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10076
+    },
+    "TE SABORIZADOS": {
+        "category": 819,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10075
+    },
+    "TE SAQUITOS": {
+        "category": 528,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10074
+    },
+    "YERBA MATE": {
+        "category": 826,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10086
+    },
+    "YERBA SABORIZADA": {
+        "category": 530,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10087
+    },
+    "YERBA SAQUITOS": {
+        "category": 529,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10088
+    },
+    "BATATA": {
+        "category": 81,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10382
+    },
+    "MEMBRILLO": {
+        "category": 837,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10383
+    },
+    "ARROLLADO": {
+        "category": 883,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15276
+    },
+    "BONDIOLAS": {
+        "category": 859,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15270
+    },
+    "JAMON COCIDO": {
+        "category": 882,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15267
+    },
+    "JAMON CRUDO": {
+        "category": 833,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15268
+    },
+    "LOMOS": {
+        "category": 834,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15272
+    },
+    "MORTADELA": {
+        "category": 836,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15271
+    },
+    "OTROS FIAMBRES Y EMBUTIDOS": {
+        "category": 884,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10363
+    },
+    "PANCETA": {
+        "category": 885,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15274
+    },
+    "SALAME": {
+        "category": 849,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15273
+    },
+    "SALCHICHON": {
+        "category": 886,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15275
+    },
+    "BARRA": {
+        "category": 862,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10365
+    },
+    "CREMOSO": {
+        "category": 863,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10366
+    },
+    "FONTINA": {
+        "category": 864,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10376
+    },
+    "GOUDA": {
+        "category": 852,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15163
+    },
+    "GRUYERE": {
+        "category": 854,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10369
+    },
+    "HOLANDA": {
+        "category": 856,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10374
+    },
+    "MOZZARELLA": {
+        "category": 858,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10367
+    },
+    "OTROS QUESOS": {
+        "category": 855,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10380
+    },
+    "PATEGRAS": {
+        "category": 865,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10375
+    },
+    "PORT SALUT": {
+        "category": 866,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10368
+    },
+    "PROVOLONE Y PROVOLETAS": {
+        "category": 867,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10373
+    },
+    "QUESO AZUL": {
+        "category": 887,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10372
+    },
+    "QUESO EN HEBRAS Y CUBOS": {
+        "category": 872,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15165
+    },
+    "QUESOS RALLADOS": {
+        "category": 868,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10364
+    },
+    "REGGIANITO": {
+        "category": 869,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10370
+    },
+    "RICOTTA": {
+        "category": 853,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10381
+    },
+    "ROMANO": {
+        "category": 870,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15164
+    },
+    "SARDO": {
+        "category": 871,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10371
+    },
+    "FILOS DESCARTABLES": {
+        "category": 552,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10136
+    },
+    "FILOS MAQUINAS": {
+        "category": 902,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10134
+    },
+    "FILOS MUJER": {
+        "category": 904,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10137
+    },
+    "FILOS REPUESTOS": {
+        "category": 894,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10135
+    },
+    "ALFAJORES": {
+        "category": 201,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10127
+    },
+    "BOMBONES Y BOCADITOS": {
+        "category": 909,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10130
+    },
+    "CARAMELOS": {
+        "category": 536,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10125
+    },
+    "CHICLES": {
+        "category": 537,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10131
+    },
+    "CHOCOLATES": {
+        "category": 202,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10129
+    },
+    "CHUPETINES": {
+        "category": 906,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10126
+    },
+    "OTRAS GOLOSINAS": {
+        "category": 913,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10133
+    },
+    "PASTILLAS": {
+        "category": 538,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10132
+    },
+    "LECHE": {
+        "category": 59,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10295
+    },
+    "SABORIZADAS": {
+        "category": 931,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10296
+    },
+    "OTROS QUESOS UNTABLES": {
+        "category": 516,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10294
+    },
+    "QUESO CREMA": {
+        "category": 947,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10293
+    },
+    "UNTABLES": {
+        "category": 518,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10292
+    },
+    "DESCREMADOS": {
+        "category": 963,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10300
+    },
+    "ENTEROS": {
+        "category": 966,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10299
+    },
+    "BROCHES": {
+        "category": 299,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15227
+    },
+    "ESCOBAS": {
+        "category": 548,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10284
+    },
+    "OTROS ACCESORIOS": {
+        "category": 353,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10287
+    },
+    "PALAS": {
+        "category": 574,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10286
+    },
+    "PALOS": {
+        "category": 269,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10285
+    },
+    "BOLSAS DE RESIDUOS": {
+        "category": 549,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10273
+    },
+    "OTROS BOLSAS/ROLLOS": {
+        "category": 958,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10277
+    },
+    "ROLLOS ALUMINIO": {
+        "category": 254,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10275
+    },
+    "ROLLOS FILM": {
+        "category": 559,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10274
+    },
+    "DESINFECTANTES AEROSOL": {
+        "category": 555,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10262
+    },
+    "DESODORANTES AEROSOL": {
+        "category": 556,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10261
+    },
+    "DESODORANTES CONTINUOS": {
+        "category": 554,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10263
+    },
+    "OTROS DESODORANTES LIMPIEZA": {
+        "category": 550,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10265
+    },
+    "DETERGENTES CONCENTRADOS": {
+        "category": 557,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10267
+    },
+    "DETERGENTES DILUIDOS": {
+        "category": 583,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10266
+    },
+    "DETERGENTES PARA MAQUINA": {
+        "category": 259,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10268
+    },
+    "INSECTICIDAS": {
+        "category": 961,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10270
+    },
+    "LAVANDINAS GEL": {
+        "category": 573,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15162
+    },
+    "LAVANDINAS LIQUIDAS": {
+        "category": 571,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15161
+    },
+    "LIMPIADOR BA\u00d1O": {
+        "category": 257,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10257
+    },
+    "LIMPIADOR COCINA": {
+        "category": 562,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10256
+    },
+    "LIMPIADOR MUEBLES": {
+        "category": 563,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15159
+    },
+    "LIMPIADOR MULTIUSO": {
+        "category": 258,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10259
+    },
+    "LIMPIADOR VIDRIOS": {
+        "category": 566,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10258
+    },
+    "OTROS LIMPIADORES HOGAR": {
+        "category": 361,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10260
+    },
+    "CERAS": {
+        "category": 589,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10253
+    },
+    "LIMPIADORES/DESODORIZANTES": {
+        "category": 565,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10254
+    },
+    "OTROS LIMPIADORES": {
+        "category": 271,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10255
+    },
+    "ADITIVOS Y PRELAVADOS": {
+        "category": 591,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10246
+    },
+    "APRESTOS": {
+        "category": 229,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10250
+    },
+    "AROMATIZANTES TELAS": {
+        "category": 609,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10251
+    },
+    "JABON ROPA": {
+        "category": 1004,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10248
+    },
+    "SUAVIZANTES": {
+        "category": 590,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10249
+    },
+    "MICROFIBRAS": {
+        "category": 553,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10282
+    },
+    "PA\u00d1OS": {
+        "category": 984,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10279
+    },
+    "REJILLAS": {
+        "category": 260,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10278
+    },
+    "TRAPOS DE PISO": {
+        "category": 585,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10280
+    },
+    "PRE PIZZA": {
+        "category": 1005,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10385
+    },
+    "PRE PIZZAS ELABORADAS": {
+        "category": 1006,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10386
+    },
+    "HOJA DOBLE": {
+        "category": 594,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10243
+    },
+    "HOJA SIMPLE": {
+        "category": 578,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10242
+    },
+    "ALGOD\u00d3N CLASICO": {
+        "category": 517,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10239
+    },
+    "ALGOD\u00d3N ESPECIALES": {
+        "category": 979,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10240
+    },
+    "HISOPOS": {
+        "category": 367,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10241
+    },
+    "DEPILACION": {
+        "category": 1015,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10206
+    },
+    "QUITAESMALTES": {
+        "category": 1022,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10205
+    },
+    "TOALLAS DESMAQUILLANTES": {
+        "category": 365,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10207
+    },
+    "BRONCEADORES/POST SOLAR": {
+        "category": 371,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10194
+    },
+    "CREMA PARA MANOS": {
+        "category": 586,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10195
+    },
+    "CREMAS CORPORALES": {
+        "category": 373,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10192
+    },
+    "CREMAS FACIALES": {
+        "category": 372,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10193
+    },
+    "CEPILLOS E HILO DENTAL": {
+        "category": 1013,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10220
+    },
+    "DENTIFRICOS": {
+        "category": 374,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10219
+    },
+    "ENJUAGUE BUCAL": {
+        "category": 608,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10221
+    },
+    "CREMAS PARA PEINAR": {
+        "category": 596,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10211
+    },
+    "ENJUAGUE Y ACONDICIONADOR": {
+        "category": 1016,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10210
+    },
+    "FIJADORES": {
+        "category": 976,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10214
+    },
+    "PIOJICIDAS": {
+        "category": 252,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10213
+    },
+    "SHAMPOO": {
+        "category": 18,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10209
+    },
+    "TRATAMIENTOS PARA EL CABELLO": {
+        "category": 598,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10212
+    },
+    "DESOD. AEROSOL": {
+        "category": 375,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10188
+    },
+    "DESOD. BARRA": {
+        "category": 1026,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10189
+    },
+    "DESOD. BOLILLA": {
+        "category": 599,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10190
+    },
+    "DESOD. CREMA": {
+        "category": 1014,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10191
+    },
+    "JABON DE TOCADOR": {
+        "category": 297,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15293
+    },
+    "JAB\u00d3N LIQUIDO": {
+        "category": 34,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15294
+    },
+    "CREMAS Y ESPUMAS": {
+        "category": 1008,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10199
+    },
+    "PRE Y AFTER SHAVE": {
+        "category": 268,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10200
+    },
+    "PROTECTORES DIARIOS": {
+        "category": 605,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10224
+    },
+    "TAMPONES": {
+        "category": 606,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10226
+    },
+    "TOALLAS ABSORVENTES": {
+        "category": 376,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10225
+    },
+    "TALCOS CORPORALES": {
+        "category": 579,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10202
+    },
+    "TALCOS PEDICOS": {
+        "category": 377,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 10203
+    },
+    "NO RELLENAS": {
+        "category": 1079,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15263
+    },
+    "RELLENAS": {
+        "category": 1083,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15262
+    },
+    "COMUNES": {
+        "category": 1084,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15265
+    },
+    "ESPECIALES/LIGHT": {
+        "category": 1065,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15266
+    },
+    "PANQUEQUES Y TORTILLAS": {
+        "category": 1066,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15261
+    },
+    "PREPIZZAS": {
+        "category": 1088,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15316
+    },
+    "TAPAS DE EMPANADAS": {
+        "category": 1070,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15259
+    },
+    "TAPAS DE TARTA": {
+        "category": 1069,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15260
+    },
+    "DOBLE CAROLINA": {
+        "category": 607,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15182
+    },
+    "INTEGRAL": {
+        "category": 561,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15041
+    },
+    "LARGO FINO": {
+        "category": 551,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15040
+    },
+    "PARBOIL": {
+        "category": 581,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15183
+    },
+    "COCTEL": {
+        "category": 400,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15020
+    },
+    "DURAZNOS": {
+        "category": 624,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15017
+    },
+    "OTRAS FRUTAS": {
+        "category": 600,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15021
+    },
+    "PERAS": {
+        "category": 601,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15018
+    },
+    "ARVEJAS": {
+        "category": 630,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15022
+    },
+    "CHOCLO": {
+        "category": 98,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15023
+    },
+    "GARBANZOS": {
+        "category": 619,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15024
+    },
+    "LENTEJAS": {
+        "category": 618,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15027
+    },
+    "OTRAS LEGUMBRES": {
+        "category": 622,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15028
+    },
+    "POROTOS": {
+        "category": 628,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15025
+    },
+    "ATUN": {
+        "category": 25,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15032
+    },
+    "CABALLA": {
+        "category": 305,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15033
+    },
+    "JUREL": {
+        "category": 621,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15035
+    },
+    "OTROS PESCADOS": {
+        "category": 304,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15036
+    },
+    "SARDINA": {
+        "category": 401,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15034
+    },
+    "EXTRACTO DE TOMATE": {
+        "category": 660,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15015
+    },
+    "PURE Y PULPA DE TOMATES": {
+        "category": 306,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15012
+    },
+    "SALSAS DE TOMATE": {
+        "category": 328,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15016
+    },
+    "TOMATE ENTERO": {
+        "category": 339,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15013
+    },
+    "TOMATE TRITURADO": {
+        "category": 296,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15014
+    },
+    "ACEITUNAS DESCAROZADAS": {
+        "category": 357,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15006
+    },
+    "ACEITUNAS ENTERAS": {
+        "category": 358,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15005
+    },
+    "ACEITUNAS RELLENAS": {
+        "category": 356,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15007
+    },
+    "CHAMPIGNONES ENTEROS": {
+        "category": 359,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15008
+    },
+    "CHAMPIGNONES EN TROZOS": {
+        "category": 360,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15009
+    },
+    "PALMITOS EN TROZOS": {
+        "category": 369,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15011
+    },
+    "SAL ENTREFINA": {
+        "category": 388,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15039
+    },
+    "SAL FINA": {
+        "category": 387,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15037
+    },
+    "SAL GRUESA": {
+        "category": 386,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15038
+    },
+    "CALDO EN CUBOS": {
+        "category": 323,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15046
+    },
+    "CALDO EN POLVO": {
+        "category": 393,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15047
+    },
+    "OTRAS SOPAS": {
+        "category": 396,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15045
+    },
+    "SOPAS CREMAS": {
+        "category": 394,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15043
+    },
+    "SOPAS LISTAS": {
+        "category": 294,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15044
+    },
+    "BLANCOS BLEND": {
+        "category": 231,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15244
+    },
+    "CHARDONNAY": {
+        "category": 423,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15239
+    },
+    "OTROS VARIETALES BLANCOS": {
+        "category": 235,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15245
+    },
+    "SAUVIGNON BLANC": {
+        "category": 421,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15240
+    },
+    "TORRONTES": {
+        "category": 425,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15241
+    },
+    "BIVARIETAL": {
+        "category": 431,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15236
+    },
+    "BONARDA": {
+        "category": 428,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15233
+    },
+    "CABERNET FRANC": {
+        "category": 613,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15321
+    },
+    "CABERNET SAUVIGNON": {
+        "category": 403,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15230
+    },
+    "MALBEC": {
+        "category": 322,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15229
+    },
+    "MERLOT": {
+        "category": 429,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15231
+    },
+    "OTROS VARIETALES TINTOS": {
+        "category": 284,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15238
+    },
+    "SYRAH": {
+        "category": 427,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15232
+    },
+    "TEMPRANILLO": {
+        "category": 426,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15235
+    },
+    "TINTOS BLEND": {
+        "category": 230,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15237
+    },
+    "AGUA CON GAS": {
+        "category": 465,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15084
+    },
+    "AGUA SIN GAS": {
+        "category": 464,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15085
+    },
+    "SABORIZADA CON GAS": {
+        "category": 326,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15086
+    },
+    "SABORIZADA SIN GAS": {
+        "category": 463,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15087
+    },
+    "COLA": {
+        "category": 459,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15101
+    },
+    "LIMA LIMON": {
+        "category": 457,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15103
+    },
+    "NARANJA": {
+        "category": 72,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15095
+    },
+    "POMELO": {
+        "category": 78,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15104
+    },
+    "TONICA": {
+        "category": 446,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15098
+    },
+    "CONCENTRADO": {
+        "category": 444,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15089
+    },
+    "JUGO REFRIGERADO": {
+        "category": 244,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15091
+    },
+    "JUGOS DE SOJA": {
+        "category": 334,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15090
+    },
+    "NATURAL": {
+        "category": 462,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15088
+    },
+    "EDULCORANTE LIQUIDO": {
+        "category": 513,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15051
+    },
+    "EDULCORANTE PASTILLAS": {
+        "category": 493,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15052
+    },
+    "EDULCORANTE POLVO": {
+        "category": 511,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15050
+    },
+    "DULCE DE LECHE COMUN": {
+        "category": 338,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15056
+    },
+    "DULCE DE LECHE REPOSTERO": {
+        "category": 249,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15057
+    },
+    "MERMELADA COMUN": {
+        "category": 477,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15054
+    },
+    "MERMELADA DIET/LIGHT": {
+        "category": 476,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15055
+    },
+    "GALLETITAS RELLENAS": {
+        "category": 5,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15067
+    },
+    "GALLETITAS SECAS": {
+        "category": 480,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15066
+    },
+    "MAGDALENAS Y VAINILLAS": {
+        "category": 481,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15069
+    },
+    "OBLEAS": {
+        "category": 483,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15068
+    },
+    "OTRAS GALLETITAS DULCES": {
+        "category": 333,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15071
+    },
+    "SURTIDAS": {
+        "category": 484,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15070
+    },
+    "GALLETITAS CEREAL/SALVADO": {
+        "category": 487,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15061
+    },
+    "GALLETITAS DE AGUA": {
+        "category": 488,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15060
+    },
+    "GALLETITAS SIN SAL": {
+        "category": 486,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15063
+    },
+    "OTRAS GALLETITAS SALADAS": {
+        "category": 485,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15065
+    },
+    "FLAN COMUN": {
+        "category": 489,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15076
+    },
+    "FLAN DIET/LIGHT": {
+        "category": 800,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15077
+    },
+    "GELATINA COMUN": {
+        "category": 490,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15072
+    },
+    "GELATINA DIET/LIGHT": {
+        "category": 809,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15073
+    },
+    "HELADOS COMUN": {
+        "category": 506,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15074
+    },
+    "POSTRE COMUN": {
+        "category": 491,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15078
+    },
+    "POSTRE DIET/LIGHT": {
+        "category": 475,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15079
+    },
+    "DESCREMADA": {
+        "category": 524,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15081
+    },
+    "ENTERA": {
+        "category": 525,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15080
+    },
+    "LV DESCREMADA": {
+        "category": 399,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15083
+    },
+    "LV ENTERA": {
+        "category": 398,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15082
+    },
+    "YERBA CON PALO": {
+        "category": 532,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15048
+    },
+    "YERBA SIN PALO": {
+        "category": 531,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15049
+    },
+    "BONDIOLA PARA FETEAR": {
+        "category": 236,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15285
+    },
+    "JAMON COCIDO ENVASADO AL VACIO": {
+        "category": 341,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15278
+    },
+    "JAMON COCIDO PARA FETEAR": {
+        "category": 861,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15279
+    },
+    "JAMON CRUDO PARA FETEAR": {
+        "category": 873,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15281
+    },
+    "LOMO PARA FETEAR": {
+        "category": 239,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15289
+    },
+    "MORTADELA ENVASADA AL VACIO": {
+        "category": 343,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15286
+    },
+    "MORTADELA PARA FETEAR": {
+        "category": 237,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15287
+    },
+    "SALAME ENVASADO AL VACIO": {
+        "category": 238,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15290
+    },
+    "SALAME PARA FETEAR": {
+        "category": 240,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15291
+    },
+    "QUESO PARA FETEAR": {
+        "category": 930,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15225
+    },
+    "DESCREMADAS": {
+        "category": 533,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15121
+    },
+    "ENTERAS": {
+        "category": 534,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15120
+    },
+    "DESCREMADO BEBIBLES": {
+        "category": 539,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15132
+    },
+    "DESCREMADO CON CEREAL": {
+        "category": 540,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15136
+    },
+    "DESCREMADO CON FRUTAS": {
+        "category": 541,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15137
+    },
+    "DESCREMADO CREMOSOS/BATIDOS": {
+        "category": 542,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15138
+    },
+    "DESCREMADO FIRME": {
+        "category": 543,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15133
+    },
+    "BEBIBLES": {
+        "category": 544,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15125
+    },
+    "CON CEREAL": {
+        "category": 545,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15129
+    },
+    "CREMOSOS/BATIDOS": {
+        "category": 546,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15131
+    },
+    "FIRMES": {
+        "category": 547,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15126
+    },
+    "INSECTICIDAS AEROSOL": {
+        "category": 263,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15115
+    },
+    "INSECTICIDAS CONTINUO": {
+        "category": 560,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15117
+    },
+    "JABON EN PAN": {
+        "category": 255,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15114
+    },
+    "JABON EN POLVO": {
+        "category": 593,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15112
+    },
+    "JABON LIQUIDO": {
+        "category": 34,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15113
+    },
+    "FRANELA": {
+        "category": 370,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15189
+    },
+    "MULTIUSO": {
+        "category": 587,
+        "sub_items": [],
+        "url": "",
+        "id_ext": 15118
+    }
+}
