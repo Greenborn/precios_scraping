@@ -18,6 +18,7 @@ const REINTENTO_ERR_MOD = 5
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
 const ENVIOS_HABILITADOS = true
+const CANT_ELEMENTOS_IMP = 20 //cantidad de elementos maxima por peticion de importacion
 
 app.use(express.static(__dirname + '/latency_public'));
 
@@ -32,6 +33,7 @@ let runtime = {
             "data_enviada": [],
             "data_error": [],
             "data_error_status": [],
+            "data_preparada": { registros:[], lista: false },
             "url": process.env.URL_BACK  + "/publico/productos/importar"
         },
         'registrar_oferta': {
@@ -39,6 +41,7 @@ let runtime = {
             "data_enviada": [],
             "data_error": [],
             "data_error_status": [],
+            "data_preparada": { registros:[], lista: false },
             "url": process.env.URL_BACK  + "/publico/productos/importar_oferta"
         }
     },
@@ -84,9 +87,10 @@ function hay_envio_pendiente(){
             || runtime.envios_server['registrar_oferta'].data_enviar.length > 0
 }
 
-async function procesar_envios() {
+async function preparar_envios() {
     ciclo_numero ++
 
+    /*
     if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !hay_envio_pendiente()) {
         for (let i = 0; i < TIPOS_ENVIO.length; i++) {
             let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
@@ -95,7 +99,7 @@ async function procesar_envios() {
                 lista_envio = envio_info.data_error
             else 
                 lista_envio = envio_info.data_error_status
-            let url_envio   = envio_info.url
+            
             let cantidad    = lista_envio.length
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
@@ -112,21 +116,11 @@ async function procesar_envios() {
                 } 
                 
                 if (ENVIOS_HABILITADOS) {
-                    axios.post(url_envio, elemento)
-                        .then(function (response) {
-                        console.log(response.data)
-                            //Si se obtine codigo 200, se envia a la lista de enviadas
-                            if (response.data.stat)
-                                envio_info.data_enviada.push( elemento )
-                            else {
-                                envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
-                            }
-                        })
-                        .catch(function (error) {
-                            //Caso contrario se reporta y se enviua a la lista de errores
-                        //console.log("Error al realizar petición", cantidad );
-                            envio_info.data_error.push( elemento )
-                        })
+                    envio_info.data_preparada.registros.push(elemento)
+                    if (envio_info.data_preparada.registros.length >= CANT_ELEMENTOS_IMP) {
+                        envio_info.data_preparada.lista = true
+                    }
+                    
                 } else {
                     console.log("envio deshabilitado")
                     envio_info.data_enviada.push( elemento )
@@ -135,12 +129,13 @@ async function procesar_envios() {
         }
         return
     }
+    */
     
     for (let i = 0; i < TIPOS_ENVIO.length; i++) {
         for (let j = 0; j < RAFAGAS_ENVIO; j++) {
             let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
             let lista_envio = envio_info.data_enviar
-            let url_envio   = envio_info.url
+
             let cantidad = lista_envio.length
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
@@ -162,21 +157,10 @@ async function procesar_envios() {
                 } 
 
                 if (ENVIOS_HABILITADOS){
-                    axios.post(url_envio, elemento)
-                        .then(function (response) {
-                        console.log(response.data)
-                            //Si se obtine codigo 200, se envia a la lista de enviadas
-                            if (response.data.stat)
-                                envio_info.data_enviada.push( elemento )
-                            else {
-                                envio_info.data_error_status = [elemento].concat(envio_info.data_error_status)
-                            }
-                        })
-                        .catch(function (error) {
-                            //Caso contrario se reporta y se enviua a la lista de errores
-                        //console.log("Error al realizar petición", cantidad );
-                            envio_info.data_error.push( elemento )
-                        })
+                    envio_info.data_preparada.registros.push(elemento)
+                    if (envio_info.data_preparada.registros.length >= CANT_ELEMENTOS_IMP) {
+                        envio_info.data_preparada.lista = true
+                    }
                 } else {
                     console.log("envio deshabilitado")
                     envio_info.data_enviada.push( elemento )
@@ -187,7 +171,37 @@ async function procesar_envios() {
     return
 }
 
+async function procesar_envios(){
+    for (let i = 0; i < TIPOS_ENVIO.length; i++) {
+        const envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
+        let pack_envio    = envio_info.data_preparada
+        const url_envio   = envio_info.url
+        console.log('pack_envio', pack_envio)
+        if (pack_envio.lista) {
+            const ENVIO = { key: pack_envio[0].key, lst_importa: pack_envio.registros }
+            axios.post(url_envio, ENVIO)
+                .then(function (response) {
+                    console.log(response.data)
+                    //Si se obtine codigo 200, se envia a la lista de enviadas
+                    if (response.data.stat){
+                        envio_info.data_enviada.push( ENVIO )
+                        runtime.envios_server[TIPOS_ENVIO[i]].data_preparada = { registros: [], lista: false }
+                    } else {
+                        envio_info.data_error_status = [pack_envio].concat(envio_info.data_error_status)
+                    }
+                })
+                .catch(function (error) {
+                    //Caso contrario se reporta y se enviua a la lista de errores
+                //console.log("Error al realizar petición", cantidad );
+                    envio_info.data_error.push( pack_envio )
+                })
+        }
+    }
+    return
+}
+
 setInterval(async () => {
+    await preparar_envios()
     await procesar_envios()
 }, INTERVALO_ENVIO)
 
