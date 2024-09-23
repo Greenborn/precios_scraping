@@ -87,6 +87,7 @@ def procesar_elementos( url, cat_id, categoria, cookies_ ):
                             "url": enlace.get("href"),
                             "branch_id": BRANCH_ID,
                             "category": cat_id,
+                            "category_name": categoria,
                             "key": CONFIG["BACK_KEY"]
                         }
                 cliente.sio.emit('registrar_precio', producto)

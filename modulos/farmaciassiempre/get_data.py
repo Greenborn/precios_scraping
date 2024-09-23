@@ -42,6 +42,7 @@ def procesar_resultados(res_consulta, categoria):
                         "url": "https://www.siemprefarmacias.com.ar/" + product.find_all("a")[1].get("href"),
                         "branch_id": BRANCH_ID,
                         "category": CATEGORIAS[categoria]["category"],
+                        "category_name": categoria,
                         "key": CONFIG["BACK_KEY"]
                     }
             cliente.sio.emit('registrar_precio', producto)

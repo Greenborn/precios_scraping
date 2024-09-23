@@ -110,6 +110,7 @@ while True:
                                 "nota": "Productor: " + data_prod["customFields"]["productor"]["name"], 
                                 "branch_id": BRANCH_ID,
                                 "category": CATEGORIAS[categoria]["category"],
+                                "category_name": categoria,
                                 "key": CONFIG["BACK_KEY"]
                             }
                         print(producto)

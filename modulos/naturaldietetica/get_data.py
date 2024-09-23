@@ -42,6 +42,7 @@ def procesar_resultados(res_consulta):
                     "branch_id": BRANCH_ID,
                     "url": data_["offers"]["url"],
                     #"all_data": data_,
+                    "category_name": categoria,
                     "category": CATEGORIAS[categoria]["category"],
                     "key": CONFIG["BACK_KEY"]
                 }

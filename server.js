@@ -176,9 +176,9 @@ async function procesar_envios(){
         const envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
         let pack_envio    = envio_info.data_preparada
         const url_envio   = envio_info.url
-        console.log('pack_envio', pack_envio)
+        console.log('pack_envio', pack_envio.registros.length)
         if (pack_envio.lista) {
-            const ENVIO = { key: pack_envio[0].key, lst_importa: pack_envio.registros }
+            const ENVIO = { key: pack_envio.registros[0].key, lst_importa: pack_envio.registros }
             axios.post(url_envio, ENVIO)
                 .then(function (response) {
                     console.log(response.data)

@@ -44,6 +44,7 @@ for categoria in CATEGORIAS:
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
                 "category": sub_categoria["category"],
+                "category_name": categoria,
                 "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
                 "key": CONFIG["BACK_KEY"]
             }

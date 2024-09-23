@@ -39,10 +39,11 @@ for categoria in CATEGORIAS:
             producto = {
                 "vendor_id": 58,
                 "name": html_data.find(class_="tt-title").text,
-                "price": float(html_data.find(class_="tt-price").text.replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
+                "price": float(html_data.find(class_="tt-price").text.replace("x 1 Kg", "").replace("/u", "").replace("/kg", "").replace("$", "").replace(",", "").strip()),
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
                 "category": sub_categoria["category"],
+                "category_name": texto_sub_cat,
                 "url": BASE_URL + html_data.find(class_="tt-title").find("a").get("href"),
                 "key": CONFIG["BACK_KEY"]
             }

@@ -2,13 +2,13 @@
     {"d":"ambito", "e": "get_ofertas", "branch_id": 145 },
     {"d":"elteam", "e": "get_ofertas", "branch_id": 88 },
     {"d":"farmaciassiempre", "e": "get_ofertas", "branch_id": 104 },
+
     {"d":"golopolis", "e": "get_ofertas", "branch_id": 82 },
     {"d":"lang", "e": "get_ofertas", "branch_id": 86},
     {"d":"masfarmacias", "e": "get_ofertas", "branch_id": 127},
     {"d":"naldo", "e": "get_ofertas", "branch_id": 91 },
     {"d":"otero", "e": "get_ofertas", "branch_id": 93},
     
-    {"d":"vea", "e": "get_data", "branch_id": 18},
     {"d":"bringeri", "e": "get_data", "branch_id": 136},
     {"d":"amarillagas", "e": "get_data", "branch_id": 99},
     {"d":"ambito", "e": "get_data", "branch_id": 145 },
@@ -19,7 +19,7 @@
     {"d":"elteam", "e": "get_data", "branch_id": 88 },
     {"d":"emetelas", "e": "get_data", "branch_id": 83},
     {"d":"farmaciassiempre", "e": "get_data", "branch_id": 104 },
-    {"d":"fava", "e": "get_data", "branch_id": 133},
+    
     {"d":"figlio", "e": "get_data", "branch_id": 97},
     {"d":"golopolis", "e": "get_data", "branch_id": 82 },
     {"d":"gpsfarma", "e": "get_data", "branch_id": 149},
@@ -37,6 +37,7 @@
     {"d":"sampietro", "e": "get_data", "branch_id": 137},
     {"d":"simplicity", "e": "get_data", "branch_id": 56},
     {"d":"sumahogar", "e": "get_data", "branch_id": 92},
-    {"d":"chocoyval", "e": "get_data", "branch_id": 152},
-    {"d":"chasqui", "e": "get_data", "branch_id": 138}
+    
+    {"d":"chasqui", "e": "get_data", "branch_id": 138},
+    {"d":"monarca", "e": "get_data", "branch_id": 1}
 ]

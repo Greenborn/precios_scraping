@@ -45,6 +45,7 @@ def procesar_resultados(res_consulta):
                     "branch_id": BRANCH_ID,
                     "all_data": data_,
                     "category": CATEGORIAS[categoria]["category"],
+                    "category_name": categoria,
                     "key": CONFIG["BACK_KEY"]
                 }
         cliente.sio.emit('registrar_precio', producto)

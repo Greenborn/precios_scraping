@@ -49,6 +49,7 @@ for prod in respuesta:
                     "is_ext": prod["id"],
                     "branch_id": BRANCH,
                     "category": categoria,
+                    "category_name": prod['category_name'],
                     "url": "https://pedidos.masdelivery.com/figlio-premium",
                     "key": CONFIG["BACK_KEY"]
                 }

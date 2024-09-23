@@ -67,6 +67,7 @@ for categoria in CATEGORIAS:
                 "is_ext": "",
                 "branch_id": BRANCH_ID,
                 "category": CATEGORIAS[categoria]["category"],
+                "category_name": categoria,
                 "key": CONFIG["BACK_KEY"]
             }
             cliente.sio.emit('registrar_precio', producto)

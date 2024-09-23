@@ -48,6 +48,7 @@ def procesar_resultados(res_consulta, categoria):
                     "is_ext": "",
                     "url": enlace,
                     "branch_id": BRANCH_ID,
+                    "category_name": categoria,
                     "category": CATEGORIAS[categoria]["category"],
                     "key": CONFIG["BACK_KEY"]
                 }

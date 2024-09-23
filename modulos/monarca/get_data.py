@@ -84,7 +84,7 @@ for categoria in CATEGORIAS:
                                     }
                         print(promocion)
                         
-                        #cliente.sio.emit('registrar_oferta', promocion)
+                        cliente.sio.emit('registrar_oferta', promocion)
                         todos_los_descuentos.append(promocion)
                         print("")
                     except:
@@ -114,11 +114,12 @@ for categoria in CATEGORIAS:
                     "barcode": registro['barcode'],
                     #"reg": registro,
                     "url": URL_MONARCA_APP,
+                    "category_name": categoria,
                     "category": CATEGORIAS[categoria]["category"],
                     "key": CONFIG["BACK_KEY"]
                 }
                 print(producto)
-                #cliente.sio.emit('registrar_precio', producto)
+                cliente.sio.emit('registrar_precio', producto)
                 print("")
                 productos.append(producto)
 

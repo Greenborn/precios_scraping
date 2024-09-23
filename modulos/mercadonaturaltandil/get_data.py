@@ -36,6 +36,7 @@ def procesar_resultados(res_consulta, categoria):
                     "is_ext": "",
                     "url": product.find(class_="item-link").get("href"),
                     "branch_id": BRANCH_ID,
+                    "category_name": categoria,
                     "category": CATEGORIAS[categoria]["category"],
                     "key": CONFIG["BACK_KEY"]
                 }

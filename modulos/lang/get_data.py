@@ -59,6 +59,7 @@ for categoria in CATEGORIAS:
                         "url": html_data.find(class_="card-title").find("a").get("href"),
                         "branch_id": BRANCH_ID,
                         "category": sub_categoria["category"],
+                        "category_name": sub_categoria["texto"],
                         "key": CONFIG["BACK_KEY"]
                     }
                 except:

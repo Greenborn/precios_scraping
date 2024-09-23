@@ -39,6 +39,7 @@ for categoria in CATEGORIAS:
                     "url": url,
                     "branch_id": BRANCH,
                     "category": CATEGORIAS[categoria]["category"],
+                    "category_name": categoria,
                     "key": CONFIG["BACK_KEY"]
                 }
             except:

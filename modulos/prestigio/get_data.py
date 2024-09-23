@@ -63,6 +63,7 @@ def procesar_elementos( url, cat_id, categoria ):
                         "price": precio,
                         "is_ext": "",
                         "branch_id": BRANCH_ID,
+                        "category_name": categoria,
                         "category": cat_id,
                         "key": CONFIG["BACK_KEY"]
                     }
