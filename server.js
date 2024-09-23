@@ -13,7 +13,8 @@ const io = new Server(httpServer);
 
 const port = process.env.PORT || 5000;
 
-const INTERVALO_ENVIO = 100
+const INTERVALO_ARMA_ENVIO = 100
+const INTERVALO_ENVIO = 10000
 const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
@@ -33,7 +34,7 @@ let runtime = {
             "data_enviada": [],
             "data_error": [],
             "data_error_status": [],
-            "data_preparada": { registros:[], lista: false },
+            "data_preparada": [{ registros:[], lista: false }],
             "url": process.env.URL_BACK  + "/publico/productos/importar"
         },
         'registrar_oferta': {
@@ -41,7 +42,7 @@ let runtime = {
             "data_enviada": [],
             "data_error": [],
             "data_error_status": [],
-            "data_preparada": { registros:[], lista: false },
+            "data_preparada": [{ registros:[], lista: false }],
             "url": process.env.URL_BACK  + "/publico/productos/importar_oferta"
         }
     },
@@ -90,7 +91,6 @@ function hay_envio_pendiente(){
 async function preparar_envios() {
     ciclo_numero ++
 
-    /*
     if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !hay_envio_pendiente()) {
         for (let i = 0; i < TIPOS_ENVIO.length; i++) {
             let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
@@ -106,11 +106,11 @@ async function preparar_envios() {
                 console.log( TIPOS_ENVIO[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
                 
                 if (TIPOS_ENVIO[i] === 'registrar_precio' && elemento?.name == undefined){
-                    runtime.envios_server['registrar_oferta'].data_enviar.push(elemento)
+                    runtime.envios_server['registrar_oferta'].data_preparada.push(elemento)
                     console.log('recatalogando')
                     return
                 } else if (TIPOS_ENVIO[i] === 'registrar_oferta' && elemento?.titulo == undefined){
-                    runtime.envios_server['registrar_precio'].data_enviar.push(elemento)
+                    runtime.envios_server['registrar_precio'].data_preparada.push(elemento)
                     console.log('recatalogando')
                     return
                 } 
@@ -129,7 +129,6 @@ async function preparar_envios() {
         }
         return
     }
-    */
     
     for (let i = 0; i < TIPOS_ENVIO.length; i++) {
         for (let j = 0; j < RAFAGAS_ENVIO; j++) {
@@ -141,7 +140,7 @@ async function preparar_envios() {
                 let elemento = lista_envio.pop()
                 console.log( 
                     TIPOS_ENVIO[i],
-                    ' Por enviar ', cantidad, 
+                    ' Items Por enviar ', cantidad, 
                     ' enviadas ', envio_info.data_enviada.length, 
                     ' errores ', envio_info.data_error.length,  
                     ' errores status ', envio_info.data_error_status.length)
@@ -157,9 +156,12 @@ async function preparar_envios() {
                 } 
 
                 if (ENVIOS_HABILITADOS){
-                    envio_info.data_preparada.registros.push(elemento)
-                    if (envio_info.data_preparada.registros.length >= CANT_ELEMENTOS_IMP) {
-                        envio_info.data_preparada.lista = true
+                    let regs_preparados = envio_info.data_preparada
+                    let ultimo = regs_preparados[regs_preparados.length - 1]
+                    ultimo.registros.push(elemento)
+                    if (ultimo.registros.length >= CANT_ELEMENTOS_IMP) {
+                        ultimo.lista = true
+                        regs_preparados.push({ registros: [], lista: false })
                     }
                 } else {
                     console.log("envio deshabilitado")
@@ -174,26 +176,36 @@ async function preparar_envios() {
 async function procesar_envios(){
     for (let i = 0; i < TIPOS_ENVIO.length; i++) {
         const envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
-        let pack_envio    = envio_info.data_preparada
+        if (envio_info.data_preparada.length == 0) continue
+        
+        
         const url_envio   = envio_info.url
-        console.log('pack_envio', pack_envio.registros.length)
-        if (pack_envio.lista) {
-            const ENVIO = { key: pack_envio.registros[0].key, lst_importa: pack_envio.registros }
+        let encontrado = false
+        for (let j = 0; j < envio_info.data_preparada.length; j++) {
+            let pack_envio = envio_info.data_preparada[j]
+            if (!pack_envio.lista) continue
+            if (pack_envio.lista) {
+                encontrado = pack_envio
+            }
+        }
+
+        if (encontrado !== false){
+            const ENVIO = { key: encontrado.registros[0].key, lst_importa: encontrado.registros }
             axios.post(url_envio, ENVIO)
                 .then(function (response) {
                     console.log(response.data)
                     //Si se obtine codigo 200, se envia a la lista de enviadas
                     if (response.data.stat){
                         envio_info.data_enviada.push( ENVIO )
-                        runtime.envios_server[TIPOS_ENVIO[i]].data_preparada = { registros: [], lista: false }
+                        runtime.envios_server[TIPOS_ENVIO[i]].data_preparada.splice(j, 1)
                     } else {
-                        envio_info.data_error_status = [pack_envio].concat(envio_info.data_error_status)
+                        envio_info.data_error_status = [encontrado].concat(envio_info.data_error_status)
                     }
                 })
                 .catch(function (error) {
                     //Caso contrario se reporta y se enviua a la lista de errores
                 //console.log("Error al realizar petición", cantidad );
-                    envio_info.data_error.push( pack_envio )
+                    envio_info.data_error.push( encontrado )
                 })
         }
     }
@@ -202,6 +214,9 @@ async function procesar_envios(){
 
 setInterval(async () => {
     await preparar_envios()
+}, INTERVALO_ARMA_ENVIO)
+
+setInterval(async () => {
     await procesar_envios()
 }, INTERVALO_ENVIO)
 
