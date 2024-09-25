@@ -14,12 +14,12 @@ const io = new Server(httpServer);
 const port = process.env.PORT || 5000;
 
 const INTERVALO_ARMA_ENVIO = 100
-const INTERVALO_ENVIO = 10000
+const INTERVALO_ENVIO = 5000
 const REINTENTO_ERR_MOD = 5 
 const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
 const ENVIOS_HABILITADOS = true
-const CANT_ELEMENTOS_IMP = 20 //cantidad de elementos maxima por peticion de importacion
+const CANT_ELEMENTOS_IMP = 30 //cantidad de elementos maxima por peticion de importacion
 
 app.use(express.static(__dirname + '/latency_public'));
 
@@ -104,23 +104,9 @@ async function preparar_envios() {
             if (cantidad > 0) {
                 let elemento = lista_envio.pop()
                 console.log( TIPOS_ENVIO[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
-                
-                if (TIPOS_ENVIO[i] === 'registrar_precio' && elemento?.name == undefined){
-                    runtime.envios_server['registrar_oferta'].data_preparada.push(elemento)
-                    console.log('recatalogando')
-                    return
-                } else if (TIPOS_ENVIO[i] === 'registrar_oferta' && elemento?.titulo == undefined){
-                    runtime.envios_server['registrar_precio'].data_preparada.push(elemento)
-                    console.log('recatalogando')
-                    return
-                } 
-                
+                          
                 if (ENVIOS_HABILITADOS) {
-                    envio_info.data_preparada.registros.push(elemento)
-                    if (envio_info.data_preparada.registros.length >= CANT_ELEMENTOS_IMP) {
-                        envio_info.data_preparada.lista = true
-                    }
-                    
+                    envio_info.data_preparada.push(elemento)                    
                 } else {
                     console.log("envio deshabilitado")
                     envio_info.data_enviada.push( elemento )

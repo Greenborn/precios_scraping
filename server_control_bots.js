@@ -11,29 +11,39 @@ let ejecutados   = []
 let por_ejecutar = []
 
 async function ejecutar_bot( item, estado_bot ){
-    console.log('Ejecutando: ', item, estado_bot)
-    let parametros = [
-        '--ruta_categorias', __dirname+'/modulos/'+item["d"]+'/categorias.json',
-        '--ruta_config', __dirname+'/modulos/config.json'
-    ]
+    return new Promise(async (resolve, reject) => {
+        try{
+            console.log('Ejecutando: ', item, estado_bot)
+            let parametros = [
+                '--ruta_categorias', __dirname+'/modulos/'+item["d"]+'/categorias.json',
+                '--ruta_config', __dirname+'/modulos/config.json'
+            ]
 
-    if (estado_bot !== undefined){
-        parametros.push( '--categoria_inicio_id' )
-        parametros.push( estado_bot["category"] )
-    }
+            if (estado_bot !== undefined){
+                parametros.push( '--categoria_inicio_id' )
+                parametros.push( estado_bot["category"] )
+            }
 
-    let options = {
-        mode: 'text',
-        pythonOptions: ['-u'], // get print results in real-time
-        args: parametros
-    }
+            let options = {
+                mode: 'text',
+                pythonOptions: ['-u'], // get print results in real-time
+                args: parametros
+            }
 
-    PythonShell.run(__dirname+'/modulos/'+item["d"]+'/'+item["e"]+'.py', options, function (err, result){
-        if (err) {
-            console.log(err)
+            await PythonShell.run(__dirname+'/modulos/'+item["d"]+'/'+item["e"]+'.py', options, function (err, result){
+                if (err) {
+                    console.log(err)
+                    por_ejecutar.push(item)
+                    resolve(false)
+                }
+                console.log('result: ', result.toString())
+                resolve(true)
+            })
+        } catch(e) {
+            console.log('error en ejecucion de bot, se agrega a listado para nueva ejecucion',e)
+            por_ejecutar.push(item)
+            resolve(false)
         }
-        console.log('result: ', result.toString())
-        res.send(result.toString())
     })
 }
 
