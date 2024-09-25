@@ -33,7 +33,7 @@ async function ejecutar_bot( item, estado_bot ){
             await PythonShell.run(__dirname+'/modulos/'+item["d"]+'/'+item["e"]+'.py', options, function (err, result){
                 if (err) {
                     console.log(err)
-                    por_ejecutar.push(item)
+                    por_ejecutar = [item].concat(por_ejecutar)
                     resolve(false)
                 }
                 console.log('result: ', result.toString())
@@ -41,7 +41,7 @@ async function ejecutar_bot( item, estado_bot ){
             })
         } catch(e) {
             console.log('error en ejecucion de bot, se agrega a listado para nueva ejecucion',e)
-            por_ejecutar.push(item)
+            por_ejecutar = [item].concat(por_ejecutar)
             resolve(false)
         }
     })
