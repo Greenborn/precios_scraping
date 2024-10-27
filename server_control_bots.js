@@ -4,7 +4,7 @@ const fs = require("fs")
 const os = require('os-utils')
 
 const EJECUCION_TICK = 2000
-const USO_PROC_RUN   = 0.5
+const USO_PROC_RUN   = 0.8
 
 let habilitados  = []
 let ejecutados   = []
