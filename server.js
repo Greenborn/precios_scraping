@@ -4,7 +4,6 @@ const fs = require("fs")
 const express = require('express');
 const { createServer } = require("http");
 const { Server } = require("socket.io");
-const axios = require('axios');
 const BotsCtrl = require('./server_control_bots.js')
 
 const app = express();
@@ -13,13 +12,8 @@ const io = new Server(httpServer);
 
 const port = process.env.PORT || 5000;
 
-const INTERVALO_ARMA_ENVIO = 100
-const INTERVALO_ENVIO = 5000
-const REINTENTO_ERR_MOD = 5 
-const RAFAGAS_ENVIO = 1
 const INTERVALO_GUARDADO = 10000
-const ENVIOS_HABILITADOS = true
-const CANT_ELEMENTOS_IMP = 30 //cantidad de elementos maxima por peticion de importacion
+const LOTE_ENVIO_CANT  = 100
 
 app.use(express.static(__dirname + '/latency_public'));
 
@@ -59,6 +53,35 @@ io.on('connection', socket => {
     });
   });
 
+  socket.on('get_data_to_send', () => {
+    console.log('enviador pide data');
+    prox_data = []
+    for (let i=0; i < TIPOS_ENVIO.length; i++){
+        let element = runtime.envios_server[TIPOS_ENVIO[i]].data_enviar.pop()
+        if (!element?.key) continue
+        let enviar = {
+            key: element.key,
+            lst_importa: [element]
+        }
+
+        for (let j=0; j < LOTE_ENVIO_CANT; j++){
+            let element_ = runtime.envios_server[TIPOS_ENVIO[i]].data_enviar.pop()
+            if (!element_?.key) break
+            enviar.lst_importa.push(element_)
+        }
+
+        console.log('Seteados para enviar: ', enviar.lst_importa.length, ', faltan: ', runtime.envios_server[TIPOS_ENVIO[i]].data_enviar.length, ' ', TIPOS_ENVIO[i])
+        
+        prox_data.push({ 
+            "data": enviar,     
+            "url": runtime.envios_server[TIPOS_ENVIO[i]].url}
+        )
+    }
+    socket.emit('data_to_send', {
+        status: true, data: prox_data
+    });
+  })
+
   socket.on('registrar_precio', ( data ) => {
     const endpoint = 'registrar_precio'
     console.log(endpoint)
@@ -80,131 +103,6 @@ io.on('connection', socket => {
     console.log(`disconnect ${socket.id}`);
   });
 });
-
-let ciclo_numero = 0
-
-function hay_envio_pendiente(){
-    return runtime.envios_server['registrar_precio'].data_enviar.length > 0 
-            || runtime.envios_server['registrar_oferta'].data_enviar.length > 0
-}
-
-async function preparar_envios() {
-    ciclo_numero ++
-
-    if (ciclo_numero % REINTENTO_ERR_MOD == 0 || !hay_envio_pendiente()) {
-        for (let i = 0; i < TIPOS_ENVIO.length; i++) {
-            let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
-            let lista_envio = null
-            if (ciclo_numero % 2 == 0)
-                lista_envio = envio_info.data_error
-            else 
-                lista_envio = envio_info.data_error_status
-            
-            let cantidad    = lista_envio.length
-            if (cantidad > 0) {
-                let elemento = lista_envio.pop()
-                console.log( TIPOS_ENVIO[i],' Por enviar ', cantidad, ' enviadas ', envio_info.data_enviada.length, ' errores ', envio_info.data_error.length)
-                          
-                if (ENVIOS_HABILITADOS) {
-                    envio_info.data_preparada.push(elemento)                    
-                } else {
-                    console.log("envio deshabilitado")
-                    envio_info.data_enviada.push( elemento )
-                }
-            }
-        }
-        return
-    }
-    
-    for (let i = 0; i < TIPOS_ENVIO.length; i++) {
-        for (let j = 0; j < RAFAGAS_ENVIO; j++) {
-            let envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
-            let lista_envio = envio_info.data_enviar
-
-            let cantidad = lista_envio.length
-            if (cantidad > 0) {
-                let elemento = lista_envio.pop()
-                console.log( 
-                    TIPOS_ENVIO[i],
-                    ' Items Por enviar ', cantidad, 
-                    ' enviadas ', envio_info.data_enviada.length, 
-                    ' errores ', envio_info.data_error.length,  
-                    ' errores status ', envio_info.data_error_status.length)
-                
-                if (TIPOS_ENVIO[i] === 'registrar_precio' && elemento?.name == undefined){
-                    runtime.envios_server['registrar_oferta'].data_enviar.push(elemento)
-                    console.log('recatalogando')
-                    return
-                } else if (TIPOS_ENVIO[i] === 'registrar_oferta' && elemento?.titulo == undefined){
-                    runtime.envios_server['registrar_precio'].data_enviar.push(elemento)
-                    console.log('recatalogando')
-                    return
-                } 
-
-                if (ENVIOS_HABILITADOS){
-                    let regs_preparados = envio_info.data_preparada
-                    let ultimo = regs_preparados[regs_preparados.length - 1]
-                    ultimo.registros.push(elemento)
-                    if (ultimo.registros.length >= CANT_ELEMENTOS_IMP) {
-                        ultimo.lista = true
-                        regs_preparados.push({ registros: [], lista: false })
-                    }
-                } else {
-                    console.log("envio deshabilitado")
-                    envio_info.data_enviada.push( elemento )
-                }
-            }
-        }
-    }
-    return
-}
-
-async function procesar_envios(){
-    for (let i = 0; i < TIPOS_ENVIO.length; i++) {
-        const envio_info  = runtime.envios_server[TIPOS_ENVIO[i]]
-        if (envio_info.data_preparada.length == 0) continue
-        
-        
-        const url_envio   = envio_info.url
-        let encontrado = false
-        for (let j = 0; j < envio_info.data_preparada.length; j++) {
-            let pack_envio = envio_info.data_preparada[j]
-            if (!pack_envio.lista) continue
-            if (pack_envio.lista) {
-                encontrado = pack_envio
-            }
-        }
-
-        if (encontrado !== false){
-            const ENVIO = { key: encontrado.registros[0].key, lst_importa: encontrado.registros }
-            axios.post(url_envio, ENVIO)
-                .then(function (response) {
-                    console.log(response.data)
-                    //Si se obtine codigo 200, se envia a la lista de enviadas
-                    if (response.data.stat){
-                        envio_info.data_enviada.push( ENVIO )
-                        runtime.envios_server[TIPOS_ENVIO[i]].data_preparada.splice(j, 1)
-                    } else {
-                        envio_info.data_error_status = [encontrado].concat(envio_info.data_error_status)
-                    }
-                })
-                .catch(function (error) {
-                    //Caso contrario se reporta y se enviua a la lista de errores
-                //console.log("Error al realizar petición", cantidad );
-                    envio_info.data_error.push( encontrado )
-                })
-        }
-    }
-    return
-}
-
-setInterval(async () => {
-    await preparar_envios()
-}, INTERVALO_ARMA_ENVIO)
-
-setInterval(async () => {
-    await procesar_envios()
-}, INTERVALO_ENVIO)
 
 let chequeo_runtime_pendiente = true
 
