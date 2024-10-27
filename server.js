@@ -13,7 +13,7 @@ const io = new Server(httpServer);
 const port = process.env.PORT || 5000;
 
 const INTERVALO_GUARDADO = 10000
-const LOTE_ENVIO_CANT  = 100
+const LOTE_ENVIO_CANT  = 200
 
 app.use(express.static(__dirname + '/latency_public'));
 
